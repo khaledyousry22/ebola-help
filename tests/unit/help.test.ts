@@ -127,3 +127,24 @@ describe('country situations', () => {
     expect(situations.find((s) => s.iso === 'KE')?.status).toBe('monitoring');
   });
 });
+
+describe('values saved by the editing page', () => {
+  it('treats empty text and null as absent', () => {
+    const parsed = helpEntrySchema.parse({ ...pendingPhone, display: '', ownerNote: null, verifiedAt: '' });
+    expect(parsed.verifiedAt).toBeNull();
+    expect('display' in parsed && parsed.display).toBeFalsy();
+  });
+
+  it('still requires a date when an entry is marked verified', () => {
+    expect(() => helpEntrySchema.parse({ ...pendingPhone, status: 'verified', verifiedAt: '' })).toThrow(/verifiedAt/);
+  });
+
+  it('accepts a country without figures saved as an empty group', async () => {
+    const { parseOutbreak } = await import('../../src/data/outbreak');
+    const raw = JSON.parse(readFileSync('src/data/outbreak.json', 'utf8'));
+    raw.countries.push({ iso: 'RW', status: 'cases', source: 'whoDon619', endedOn: '', figures: { confirmedCases: null, confirmedDeaths: null, asOf: '', source: '' } });
+    const parsed = parseOutbreak(raw);
+    expect(parsed.countries.at(-1)?.figures).toBeUndefined();
+    expect(parsed.countries.at(-1)?.endedOn).toBeUndefined();
+  });
+});

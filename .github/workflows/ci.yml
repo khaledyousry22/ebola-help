@@ -7,6 +7,9 @@ on:
     paths-ignore: ['src/data/news/items.json']
   pull_request:
 
+permissions:
+  contents: write
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
@@ -18,6 +21,21 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
+      - name: Refresh the VERIFY_ME.md checklist after edits to the helplines
+        # Pull requests are not changed: there the unit tests flag an out-of-date list.
+        if: github.event_name == 'push'
+        run: |
+          npm run verify-me
+          if git diff --quiet VERIFY_ME.md; then exit 0; fi
+          git config user.name "ebola-help checks"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add VERIFY_ME.md
+          git commit -m "Refresh VERIFY_ME.md"
+          for attempt in 1 2 3; do
+            git push && exit 0
+            git pull --rebase origin main
+          done
+          exit 1
       - name: Unit tests
         run: npm test
       - name: Type check and build

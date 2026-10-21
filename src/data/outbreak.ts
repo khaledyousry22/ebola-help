@@ -10,6 +10,12 @@ const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'Use YYYY-MM-DD');
 const sourceId = z.string().refine(isSourceId, 'Unknown source id (see src/data/sources.ts)');
 const countryCode = z.string().regex(/^[A-Z]{2}$/, 'Use a two-letter ISO country code');
 
+/** The editing page saves empty fields as "" or null (and empty groups as {}): treat them as absent. */
+const blank = (value: unknown) =>
+  value === '' || value === null || (typeof value === 'object' && value !== null && Object.values(value).every((v) => v === '' || v === null || v === undefined))
+    ? undefined
+    : value;
+
 export const outbreakSchema = z.object({
   virus: z.enum(['ebola', 'sudan', 'bundibugyo']),
   declared: isoDate,
@@ -28,17 +34,20 @@ export const outbreakSchema = z.object({
         iso: countryCode,
         /** outbreak: ongoing outbreak; cases: related cases confirmed; ended: declared over. */
         status: z.enum(['outbreak', 'cases', 'ended']),
-        endedOn: isoDate.optional(),
+        endedOn: z.preprocess(blank, isoDate.optional()),
         source: sourceId,
         /** Official figures for this country. The headline country uses the headline figures. */
-        figures: z
-          .object({
-            confirmedCases: z.number().int().nonnegative(),
-            confirmedDeaths: z.number().int().nonnegative(),
-            asOf: isoDate,
-            source: sourceId,
-          })
-          .optional(),
+        figures: z.preprocess(
+          blank,
+          z
+            .object({
+              confirmedCases: z.number().int().nonnegative(),
+              confirmedDeaths: z.number().int().nonnegative(),
+              asOf: isoDate,
+              source: sourceId,
+            })
+            .optional(),
+        ),
       }),
     )
     .min(1),

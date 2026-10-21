@@ -1,0 +1,405 @@
+# Editing page for Ebola.help, used by Pages CMS (https://app.pagescms.org).
+# Each save is a normal commit to GitHub. The automatic checks then validate
+# the data, so a wrong entry can never reach the website.
+#
+# Lists of choices ("source" below) must match the code: a unit test compares
+# them with src/data/sources.ts.
+
+settings:
+  content:
+    # Keep anything in a file that the forms below do not show (for example
+    # the "$comment" notes at the top of each file).
+    merge: true
+  commit:
+    templates:
+      update: "Edit {path} (editing page, {userName})"
+
+components:
+  source:
+    type: select
+    label: Official source
+    description: Where this information comes from. A new source must first be added to src/data/sources.ts (ask Claude).
+    required: true
+    options:
+      values:
+        - { name: drcSitrep158, label: "DR Congo Ministry of Health: situation report 158" }
+        - { name: whoDon619, label: "WHO: Disease Outbreak News (DR Congo)" }
+        - { name: afroUgandaEnd, label: "WHO Africa: Uganda ends outbreak" }
+        - { name: afroNigeria, label: "WHO Africa: Nigeria confirms imported case" }
+        - { name: cdcSituation, label: "CDC: current situation" }
+        - { name: whoFactSheet, label: "WHO: Ebola fact sheet" }
+        - { name: whoQuestions, label: "WHO: questions and answers" }
+        - { name: whoTreatmentTrial, label: "WHO: treatment trial" }
+        - { name: whoVaccineAdvisoryGroup, label: "WHO: vaccine advisory group report" }
+        - { name: cdcBasics, label: "CDC: Ebola basics" }
+        - { name: cdcSpread, label: "CDC: how Ebola spreads" }
+        - { name: cdcSymptoms, label: "CDC: signs and symptoms" }
+        - { name: cdcVaccine, label: "CDC: vaccine information" }
+
+  date:
+    type: date
+    required: true
+    options:
+      format: yyyy-MM-dd
+
+  countryCode:
+    type: string
+    required: true
+    description: Two capital letters, e.g. CD for DR Congo, UG for Uganda, KE for Kenya.
+    pattern:
+      regex: "^[A-Z]{2}$"
+      message: "Two capital letters, e.g. UG"
+
+  cases:
+    type: number
+    label: Confirmed cases
+    required: true
+    options:
+      min: 0
+
+  deaths:
+    type: number
+    label: Confirmed deaths
+    required: true
+    options:
+      min: 0
+
+  # Fields shared by every helpline, office and treatment centre.
+  entryId:
+    type: string
+    label: Short name (id)
+    required: true
+    description: Lower-case letters, digits and dashes, unique in this country, e.g. ug-toll-free-0800100066.
+    pattern:
+      regex: "^[a-z0-9-]+$"
+      message: "Lower-case letters, digits and dashes only"
+  organisation:
+    type: string
+    label: Organisation
+    required: true
+  sourceUrl:
+    type: string
+    label: Official page where it was found
+    required: true
+    pattern:
+      regex: "^https://\\S+$"
+      message: "A full link starting with https://"
+  sourceTitle:
+    type: string
+    label: Title of that page
+    required: true
+  sourceQuote:
+    type: text
+    label: Exact text on that page
+    description: Copied word for word, so anyone can find it with Ctrl+F.
+    required: true
+  foundOn:
+    type: date
+    label: Date found
+    required: true
+    options:
+      format: yyyy-MM-dd
+  ownerNote:
+    type: text
+    label: Note for the owner
+    description: Shown only in VERIFY_ME.md, never on the website.
+  status:
+    type: select
+    label: Status
+    required: true
+    description: Only "Verified" entries with a verification date appear on the website.
+    options:
+      values:
+        - { name: pending, label: "Pending: waiting for my check" }
+        - { name: verified, label: "Verified: I checked it on the official page" }
+        - { name: rejected, label: "Rejected: wrong or out of date, never shown" }
+  verifiedAt:
+    type: date
+    label: Date I verified it
+    description: Fill in only when the status is Verified. Leave empty otherwise.
+    default: ""
+    options:
+      format: yyyy-MM-dd
+
+content:
+  - name: outbreak
+    label: Outbreak figures and map
+    type: file
+    path: src/data/outbreak.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: lastReviewed
+        label: Date I last reviewed this page
+        component: date
+      - name: virus
+        label: Virus
+        type: select
+        required: true
+        readonly: true
+        options:
+          values: [ebola, sudan, bundibugyo]
+      - name: declared
+        label: Date the outbreak was declared
+        component: date
+        readonly: true
+      - name: headline
+        label: Figures in the banner at the top of every page
+        type: object
+        required: true
+        fields:
+          - name: country
+            label: Country
+            component: countryCode
+          - name: confirmedCases
+            component: cases
+          - name: confirmedDeaths
+            component: deaths
+          - name: asOf
+            label: Date the figures refer to
+            component: date
+          - name: source
+            component: source
+      - name: moreInformation
+        label: '"Latest WHO update" link in the banner'
+        component: source
+      - name: countries
+        label: Countries on the map
+        description: "Outbreak: an outbreak is ongoing. Cases: related cases confirmed. Ended: officially declared over."
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{iso}: {status}"
+        fields:
+          - name: iso
+            label: Country
+            component: countryCode
+          - name: status
+            label: Situation
+            type: select
+            required: true
+            options:
+              values:
+                - { name: outbreak, label: "Outbreak ongoing" }
+                - { name: cases, label: "Confirmed cases, being monitored" }
+                - { name: ended, label: "Outbreak over" }
+          - name: endedOn
+            label: Date declared over
+            description: Only for "Outbreak over". Leave empty otherwise.
+            type: date
+            default: ""
+            options:
+              format: yyyy-MM-dd
+          - name: source
+            component: source
+          - name: figures
+            label: Figures for this country
+            description: Optional. Leave all four empty if there are no official figures. Not needed for the banner country.
+            type: object
+            fields:
+              - name: confirmedCases
+                type: number
+                label: Confirmed cases
+                options:
+                  min: 0
+              - name: confirmedDeaths
+                type: number
+                label: Confirmed deaths
+                options:
+                  min: 0
+              - name: asOf
+                label: Date the figures refer to
+                type: date
+                default: ""
+                options:
+                  format: yyyy-MM-dd
+              - name: source
+                component: source
+                required: false
+
+  - name: help
+    label: Helplines and contacts
+    description: One file per country. Only entries marked Verified, with a date, appear on the website.
+    type: collection
+    path: src/data/help
+    format: json
+    # New countries need a matching page name in the code: ask Claude.
+    operations:
+      create: false
+      rename: false
+      delete: false
+    view:
+      fields: [country]
+      primary: country
+    fields:
+      - name: country
+        label: Country
+        component: countryCode
+        readonly: true
+      - name: facilityNote
+        label: Why no treatment centres are listed
+        type: text
+      - name: entries
+        label: Entries
+        type: block
+        blockKey: kind
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{id} ({status})"
+        blocks:
+          - name: phone
+            label: Phone number
+            fields:
+              - { name: id, component: entryId }
+              - name: purpose
+                label: Purpose
+                type: select
+                required: true
+                options:
+                  values:
+                    - { name: ebola-hotline, label: "Ebola hotline" }
+                    - { name: health-hotline, label: "Health hotline" }
+                    - { name: report-symptoms, label: "Report symptoms" }
+                    - { name: emergency, label: "Emergency" }
+                    - { name: information, label: "Information" }
+              - name: channel
+                label: How to use it
+                type: select
+                required: true
+                options:
+                  values:
+                    - { name: call, label: "Phone call" }
+                    - { name: sms, label: "SMS" }
+                    - { name: whatsapp, label: "WhatsApp" }
+                    - { name: ussd, label: "Dial code (USSD)" }
+              - name: number
+                label: Number to dial
+                type: string
+                required: true
+                description: Digits only, no spaces. May start with + (or * and end with # for dial codes).
+                pattern:
+                  regex: "^[+*]?[0-9]+#?$"
+                  message: "Digits only, e.g. +243815554952, 0800100066 or *719#"
+              - name: display
+                label: Number as written for people (optional)
+                type: string
+                description: e.g. 0800-100-066
+              - name: free
+                label: Free to call
+                type: boolean
+              - { name: organisation, component: organisation }
+              - { name: sourceUrl, component: sourceUrl }
+              - { name: sourceTitle, component: sourceTitle }
+              - { name: sourceQuote, component: sourceQuote }
+              - { name: foundOn, component: foundOn }
+              - { name: ownerNote, component: ownerNote }
+              - { name: status, component: status }
+              - { name: verifiedAt, component: verifiedAt }
+          - name: office
+            label: Health authority or WHO office
+            fields:
+              - { name: id, component: entryId }
+              - name: role
+                label: Type
+                type: select
+                required: true
+                options:
+                  values:
+                    - { name: ministry, label: "Ministry of Health" }
+                    - { name: institute, label: "National public health institute" }
+                    - { name: who, label: "WHO country office" }
+              - { name: organisation, component: organisation }
+              - name: address
+                label: Address (optional)
+                type: text
+              - name: phones
+                label: Office phone numbers (optional)
+                description: International format, e.g. +256 414 335500
+                type: string
+                list: true
+                pattern:
+                  regex: "^\\+[0-9 ]+$"
+                  message: "International format, e.g. +256 414 335500"
+              - name: email
+                label: E-mail (optional)
+                type: string
+              - name: website
+                label: Website (optional)
+                type: string
+                pattern:
+                  regex: "^(https://\\S+)?$"
+                  message: "A full link starting with https://"
+              - { name: sourceUrl, component: sourceUrl }
+              - { name: sourceTitle, component: sourceTitle }
+              - { name: sourceQuote, component: sourceQuote }
+              - { name: foundOn, component: foundOn }
+              - { name: ownerNote, component: ownerNote }
+              - { name: status, component: status }
+              - { name: verifiedAt, component: verifiedAt }
+          - name: facility
+            label: Treatment centre
+            fields:
+              - { name: id, component: entryId }
+              - name: name
+                label: Name
+                type: string
+                required: true
+              - name: facilityType
+                label: Type
+                type: select
+                required: true
+                options:
+                  values:
+                    - { name: treatment-centre, label: "Ebola treatment centre" }
+                    - { name: isolation, label: "Isolation unit" }
+                    - { name: transit, label: "Transit centre" }
+              - name: place
+                label: Town or city
+                type: string
+                required: true
+              - name: province
+                label: Province or district (optional)
+                type: string
+              - name: lat
+                label: Latitude (optional, only from an official source)
+                type: number
+                options:
+                  min: -90
+                  max: 90
+              - name: lng
+                label: Longitude (optional, only from an official source)
+                type: number
+                options:
+                  min: -180
+                  max: 180
+              - { name: organisation, component: organisation }
+              - { name: sourceUrl, component: sourceUrl }
+              - { name: sourceTitle, component: sourceTitle }
+              - { name: sourceQuote, component: sourceQuote }
+              - { name: foundOn, component: foundOn }
+              - { name: ownerNote, component: ownerNote }
+              - { name: status, component: status }
+              - { name: verifiedAt, component: verifiedAt }
+
+  - name: news
+    label: Hide or pin news
+    type: file
+    path: src/data/news/overrides.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: hidden
+        label: Hidden news items
+        description: Paste the link of a news item (as on the news page) to hide it from the website.
+        type: string
+        list: true
+      - name: pinned
+        label: Pinned news items
+        description: Paste the link of a news item to show it at the top of its section.
+        type: string
+        list: true

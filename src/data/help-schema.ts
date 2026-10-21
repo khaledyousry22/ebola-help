@@ -10,6 +10,10 @@ import { z } from 'astro/zod';
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'Use YYYY-MM-DD');
 const httpsUrl = z.string().regex(/^https:\/\/\S+$/, 'Use a full https:// link');
 
+/** The editing page saves empty fields as "" or null: treat them as absent. */
+const blankToUndefined = (value: unknown) => (value === '' || value === null ? undefined : value);
+const optional = <T extends z.ZodType>(schema: T) => z.preprocess(blankToUndefined, schema.optional());
+
 const common = {
   id: z.string().regex(/^[a-z0-9-]+$/, 'Lower-case letters, digits and dashes only'),
   organisation: z.string().min(1),
@@ -20,11 +24,11 @@ const common = {
   sourceQuote: z.string().min(1),
   foundOn: isoDate,
   /** Message for the site owner, shown in VERIFY_ME.md only. */
-  ownerNote: z.string().optional(),
+  ownerNote: optional(z.string()),
   /** pending: waiting for the owner's check. verified: confirmed. rejected: wrong, never shown. */
   status: z.enum(['pending', 'verified', 'rejected']),
   /** Date the owner confirmed the detail against the official source. */
-  verifiedAt: isoDate.nullable(),
+  verifiedAt: z.preprocess((v) => (v === '' || v === undefined ? null : v), isoDate.nullable()),
 };
 
 export const phoneEntrySchema = z.object({
@@ -35,18 +39,18 @@ export const phoneEntrySchema = z.object({
   /** What is dialled: digits, optionally starting with + (or * and # for USSD codes). */
   number: z.string().regex(/^[+*]?[0-9]+#?$/, 'Digits only, e.g. +243815554952 or *719#'),
   /** How the number is written for people, e.g. "0800-100-066". */
-  display: z.string().optional(),
-  free: z.boolean().optional(),
+  display: optional(z.string()),
+  free: optional(z.boolean()),
 });
 
 export const officeEntrySchema = z.object({
   ...common,
   kind: z.literal('office'),
   role: z.enum(['ministry', 'institute', 'who']),
-  address: z.string().optional(),
-  phones: z.array(z.string().regex(/^\+[0-9 ]+$/, 'International format, e.g. +256 414 335500')).optional(),
-  email: z.string().regex(/^[^\s@]+@[^\s@]+\.[^\s@]+$/).optional(),
-  website: httpsUrl.optional(),
+  address: optional(z.string()),
+  phones: optional(z.array(z.string().regex(/^\+[0-9 ]+$/, 'International format, e.g. +256 414 335500'))),
+  email: optional(z.string().regex(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)),
+  website: optional(httpsUrl),
 });
 
 export const facilityEntrySchema = z.object({
@@ -55,10 +59,10 @@ export const facilityEntrySchema = z.object({
   name: z.string().min(1),
   facilityType: z.enum(['treatment-centre', 'isolation', 'transit']),
   place: z.string().min(1),
-  province: z.string().optional(),
+  province: optional(z.string()),
   /** Only from an official source. Never estimated. */
-  lat: z.number().min(-90).max(90).optional(),
-  lng: z.number().min(-180).max(180).optional(),
+  lat: optional(z.number().min(-90).max(90)),
+  lng: optional(z.number().min(-180).max(180)),
 });
 
 export const helpEntrySchema = z
@@ -80,7 +84,7 @@ export const helpFileSchema = z
     country: z.string().regex(/^[A-Z]{2}$/),
     entries: z.array(helpEntrySchema),
     /** Explains why no facilities are listed, if that is the case. Shown in VERIFY_ME.md. */
-    facilityNote: z.string().optional(),
+    facilityNote: optional(z.string()),
   })
   .superRefine((file, ctx) => {
     const ids = file.entries.map((e) => e.id);

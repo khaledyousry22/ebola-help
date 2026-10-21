@@ -1,0 +1,24 @@
+---
+/**
+ * /admin/: a signpost for the site owner. Editing happens on Pages CMS
+ * (configured in .pages.yml), which saves every change to GitHub.
+ */
+import NeutralLayout from '../../layouts/NeutralLayout.astro';
+import { REPOSITORY } from '../../config';
+---
+<NeutralLayout title="Editing page · Ebola.help" description="Where the site owner edits Ebola.help." noindex>
+  <h1 class="text-2xl font-bold text-brand-900">Editing page</h1>
+  <p class="mt-4 max-w-prose">
+    Outbreak figures, helplines and news are edited with Pages CMS. Sign in with the GitHub account that owns
+    the website, then open <span class="ltr-data">{REPOSITORY}</span>.
+  </p>
+  <p class="mt-6">
+    <a href="https://app.pagescms.org" class="inline-block rounded-lg bg-brand-700 px-5 py-3 font-semibold text-white no-underline">
+      Open the editing page
+    </a>
+  </p>
+  <p class="mt-6 max-w-prose text-sm text-muted">
+    Each save is checked automatically before it reaches the website. Instructions:
+    <a href={`https://github.com/${REPOSITORY}#the-editing-page`}>README, "The editing page"</a>.
+  </p>
+</NeutralLayout>

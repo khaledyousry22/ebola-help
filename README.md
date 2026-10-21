@@ -19,21 +19,37 @@ official sources.
 - It is designed for slow and expensive mobile connections: each page is about
   4 to 7 KB to download and needs no JavaScript.
 - News updates itself every hour (see "The news" below).
-- You will edit helplines and outbreak status through a simple web form
-  (from Phase 5).
+- You edit helplines, outbreak figures and news through simple web forms
+  (see "The editing page" below).
 
-### Updating the outbreak figures (until the editing form arrives in Phase 5)
+### The editing page
 
-The banner at the top of every page reads `src/data/outbreak.json`. To update it
-on GitHub: open the file, click the pencil icon, change the numbers, then:
+You change the outbreak figures, the helplines and the news through simple
+web forms at **[app.pagescms.org](https://app.pagescms.org)** (Pages CMS, free).
+Nothing to install on your computer.
 
-- set `asOf` to the date the figures refer to (YYYY-MM-DD);
-- set `source` to the official source they come from. Sources are listed in
-  `src/data/sources.ts`; a new source must be added there first;
-- set `lastReviewed` to today.
+**First time only:**
+1. Go to [app.pagescms.org](https://app.pagescms.org) and choose
+   **Sign in with GitHub**.
+2. When asked, install the Pages CMS app on the `ebola-help` repository
+   ("Only select repositories" → `ebola-help`).
+3. Open `khaledyousry22/ebola-help`, branch `main`.
 
-Save ("Commit changes"). If anything is missing or misspelled, the automatic
-checks fail and the site is not updated, so a wrong entry can never go live.
+**What you can edit** (menu on the left):
+- **Outbreak figures and map:** the banner figures, their date and official
+  source, and each country's situation on the map. Set "Date I last reviewed
+  this page" to today when you check it.
+- **Helplines and contacts:** one page per country. To approve a number from
+  [`VERIFY_ME.md`](VERIFY_ME.md), open the entry, set **Status** to
+  "Verified" and **Date I verified it** to today, then **Save**.
+- **Hide or pin news:** paste a news item's link to hide it or keep it at the
+  top.
+
+Each **Save** is recorded on GitHub with your name, so every change can be
+undone. The automatic checks then run (Actions tab, "Checks"). If something is
+missing or in the wrong format, the check fails and the website keeps the
+previous version, so a wrong entry can never go live. A source or a country
+that is not in the lists must be added in the code first: ask Claude.
 
 ### The news
 
@@ -44,9 +60,7 @@ in the six languages. It keeps only items that mention Ebola and saves the
 headline, source, date, a short extract and the link. It never copies full
 articles and never translates them.
 
-- **Hide an item:** open `src/data/news/overrides.json` on GitHub, click the
-  pencil, and put the item's link inside `"hidden": [ ]` (in quotes). Save.
-- **Pin an item to the top:** same file, put the link in `"pinned": [ ]`.
+- **Hide an item or pin it to the top:** editing page → "Hide or pin news".
 - **Run the job now:** Actions tab → "News update" → "Run workflow".
 - **Add or remove a source:** `src/data/news-sources.ts` (ask for help).
 
@@ -60,10 +74,10 @@ that is waiting for your check, with the page where it was found and the
 exact text to look for. Nothing on that list is shown on the website until
 you confirm it.
 
-To confirm entries, tell Claude which ones match (for example
-"cd-numero-vert-151 OK"), or edit the country file in `src/data/help/`
-(instructions at the top of VERIFY_ME.md). An automatic test checks every
-page of the site to make sure no unconfirmed number or address appears.
+To confirm entries, use the editing page (above), or tell Claude which ones
+match (for example "cd-numero-vert-151 OK"). The list updates itself a few
+minutes after each save. An automatic test checks every page of the site to
+make sure no unconfirmed number or address appears.
 
 ### Helplines and the map
 
@@ -147,6 +161,7 @@ src/
   data/news/items.json     collected news (written by the job)
   data/news/overrides.json hide or pin news items
   data/help/<ISO>.json     helplines and contacts per country (pending/verified)
+.pages.yml                 editing page (Pages CMS) forms for the data files above
   lib/africa-map.ts        builds the SVG map from Natural Earth data
 scripts/news/              the hourly news job (npm run news)
   styles/global.css        colours, fonts, base styles

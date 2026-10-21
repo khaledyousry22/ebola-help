@@ -161,4 +161,13 @@ test.describe('neutral pages', () => {
     await expect(page.locator('a[href="/fr/"]')).toBeVisible();
     await expect(page.locator('footer [data-disclaimer]')).toBeVisible();
   });
+
+  test('/admin/ points the owner to the editing page and is hidden from search engines', async ({ page }) => {
+    await page.goto('/admin/');
+    await expect(page.locator('a[href="https://app.pagescms.org"]')).toBeVisible();
+    await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex');
+    await expect(page.locator('footer [data-disclaimer]')).toBeVisible();
+    const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
+    expect(results.violations.map((v) => `${v.id}: ${v.help}`)).toEqual([]);
+  });
 });

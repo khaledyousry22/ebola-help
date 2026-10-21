@@ -44,6 +44,12 @@ plain language.
   Entries not from an official website need an `ownerNote`. After editing,
   run `npm run verify-me` (a test fails if VERIFY_ME.md is stale). A browser
   test scans every built page for unverified numbers and addresses.
+- Editing page: Pages CMS (app.pagescms.org), configured in `.pages.yml`
+  (outbreak.json, help/*.json, news/overrides.json; `/admin/` links to it).
+  Forms may save empty fields as "" or null, so schemas treat those as
+  absent. A unit test keeps the forms in sync with the schemas and the
+  source ids: add a new source or field to `.pages.yml` too. CI regenerates
+  VERIFY_ME.md on pushes to main.
 - Map: SVG built at build time from world-atlas (Natural Earth) with d3-geo
   (`src/lib/africa-map.ts`); statuses and figures from `outbreak.json`.
   No map library is sent to visitors.
