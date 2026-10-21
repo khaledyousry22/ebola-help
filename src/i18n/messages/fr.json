@@ -17,6 +17,7 @@
   },
   "nav": {
     "home": "Accueil",
+    "news": "Actualités",
     "health": "Informations sanitaires",
     "about": "À propos"
   },
@@ -65,6 +66,27 @@
         "text": "Symptômes, transmission, prévention, vaccins et traitements, et idées reçues."
       }
     }
+  },
+  "news": {
+    "title": "Actualités et communiqués officiels",
+    "description": "Communiqués des autorités sanitaires et couverture médiatique sur Ebola, collectés automatiquement toutes les heures, avec des liens vers les sources d'origine.",
+    "intro": "Les communiqués des autorités sanitaires apparaissent en premier, suivis de la couverture médiatique dans votre langue. Chaque titre renvoie à l'article d'origine sur le site de l'éditeur.",
+    "updated": "Liste des actualités mise à jour : {date}",
+    "official": "Communiqués officiels",
+    "officialBadge": "Officiel",
+    "media": "Couverture médiatique en français",
+    "mediaEmpty": "Il n'y a pas d'actualité récente en français. Consultez les actualités dans d'autres langues.",
+    "otherLanguages": "Actualités dans d'autres langues",
+    "otherLanguagesDescription": "Actualités et communiqués officiels sur Ebola dans d'autres langues, présentés tels qu'ils ont été publiés.",
+    "otherLanguagesIntro": "Ces contenus sont présentés dans leur langue d'origine. Ils n'ont pas été traduits.",
+    "otherLanguagesLink": "Actualités dans d'autres langues ({count})",
+    "originalLanguage": "Langue d'origine : {language}",
+    "alsoReportedBy": "Également rapporté par : {sources}",
+    "countries": "Pays mentionnés",
+    "policy": "Nous affichons uniquement le titre, la source, la date et un court extrait. Lisez l'article complet sur le site de l'éditeur.",
+    "latestOfficial": "Derniers communiqués officiels",
+    "latestNews": "Dernières actualités",
+    "allNews": "Toutes les actualités et communiqués officiels"
   },
   "health": {
     "hubTitle": "Informations sanitaires",

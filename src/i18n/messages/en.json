@@ -17,6 +17,7 @@
   },
   "nav": {
     "home": "Home",
+    "news": "News",
     "health": "Health information",
     "about": "About"
   },
@@ -65,6 +66,27 @@
         "text": "Symptoms, how Ebola spreads, prevention, vaccines and treatment, and common myths."
       }
     }
+  },
+  "news": {
+    "title": "News and official updates",
+    "description": "Official updates from health authorities and news coverage about Ebola, collected automatically every hour, with links to the original sources.",
+    "intro": "Official updates from health authorities come first, followed by news coverage in your language. Each headline links to the original article on the publisher's website.",
+    "updated": "News list updated: {date}",
+    "official": "Official updates",
+    "officialBadge": "Official",
+    "media": "News coverage in English",
+    "mediaEmpty": "There is no recent news in English. See the news in other languages.",
+    "otherLanguages": "News in other languages",
+    "otherLanguagesDescription": "Ebola news and official updates in other languages, shown as originally published.",
+    "otherLanguagesIntro": "These items are shown in their original language. They have not been translated.",
+    "otherLanguagesLink": "News in other languages ({count})",
+    "originalLanguage": "Original language: {language}",
+    "alsoReportedBy": "Also reported by: {sources}",
+    "countries": "Countries mentioned",
+    "policy": "We show only the headline, the source, the date and a short extract. Read the full article on the publisher's website.",
+    "latestOfficial": "Latest official updates",
+    "latestNews": "Latest news",
+    "allNews": "All news and official updates"
   },
   "health": {
     "hubTitle": "Health information",

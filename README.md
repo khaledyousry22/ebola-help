@@ -18,7 +18,7 @@ official sources.
   look after, so there is nothing to update or patch.
 - It is designed for slow and expensive mobile connections: each page is about
   4 to 7 KB to download and needs no JavaScript.
-- News updates will run automatically every hour (from Phase 3).
+- News updates itself every hour (see "The news" below).
 - You will edit helplines and outbreak status through a simple web form
   (from Phase 5).
 
@@ -34,6 +34,24 @@ on GitHub: open the file, click the pencil icon, change the numbers, then:
 
 Save ("Commit changes"). If anything is missing or misspelled, the automatic
 checks fail and the site is not updated, so a wrong entry can never go live.
+
+### The news
+
+Every hour, a free automatic job on GitHub ("News update", under the
+**Actions** tab) reads official sources (WHO, WHO Africa, Africa CDC, ECDC,
+DR Congo's National Institute of Public Health) and established news outlets
+in the six languages. It keeps only items that mention Ebola and saves the
+headline, source, date, a short extract and the link. It never copies full
+articles and never translates them.
+
+- **Hide an item:** open `src/data/news/overrides.json` on GitHub, click the
+  pencil, and put the item's link inside `"hidden": [ ]` (in quotes). Save.
+- **Pin an item to the top:** same file, put the link in `"pinned": [ ]`.
+- **Run the job now:** Actions tab → "News update" → "Run workflow".
+- **Add or remove a source:** `src/data/news-sources.ts` (ask for help).
+
+If a source stops working, the others carry on. The job only reports a
+failure if every source fails.
 
 ### Your checklist of phone numbers
 
@@ -53,8 +71,8 @@ page). Make sure this mailbox or forward exists at your domain company
 |-------|------|--------|
 | 1 | Languages, language picker, page layout, Arabic right-to-left | Done |
 | 2 | Design, outbreak banner and health information pages | Done |
-| 3 | Automatic news collection | Next |
-| 4 | Helplines, treatment centres and the map | |
+| 3 | Automatic news collection | Done |
+| 4 | Helplines, treatment centres and the map | Next |
 | 5 | Editing page, search engines, offline use, speed and accessibility checks | |
 | 6 | Putting the site online at ebola.help (step-by-step guide) | |
 
@@ -70,6 +88,7 @@ npm run dev          # local site at http://localhost:4321 with live reload
 npm test             # unit tests (translations, helpers)
 npm run build        # type check + build static site into dist/
 npm run test:e2e     # browser tests against the build (run build first)
+npm run news         # collect news now (add -- --dry to only report)
 ```
 
 The first run of `npm run test:e2e` on a new machine needs
@@ -88,6 +107,10 @@ src/
   content/health/<lang>/   health information pages (Markdown), one folder per language
   data/sources.ts          every official source cited on the site
   data/outbreak.json       figures shown in the outbreak banner
+  data/news-sources.ts     news sources read by the hourly job
+  data/news/items.json     collected news (written by the job)
+  data/news/overrides.json hide or pin news items
+scripts/news/              the hourly news job (npm run news)
   styles/global.css        colours, fonts, base styles
 public/fonts/              Noto Sans Arabic (SIL Open Font License)
 tests/unit/                Vitest

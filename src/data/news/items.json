@@ -1,0 +1,3415 @@
+{
+  "updatedAt": "2026-10-21T21:42:25.955Z",
+  "items": [
+    {
+      "id": "cb8cb39d20235c9f",
+      "url": "https://insp.cd/sitrep-n159-mve-bdbv-20-10-2026/",
+      "title": "SitRep N°159/MVE-BDBV/20/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-21T21:07:04.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ae57e2231cda348c",
+      "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261021-%C3%A9bola-gagne-du-terrain-au-nigeria-le-choc-apr%C3%A8s-l-annonce-d-un-premier-cas-de-souche-bundibugyo",
+      "title": "Ébola gagne du terrain : au Nigeria, le \"choc\" après l'annonce d'un premier cas de souche Bundibugyo",
+      "excerpt": "Un cas confirmé d’Ebola au Nigeria. La patiente, une femme arrivée dans le pays à bord d’un vol international en provenance d’Ouganda, a été admise dans un hôpital privé à Abuja.Où en est l’épidémie…",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-21T20:45:34.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e05511dc7740debb",
+      "url": "https://www.france24.com/es/video/20261021-nigeria-confirma-el-primer-caso-de-%C3%A9bola-en-el-pa%C3%ADs",
+      "title": "Nigeria confirma el primer caso de ébola en el país",
+      "excerpt": "Nigeria confirmó el primer caso de ébola en su territorio. La paciente es una mujer que llegó en un vuelo procedente de Uganda que tuvo que ser internada en un hospital, pero fue hasta días después…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-21T20:42:37.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "4f0c188b27b3f322",
+      "url": "https://www.bbc.co.uk/news/articles/c62kepvg2x9lo",
+      "title": "Nigeria's first Ebola patient holidayed in Uganda, officials say",
+      "excerpt": "The wife of a diplomat based in Abuja travelled to Kampala for a vacation.",
+      "lang": "en",
+      "sourceId": "bbc-africa",
+      "sourceName": "BBC News",
+      "official": false,
+      "publishedAt": "2026-10-21T19:29:40.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c9b8bc196b29584c",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261021-nigeria-un-premier-cas-d-ebola-bundibugyo-d%C3%A9tect%C3%A9-la-peur-gagne-abuja",
+      "title": "Nigeria : un premier cas d'Ebola Bundibugyo détecté, la peur gagne Abuja",
+      "excerpt": "🇳🇬 Au Nigeria, premier pays d’Afrique de l’Ouest touché par Ebola de souche Bundibugyo. Le diagnostic a été annoncé mardi 20 octobre chez une patiente récemment arrivée d’Ouganda.",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-21T17:33:15.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b37758065dea90e6",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261021-r%C3%A9publique-du-congo-kenya-nig%C3%A9ria-le-virus-ebola-gagne-du-terrain",
+      "title": "République du Congo, Kenya, Nigéria : le virus Ebola gagne du terrain",
+      "excerpt": "Le Nigeria est le quatrième pays africain cette année à être touché par le virus Ebola de souche Bundibugyo, qui ravage la République du Congo (RDC) depuis mai, devenue en quelques mois la plus…",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-21T15:09:30.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "CG",
+        "KE",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "4b797dbf181d4fa4",
+      "url": "https://www.afro.who.int/countries/nigeria/publication/ebola-bundibugyo-virus-disease-outbreak-democratic-republic-congo-uganda-weekly-external-situation",
+      "title": "EBOLA BUNDIBUGYO VIRUS DISEASE OUTBREAK Democratic Republic of the Congo | Uganda Weekly External Situation Report 23, Data as of 19 October 2026",
+      "lang": "en",
+      "sourceId": "who-afro-en",
+      "sourceName": "WHO Regional Office for Africa",
+      "official": true,
+      "publishedAt": "2026-10-21T13:33:47.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "5f280583a10f6712",
+      "url": "https://www.france24.com/en/video/20261021-nigeria-records-its-first-ebola-case-amid-rapid-regional-spread",
+      "title": "Nigeria records its first Ebola case amid rapid regional spread",
+      "excerpt": "After Kenya and Uganda, Nigeria has now announced its first Ebola case – a woman who was admitted to a private hospital in Abuja and travelled from Uganda. The outbreak, which originated in DR Congo…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-21T13:28:52.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "da9f63d825a73407",
+      "url": "http://www.africanews.com/2026/10/21/nigerias-first-ebola-case-sparks-shock-and-urgent-concern-nationwide/",
+      "title": "Nigeria's first ebola case sparks shock and urgent concern nationwide",
+      "excerpt": "Nigerian authorities are racing to trace contacts after a diplomat was declared the country’s first Ebola case. The patient reportedly arrived in Abuja from Uganda on October third, sparking shock…",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-21T12:03:58.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1fb00993b28e45d6",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168637",
+      "title": "WHO supports Nigeria after first Ebola case confirmed",
+      "excerpt": "The World Health Organization (WHO) is assisting Nigeria following confirmation of the first case of Ebola Bundibugyo virus disease in the country.",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "4e38e542c8f54a99",
+      "url": "https://news.un.org/feed/view/ru/story/2026/10/1468950",
+      "title": "Эбола: в Нигерии выявлен завозной случай заражения вирусом Бундибуджио",
+      "excerpt": "В столичном регионе Нигерии подтвержден завозной случай Эболы, вызванной вирусом Бундибуджио. Об этом сообщает Всемирная организация здравоохранения. Нигерия стала пятой страной, где обнаружен вирус…",
+      "lang": "ru",
+      "sourceId": "un-news-ru",
+      "sourceName": "Новости ООН",
+      "official": false,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ac1d7d62288e9df6",
+      "url": "https://news.un.org/feed/view/fr/story/2026/10/1159702",
+      "title": "Nigéria : premier cas d’Ebola Bundibugyo confirmé",
+      "excerpt": "Le Nigéria a confirmé, mardi 20 octobre, son premier cas importé de maladie à virus Ebola Bundibugyo à Abuja, la capitale. Le pays devient ainsi le cinquième à détecter le virus depuis que l’épidémie…",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "02bc8bdbb326c63b",
+      "url": "https://www.bbc.co.uk/news/articles/c693z948px0jo",
+      "title": "Is Ebola under control in Kenya after nine cases confirmed?",
+      "excerpt": "The US has advised its citizens to reconsider travelling to Kenya but the government tries to reassure people.",
+      "lang": "en",
+      "sourceId": "bbc-africa",
+      "sourceName": "BBC News",
+      "official": false,
+      "publishedAt": "2026-10-21T09:55:15.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "161b23230d167217",
+      "url": "https://africacdc.org/news-item/ebola-africa-cdc-reunit-les-ministres-africains-de-la-sante-face-a-lextension-de-lepidemie-a-trois-regions-du-continent/",
+      "title": "Ebola: Africa CDC réunit les ministres africains de la Santé face à l’extension de l’épidémie à trois régions du continent",
+      "excerpt": "Addis-Abeba, Éthiopie, 21 octobre 2026 Les Centres africains de contrôle et de prévention des maladies (Africa CDC) convoquent une réunion virtuelle de haut niveau des ministres africains de la Santé…",
+      "lang": "fr",
+      "sourceId": "africa-cdc",
+      "sourceName": "Africa CDC",
+      "official": true,
+      "publishedAt": "2026-10-21T08:19:53.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "ET"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "262778e13c89fa94",
+      "url": "https://africacdc.org/news-item/africa-cdc-convenes-african-ministers-of-health-as-ebola-outbreak-spreads-across-three-regions/",
+      "title": "Ebola: Africa CDC Convenes African Ministers of Health as Ebola Outbreak Spreads Across Three Regions",
+      "excerpt": "Addis Ababa, Ethiopia, 21 October 2026 The Africa Centres for Disease Control and Prevention (Africa CDC) will convene a high-level virtual meeting of African Ministers of Health on Wednesday, 28…",
+      "lang": "en",
+      "sourceId": "africa-cdc",
+      "sourceName": "Africa CDC",
+      "official": true,
+      "publishedAt": "2026-10-21T08:18:32.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "ET"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "aa03caad75d0c7ca",
+      "url": "https://insp.cd/sitrep-n158-mve-bdbv-19-10-2026/",
+      "title": "SitRep N°158 /MVE-BDBV/19/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-21T05:05:53.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "517589edb7f02892",
+      "url": "https://www.skynewsarabia.com/world/1899553-%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7-%D9%8A%D8%B5%D9%84-%D9%86%D9%8A%D8%AC%D9%8A%D8%B1%D9%8A%D8%A7-%D9%88%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D8%A7%D8%AA%D8%B3%D8%A7%D8%B9-%D8%A7%D9%84%D8%AA%D9%81%D8%B4%D9%8A-%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7",
+      "title": "إيبولا يصل نيجيريا.. ومخاوف من اتساع التفشي في إفريقيا",
+      "excerpt": "أعلنت نيجيريا، الثلاثاء، تسجيل أول إصابة بفيروس إيبولا، في وقت يتواصل فيه انتشار المرض في عدد من الدول الإفريقية، وسط تحذيرات صحية من خطورة تفشي الفيروس واتساع نطاقه الجغرافي.",
+      "lang": "ar",
+      "sourceId": "skynews-arabia",
+      "sourceName": "سكاي نيوز عربية",
+      "official": false,
+      "publishedAt": "2026-10-21T03:08:11.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7a1eb964e97dccea",
+      "url": "https://www.rfi.fr/fr/afrique/20261021-un-premier-cas-d-ebola-bundibugyo-d%C3%A9tect%C3%A9-au-nigeria",
+      "title": "Un premier cas d'Ebola Bundibugyo détecté au Nigeria",
+      "excerpt": "Annoncé mardi 20 octobre, le diagnostic a été fait sur une patiente récemment arrivée d’Ouganda. Quarante-quatre cas contacts ont également été identifiés. Il s'agit du premier cas de la maladie…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-21T03:04:49.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "948cb5505a5d308c",
+      "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa",
+      "title": "Nigeria records first Ebola case as outbreak spreads across Africa",
+      "excerpt": "Nigeria has confirmed its first Ebola case in Africa's latest outbreak, while Kenya reported its ninth infection, raising fears of further spread across the continent. Africa CDC chief Jean Kaseya…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-20T23:18:58.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE",
+        "NG"
+      ],
+      "alsoReportedBy": [
+        "Africanews"
+      ]
+    },
+    {
+      "id": "9db7fd999f0c279e",
+      "url": "https://www.france24.com/fr/afrique/20261020-nigeria-annonce-premier-cas-virus-ebola-abuja",
+      "title": "Un premier cas de virus Ebola enregistré au Nigeria, dans la capitale Abuja",
+      "excerpt": "Une femme arrivée au Nigeria par avion en provenance de l'Ouganda est porteuse du virus Ebola, a annoncé mardi le gouvernement nigérian, qui recense par ailleurs 44 cas contacts étroits. L’épidémie…",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-20T21:50:01.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "52dab2257d925f63",
+      "url": "https://www.france24.com/en/nigeria-confirms-first-ebola-case",
+      "title": "Nigeria confirms first Ebola case",
+      "excerpt": "In tonight's programme: Nigeria confirms its first Ebola case in the midst of an outbreak that began in DR Congo in mid-May. Also, a former top South African police officer facing sexual grooming and…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-20T21:28:37.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d02a17588af7450a",
+      "url": "http://www.africanews.com/2026/10/20/breaking-nigeria-records-first-ebola-case-of-africas-latest-outbreak/",
+      "title": "Nigeria records first Ebola case of Africa's latest outbreak",
+      "excerpt": "Nigeria has recorded its first Ebola case of Africa's latest outbreak, in a woman who had travelled from Uganda to the capital Abuja, the government confirmed on Tuesday.",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-20T19:06:29.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a1423bc3e5700bc8",
+      "url": "https://www.afro.who.int/countries/botswana/publication/who-botswana-newsletter-july-september-2026",
+      "title": "WHO Botswana Newsletter July - September 2026",
+      "lang": "en",
+      "sourceId": "who-afro-en",
+      "sourceName": "WHO Regional Office for Africa",
+      "official": true,
+      "publishedAt": "2026-10-20T16:19:47.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "BW"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "eeebfabe45b07766",
+      "url": "http://www.africanews.com/2026/10/20/us-raises-kenya-travel-advisory-over-ebola-and-security-concerns/",
+      "title": "US raises Kenya travel advisory over Ebola and security concerns",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-20T14:45:23.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ed208a3b8739182b",
+      "url": "https://www.afro.who.int/countries/zambia/publication/who-zambia-newsletter-3rd-quarter-2026-jul-sept",
+      "title": "WHO Zambia Newsletter – 3rd Quarter 2026 (Jul- Sept)",
+      "lang": "en",
+      "sourceId": "who-afro-en",
+      "sourceName": "WHO Regional Office for Africa",
+      "official": true,
+      "publishedAt": "2026-10-20T14:28:41.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "ZM"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b1e9281c2804df06",
+      "url": "https://www.rfi.fr/fr/afrique/20261020-ebola-en-rdc-plus-de-cas-en-24-heures-au-nord-kivu-qu-en-ituri-consid%C3%A9r%C3%A9e-comme-l-%C3%A9picentre-de-l-%C3%A9pid%C3%A9mie",
+      "title": "Ebola en RDC: plus de cas en 24 heures au Nord-Kivu qu’en Ituri, considérée comme l'épicentre de l’épidémie",
+      "excerpt": "En RDC, Ebola sévit désormais dans huit des 26 provinces du pays, deux cas ayant été confirmés le week-end précédent au Nord-Ubangi. Province où, pour l’instant, aucune autre contamination n’a été…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-20T12:44:25.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ce66c76ea784a913",
+      "url": "http://www.africanews.com/2026/10/20/dr-congo-700m-in-ebola-aid-unaccounted-for-as-outbreak-spreads/",
+      "title": "DR Congo: $700m in Ebola aid unaccounted for as outbreak spreads",
+      "excerpt": "Africa's top public health agency and Congolese officials have raised concerns over $700 million in Ebola aid that is unaccounted for and called on aid groups to provide more information about their…",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-20T09:31:37.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "6b128508dfe17365",
+      "url": "https://www.afro.who.int/countries/kenya/publication/ebola-posters-kenya-english-and-kiswahili",
+      "title": "Ebola posters for Kenya in English and Kiswahili",
+      "lang": "en",
+      "sourceId": "who-afro-en",
+      "sourceName": "WHO Regional Office for Africa",
+      "official": true,
+      "publishedAt": "2026-10-20T06:32:41.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ed7e6562fe843df1",
+      "url": "https://insp.cd/sitrep-n157-mve-bdbv-18-10-2026/",
+      "title": "SitRep N°157 /MVE-BDBV/18/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-19T20:12:16.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "783037b5bced61a8",
+      "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "title": "Ebola disease outbreak in the Democratic Republic of the Congo",
+      "excerpt": "Since May 2026, an Ebola virus disease outbreak caused by Bundibugyo virus has been ongoing in the Democratic Republic of the Congo (DRC).",
+      "lang": "en",
+      "sourceId": "ecdc",
+      "sourceName": "European Centre for Disease Prevention and Control (ECDC)",
+      "official": true,
+      "publishedAt": "2026-10-19T15:36:21.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7b960f52a2126fbe",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261019-kenya-un-huiti%C3%A8me-cas-du-virus-ebola-a-%C3%A9t%C3%A9-recens%C3%A9",
+      "title": "Kenya : un huitième cas du virus Ebola a été recensé",
+      "excerpt": "Un nouveau cas d'Ebola a été confirmé dimanche 18 octobre au Kenya, a indiqué un haut responsable du ministère de la Santé, portant le total à huit cas, dont un décès dans le pays. Sur les 130 cas…",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-19T15:04:39.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "0ff217c3bd30c9db",
+      "url": "https://insp.cd/sitrep-n156-mve-bdbv-17-10-2026/",
+      "title": "SitRep N°156 /MVE-BDBV/17/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-19T08:59:45.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "80b34573b7811a96",
+      "url": "https://www.rfi.fr/fr/afrique/20261019-ebola-en-rdc-une-ong-invite-%C3%A0-des-clarifications-sur-la-gestion-de-fonds-d%C3%A9caiss%C3%A9s-par-les-bailleurs",
+      "title": "Ebola en RDC: une ONG invite à des «clarifications» sur la gestion de fonds décaissés par les bailleurs",
+      "excerpt": "Le 14 octobre 2026, Jean Kaseya, directeur général du Centre africain de contrôle et de prévention des maladies (Africa CDC), a affirmé qu’il y a une différence entre les 962 millions de dollars…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-19T07:51:39.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "45353fbd1476b666",
+      "url": "https://www.skynewsarabia.com/world/1898979-%D9%83%D9%8A%D9%86%D9%8A%D8%A7-%D8%AA%D8%B9%D9%84%D9%86-%D8%B1%D8%B5%D8%AF-%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF-%D8%A7%D9%84%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A8%D9%81%D9%8A%D8%B1%D9%88%D8%B3-%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7",
+      "title": "كينيا تعلن رصد المزيد من الإصابات بفيروس إيبولا",
+      "excerpt": "أعلنت السلطات الصحية في كينيا، الأحد، تسجيل إصابة جديدة بفيروس إيبولا، ليرتفع بذلك إجمالي الحالات المؤكدة في البلاد إلى 8 حالات، وفق ما كشف عنه باتريك أموث، المدير العام للصحة.",
+      "lang": "ar",
+      "sourceId": "skynews-arabia",
+      "sourceName": "سكاي نيوز عربية",
+      "official": false,
+      "publishedAt": "2026-10-18T21:47:27.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "895b3d94f80f72b4",
+      "url": "https://insp.cd/sitrep-n155-mve-bdbv-16-10-2026/",
+      "title": "SitRep N°155 /MVE-BDBV/16/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-18T08:21:51.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "de9e95ca9f465786",
+      "url": "https://www.rfi.fr/fr/afrique/20261018-kenya-quatre-nouveaux-cas-d-ebola",
+      "title": "Kenya: quatre nouveaux cas d'Ebola",
+      "excerpt": "Au Kenya, quatre nouveaux cas d'Ebola ont été confirmés, samedi 17 octobre 2026. Cela porte à sept le nombre total de cas enregistrés dans le pays, depuis début octobre, date de l’apparition du virus…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-18T04:07:06.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "fd509a8b3b7ad46a",
+      "url": "https://www.rfi.fr/fr/afrique/20261017-rdc-deux-cas-d-ebola-enregistr%C3%A9s-dans-la-province-du-nord-ubangi",
+      "title": "RDC: deux cas d'Ebola enregistrés dans la province du Nord-Ubangi",
+      "excerpt": "En République démocratique du Congo, l'épidémie d'Ebola continue de s'étendre. Selon les informations de RFI, des cas ont été confirmés dans la province du Nord-Ubangi, dans le nord ouest du pays…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-17T20:31:47.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "CF"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b97deda6afd40350",
+      "url": "https://africacdc.org/news-item/africa-cdc-reaffirms-support-to-kenya-following-confirmation-of-four-additional-ebola-cases/",
+      "title": "Africa CDC Reaffirms Support to Kenya Following Confirmation of Four Additional Ebola Cases",
+      "excerpt": "Addis Ababa, Ethiopia, 17 October 2026 The Africa Centres for Disease Control and Prevention (Africa CDC) acknowledges the announcement by the Ministry of Health of the Republic of Kenya confirming…",
+      "lang": "en",
+      "sourceId": "africa-cdc",
+      "sourceName": "Africa CDC",
+      "official": true,
+      "publishedAt": "2026-10-17T19:22:30.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "ET",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "4ba111058f82c594",
+      "url": "https://www.france24.com/en/video/20261017-kenya-reports-third-ebola-case-contact-tracing-continues",
+      "title": "Kenya reports third Ebola case, contact tracing continues",
+      "excerpt": "Kenya has confirmed a third case of Ebola, a relative of a man who died earlier this month after travelling from the Democratic Republic of the Congo. The health ministry said the 65-year-old woman…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-17T10:56:48.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "dafe450e9b43ae4b",
+      "url": "https://insp.cd/sitrep-n154-mve-bdbv-15-10-2026/",
+      "title": "SitRep N°154 /MVE-BDBV/15/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-17T10:54:46.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a289966d511aa7dc",
+      "url": "https://www.rfi.fr/fr/afrique/20261017-est-de-la-rdc-de-nouvelles-attaques-attribu%C3%A9es-au-groupe-islamiste-adf-compliquent-la-riposte-contre-ebola",
+      "title": "Est de la RDC: de nouvelles attaques attribuées au groupe islamiste ADF compliquent la riposte contre Ebola",
+      "excerpt": "En République démocratique du Congo (RDC), dans la province de l'Ituri, la société civile alerte sur la présence de membres des Forces démocratiques alliées (ADF), un groupe armé d'origine ougandaise…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-17T01:49:48.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "11f95baf11ba8b57",
+      "url": "https://www.france24.com/en/kenya-confirms-third-ebola-case",
+      "title": "Kenya confirms third Ebola case",
+      "excerpt": "In tonight's programme: Kenya confirms a third case of Ebola, a relative of a man who died earlier this month after travelling from DR Congo. Also, Cameroonian journalist Ambe Macmillan is recovering…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-16T20:25:16.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "01b3af777aedc98b",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168613",
+      "title": "WHO scales up Ebola readiness in 22 countries across three continents",
+      "excerpt": "The World Health Organization (WHO) is strengthening Ebola preparedness amid conflict and displacement affecting millions of lives in a region that spans parts of Africa, Asia and Europe.",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-10-16T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ffba876aa50e95f4",
+      "url": "https://news.un.org/feed/view/fr/story/2026/10/1159683",
+      "title": "Ebola : au Kenya, un troisième cas détecté en quarantaine",
+      "excerpt": "Le Kenya a confirmé vendredi un nouveau cas d’Ebola, portant à trois le nombre de personnes infectées dans le pays, dont une décédée. Déjà placé en quarantaine, le patient a été détecté dès…",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-10-16T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ff26e6542e78158a",
+      "url": "https://www.rfi.fr/fr/podcasts/priorit%C3%A9-sant%C3%A9/20261016-ebola-en-rdc-les-femmes-en-premi%C3%A8re-ligne",
+      "title": "Ebola en RDC : les femmes en première ligne",
+      "excerpt": "Les femmes et les jeunes filles sont particulièrement exposées à la maladie, dans la mesure où elles assument au sein de la famille, comme de la communauté, des tâches dédiées aux soins et à…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-16T10:00:54.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b0293548f5984799",
+      "url": "https://insp.cd/sitrep-n153-mve-bdbv-14-10-2026/",
+      "title": "SitRep N°153 /MVE-BDBV/14/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-16T06:51:44.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e115f59acd0cce7f",
+      "url": "https://www.rfi.fr/fr/afrique/20261016-les-pays-de-la-cemac-harmonisent-une-s%C3%A9rie-de-protocoles-dans-la-riposte-contre-ebola",
+      "title": "Les pays de la Cemac harmonisent une série de protocoles dans la riposte contre Ebola",
+      "excerpt": "Les six pays membres de la Communauté économique des Etats de l’Afrique centrale (Cemac) se sentent menacés par Ebola, qui sévit en République démocratique du Congo depuis mai dernier. Pour prévenir…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-16T05:23:29.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "CG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "71159a98e49bec8d",
+      "url": "https://www.rfi.fr/fr/afrique/20261016-ebola-le-kenya-durcit-ses-mesures-de-pr%C3%A9vention-apr%C3%A8s-un-deuxi%C3%A8me-cas-sur-son-sol",
+      "title": "Ebola: le Kenya durcit ses mesures de prévention après un deuxième cas sur son sol",
+      "excerpt": "Le ministère de la Santé a annoncé mercredi soir, une seconde personne déclarée sur le territoire kényan. Il s’agit d’un proche du premier malade décédé la semaine passée. Le patient était déjà en…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-16T04:05:02.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "620593bead335f5a",
+      "url": "https://africacdc.org/news-item/communique-dafrica-cdc-sur-le-financement-de-la-riposte-a-lepidemie-debola-en-rdc/",
+      "title": "Communiqué d’Africa CDC sur le financement de la riposte à l’épidémie d’Ebola en RDC.",
+      "excerpt": "Addis-Abeba, 15 octobre 2026 À la suite de la conférence de presse tenue le 14 octobre 2026 à Kinshasa par son Directeur Général, Son Excellence Dr Jean Kaseya, Africa CDC souhaite réaffirmer et…",
+      "lang": "fr",
+      "sourceId": "africa-cdc",
+      "sourceName": "Africa CDC",
+      "official": true,
+      "publishedAt": "2026-10-15T17:35:59.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a954f3175743da38",
+      "url": "https://insp.cd/sitrep-n152-mve-bdbv-13-10-2026/",
+      "title": "SitRep N°152 /MVE-BDBV/13/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-15T16:39:50.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "710321b1a578b4b6",
+      "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20261015-ebola-en-rdc-apr%C3%A8s-cinq-mois-de-riposte-la-m%C3%A9fiance-des-populations-reste-le-principal-d%C3%A9fi",
+      "title": "Ebola en RDC: «Après cinq mois de riposte, la méfiance des populations reste le principal défi»",
+      "excerpt": "Cinq mois après sa déclaration officielle, l’épidémie d'Ebola continue de se propager dans l’Est de la RDC. Détection tardive ou chaînes de transmission mal identifiées, les obstacles à la riposte…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T15:26:56.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3573c82b2c1520d1",
+      "url": "https://www.rfi.fr/fr/afrique/20261015-ebola-en-afrique-un-virus-en-dix-dates",
+      "title": "Ebola en Afrique: un virus en dix dates",
+      "excerpt": "Ce 15 octobre 2026, RFI consacre une journée spéciale à Ebola, maladie grave, souvent mortelle chez l’humain, dont plusieurs épidémies ont marqué l’Afrique ces 50 dernières années. Retour sur dix…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T14:41:05.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "5d98d0faee5a875f",
+      "url": "https://www.rfi.fr/fr/podcasts/c-est-pas-du-vent/20261015-ebola-une-zoonose-parmi-tant-d-autres",
+      "title": "Ebola, une zoonose parmi tant d'autres...",
+      "excerpt": "La fièvre hémorragique Ebola est considérée comme une maladie zoonotique émergente. Elle illustre parfaitement le concept d'interdépendance entre la santé humaine, animale et environnementale. Les…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T12:17:36.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "166ca349bb0e5a1c",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143010",
+      "title": "肯尼亚确诊第二例埃博拉病例，世卫组织呼吁加强防控",
+      "excerpt": "世界卫生组织周四表示，在肯尼亚确认第二例布恩迪布焦型埃博拉病例后，该机构正继续支持肯尼亚政府开展疫情防控，重点加强接触者追踪、感染预防与控制等工作，以防止病毒进一步传播。",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b10e5e9b8a4b9a52",
+      "url": "https://news.un.org/feed/view/ru/story/2026/10/1468916",
+      "title": "ВОЗ призывает к бдительности: в Кении подтвержден второй случай заболевания Эболой",
+      "excerpt": "Всемирная организация здравоохранения (ВОЗ) продолжает поддерживать усилия Кении по борьбе с распространением Эболы после того, как у второго человека в стране был выявлен вирус Бундибуджио.",
+      "lang": "ru",
+      "sourceId": "un-news-ru",
+      "sourceName": "Новости ООН",
+      "official": false,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d30c69c2a3c8faab",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168602",
+      "title": "WHO urges vigilance after Kenya confirms second Ebola case",
+      "excerpt": "The World Health Organization (WHO) continues to support Kenya’s efforts to contain Ebola after a second person tested positive for the Bundibugyo virus, the UN agency’s representative in the country…",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ffcbf4af69aeaad9",
+      "url": "https://news.un.org/feed/view/fr/story/2026/10/1159669",
+      "title": "Ebola : l'épidémie persiste en RDC, le Kenya confirme un 2e cas",
+      "excerpt": "Cinq mois après sa déclaration officielle, l’épidémie d’Ebola Bundibugyo en République démocratique du Congo (RDC) reste marquée par une transmission élevée et fluctuante, « sans qu’une tendance à la…",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e5e7fa41c6b47a1c",
+      "url": "https://www.rfi.fr/fr/podcasts/questions-d-environnement/20261015-comment-ebola-est-arriv%C3%A9-jusqu-aux-humains",
+      "title": "Comment Ebola est arrivé jusqu'aux humains?",
+      "excerpt": "L'actuelle épidémie du virus hémorragique qui frappe essentiellement la République démocratique du Congo (RDC) a tué plus de 4 300 personnes. Le recul des forêts et de la biodiversité est le…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T11:34:17.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "fed6155e88976c1a",
+      "url": "https://www.rfi.fr/fr/podcasts/la-fabrique-du-monde/20261015-avec-ses-aides-sur-l-%C3%A9pid%C3%A9mie-d-ebola-la-chine-%C3%A9tend-son-influence-sur-les-instances-de-sant%C3%A9",
+      "title": "Avec ses aides sur l'épidémie d'Ebola, la Chine étend son influence sur les instances de santé",
+      "excerpt": "Cinq mois après le début de la 17e épidémie de virus Ebola en République démocratique du Congo. Une épidémie et son traitement qui illustrent le poids grandissant d’un pays dans les instances…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T10:12:38.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7afe201efe5b8d62",
+      "url": "https://www.rfi.fr/es/africa/20261015-rdc-c%C3%B3mo-explicar-la-r%C3%A1pida-propagaci%C3%B3n-de-la-epidemia-de-%C3%A9bola-en-el-este-del-pa%C3%ADs",
+      "title": "RDC: ¿Cómo explicar la rápida propagación de la epidemia de ébola en el este del país?",
+      "excerpt": "Cinco meses después de la declaración oficial de la epidemia, el ébola sigue propagándose en el este de República Democrática del Congo. Con 4.410 muertes, este brote se ha convertido en el más…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T10:02:20.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1c2c5544c27089e3",
+      "url": "https://www.rfi.fr/fr/podcasts/priorit%C3%A9-sant%C3%A9/20261015-epid%C3%A9mie-d-ebola-en-rdc-prise-en-charge-tra%C3%A7age-des-cas-recherche-et-pr%C3%A9vention",
+      "title": "Épidémie d'Ebola en RDC: prise en charge, traçage des cas, recherche et prévention",
+      "excerpt": "Il y a précisément cinq mois aujourd'hui, le 15 mai 2026, la République démocratique du Congo a déclaré l'épidémie d'Ebola, dans la province de l'Ituri, première région touchée dans le Nord-Est du…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T10:00:53.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f088e3d9fae11b22",
+      "url": "https://www.rfi.fr/fr/podcasts/appels-sur-l-actualit%C3%A9/20261015-1-sp%C3%A9ciale-ebola-en-rdc-qu-est-ce-qui-a-chang%C3%A9-concr%C3%A8tement-dans-votre-quotidien",
+      "title": "[1] Spéciale Ebola en RDC: qu'est-ce qui a changé concrètement dans votre quotidien?",
+      "excerpt": "Plus de 4 300 morts en cinq mois : l’épidémie d’Ebola en RDC est devenue la plus meurtrière de l’histoire du pays. Mais les autorités se veulent optimistes : « Le pic est vraiment derrière nous »…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T08:10:54.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e96136ac1f07223e",
+      "url": "https://www.rfi.fr/fr/afrique/20261015-vaccins-contre-ebola-bundibugyo-les-essais-d-oxford-et-de-moderna-donnent-des-raisons-d-esp%C3%A9rer",
+      "title": "Vaccins contre Ebola Bundibugyo: les essais d'Oxford et de Moderna «donnent des raisons d’espérer»",
+      "excerpt": "Plus de 9 000 cas et plus de 4 300 morts en République démocratique du Congo : cinq mois après le début de l’épidémie, aucun vaccin n’est encore homologué contre Bundibugyo, le virus qui en est…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T05:09:23.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "efa33d6c0a01a918",
+      "url": "https://www.rfi.fr/fr/afrique/20261015-rdc-comment-expliquer-la-propagation-rapide-de-l-%C3%A9pid%C3%A9mie-d-ebola-dans-l-est-du-pays",
+      "title": "RDC: comment expliquer la propagation rapide de l'épidémie d'Ebola dans l'est du pays?",
+      "excerpt": "Cinq mois après la déclaration officielle de l’épidémie, Ebola continue de se propager dans l’Est de la RDC. Avec 9 144 cas confirmés et 4 410 décès, cette flambée est devenue la plus meurtrière…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T04:39:09.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "2e8f33bab1cc53a5",
+      "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20261015-rdc-le-pic-de-l-%C3%A9pid%C3%A9mie-ebola-est-derri%C3%A8re-nous-selon-le-ministre-congolais-de-la-sant%C3%A9",
+      "title": "RDC: «Le pic de l'épidémie Ebola est derrière nous», selon le ministre congolais de la Santé",
+      "excerpt": "« Oui, le virus Ebola se déplace vers la province du Nord-Kivu, mais le pic de l'épidémie est derrière nous et nous espérons le lancement d'un vaccin d'ici deux mois », déclare ce jeudi 15 octobre…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T04:29:14.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "591490f746fe473c",
+      "url": "https://www.rfi.fr/fr/afrique/20261015-rdc-%C3%A0-bunia-la-riposte-contre-ebola-au-plus-pr%C3%A8s-des-communaut%C3%A9s-des-femmes-et-des-enfants",
+      "title": "RDC: à Bunia, la riposte contre Ebola au plus près des communautés, des femmes et des enfants",
+      "excerpt": "Avec plus de 4 000 morts en cinq mois, l’épidémie d’Ebola en République démocratique du Congo est devenue la plus meurtrière de l’histoire du pays. Cette 17ᵉ flambée épidémique a été qualifiée…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-15T03:28:53.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "cb2529c37135012e",
+      "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20261014-face-%C3%A0-l-%C3%A9pidemie-d-ebola-l-%C3%A9conomie-congolaise-marque-le-pas",
+      "title": "Face à l'épidemie d'Ebola, l'économie congolaise marque le pas",
+      "excerpt": "Cinq mois que la RDC est frappée par la 17ᵉ épidémie d’Ebola de son histoire. Si les conséquences sont bien évidemment d’abord humaines, la barre des 4 000 décès a été franchie et les structures et…",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-14T22:06:54.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7a590e6e889870cb",
+      "url": "https://www.france24.com/en/kenya-reports-second-ebola-case",
+      "title": "Kenya reports second Ebola case",
+      "excerpt": "In tonight's edition: Kenya confirms a second case of Ebola. Also, Nobel Peace Prize winner Navi Pillay warns that international justice is facing growing pressure. Plus millions of people in Nigeria…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-14T20:32:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "22b4939892982085",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143001",
+      "title": "刚果民主共和国霍乱病例增加，埃博拉疫情加重医疗系统负担",
+      "excerpt": "世界卫生组织周三表示，刚果民主共和国霍乱疫情持续蔓延。2025年1月至2026年9月底，该国累计报告超过12.5万例疑似病例和3600多例疑似死亡病例。与此同时，埃博拉疫情正对该国…",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "927eaca8bb2cf1a4",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168595",
+      "title": "DR Congo: Cholera cases spike amid fight against Ebola",
+      "excerpt": "The cholera epidemic continues to spread in the Democratic Republic of Congo (DRC), where more than 125,000 suspected cases and 3,644 suspected deaths were recorded between January 2025 and the end…",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d48746a14cb5648b",
+      "url": "https://news.un.org/feed/view/fr/story/2026/10/1159662",
+      "title": "RDC : le choléra progresse sur fond d’épidémie d’Ebola",
+      "excerpt": "L’épidémie de choléra continue de s’étendre en République démocratique du Congo (RDC), où plus de 125 000 cas suspects et 3 644 décès suspects ont été recensés entre janvier 2025 et fin septembre…",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ed37074ece896b36",
+      "url": "https://insp.cd/sitrep-n151-mve-bdbv-12-10-2026/",
+      "title": "SitRep N°151 /MVE-BDBV/12/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-14T08:17:07.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a8bf61c280d8c5ce",
+      "url": "https://www.france24.com/en/video/20261010-kenya-ebola-tests-negative-as-contact-tracing-continues",
+      "title": "Kenya: Ebola tests negative as contact tracing continues",
+      "excerpt": "Tests have come back negative for a person suspected of having Ebola who was reportedly in quarantine at a hospital, following rumours circulating over the past 24 hours. Meanwhile, in Nairobi…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-10T16:10:53.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c9af3b55e3b1204c",
+      "url": "https://www.bbc.co.uk/news/articles/cqp8gknl1njjo",
+      "title": "Questions remain over Ebola patient who travelled across three nations undetected",
+      "excerpt": "Fresh details reveal how the 40-year-old businessman flew and crossed regional borders while seriously ill.",
+      "lang": "en",
+      "sourceId": "bbc-africa",
+      "sourceName": "BBC News",
+      "official": false,
+      "publishedAt": "2026-10-10T00:00:08.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "5bb1d18cae71213c",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619",
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo (2026-DON619)",
+      "excerpt": "On 5 October 2026, WHO was informed about a laboratory-confirmed imported case of Bundibugyo virus disease (BVD) in Kenya with travel history from the Democratic Republic of the Congo. The patient…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-10-08T15:16:26.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3f628fe7bb7f8465",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168542",
+      "title": "Kenya races to trace all contacts after first Ebola death, WHO official says",
+      "excerpt": "Kenya’s first Ebola death has triggered a race to trace everyone the victim came into contact with, as the United Nations and partners provide full support, the World Health Organization’s (WHO) top…",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "90b4829bd3508cba",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142957",
+      "title": "世卫组织：肯尼亚加紧追踪埃博拉病例所有密切接触者",
+      "excerpt": "世界卫生组织总干事谭德塞周三在日内瓦举行的记者会上表示，肯尼亚近日报告一例埃博拉病例，患者在刚果民主共和国发病，曾在当地多家医疗机构接受治疗，随后经乌干达首都坎帕拉前往肯尼亚首都内…",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a248c26e546177ad",
+      "url": "https://news.un.org/feed/view/ru/story/2026/10/1468855",
+      "title": "Кения отслеживает все возможные контакты первого в стране пациента, умершего от Эболы",
+      "excerpt": "Организация Объединенных Наций и гуманитарные партнеры ООН оказывают поддержку властям Кении в выявлении всех контактов первого в этой стране пациента, погибшего от Эболы. По словам представительницы…",
+      "lang": "ru",
+      "sourceId": "un-news-ru",
+      "sourceName": "Новости ООН",
+      "official": false,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b68e9576d0ec1f4f",
+      "url": "https://news.un.org/feed/view/fr/story/2026/10/1159624",
+      "title": "Ebola : le Kenya traque les contacts après un premier décès",
+      "excerpt": "Le Kenya a lancé une course contre la montre pour retrouver toutes les personnes ayant été en contact avec le premier cas mortel d’Ebola enregistré dans le pays, alors que les Nations Unies et leurs…",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "dfb3fa37e0f4a7d6",
+      "url": "https://www.france24.com/es/%C3%A1frica/20261006-%C3%A9bola-kenia-anuncia-la-primera-muerte-relacionada-con-el-virus-registrada-jam%C3%A1s-en-su-territorio",
+      "title": "Ébola: Kenia anuncia la primera muerte relacionada con el virus registrada en su territorio",
+      "excerpt": "Un keniano que vivía en la República Democrática del Congo falleció el lunes 6 de octubre a causa del ébola en un hospital de Nairobi, según anunciaron el martes las autoridades kenianas. Según el…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-06T21:36:34.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a581559a141831b4",
+      "url": "https://www.france24.com/en/kenya-reports-first-ever-ebola-death",
+      "title": "Kenya reports its first-ever Ebola death",
+      "excerpt": "In tonight's edition: Kenya records its first Ebola death after a man travelled there from the DR Congo via Uganda. Also, Comoros is tightening its rules on who can do business. And in South Africa…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-06T21:28:01.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE",
+        "KM",
+        "UG",
+        "ZA"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7a8d7cde0fe96045",
+      "url": "https://www.france24.com/en/africa/20261006-kenya-reports-first-ever-ebola-death-after-patient-returns-from-dr-congo",
+      "title": "Kenya reports first-ever Ebola death after patient returns from DR Congo",
+      "excerpt": "Kenya on Tuesday reported its first-ever Ebola death after a Kenyan national who had been living in the Democratic Republic of Congo (DR Congo) died after returning to the country. Kenya is the…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-06T15:41:44.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "2cd5ebd8a288bfc3",
+      "url": "https://www.afro.who.int/fr/countries/congo/publication/situation-des-urgences-de-sante-publique-en-republique-du-congo",
+      "title": "Situation des urgences de santé publique en République du Congo",
+      "lang": "fr",
+      "sourceId": "who-afro-fr",
+      "sourceName": "Bureau régional de l'OMS pour l'Afrique",
+      "official": true,
+      "publishedAt": "2026-10-06T13:51:40.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e5f0ca7ff4751eb0",
+      "url": "https://africacdc.org/news-item/africa-cdc-exprime-sa-solidarite-avec-le-kenya-et-appelle-a-renforcer-la-preparation-regionale-face-a-ebola/",
+      "title": "Africa CDC exprime sa solidarité avec le Kenya et appelle à renforcer la préparation régionale face à Ebola",
+      "excerpt": "Addis-Abeba, Éthiopie, 6 octobre 2026 Les Centres africains de contrôle et de prévention des maladies (Africa CDC) ont réaffirmé leur soutien au Kenya à la suite de la confirmation du premier cas…",
+      "lang": "fr",
+      "sourceId": "africa-cdc",
+      "sourceName": "Africa CDC",
+      "official": true,
+      "publishedAt": "2026-10-06T12:54:12.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "ET",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "151ace596e89ec8e",
+      "url": "https://news.un.org/feed/view/fr/story/2026/10/1159613",
+      "title": "Ebola : un premier cas importé confirmé au Kenya",
+      "excerpt": "Le Kenya renforce sa riposte après un premier cas importé d’Ebola, confirmé chez un ressortissant revenu de République démocratique du Congo (RDC) et décédé à Nairobi. Dans l’est de la RDC…",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "50e872cfde0a4212",
+      "url": "https://news.un.org/feed/view/es/story/2026/10/1542018",
+      "title": "El ébola llega a Kenya: confirman un primer caso importado",
+      "excerpt": "Mientras, en la República Democrática del Congo, la epidemia suma 8544 casos confirmados y 4114 muertes, con más de 1900 niños que han perdido a uno o ambos padres y 2076 menores contagiados, de los…",
+      "lang": "es",
+      "sourceId": "un-news-es",
+      "sourceName": "Noticias ONU",
+      "official": false,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "6094fd20a6297864",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142948",
+      "title": "肯尼亚确诊首例输入性本迪布焦型埃博拉病例",
+      "excerpt": "肯尼亚卫生当局10月6日确认该国首例输入性本迪布焦病毒病埃博拉病例。世界卫生组织正与肯尼亚政府合作，加强病例调查、接触者监测和入境筛查等防控措施，防止病毒进一步传播。",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a58868beadaccf33",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142946",
+      "title": "儿基会：埃博拉夺走儿童所依赖的人",
+      "excerpt": "联合国儿童基金会周二表示，刚果民主共和国东部的埃博拉疫情正在夺走儿童所依赖的人，一些儿童自身也死于这种致命疾病。",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d60080cdbd76a2e9",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168531",
+      "title": "‘Ebola takes the people children depend on’: UNICEF",
+      "excerpt": "The Ebola outbreak in the eastern Democratic Republic of the Congo (DRC) is robbing children of their loved ones – with some succumbing to the deadly disease themselves – the UN Children’s Fund…",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f1d1d8435bcd4704",
+      "url": "https://news.un.org/feed/view/ru/story/2026/10/1468847",
+      "title": "Эбола: Кения подтвердила первый случай заболевания, вызванного вирусом Бундибуджио",
+      "excerpt": "Кения сообщила о первом случае заболевания Эболой, вызванного вирусом Бундибуджио. Кенийские власти при содействии Всемирной организации здравоохранения (ВОЗ) наращивают меры по предотвращению…",
+      "lang": "ru",
+      "sourceId": "un-news-ru",
+      "sourceName": "Новости ООН",
+      "official": false,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "fbcaf20ab3606c90",
+      "url": "https://news.un.org/feed/view/ar/story/2026/10/1145492",
+      "title": "تفشي الإيبولا - تسجيل أول حالة إصابة في كينيا، والمرض يحرم أطفالا من آبائهم في الكونغو الديمقراطية",
+      "excerpt": "قال المتحدث باسم الأمم المتحدة ستيفان دوجاريك إن الحكومة الكينية أكدت تسجيل أول حالة إصابة وافدة بفيروس الإيبولا في البلاد، وإن السلطات هناك سارعت إلى تحديد الحالة وعزلها وإجراء الفحوصات اللازمة.",
+      "lang": "ar",
+      "sourceId": "un-news-ar",
+      "sourceName": "أخبار الأمم المتحدة",
+      "official": false,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "2b12d1eebd143760",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168499",
+      "title": "Ebola response faces setback as transit centre burns down in DR Congo camp",
+      "excerpt": "The enormous challenge of halting the spread of Ebola in the Democratic Republic of the Congo (DRC) just became even harder after a key transit centre for patients requiring treatment burned down in…",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3f307f46bb5c2d9d",
+      "url": "https://news.un.org/feed/view/ar/story/2026/10/1145461",
+      "title": "الكونغو الديمقراطية - احتراق مركز لعبور المرضى يعرقل جهود احتواء الإيبولا",
+      "excerpt": "ازدادت صعوبة التحدي الهائل المتمثل في وقف انتشار فيروس إيبولا في جمهورية الكونغو الديمقراطية، وذلك بعد احتراق مركز عبور رئيسي مخصص للمرضى في مقاطعة إيتوري، فيما تستمر أعمال العنف في زيادة حالات…",
+      "lang": "ar",
+      "sourceId": "un-news-ar",
+      "sourceName": "أخبار الأمم المتحدة",
+      "official": false,
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "8de3acfb1af577ee",
+      "url": "https://news.un.org/feed/view/es/story/2026/10/1542000",
+      "title": "La respuesta al ébola sufre un revés tras incendiarse un centro de tránsito en un campamento",
+      "excerpt": "Más de 8000 casos confirmados y 4000 muertes convierten este brote de ébola en el mayor y más mortífero de la historia de la RDC, superado solo por la epidemia de África Occidental de 2014-2016…",
+      "lang": "es",
+      "sourceId": "un-news-es",
+      "sourceName": "Noticias ONU",
+      "official": false,
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e3155e5417a2cbe7",
+      "url": "https://news.un.org/feed/view/fr/story/2026/10/1159585",
+      "title": "RDC : les violences entravent la riposte contre Ebola en Ituri",
+      "excerpt": "En Ituri, dans l'est de la République démocratique du Congo (RDC), les violences reprennent et poussent des milliers de personnes sur les routes, tout en menaçant de ralentir la riposte contre Ebola…",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3987a4b841982c4d",
+      "url": "https://news.un.org/feed/view/fr/story/2026/09/1159574",
+      "title": "RDC : les processus de paix à l’épreuve d’une guerre financée par les minerais",
+      "excerpt": "Alors que les négociations diplomatiques se multiplient concernant la République démocratique du Congo, les combats se poursuivent dans l’Est, où le M23 conserve de vastes territoires et où d’autres…",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "433da1e34a907d00",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168481",
+      "title": "DRC: Early access to care and oxygen decisive for Ebola patients’ survival – WHO",
+      "excerpt": "In the Democratic Republic of the Congo (DRC), health workers fighting the country’s largest-ever Ebola outbreak are struggling to overcome critical challenges to patient care, the UN World Health…",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "624e8b04e95eeecc",
+      "url": "https://news.un.org/feed/view/fr/story/2026/09/1159571",
+      "title": "Ebola en RDC : l’OMS appelle à renforcer l’accès à l’oxygène et aux soins",
+      "excerpt": "Alors que des malades d'Ebola continuent de mourir chez eux ou dans leur communauté, faute d'avoir pu rejoindre à temps un centre de santé, l'Organisation mondiale de la santé (OMS) rappelle le rôle…",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "dfc5fe42f0fd3d61",
+      "url": "https://www.france24.com/en/video/20260929-ebola-a-terrifying-disease-as-drc-faces-decades-of-conflict-and-overburdened-healthcare-system-1",
+      "title": "Ebola a 'terrifying disease': Conflict-ravaged DRC faces overburdened healthcare system",
+      "excerpt": "Eve Irvine is pleased to welcome Stephanie Hoffmann, Project Coordinator for Butembo, North Kivu, Doctors Without Borders. The Ebola outbreak is hitting a region already ravaged by decades of armed…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-09-29T10:09:02.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "4a5bb866dacda18b",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168465",
+      "title": "DR Congo Ebola emergency: Calls grow for urgent humanitarian access",
+      "excerpt": "Aid teams trying to keep deadly Ebola disease from spreading in the Democratic Republic of the Congo (DRC) are increasingly concerned about ongoing fighting and violence that has forced thousands of…",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f97b5c64aba7a4fc",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618",
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo (2026-DON618)",
+      "excerpt": "Since the last Disease Outbreak News was published on 11 September 2026, the Bundibugyo virus outbreak in the Democratic Republic of the Congo has expanded further, with two additional health zones…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-09-25T15:16:26.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "SS"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "438aaf2774d718e8",
+      "url": "https://news.un.org/feed/view/fr/story/2026/09/1159526",
+      "title": "Ebola en RDC : la baisse des cas en Ituri ne suffit pas encore à enrayer l’épidémie",
+      "excerpt": "Après plus de 130 jours d’épidémie, la circulation du virus Ebola reste active en République démocratique du Congo (RDC). Si le nombre de cas recule en Ituri, il progresse dans d’autres provinces…",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "SS"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b265f4ed23ef768f",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168407",
+      "title": "DR Congo Ebola outbreak toll exceeds 3,700 deaths",
+      "excerpt": "More than 130 days into the latest Ebola outbreak in the Democratic Republic of the Congo (DRC), health experts said on Wednesday that response efforts have been scaled up significantly and “the…",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3a09995b786537c5",
+      "url": "https://news.un.org/feed/view/zh/story/2026/09/1142831",
+      "title": "刚果（金）启动埃博拉疫苗试验",
+      "excerpt": "刚果民主共和国（刚果（金））正在开展一项埃博拉疫苗试验，参与者包括一线医护人员及其他参与疫情应对的工作人员。",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "fcaec6924068c293",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168381",
+      "title": "Ebola vaccine research programme begins in DR Congo",
+      "excerpt": "An Ebola vaccine programme is underway in the Democratic Republic of the Congo (DRC), involving frontline health workers and others involved in the response.",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1e3db4d60ad95926",
+      "url": "https://www.france24.com/en/ebola-outbreak-reaches-new-areas-in-democratic-republic-of-congo",
+      "title": "Ebola outbreak reaches new areas in Democratic Republic of Congo",
+      "excerpt": "In the Democratic Republic of Congo, the government claims that the Ebola outbreak has changed course, with cases trending downwards in hotspots. But that interpretation is being met with pushback…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-09-19T09:59:20.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "5a078cb94a77240b",
+      "url": "https://news.un.org/feed/view/zh/story/2026/09/1142821",
+      "title": "妇女署：女性处于埃博拉抗疫前线",
+      "excerpt": "联合国妇女署驻刚果民主共和国代表蒙博周五在日内瓦强调，妇女身处埃博拉抗疫前线，在医疗中心、家中和社区照顾病患，清洗并安葬死者，负责取水和觅食，有时甚至为此付出生命。",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "cf757948bb418199",
+      "url": "https://www.france24.com/en/dr-congo-says-ebola-outbreak-has-passed-its-peak",
+      "title": "DR Congo says Ebola outbreak has passed its peak",
+      "excerpt": "More than 3,510 people have died from Ebola in eastern DR Congo since the outbreak was declared four months ago, with Ituri accounting for 78% of confirmed cases. Congolese authorities say the…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-09-17T13:36:09.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e7dade7f7649e9b7",
+      "url": "https://www.france24.com/en/encouraging-signs-in-dr-congo-ebola-fight",
+      "title": "Encouraging signs in DR Congo Ebola fight",
+      "excerpt": "In tonight's edition: there are signs of a welcome slowdown in DR Congo's Ebola outbreak. Also, about 20,000 Ethiopian university students in the northern region of Tigray will be relocated to other…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-09-16T20:42:27.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "SN"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "fc05efe0b4aa0cca",
+      "url": "https://www.france24.com/en/africa/20260916-who-sees-encouraging-signs-in-dr-congo-ebola-response-but-says-outbreak-far-from-over",
+      "title": "WHO sees 'encouraging signs' in DR Congo Ebola response but says outbreak 'far from over'",
+      "excerpt": "The World Health Organization said Wednesday that the fight against the Ebola outbreak in DR Congo was showing “encouraging signs\" but that the epidemic was \"far from over\". More than 7,000 cases…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-09-16T15:29:37.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "6fd8e3f29037cdb8",
+      "url": "https://news.un.org/feed/view/zh/story/2026/09/1142798",
+      "title": "世卫组织：刚果（金）埃博拉疫情传播有所放缓 但仍在夺走生命",
+      "excerpt": "世界卫生组织总干事谭德塞周三表示，经过四个月的应对工作，刚果民主共和国（刚果（金））埃博拉疫情已基本控制在该国东北部，疫情传播在部分地区有所放缓，但仍在蔓延并继续夺走生命。",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3526f71bcf856fa7",
+      "url": "https://news.un.org/feed/view/ru/story/2026/09/1468682",
+      "title": "В ДР Конго продолжает распространяться вспышка Эболы",
+      "excerpt": "Вспышка лихорадки Эбола в Демократической Республике Конго по-прежнему носит интенсивный характер и продолжает распространяться. К настоящему времени в семи провинциях зарегистрировано около 7200…",
+      "lang": "ru",
+      "sourceId": "un-news-ru",
+      "sourceName": "Новости ООН",
+      "official": false,
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "299a896ab4da7580",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617",
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo (2026-DON617)",
+      "excerpt": "Since the last Disease Outbreak News was published on 28 August 2026, the Bundibugyo virus outbreak in the Democratic Republic of the Congo has expanded to one additional health zone, Kayna, in North…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-09-10T08:16:08.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "45911de4c572d21f",
+      "url": "https://www.france24.com/en/video/20260905-dr-congo-ebola-burial-teams-race-against-time",
+      "title": "DR Congo: Ebola burial teams race against time",
+      "excerpt": "In eastern DR Congo, Ebola burial teams are racing against time as the outbreak continues to spread. They face a dangerous mission: safely burying victims while dealing with distrust and threats from…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-09-05T12:24:58.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "bf2466f88940df33",
+      "url": "https://www.france24.com/es/%C3%A1frica/20260903-rd-congo-supera-las-3-000-muertes-por-el-brote-de-%C3%A9bola-sin-que-los-contagios-se-ralenticen",
+      "title": "RD Congo supera las 3.000 muertes por el brote de ébola, sin que los contagios se ralenticen",
+      "excerpt": "La epidemia de ébola más mortal de la historia de la República Democrática del Congo se ha cobrado la vida de 3.007 personas, según las cifras oficiales, mientras que los casos superan los 6.100 y la…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-09-03T00:27:36.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f2d75e3c6eac18c0",
+      "url": "https://www.france24.com/en/video/20260901-dr-congo-s-opposition-rejects-president-s-dialogue-offer-and-calls-for-demonstration",
+      "title": "DR Congo's opposition rejects president's dialogue offer and calls for demonstration",
+      "excerpt": "In DR Congo, managing the spread of Ebola is made all the more difficult as the country is juggling simultaneous security crises including untangling a peace deal with M23 rebels. President Felix…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-09-01T13:40:25.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "4ba90b8c01c2d822",
+      "url": "https://news.un.org/feed/view/es/story/2026/09/1541859",
+      "title": "República Democrática del Congo: Ya hemos vencido al Ébola, y podemos hacerlo de nuevo",
+      "excerpt": "Pero la cruda realidad en este momento es que, pese a los esfuerzos de la agencia de la ONU para la salud, la falta de financiación por parte de los países donantes y la guerra siguen provocando que…",
+      "lang": "es",
+      "sourceId": "un-news-es",
+      "sourceName": "Noticias ONU",
+      "official": false,
+      "publishedAt": "2026-09-01T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b0ca9190d8f74204",
+      "url": "https://www.france24.com/es/video/20260831-%C3%A9bola-en-rd-congo-m%C3%A1s-de-6-000-contagios-y-casi-3-000-muertes",
+      "title": "Ébola en RD Congo: más de 6.000 contagios y casi 3.000 muertes",
+      "excerpt": "La República Democrática del Congo enfrenta el brote de ébola más grave de su historia reciente: las autoridades confirmaron que se ha superado la barrera de los 6.000 contagios y más de 2.900…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-31T20:56:48.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e1c1a9be528f4855",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616",
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo (2026-DON616)",
+      "excerpt": "Since the last Disease Outbreak News was published on 14 August 2026, the outbreak has spread from 54 to 60 health zones. The number of affected provinces stands at six out of 26 provinces of the…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-08-28T15:28:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "0a9e98e36c1580d9",
+      "url": "https://www.afro.who.int/fr/countries/burundi/publication/bulletin-dinformation-du-bureau-de-loms-au-burundi-deuxieme-trimestre-2026",
+      "title": "Bulletin d’information du Bureau de l'OMS au Burundi : deuxième trimestre 2026",
+      "lang": "fr",
+      "sourceId": "who-afro-fr",
+      "sourceName": "Bureau régional de l'OMS pour l'Afrique",
+      "official": true,
+      "publishedAt": "2026-08-28T08:00:34.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "BI"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f4c98820a0b3c05d",
+      "url": "https://news.un.org/feed/view/ar/story/2026/08/1145232",
+      "title": "نداء عاجل من الأمم المتحدة لمواجهة أكبر وباء للإيبولا، وتحذير من لامبالاة المجتمع الدولي",
+      "excerpt": "قال الأمين العام للأمم المتحدة إن تفشي وباء الإيبولا الحالي في جمهورية الكونغو الديمقراطية هو الأسرع نموا في التاريخ، وإنه يتزايد بشكل أكبر من القدرة على احتوائه ولكن وقفه أمر ممكن.",
+      "lang": "ar",
+      "sourceId": "un-news-ar",
+      "sourceName": "أخبار الأمم المتحدة",
+      "official": false,
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f6519bd1900d6fe0",
+      "url": "https://news.un.org/feed/view/es/story/2026/08/1541841",
+      "title": "Ébola: Guterres denuncia la indiferencia",
+      "excerpt": "Con más de 5700 casos y 2700 muertes en la República Democrática del Congo, la epidemia de ébola sigue avanzando más rápido que la respuesta. En ese contexto, el titular de la ONU pidió a la…",
+      "lang": "es",
+      "sourceId": "un-news-es",
+      "sourceName": "Noticias ONU",
+      "official": false,
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "8df8718f4580db8f",
+      "url": "https://www.rfi.fr/es/programas/programa-especial/20260827-responsable-de-oms-a-rfi-podemos-contolar-la-epidemia-de-%C3%A9bola-pero-existe-riesgo-de-propagaci%C3%B3n",
+      "title": "Responsable de OMS a RFI: \"Podemos controlar la epidemia de ébola en RD Congo, pero hay riesgo de propagación\"",
+      "excerpt": "El ébola se está propagando por la República Democrática del Congo a velocidad récord. Radio Francia Internacional entrevistó a la doctora Marie-Roseline Bélizaire, directora de emergencias de la…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-08-27T10:53:03.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "8f7db3850a537c69",
+      "url": "https://news.un.org/feed/view/ar/story/2026/08/1145228",
+      "title": "الأمم المتحدة تدعم استعدادات بوروندي لاحتمال تفشي الإيبولا",
+      "excerpt": "قال مكتب الأمم المتحدة لتنسيق الشؤون الإنسانية (أوتشا) إن الأمم المتحدة وشركاءها يواصلون دعم الجهود التي تقودها الحكومة في بوروندي للاستعداد لاحتمال تفشي فيروس الإيبولا في البلاد.",
+      "lang": "ar",
+      "sourceId": "un-news-ar",
+      "sourceName": "أخبار الأمم المتحدة",
+      "official": false,
+      "publishedAt": "2026-08-26T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "BI"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f34e3e8340bd422b",
+      "url": "https://www.france24.com/es/programas/%C3%A1frica-7-d%C3%ADas/20260825-100-d%C3%ADas-de-%C3%A9bola-en-rd-congo-radiograf%C3%ADa-del-brote-m%C3%A1s-letal-de-su-historia",
+      "title": "100 días de ébola en RD Congo: radiografía del brote más letal de su historia",
+      "excerpt": "Más de 2.500 personas han muerto en la República Democrática del Congo desde que las autoridades declararon, el pasado 15 de mayo, un nuevo brote de ébola en el este del país. El brote, causado por…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-25T19:00:58.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "CG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "8de8e273fd03a5f1",
+      "url": "https://news.un.org/feed/view/es/story/2026/08/1541834",
+      "title": "RDC Congo: la OMS pide una tregua humanitaria de seis meses para frenar la epidemia de Ébola",
+      "excerpt": "La epidemia de ébola en la República Democrática del Congo suma ya 5514 casos confirmados y 2642 muertes. Los equipos médicos necesitan llegar a las poblaciones afectadas. El desafío hoy no reside en…",
+      "lang": "es",
+      "sourceId": "un-news-es",
+      "sourceName": "Noticias ONU",
+      "official": false,
+      "publishedAt": "2026-08-25T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1b61aca4c46cce46",
+      "url": "https://www.who.int/ru/news-room/24-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations",
+      "title": "Эпидемия болезни, вызванной эболавирусом Бундибугио, в Демократической Республике Конго (ДРК)",
+      "excerpt": "Настоящие временные рекомендации выпускаются Генеральным директором ВОЗ для нескольких групп государств-участников в соответствии с уровнем риска для здоровья населения, обусловленного эпидемией…",
+      "lang": "ru",
+      "sourceId": "who-news-ru",
+      "sourceName": "Всемирная организация здравоохранения (ВОЗ)",
+      "official": true,
+      "publishedAt": "2026-08-24T16:39:32.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "811e1ffd53e5c0d5",
+      "url": "https://www.who.int/zh/news-room/24-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations",
+      "title": "刚果民主共和国境内本迪布焦病毒病疫情",
+      "excerpt": "这些临时建议是由世卫组织总干事根据各组缔约国面临的本迪布焦病毒病疫情相关公共卫生风险发布的。",
+      "lang": "zh",
+      "sourceId": "who-news-zh",
+      "sourceName": "世界卫生组织",
+      "official": true,
+      "publishedAt": "2026-08-24T16:39:32.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a3fa65e867fc3bc1",
+      "url": "https://www.who.int/es/news-room/24-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations",
+      "title": "Epidemia de enfermedad del Ébola causada por el virus de Bundibugyoen la República Democrática del Congo",
+      "excerpt": "La presentes recomendaciones temporales emitidas por el Director General de la OMS van dirigidas a diferentes subgrupos de Estados Partes, en función de los riesgos para la salud pública asociados a…",
+      "lang": "es",
+      "sourceId": "who-news-es",
+      "sourceName": "Organización Mundial de la Salud (OMS)",
+      "official": true,
+      "publishedAt": "2026-08-24T16:39:32.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d2eb23c5415ac622",
+      "url": "https://www.who.int/ar/news-room/11-03-1448-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations",
+      "title": "وباء مرض فيروس إيبولا بونديبوغيوفي جمهورية الكونغو الديمقراطية",
+      "excerpt": "يقوم المدير العام لمنظّمة الصحّة العالميّة (المنظّمة) بإصدار هذه التوصيات المؤقتة لفئات فرعية من الدول الأطراف بناءً على المخاطر التي تهدّد الصحّة العامّة والتي تواجهها بسبب وباء مرض فيروس بونديبوغيو.",
+      "lang": "ar",
+      "sourceId": "who-news-ar",
+      "sourceName": "منظمة الصحة العالمية",
+      "official": true,
+      "publishedAt": "2026-08-24T16:39:32.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d5efe85391c49708",
+      "url": "https://www.who.int/fr/news/item/24-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations",
+      "title": "Épidémie de maladie d’Ebola causée par le virus Bundibugyo en République démocratique du Congo",
+      "excerpt": "Ces recommandations temporaires sont émises par le Directeur général de l’OMS à l’intention des sous-ensembles d’États Parties en fonction des risques pour la santé publique associés à l’épidémie de…",
+      "lang": "fr",
+      "sourceId": "who-news-fr",
+      "sourceName": "Organisation mondiale de la Santé (OMS)",
+      "official": true,
+      "publishedAt": "2026-08-24T16:39:32.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "45541fce01749e8a",
+      "url": "https://www.rfi.fr/es/africa/20260823-%C3%A9bola-en-rdc-balance-preocupante-tras-100-d%C3%ADas-de-una-epidemia-a%C3%BAn-sin-controlar",
+      "title": "Ébola en RDC: Balance preocupante tras 100 días de una epidemia aún sin controlar",
+      "excerpt": "Este domingo han pasado exactamente 100 días desde que se declaró oficialmente la epidemia de ébola en República Democrática del Congo, y aún no está bajo control, según las autoridades sanitarias…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-08-23T15:29:08.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "429fbc1d4a4ac84f",
+      "url": "https://www.rfi.fr/ru/%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5/20260823-%D0%B2%D1%81%D0%BF%D1%8B%D1%88%D0%BA%D0%B0-%D1%8D%D0%B1%D0%BE%D0%BB%D1%8B-%D0%B2-%D0%B4%D1%80-%D0%BA%D0%BE%D0%BD%D0%B3%D0%BE-%D1%83%D0%BD%D0%B5%D1%81%D0%BB%D0%B0-%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8-%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5-%D1%87%D0%B5%D0%BC-2500-%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA",
+      "title": "Вспышка Эболы в ДР Конго унесла жизни более чем 2500 человек",
+      "excerpt": "Официально признанная эпидемия лихорадки Эбола в Демократической республике Конго идет уже 100 дней, однако, по оценкам органов здравоохранения, ее все еще не удается взять под контроль. Эта эпидемия…",
+      "lang": "ru",
+      "sourceId": "rfi-ru-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-08-23T10:51:03.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e7dda38c986a8898",
+      "url": "https://www.france24.com/en/dr-congo-receives-ebola-vaccines-in-face-of-exponential-outbreak",
+      "title": "DR Congo receives Ebola vaccines in face of 'exponential' outbreak",
+      "excerpt": "The Democratic Republic of Congo has received more than 16,000 doses of an Ebola vaccine, as authorities step up efforts against the ongoing outbreak. More than 2,500 people have already died and…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-22T12:47:14.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1e21c125fceaff97",
+      "url": "https://www.france24.com/en/ebola-epidemic-in-dr-congo-is-spreading-18-times-faster-than-deadliest-outbreak-on-record",
+      "title": "Ebola epidemic in DR Congo is spreading 18 times faster than deadliest outbreak on record",
+      "excerpt": "More than 2,500 people have already died in the Ebola epidemic currently gripping the Democratic Republic of Congo. The UN coordinator for the outbreak has warned that the virus is spreading…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-22T10:06:08.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "5528e0a8ca241b39",
+      "url": "https://www.france24.com/es/video/20260821-onu-advierte-de-propagaci%C3%B3n-exponencial-de-%C3%A9bola-en-rd-congo-y-aumento-de-fallecidos",
+      "title": "ONU advierte de propagación exponencial de Ébola en RD Congo y aumento de fallecidos",
+      "excerpt": "La epidemia de Ébola que azota a la República Democrática del Congo está experimentando un crecimiento exponencial, y el número de fallecidos aumenta cada día a un ritmo más rápido que en las últimas…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-21T21:51:30.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "fa032b6ee3434095",
+      "url": "https://www.france24.com/en/africa/20260821-ebola-outbreak-in-dr-congo-growing-exponentially-as-death-toll-passes-2-500",
+      "title": "Ebola outbreak in DR Congo growing 'exponentially' as death toll passes 2,500",
+      "excerpt": "More than half of the 2,500-plus deaths from DR Congo's Ebola outbreak have occurred within the past 20 days alone, as the virus spreads faster than any recorded outbreak, according to the UN's…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-21T12:55:58.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b13685e6d0cdee0f",
+      "url": "https://news.un.org/feed/view/es/story/2026/08/1541829",
+      "title": "Cien días de ébola en RD Congo: más de 2500 muertos y un brote que ya supera en extensión a Francia",
+      "excerpt": "La mitad de esas muertes se han producido en los últimos 20 días. Algunos trabajadores sanitarios han muerto a causa del ébola, mientras otros han sido atacados, con ambulancias han sido apedreadas o…",
+      "lang": "es",
+      "sourceId": "un-news-es",
+      "sourceName": "Noticias ONU",
+      "official": false,
+      "publishedAt": "2026-08-21T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "bb4f33dbe307e0d8",
+      "url": "https://news.un.org/feed/view/ar/story/2026/08/1145210",
+      "title": "نقص التمويل يهدد الاستجابة للإيبولا في الكونغو الديمقراطية",
+      "excerpt": "جددت فرق الاستجابة التابعة للأمم المتحدة نداءها العاجل للحصول على دعم دولي فوري للتصدي للإيبولا في جمهورية الكونغو الديمقراطية، في ظل انخفاض حاد في التمويل المتاح للأنشطة المنقذة للحياة، مع استمرار…",
+      "lang": "ar",
+      "sourceId": "un-news-ar",
+      "sourceName": "أخبار الأمم المتحدة",
+      "official": false,
+      "publishedAt": "2026-08-21T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "26706774cd5fadc6",
+      "url": "https://www.who.int/zh/news-room/20-08-2026-who-and-africa-cdc-welcome-the-allocation-of-ebola-vaccines-to-the-democratic-republic-of-the-congo",
+      "title": "世卫组织和非洲疾控中心欢迎向刚果民主共和国分配埃博拉疫苗",
+      "excerpt": "上周，刚果民主共和国政府向国际疫苗供应协调小组申请从全球埃博拉病毒病疫苗储备中调拨埃尔维博（Ervebo）疫苗。提出这一请求的目的是在当前的本迪布焦病毒病疫情中进行使用。埃尔维博疫…",
+      "lang": "zh",
+      "sourceId": "who-news-zh",
+      "sourceName": "世界卫生组织",
+      "official": true,
+      "publishedAt": "2026-08-20T09:31:59.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a8127a71e44ce39f",
+      "url": "https://www.who.int/es/news-room/20-08-2026-who-and-africa-cdc-welcome-the-allocation-of-ebola-vaccines-to-the-democratic-republic-of-the-congo",
+      "title": "La OMS y los CDC de África acogen con satisfacción la asignación de vacunas a la República Democrática del Congo",
+      "excerpt": "La semana pasada, el gobierno de la República Democrática del Congo solicitó la liberación de vacunas Ervebo de la reserva mundial de vacunas contra la enfermedad por el virus del Ébola, que gestiona…",
+      "lang": "es",
+      "sourceId": "who-news-es",
+      "sourceName": "Organización Mundial de la Salud (OMS)",
+      "official": true,
+      "publishedAt": "2026-08-20T09:31:59.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c228c7a182df1cf5",
+      "url": "https://www.who.int/ar/news-room/07-03-1448-who-and-africa-cdc-welcome-the-allocation-of-ebola-vaccines-to-the-democratic-republic-of-the-congo",
+      "title": "المنظّمة والمراكز الأفريقية لمكافحة الأمراض والوقاية منها تعربان عن ترحيبهما بتخصيص لقاحات الإيبولا لجمهورية الكونغو الديمقراطية",
+      "excerpt": "طلبت حكومة جمهورية الكونغو الديمقراطية في الأسبوع الماضي الإفراج عن لقاحات إيرفيبو من المخزون العالميّ للقاحات مرض فيروس الإيبولا الذي يتولى إدارته فريق التنسيق الدولي المعني بتوفير اللقاحات (فريق…",
+      "lang": "ar",
+      "sourceId": "who-news-ar",
+      "sourceName": "منظمة الصحة العالمية",
+      "official": true,
+      "publishedAt": "2026-08-20T09:31:59.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f113d6d80a6ae4e4",
+      "url": "https://www.who.int/ru/news-room/20-08-2026-who-and-africa-cdc-welcome-the-allocation-of-ebola-vaccines-to-the-democratic-republic-of-the-congo",
+      "title": "ВОЗ и ЦКПЗ Африки приветствуют выделение Демократической Республике Конго вакцины против вируса Эбола",
+      "excerpt": "На прошлой неделе правительство Демократической Республики Конго (ДРК) подало заявку на предоставление вакцины Ervebo из глобального резервного запасов вакцин против болезни, вызванной вирусом Эбола…",
+      "lang": "ru",
+      "sourceId": "who-news-ru",
+      "sourceName": "Всемирная организация здравоохранения (ВОЗ)",
+      "official": true,
+      "publishedAt": "2026-08-20T09:31:59.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f2b748f5734c76f8",
+      "url": "https://www.who.int/fr/news/item/20-08-2026-who-and-africa-cdc-welcome-the-allocation-of-ebola-vaccines-to-the-democratic-republic-of-the-congo",
+      "title": "L’OMS et les CDC-Afrique saluent l’allocation de vaccins contre Ebola à la République démocratique du Congo",
+      "excerpt": "La semaine dernière, le gouvernement de la République démocratique du Congo (RDC) avait demandé la mise à disposition de vaccins Ervebo contre la maladie à virus Ebola provenant du stock mondial géré…",
+      "lang": "fr",
+      "sourceId": "who-news-fr",
+      "sourceName": "Organisation mondiale de la Santé (OMS)",
+      "official": true,
+      "publishedAt": "2026-08-20T09:31:59.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3dc286634b1973c3",
+      "url": "https://www.france24.com/es/video/20260820-%C3%A9bola-en-rd-congo-un-tercio-de-las-muertes-son-ni%C3%B1os-en-el-brote-m%C3%A1s-veloz-registrado",
+      "title": "Ébola en RD Congo: un tercio de las muertes son niños en el brote más veloz registrado",
+      "excerpt": "El ébola en la República Democrática del Congo se propaga a una velocidad nunca vista en brotes anteriores. Los niños son un tercio de las víctimas mortales y una cuarta parte de los casos…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-20T04:04:13.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "6253f3291e95850e",
+      "url": "https://www.france24.com/es/video/20260819-expectativas-positivas-de-la-oms-frente-al-brote-por-%C3%A9bola-en-la-rep%C3%BAblica-democr%C3%A1tica-del-congo",
+      "title": "Expectativas positivas de la OMS frente al brote por Ébola en la República Democrática del Congo",
+      "excerpt": "El coordinador de respuestas sanitarias de emergencia de la Organización Mundial de la Salud, Thierno Baldé, aseguró que el brote de Ébola en la República Democrática del Congo podría controlarse en…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-19T16:11:25.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f797c2b560ac5bdd",
+      "url": "https://www.france24.com/en/africa/20260819-attempts-to-curb-ebola-cases-in-dr-congo-fail-with-more-than-5-000-confirmed",
+      "title": "Attempts to curb Ebola cases in DR Congo fail with more than 5,000 confirmed",
+      "excerpt": "The Democratic Republic of Congo is facing the biggest Ebola epidemic in its history. Government data showed on Tuesday that cases now exceed 5,000. Efforts to contain the deadly illness are being…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-19T06:43:48.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "5666ba8d6f76ef02",
+      "url": "https://www.france24.com/es/video/20260818-bundibugyo-la-variante-de-%C3%A9bola-que-se-ha-propagado-cinco-veces-m%C3%A1s-r%C3%A1pido",
+      "title": "Bundibugyo, la variante de ébola que se ha propagado cinco veces más rápido",
+      "excerpt": "La epidemia actual de ébola se ha convertido en el segundo brote del virus más letal que se haya registrado. La variante bundibugyo se ha propagado cinco veces más rápido que las variantes…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-18T17:06:39.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "2e4b2bd82ed246e4",
+      "url": "https://www.france24.com/es/%C3%A1frica/20260818-la-oms-conf%C3%ADa-en-que-es-posible-controlar-en-tres-meses-el-brote-de-%C3%A9bola-con-los-recursos-necesarios",
+      "title": "La OMS confía en que es posible controlar en tres meses el brote de ébola “con los recursos necesarios”",
+      "excerpt": "A pesar de que el brote en la República Democrática del Congo es el segundo más mortal de la historia y el de más rápida propagación, la agencia sanitaria mundial sigue creyendo en las posibilidades…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-18T16:58:45.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "31dd9ccbab69da54",
+      "url": "https://news.un.org/feed/view/ar/story/2026/08/1145193",
+      "title": "الإيبولا- سائقو الدراجات النارية يقومون بدور مهم في تعزيز الاستجابة",
+      "excerpt": "من قلب تفشي وباء الإيبولا الأكثر فتكا في جمهورية الكونغو الديمقراطية، سلطت منظمة الصحة العالمية - التابعة للأمم المتحدة - الضوء على حملة مكثفة لإشراك المجتمعات المحلية لمواجهة المرض، وذلك بعد يوم من…",
+      "lang": "ar",
+      "sourceId": "un-news-ar",
+      "sourceName": "أخبار الأمم المتحدة",
+      "official": false,
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d98ce20160d8d2da",
+      "url": "https://www.france24.com/en/ebola-in-drc-deadliest-outbreak-on-record-outpacing-the-response",
+      "title": "Ebola in DRC: Deadliest outbreak on record ‘outpacing the response’",
+      "excerpt": "Eve Irvine is pleased to welcome WHO Spokesperson Tarik Jašarević. His central concern is that we do not yet know where all the places the Ebola virus is circulating: infected people remain outside…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-18T10:55:17.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e08cc0a34044ee51",
+      "url": "https://www.france24.com/en/dr-congo-ebola-outbreak-becomes-country-s-deadliest",
+      "title": "DR Congo Ebola outbreak becomes country’s deadliest",
+      "excerpt": "The DRC’s latest Ebola outbreak has killed 2,325 people, making it the country’s deadliest outbreak on record. Nearly 5,000 cases have been confirmed as the virus spreads to a sixth province, while…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-17T15:28:03.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "52d1800f9d09506c",
+      "url": "https://www.france24.com/en/africa/20260817-ebola-outbreak-in-dr-congo-now-deadliest-ever",
+      "title": "Ebola outbreak in DR Congo now deadliest ever",
+      "excerpt": "The Ebola outbreak in Democratic Republic of Congo is now the deadliest in the country's history, according to the latest government data, with 2,235 reported killed from the virus. Confirmed cases…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-17T08:38:23.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f728f5559e554b22",
+      "url": "https://www.france24.com/en/ebola-outbreak-in-dr-congo-one-death-every-30-minutes",
+      "title": "Ebola outbreak in DR Congo: One death every 30 minutes",
+      "excerpt": "The Ebola outbreak in eastern DR Congo is now the second-largest on record, with more than 2,100 deaths and the virus spreading to a sixth province. Health workers are struggling to contain the…",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-15T14:46:49.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "72ea15b0c74b13c4",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615",
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo (2026-DON615)",
+      "excerpt": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo is in a phase of intense transmission. It is the largest Ebola outbreak ever reported in the country and expanding…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-08-14T15:38:29.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "2d781fbe002255ef",
+      "url": "https://www.france24.com/es/video/20260807-oms-advierte-que-virus-del-%C3%A9bola-se-est%C3%A1-transmitiendo-a-una-velocidad-sin-precedentes",
+      "title": "OMS advierte que virus del ébola se está transmitiendo a una velocidad sin precedentes",
+      "excerpt": "El director general de la Organización Mundial de la Salud, Tedros Adhanom Ghebreyesus, alertó que el virus del ébola se propaga a una velocidad sin precedentes. A pesar de que el epicentro se…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-07T02:26:07.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f7923fe0d2ab68b7",
+      "url": "https://www.france24.com/es/video/20260806-trabajadores-sanitarios-en-rd-congo-enfrentan-demoras-en-pagos-en-medio-de-brote-de-%C3%A9bola",
+      "title": "Trabajadores sanitarios en RD Congo enfrentan demoras en pagos en medio de brote de Ébola",
+      "excerpt": "Wiza Bondele forma parte del equipo de prevención y control de infecciones por Ébola que aplica medidas clave para frenar el Ébola que azota la República Democrática del Congo. Desde el inicio de su…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-06T16:55:15.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "53b2d422e89e09bb",
+      "url": "https://www.france24.com/es/video/20260806-hugo-pizzi-las-condiciones-sociales-en-ituri-agravan-la-crisis-por-el-brote-de-%C3%A9bola",
+      "title": "Hugo Pizzi: \"Las condiciones sociales en Ituri agravan la crisis por el brote de Ébola\"",
+      "excerpt": "El Gobierno de la República Democrática del Congo elevó a 1.801 el número de muertos por Ébola, en lo que ya se considera el segundo brote más grande de la historia, con una tasa de letalidad cercana…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-08-06T16:54:43.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1e2f8b0ada773348",
+      "url": "https://www.who.int/fr/news/item/06-08-2026-africa-cdc-and-who-call-for-urgent--community-led-action-to-contain-ebola-in-the-drc",
+      "title": "Les CDC-Afrique et l’OMS appellent à une action urgente, menée par la communauté, pour endiguer l’épidémie de maladie d’Ebola en RDC",
+      "excerpt": "Les Centres africains de prévention et de contrôle des maladies (CDC-Afrique) et l’Organisation mondiale de la Santé (OMS) appellent à un renforcement urgent de la riposte communautaire face à la…",
+      "lang": "fr",
+      "sourceId": "who-news-fr",
+      "sourceName": "Organisation mondiale de la Santé (OMS)",
+      "official": true,
+      "publishedAt": "2026-08-06T16:50:24.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "68dd70a8668c5616",
+      "url": "https://www.who.int/es/news-room/06-08-2026-africa-cdc-and-who-call-for-urgent--community-led-action-to-contain-ebola-in-the-drc",
+      "title": "Los CDC de África y la OMS piden medidas urgentes con ayuda de la población afectada para contener el ébola en la República Democrática del Congo",
+      "excerpt": "Los Centros para el Control y la Prevención de Enfermedades de África (CDC de África) y la Organización Mundial de la Salud (OMS) han pedido que se intensifique urgentemente la respuesta al ébola en…",
+      "lang": "es",
+      "sourceId": "who-news-es",
+      "sourceName": "Organización Mundial de la Salud (OMS)",
+      "official": true,
+      "publishedAt": "2026-08-06T16:50:24.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b9aa96982e3ff0b0",
+      "url": "https://www.who.int/ar/news-room/23-02-1448-africa-cdc-and-who-call-for-urgent--community-led-action-to-contain-ebola-in-the-drc",
+      "title": "المراكز الأفريقية لمكافحة الأمراض والوقاية منها والمنظّمة تدعوان إلى اتخاذ إجراءات عاجلة بقيادة المجتمع المحلّي لاحتواء فاشية الإيبولا المندلعة في جمهورية الكونغو الديمقراطية",
+      "excerpt": "وجهت المراكز الأفريقية لمكافحة الأمراض والوقاية منها (المراكز الأفريقية) ومنظّمة الصحّة العالميّة (المنظّمة) دعوة إلى التعجيل بتوسيع نطاق جهود الاستجابة بقيادة المجتمع المحلّي للإيبولا في جمهورية…",
+      "lang": "ar",
+      "sourceId": "who-news-ar",
+      "sourceName": "منظمة الصحة العالمية",
+      "official": true,
+      "publishedAt": "2026-08-06T16:50:24.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "dc9581b17f449a3d",
+      "url": "https://www.who.int/ru/news-room/06-08-2026-africa-cdc-and-who-call-for-urgent--community-led-action-to-contain-ebola-in-the-drc",
+      "title": "ЦКПЗ Африки и ВОЗ призывают к скорейшей активизации борьбы с Эболой в ДРК с опорой на местные сообщества",
+      "excerpt": "Африканские центры по контролю и профилактике заболеваний (ЦКПЗ Африки) и Всемирная организация здравоохранения (ВОЗ) выступили с призывом к срочному усилению мер реагирования на вспышку…",
+      "lang": "ru",
+      "sourceId": "who-news-ru",
+      "sourceName": "Всемирная организация здравоохранения (ВОЗ)",
+      "official": true,
+      "publishedAt": "2026-08-06T16:50:24.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f9de65b6c127db40",
+      "url": "https://www.who.int/zh/news-room/06-08-2026-africa-cdc-and-who-call-for-urgent--community-led-action-to-contain-ebola-in-the-drc",
+      "title": "非洲疾控中心和世卫组织呼吁采取社区主导的紧急行动，遏制刚果民主共和国的埃博拉疫情",
+      "excerpt": "非洲疾病预防控制中心（非洲疾控中心）和世界卫生组织（世卫组织）呼吁在刚果民主共和国紧急扩大社区主导的埃博拉应对行动，加强早期发现、接触者随访及护理可及性，支持一线卫生工作者并加快向…",
+      "lang": "zh",
+      "sourceId": "who-news-zh",
+      "sourceName": "世界卫生组织",
+      "official": true,
+      "publishedAt": "2026-08-06T16:50:24.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "708521c712972eb2",
+      "url": "https://news.un.org/feed/view/ar/story/2026/08/1145133",
+      "title": "الإيبولا في الكونغو الديمقراطية – بدء تجارب لقاح جديد مع ارتفاع الإصابات والوفيات",
+      "excerpt": "قالت منظمة الصحة العالمية إن الجهود الرامية إلى تطوير علاجات أكثر فعالية وإنتاج أول لقاح في العالم ضد سلالة بونديبوغيو من فيروس الإيبولا تشهد تقدما، وذلك في وقت تتزايد فيه أعداد الإصابات والوفيات…",
+      "lang": "ar",
+      "sourceId": "un-news-ar",
+      "sourceName": "أخبار الأمم المتحدة",
+      "official": false,
+      "publishedAt": "2026-08-04T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3cc9be5605194064",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614",
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo (2026-DON614)",
+      "excerpt": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo is intensifying, with sustained transmission and continued increases in reported cases and deaths. Initially…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-08-01T10:13:28.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "26c768bfbf572ff0",
+      "url": "https://www.rfi.fr/es/salud/20260730-una-nueva-vacuna-contra-el-%C3%A9bola-m%C3%A1s-prometedora-desarrollada-en-singapur",
+      "title": "Una nueva vacuna contra el ébola \"más prometedora\", desarrollada en Singapur",
+      "excerpt": "Hilleman Laboratories se suma a la carrera por la vacuna contra el ébola, este nuevo ensayo clínico considerado por la Organización Mundial de la Salud (OMS) como el más prometedor para combatir el…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-07-30T15:15:07.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "146f3e1f93251b33",
+      "url": "https://news.un.org/feed/view/ar/story/2026/07/1145113",
+      "title": "الجوع يعرقل جهود احتواء الإيبولا في الكونغو الديمقراطية مع تجاوز الإصابات 3,200 حالة",
+      "excerpt": "حذر برنامج الأغذية العالمي من أن تفاقم أزمة الجوع يقوض جهود التصدي لتفشي فيروس الإيبولا في جمهورية الكونغو الديمقراطية، داعيا إلى توفير تمويل عاجل، في وقت تجاوز فيه عدد الإصابات 3,200 حالة.",
+      "lang": "ar",
+      "sourceId": "un-news-ar",
+      "sourceName": "أخبار الأمم المتحدة",
+      "official": false,
+      "publishedAt": "2026-07-29T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "99c121b1a8d734d5",
+      "url": "https://www.rfi.fr/es/am%C3%A9ricas/20260720-%C3%A9bola-canad%C3%A1-prohibe-la-entrada-a-extranjeros-que-hayan-pasado-por-la-rdc",
+      "title": "Ébola: Canadá prohibe la entrada a extranjeros que hayan pasado por la RDC",
+      "excerpt": "El Gobierno de Canadá anunció que prohibirá la entrada al país a ciudadonos extranjeros que hayan estado en la República Democrática del Congo en los últimos 21 días para limitar los riesgos de…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-07-20T11:35:17.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7094059ac3169d85",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda (2026-DON613)",
+      "excerpt": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo remains active, with sustained transmission driving increases in reported cases and deaths. As of 15 July 2026, a…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-07-17T16:13:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a618db798108f582",
+      "url": "https://www.france24.com/es/video/20260714-rd-congo-oms-advierte-que-brote-de-%C3%A9bola-podr%C3%ADa-ser-hasta-cuatro-veces-mayor-de-los-reportado",
+      "title": "RD Congo: OMS advierte que brote de ébola podría ser hasta cuatro veces mayor de los reportado",
+      "excerpt": "La Organización Mundial de la Salud (OMS) alertó que la magnitud del contagio de ébola podría ser entre tres y cuatro veces mayor de lo que reporta la cifra oficial. Entre los factores que han…",
+      "lang": "fr",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-07-14T20:07:50.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c5487a417d9cf53e",
+      "url": "https://www.france24.com/es/%C3%A1frica/20260714-la-epidemia-de-%C3%A9bola-en-rd-congo-podr%C3%ADa-ser-hasta-cuatro-veces-mayor-que-lo-detectado-advierte-la-oms",
+      "title": "La epidemia de ébola en RD Congo podría ser hasta cuatro veces mayor que lo detectado, advierte la OMS",
+      "excerpt": "De regreso de un viaje a la provincia más afectada por el brote, el director de emergencias de la Organización Mundial de la Salud (OMS), Chikwe Iheakweazu, indicó que el número real de casos de…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-07-14T14:57:53.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "6c926f1af23ac840",
+      "url": "https://www.rfi.fr/ru/%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5/20260709-%D0%BD%D1%8B%D0%BD%D0%B5%D1%88%D0%BD%D1%8F%D1%8F-%D1%8D%D0%BF%D0%B8%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F-%D1%8D%D0%B1%D0%BE%D0%BB%D1%8B-%D0%B2-%D0%B4%D1%80-%D0%BA%D0%BE%D0%BD%D0%B3%D0%BE-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%8F%D0%B5%D1%82%D1%81%D1%8F-%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%B5%D0%B5-%D1%87%D0%B5%D0%BC-%D0%BB%D1%8E%D0%B1%D0%B0%D1%8F-%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B0%D1%8F-%D1%81%D0%B0%D0%BD%D0%B8%D1%82%D0%B0%D1%80%D0%BD%D0%BE%D0%B5-%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%BE-%D0%B0%D1%84%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D1%81%D0%BE%D1%8E%D0%B7%D0%B0",
+      "title": "Нынешняя эпидемия Эболы распространяется быстрее, чем любая предыдущая — санитарное агентство Африканского союза",
+      "excerpt": "Нынешняя эпидемия Эболы в ДР Конго распространяется быстрее, чем любая предыдущая. Об этом в четверг, 9 июля, заявил доктор Вессам Манкула — начальник отдела по экстренным ситуациям Центра по…",
+      "lang": "ru",
+      "sourceId": "rfi-ru-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-07-09T16:00:37.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "76e3bc00ef76c590",
+      "url": "https://www.france24.com/es/programas/en-foco/20260708-%C3%A9bola-en-rd-congo-por-qu%C3%A9-el-brote-sigue-fuera-de-control",
+      "title": "Ébola en RD Congo: ¿por qué el brote sigue fuera de control?",
+      "excerpt": "Un mes después de que la República Democrática del Congo declarara un nuevo brote de ébola, el virus continúa propagándose en el este del país y mantiene bajo presión a las autoridades sanitarias…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-07-08T16:04:52.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "fdb33fd91e8f18d6",
+      "url": "https://www.france24.com/es/video/20260707-rd-congo-huelga-de-personal-sanitario-agrava-crisis-del-%C3%A9bola",
+      "title": "RD Congo: huelga de personal sanitario agrava crisis del ébola",
+      "excerpt": "En medio del brote de ébola en la República Democrática del Congo, con más de 1.500 casos y 500 muertes, trabajadores de la salud amenazan con una huelga por salarios impagos y condiciones precarias…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-07-07T03:05:22.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e1d3cec72cb1c667",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda (2026-DON612)",
+      "excerpt": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with sustained transmission and increasing numbers of reported cases. As of 1 July, a…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-07-03T15:13:57.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7ec83dbdbb3b1f54",
+      "url": "https://www.france24.com/es/%C3%A1frica/20260626-a-m%C3%A1s-de-un-mes-del-brote-de-%C3%A9bola-en-la-rdc-los-m%C3%A9dicos-advierten-que-la-epidemia-va-a-durar",
+      "title": "A más de un mes del brote de ébola en la RDC, los médicos advierten que \"la epidemia va a durar\"",
+      "excerpt": "Mientras Francia confirma su primer caso de ébola, llegan también reportes de pacientes tratados con éxito en Mongbwalu, epicentro de la epidemia en el este de la RDC. Los tratamientos exitosos…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-06-26T20:57:33.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1fd1177237e15a38",
+      "url": "https://www.france24.com/es/salud/20260624-francia-detecta-su-primer-caso-de-%C3%A9bola-en-un-m%C3%A9dico-que-visit%C3%B3-la-rep%C3%BAblica-democr%C3%A1tica-del-congo",
+      "title": "Francia detecta su primer caso de ébola en un médico que visitó la República Democrática del Congo",
+      "excerpt": "El primer caso de ébola en la historia de Francia fue reportado el miércoles 24 de junio por el Ministerio de Salud francés. Se trata de un médico que regresó recientemente de una misión humanitaria…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-06-24T19:01:22.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "8694c765d82bf6bb",
+      "url": "https://www.rfi.fr/ru/%D1%84%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F/20260624-%D0%B2%D0%BE-%D1%84%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D0%B8-%D0%B2%D1%8B%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9-%D0%B7%D0%B0%D0%B1%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D1%8D%D0%B1%D0%BE%D0%BB%D0%BE%D0%B9-%D1%83-%D0%B2%D1%80%D0%B0%D1%87%D0%B0-%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D0%B2%D1%88%D0%B5%D0%B3%D0%BE%D1%81%D1%8F-%D0%B8%D0%B7-%D0%B4%D1%80-%D0%BA%D0%BE%D0%BD%D0%B3%D0%BE",
+      "title": "Во Франции выявили случай заболевания Эболой — у врача, вернувшегося из ДР Конго",
+      "excerpt": "На территории Франции выявили первый случай заболевания Эболой — у врача, вернувшегося из Демократической Республики Конго (ДРК), где в настоящее время наблюдается крупная вспышка эпидемии вируса. Об…",
+      "lang": "ru",
+      "sourceId": "rfi-ru-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-06-24T15:33:16.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7078066103cd3f23",
+      "url": "https://www.rfi.fr/es/francia/20260624-francia-detectado-un-primer-caso-de-%C3%A9bola-en-un-m%C3%A9dico-que-regresaba-de-rdc",
+      "title": "Francia: detectado un primer caso de ébola en un médico que regresaba de RDC",
+      "excerpt": "Las autoridades sanitarias de Francia anunciaron este miércoles el primer caso de ébola en el país europeo, el de un médico que regresó recientemente de la República Democrática del Congo (RDC)…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-06-24T10:53:36.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a3e388d2a3e358a6",
+      "url": "https://www.france24.com/es/video/20260623-kenia-detiene-las-obras-de-un-centro-de-cuarentena-para-el-%C3%A9bola-en-su-territorio",
+      "title": "Kenia detiene las obras de un centro de cuarentena para el ébola en su territorio",
+      "excerpt": "El Gobierno de Kenia suspendió las obras de construcción de un centro de cuarentena para pacientes con ébola luego de que un tribunal declarara en desacato al ministro de Salud por ignorar una orden…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-06-23T20:19:17.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "6b8daa9f7d2b120d",
+      "url": "https://www.france24.com/es/video/20260623-crisis-sanitaria-por-brote-de-%C3%A9bola-se-agudiza-en-el-norte-de-rd-congo",
+      "title": "Crisis sanitaria por brote de ébola se agudiza en el norte de RD Congo",
+      "excerpt": "Las autoridades sanitarias de la República Democrática del Congo informaron que los casos confirmados de ébola ya superan los 1.000. Funcionarios desplegados en la zona aseguran que la tasa de…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-06-23T00:21:13.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "47f1740c50514dc0",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda (2026-DON608)",
+      "excerpt": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with sustained transmission and increasing numbers of reported cases. As of 17 June, a…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-06-19T12:10:23.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c561bc3af7189964",
+      "url": "https://www.france24.com/es/video/20260616-aumentan-casos-de-%C3%A9bola-en-rd-congo-crisis-de-seguridad-limita-la-ayuda-m%C3%A9dica",
+      "title": "Aumentan casos de Ébola en RD Congo: crisis de seguridad limita la ayuda médica",
+      "excerpt": "El ébola recrudece la crisis humanitaria en la RD Congo. En Induri el brote ha dejado más de 100 muertos y 550 casos confirmados, mientras la inseguridad por grupos armados limita la ayuda en campos…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-06-16T22:29:49.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c1a0d2b9c6c9c400",
+      "url": "https://www.france24.com/es/salud/20260616-est%C3%A1-superando-capacidad-de-respuesta-m%C3%A1s-de-800-casos-y-192-muertes-por-%C3%A9bola-en-rep%C3%BAblica-democr%C3%A1tica-del-congo",
+      "title": "“Está superando capacidad de respuesta”: más de 800 casos y 192 muertes por ébola en República Democrática del Congo",
+      "excerpt": "Al menos 808 personas se han contagiado de ébola en la República Democrática del Congo y 192 han muerto, según los datos más recientes del Ministerio de Salud, publicados el lunes 15 de junio. Las…",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-06-16T14:06:23.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3fe1c0b68efd87cb",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON607",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda (2026-DON607)",
+      "excerpt": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with increasing case numbers and geographic spread. As of 10 June, a cumulative of 676…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-06-13T08:06:15.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c658ca77fc37b70c",
+      "url": "https://www.rfi.fr/es/africa/20260609-no-al-%C3%A9bola-aqu%C3%AD-protestas-en-kenia-contra-un-futuro-centro-de-cuarentena-estadounidense",
+      "title": "“No al ébola aquí”: protestas en Kenia contra un futuro centro de cuarentena estadounidense",
+      "excerpt": "La ciudad de Nanyuki, en el centro de Kenia, vivió un 9 de junio agitado, entre detenciones y disparos de gas lacrimógeno: cientos de personas se manifestaron nuevamente contra un centro de…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-06-09T14:26:59.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "16a4f2cb402981fc",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON606",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda (2026-DON606)",
+      "excerpt": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with increasing case numbers, geographic spread, and cross-border transmission to…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-06-08T12:35:09.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "18c2fbb48feb5cc1",
+      "url": "https://www.rfi.fr/es/africa/20260602-abrupta-ca%C3%ADda-de-los-casos-sospechosos-de-%C3%A9bola-en-%C3%A1frica-central-anuncia-la-oms",
+      "title": "Abrupta caída de los casos sospechosos de ébola en África central, anuncia la OMS",
+      "excerpt": "La Organización Mundial de la Salud (OMS) redujo drásticamente este martes su conteo de casos sospechosos de ébola en toda África central, de 900 a 116, con 330 enfermos confirmados.",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-06-02T14:38:11.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "54f564e7719d834b",
+      "url": "https://www.rfi.fr/es/salud/20260601-brasil-descarta-un-caso-sospechoso-de-%C3%A9bola-y-contin%C3%BAa-otro-en-investigaci%C3%B3n",
+      "title": "Brasil: autoridades sanitarias descartan dos casos sospechosos de ébola",
+      "excerpt": "Un paciente aislado en Brasil por síntomas compatibles con el ébola dio negativo al examen para detectar el virus, informaron este lunes las autoridades sanitarias, un día después de que se…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-06-01T11:32:31.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7844d93e637b9c6f",
+      "url": "https://www.rfi.fr/ru/%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5/20260530-%D0%B2%D1%80%D0%B0%D1%87%D0%B8-%D0%B1%D0%B5%D0%B7-%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%86-%D0%B1%D1%8C%D1%8E%D1%82-%D1%82%D1%80%D0%B5%D0%B2%D0%BE%D0%B3%D1%83-%D0%B8%D0%B7-%D0%B7%D0%B0-%D0%B1%D0%B5%D1%81%D0%BF%D1%80%D0%B5%D1%86%D0%B5%D0%B4%D0%B5%D0%BD%D1%82%D0%BD%D0%BE-%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%D0%B3%D0%BE-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D1%8D%D0%B1%D0%BE%D0%BB%D1%8B-%D0%B2-%D0%B0%D1%84%D1%80%D0%B8%D0%BA%D0%B5",
+      "title": "«Врачи без границ» бьют тревогу из-за беспрецедентно быстрого распространения Эболы в Африке",
+      "excerpt": "Никогда прежде при эпидемии Эболы не регистрировалось так много случаев заражения в столь короткие сроки после первого известия о вспышке, заявил замдиректора по оперативной деятельности организации…",
+      "lang": "ru",
+      "sourceId": "rfi-ru-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-30T13:46:16.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "4de61ccbc9f2f06b",
+      "url": "https://www.rfi.fr/es/africa/20260530-rdc-el-director-general-de-la-oms-llega-a-ituri-epicentro-de-la-epidemia-de-%C3%A9bola",
+      "title": "RDC: el director general de la OMS llega a Ituri, epicentro de la epidemia de ébola",
+      "excerpt": "Tras visitar la capital, Kinshasa, el director general de la Organización Mundial de la Salud (OMS), Tedros Adhanom Ghebreyesus, llegó este sábado 30 de mayo de 2026 al mediodía a Bunia, en Ituri…",
+      "lang": "fr",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-30T12:42:28.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "680ab85651456bbc",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON605",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda (2026-DON605)",
+      "excerpt": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo and Uganda continues to evolve rapidly, with increasing case numbers, geographic spread, and ongoing cross-border…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-05-29T15:58:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c65740543b75507c",
+      "url": "https://www.rfi.fr/es/programas/en-primera-plana/20260529-hantavirus-%C3%A9bola-covid-las-zoonosis-amenaza-planetaria-en-auge",
+      "title": "Hantavirus, ébola, covid...Las zoonosis, amenaza planetaria en auge",
+      "excerpt": "El caso de crucero con hantavirus que recordarán desde la Patagonia y el reciente brote de ébola en Africa nos recuerdan que vivimos en un mundo que ha aumentado las oportunidades de zoonosis, es…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-29T10:52:06.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "9abf96ee7815abc1",
+      "url": "https://www.rfi.fr/es/africa/20260525-la-oms-advierte-que-hay-m%C3%A1s-de-900-casos-sospechosos-de-%C3%A9bola-en-rdc",
+      "title": "La OMS advierte que hay más de 900 casos sospechosos de ébola en RDC",
+      "excerpt": "La Organización Mundial de la Salud (OMS) advirtió que en la República Democrática del Congo, se han identificado más de 900 casos sospechosos de ébola, de los cuales alrededor de 100 ya han sido…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-25T13:59:11.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3e4c3bba7450ca70",
+      "url": "https://www.rfi.fr/ru/%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5/20260525-%D0%B3%D0%BB%D0%B0%D0%B2%D0%B0-%D0%B2%D0%BE%D0%B7-%D1%87%D0%B8%D1%81%D0%BB%D0%BE-%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D0%BE%D0%BB%D0%B0%D0%B3%D0%B0%D0%B5%D0%BC%D1%8B%D1%85-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B5%D0%B2-%D0%B7%D0%B0%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D1%8D%D0%B1%D0%BE%D0%BB%D0%BE%D0%B9-%D0%B2-%D0%B4%D1%80-%D0%BA%D0%BE%D0%BD%D0%B3%D0%BE-%D0%BF%D1%80%D0%B5%D0%B2%D1%8B%D1%81%D0%B8%D0%BB%D0%BE-900",
+      "title": "Глава ВОЗ: число предполагаемых случаев заражения Эболой в ДР Конго превысило 900",
+      "excerpt": "Глава Всемирной организации здравоохранения Тедрос Гебрейесус заявил, что в Демократической Республике Конго выявлено более 900 предполагаемых случаев заболевания Эболой. Из них подтвержден 101…",
+      "lang": "ru",
+      "sourceId": "rfi-ru-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-25T08:58:48.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ead139308b8d6e4e",
+      "url": "https://www.rfi.fr/es/programas/mundo-ciencia/20260522-por-qu%C3%A9-es-preocupante-este-nuevo-brote-de-%C3%A9bola-en-rdc",
+      "title": "¿Por qué es preocupante este nuevo brote de ébola en RDC?",
+      "excerpt": "La Organización Mundial de la Salud emitió el pasado 17 de mayo una alerta sanitaria internacional ante el aumento de casos de ébola en República Democrática del Congo aunque matizó señalando que el…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-22T12:30:11.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f71f81ac059fb125",
+      "url": "https://www.rfi.fr/ru/%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D0%B0/20260522-%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B2%D1%80%D0%B0%D1%87%D0%B0-%D0%B7%D0%B0%D1%80%D0%B0%D0%B7%D0%B8%D0%B2%D1%88%D0%B5%D0%B3%D0%BE%D1%81%D1%8F-%D1%8D%D0%B1%D0%BE%D0%BB%D0%BE%D0%B9-%D0%B2-%D0%B4%D1%80-%D0%BA%D0%BE%D0%BD%D0%B3%D0%BE-%D0%BB%D0%B5%D1%87%D0%B0%D1%82-%D0%B2-%D0%B1%D0%B5%D1%80%D0%BB%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B9-%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B5-%D1%88%D0%B0%D1%80%D0%B8%D1%82%D0%B5",
+      "title": "Американского врача, заразившегося Эболой в ДР Конго, лечат в берлинской клинике «Шарите»",
+      "excerpt": "Заразившийся в Демократической Республике Конго (ДРК) вирусом Эбола американский врач находится в берлинской клинике «Шарите» в строго изолированном отделении. В медучреждении сообщили, что гражданин…",
+      "lang": "ru",
+      "sourceId": "rfi-ru-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-22T12:23:32.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "bafb6391353865c7",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603",
+      "title": "Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo (2026-DON603)",
+      "excerpt": "On 15 May 2026, the Ministry of Public Health, Hygiene and Social Welfare, Democratic Republic of the Congo (DRC), and the Ministry of Health of Uganda declared an outbreak of Ebola Disease following…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-05-21T22:00:47.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1e32f667e3992316",
+      "url": "https://www.rfi.fr/es/salud/20260521-%C3%A9bola-el-ministro-de-salud-congole%C3%B1o-asegura-a-rfi-que-hay-159-muertes-y-626-casos-sospechosos",
+      "title": "Ébola: el ministro de Salud congoleño asegura a RFI que hay 159 muertes y 626 casos sospechosos",
+      "excerpt": "El ministro congoleño de Salud, Samuel Roger Kamba, anunció este jueves por la mañana, 21 de mayo, en el programa “Appels sur l’actualité” de RFI, un nuevo balance sobre la epidemia de Ébola que…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-21T13:14:47.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "31a1cb0ac1e24a31",
+      "url": "https://www.rfi.fr/es/salud/20260521-%C3%A9bola-todav%C3%ADa-queda-mucho-trabajo-por-hacer-estima-florent-uzzeni-de-m%C3%A9dicos-sin-fronteras",
+      "title": "Ébola: \"Todavía queda mucho trabajo por hacer\", estima Florent Uzzeni de Médicos Sin Fronteras",
+      "excerpt": "En la República Democrática del Congo, se está organizando la respuesta frente a la epidemia de Ébola que desde hace varios días afecta a diferentes zonas del este del país. El epicentro se sitúa en…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-21T09:57:39.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1d2ad352b9472239",
+      "url": "https://www.rfi.fr/es/salud/20260520-oms-epidemia-de-%C3%A9bola-en-rdc-no-representa-una-emergencia-pand%C3%A9mica",
+      "title": "OMS: epidemia de ébola en RDC no representa \"una emergencia pandémica\"",
+      "excerpt": "La Organización Mundial de la Salud (OMS) considera que el riesgo epidémico del ébola presente en la República Democrática del Congo es alto a nivel nacional y regional, pero bajo a nivel mundial. La…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-20T11:28:11.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c4f1a24bd524362d",
+      "url": "https://www.rfi.fr/es/africa/20260519-%C3%A9bola-en-la-rd-del-congo-la-magnitud-y-la-rapidez-de-la-epidemia-obligan-a-la-oms-a-dar-la-voz-de-alarma",
+      "title": "Ébola en la RD del Congo: la magnitud y la rapidez de la epidemia obligan a la OMS a dar la voz de alarma",
+      "excerpt": "En la República Democrática del Congo (RDC), la epidemia de ébola ya habría causado 131 muertes y más de 513 casos sospechosos. La magnitud y la rapidez con la que se propaga el ébola han llevado a…",
+      "lang": "fr",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-19T14:01:55.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "016b0d0d292c6837",
+      "url": "https://www.rfi.fr/ru/%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5/20260519-%D0%B2%D0%BE%D0%B7-%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%BE%D0%BA%D0%BE%D0%B5%D0%BD-%D0%BC%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B0%D0%BC%D0%B8-%D0%B8-%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D1%8C%D1%8E-%D1%8D%D0%BF%D0%B8%D0%B4%D0%B5%D0%BC%D0%B8%D0%B8-%D1%8D%D0%B1%D0%BE%D0%BB%D1%8B",
+      "title": "ВОЗ глубоко обеспокоена «масштабами и скоростью» распространения эпидемии Эболы",
+      "excerpt": "Всемирная организация здравоохранения объявила о созыве во вторник чрезвычайного комитета в связи со вспышкой заболевания в Демократической Республике Конго. Германия согласилась принять на лечение…",
+      "lang": "ru",
+      "sourceId": "rfi-ru-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-19T13:29:32.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "647badf5dbeb6366",
+      "url": "https://www.rfi.fr/es/africa/20260519-ebola-eeuu-restringe-ingreso-para-viajeros-del-centro-de-%C3%A1frica-por-el-contagio-de-un-estadounidense",
+      "title": "Ebola: EEUU restringe ingreso para viajeros del centro de África por el contagio de un estadounidense",
+      "excerpt": "Estados Unidos anunció el lunes 18 de mayo de 2026 un refuerzo de los controles sanitarios en la frontera contra el virus del Ébola, que ha contagiado a un ciudadano estadounidense en la República…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-19T08:45:15.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "28abf970a3d39482",
+      "url": "https://www.rfi.fr/es/ciencia/20260518-la-oms-celebra-su-asamblea-mundial-de-la-salud-en-medio-de-una-emergencia-sanitaria-y-financiera",
+      "title": "La OMS celebra su Asamblea Mundial de la Salud en medio de una emergencia sanitaria y financiera",
+      "excerpt": "La Organización Mundial de la Salud (OMS)ha declarado que el brote del virus del Ébola en Uganda y en la República Democrática del Congo constituye una “emergencia de salud pública de importancia…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-18T14:47:24.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "6c944a339634773d",
+      "url": "https://www.rfi.fr/es/africa/20260518-%C3%A9bola-el-riesgo-de-propagaci%C3%B3n-de-esta-epidemia-es-muy-alto-advierte-vir%C3%B3logo",
+      "title": "Ébola: “El riesgo de propagación de esta epidemia es muy alto”, advierte virólogo",
+      "excerpt": "La República Democrática del Congo, afectada por una nueva epidemia de ébola, ha registrado 246 casos sospechosos y 80 muertes potencialmente relacionadas con este virus. La OMS elevó este domingo 17…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-18T09:34:26.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "912646b1d3e635bb",
+      "url": "https://www.rfi.fr/ru/%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5/20260517-%D0%B2%D0%BE%D0%B7-%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%B8%D0%BB%D0%B0-%D0%B2%D1%81%D0%BF%D1%8B%D1%88%D0%BA%D1%83-%D1%8D%D0%B1%D0%BE%D0%BB%D1%8B-%D0%B2-%D0%B0%D1%84%D1%80%D0%B8%D0%BA%D0%B5-%D1%87%D1%80%D0%B5%D0%B7%D0%B2%D1%8B%D1%87%D0%B0%D0%B9%D0%BD%D0%BE%D0%B9-%D1%81%D0%B8%D1%82%D1%83%D0%B0%D1%86%D0%B8%D0%B8%D0%B5%D0%B9-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F",
+      "title": "ВОЗ объявила вспышку Эболы в Африке «чрезвычайной ситуацией международного значения»",
+      "excerpt": "Всемирная организация здравоохранения в воскресенье, 17 мая, заявила, что новая вспышка Эболы «представляет собой чрезвычайную ситуацию международного значения в области общественного…",
+      "lang": "ru",
+      "sourceId": "rfi-ru-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-17T12:09:12.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f773ce67726276b1",
+      "url": "https://www.rfi.fr/es/salud/20260517-%C3%A9bola-la-oms-declara-una-emergencia-de-salud-p%C3%BAblica-de-importancia-internacional",
+      "title": "Ébola: La OMS declara una \"emergencia de salud pública de importancia internacional\"",
+      "excerpt": "La Organización Mundial de la Salud (OMS) declaró este 17 de mayo una emergencia de salud pública internacional, su segundo nivel de alerta más alto, ante el brote de una rara cepa de ébola que…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-17T09:43:25.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c79747a8afe5018f",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda (2026-DON602)",
+      "excerpt": "On 5 May 2026, the World Health Organization (WHO) was alerted of a high-mortality outbreak of unknown illness in Mongbwalu Health Zone, Ituri Province, Democratic Republic of the Congo (DRC)…",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-05-16T22:00:00.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "901529de40a9fa24",
+      "url": "https://www.rfi.fr/ru/%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5/20260516-%D0%B2-%D0%B0%D1%84%D1%80%D0%B8%D0%BA%D0%B5-%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B2%D1%81%D0%BF%D1%8B%D1%88%D0%BA%D0%B0-%D1%8D%D0%B1%D0%BE%D0%BB%D1%8B-%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BE%D1%82-%D0%BD%D1%8B%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE-%D1%88%D1%82%D0%B0%D0%BC%D0%BC%D0%B0-%D0%BE%D1%87%D0%B5%D0%BD%D1%8C-%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%B0%D1%8F-%D0%B2%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D1%8B-%D0%B8-%D0%BB%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B5%D1%82",
+      "title": "В Африке новая вспышка Эболы. Смертность от нынешнего штамма «очень высокая», вакцины и лечения нет",
+      "excerpt": "Африканский центр по контролю и профилактике заболеваний (Africa CDC) 15 мая сообщил о новой вспышке лихорадки Эбола в Демократической Республике Конго (ДРК). К субботе известно о 80 жертвах эпидемии…",
+      "lang": "ru",
+      "sourceId": "rfi-ru-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-16T14:00:47.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "6f6a9f6e8bc903c9",
+      "url": "https://www.rfi.fr/es/africa/20260515-agencia-sanitaria-declara-un-brote-de-%C3%A9bola-en-el-este-de-la-rep%C3%BAblica-democr%C3%A1tica-del-congo",
+      "title": "Agencia sanitaria declara un brote de ébola en el este de la República Democrática del Congo",
+      "excerpt": "El Centro Africano para el Control y la Prevención de Enfermedades (Africa CDC), la agencia sanitaria de la Unión Africana (UA) informó este viernes de un brote de ébola en la provincia de Ituri, al…",
+      "lang": "es",
+      "sourceId": "rfi-es-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-05-15T08:43:36.000Z",
+      "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    }
+  ]
+}

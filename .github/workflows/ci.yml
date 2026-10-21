@@ -3,6 +3,8 @@ name: Checks
 on:
   push:
     branches: [main]
+    # Hourly news updates only change this file; they are checked by the news job.
+    paths-ignore: ['src/data/news/items.json']
   pull_request:
 
 jobs:

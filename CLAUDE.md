@@ -30,6 +30,13 @@ plain language.
 - Sources: `src/data/sources.ts`, with each publisher's own language versions.
   Outbreak banner: `src/data/outbreak.json`, validated by `src/data/outbreak.ts`.
 - Quote YAML front matter values that contain `: `.
+- News: `scripts/news/` (run with `npm run news`, hourly in
+  `.github/workflows/news.yml`). Sources in `src/data/news-sources.ts`; output
+  `src/data/news/items.json` validated by `src/data/news-schema.ts`; hide/pin
+  in `src/data/news/overrides.json`. Excerpts are capped (200 chars, 90 for
+  Chinese). Items are never translated; other-language items are labelled
+  with their original language. In this container run it with
+  `NODE_USE_ENV_PROXY=1` so Node's fetch uses the proxy.
 - Use logical CSS (`ms-`, `pe-`, `start-`, `end-`, `border-s`), never
   `left`/`right`, so Arabic (RTL) mirrors automatically. Phone numbers and
   e-mail addresses get the `ltr-data` class.

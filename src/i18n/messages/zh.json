@@ -17,6 +17,7 @@
   },
   "nav": {
     "home": "首页",
+    "news": "新闻",
     "health": "健康信息",
     "about": "关于我们"
   },
@@ -65,6 +66,27 @@
         "text": "症状、传播途径、预防、疫苗和治疗，以及常见误解。"
       }
     }
+  },
+  "news": {
+    "title": "新闻和官方通报",
+    "description": "来自卫生部门的官方通报和有关埃博拉的新闻报道，每小时自动收集，并附有原始来源链接。",
+    "intro": "卫生部门的官方通报排在最前，其后是您所用语言的新闻报道。每条标题都链接到出版方网站上的原文。",
+    "updated": "新闻列表更新时间：{date}",
+    "official": "官方通报",
+    "officialBadge": "官方",
+    "media": "中文媒体报道",
+    "mediaEmpty": "近期没有中文新闻。请查看其他语言的新闻。",
+    "otherLanguages": "其他语言的新闻",
+    "otherLanguagesDescription": "其他语言的埃博拉新闻和官方通报，按原文显示。",
+    "otherLanguagesIntro": "这些内容以原文语言显示，未经翻译。",
+    "otherLanguagesLink": "其他语言的新闻（{count}）",
+    "originalLanguage": "原文语言：{language}",
+    "alsoReportedBy": "另见：{sources}",
+    "countries": "提及的国家",
+    "policy": "我们只显示标题、来源、日期和简短摘要。请在出版方网站上阅读全文。",
+    "latestOfficial": "最新官方通报",
+    "latestNews": "最新新闻",
+    "allNews": "全部新闻和官方通报"
   },
   "health": {
     "hubTitle": "健康信息",

@@ -1,5 +1,7 @@
 ---
+import NewsCard from '../../components/NewsCard.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { mediaCoverage, officialUpdates } from '../../data/news';
 import { getMessages, LOCALE_CODES, localePath, type Locale } from '../../i18n';
 
 export function getStaticPaths() {
@@ -9,9 +11,11 @@ export function getStaticPaths() {
 const locale = Astro.params.locale as Locale;
 const m = getMessages(locale);
 // Sections get a link as soon as their pages exist.
+const latestOfficial = officialUpdates(locale).slice(0, 3);
+const latestMedia = mediaCoverage(locale).slice(0, 3);
 const sections = [
   { ...m.home.sections.health, href: localePath(locale, '/health/') },
-  { ...m.home.sections.news, href: undefined },
+  { ...m.home.sections.news, href: localePath(locale, '/news/') },
   { ...m.home.sections.help, href: undefined },
   { ...m.home.sections.map, href: undefined },
 ];
@@ -21,6 +25,28 @@ const sections = [
     <h1 class="text-2xl font-bold leading-tight text-brand-900 sm:text-3xl">{m.home.heading}</h1>
     <p class="mt-3 text-lg text-muted">{m.home.intro}</p>
   </div>
+
+  <div class="grid gap-8 lg:grid-cols-2" data-home-news>
+    <section aria-labelledby="latest-official-title">
+      <h2 id="latest-official-title" class="text-xl font-bold text-brand-900">{m.news.latestOfficial}</h2>
+      <ul class="mt-4 space-y-3">
+        {latestOfficial.map((item) => <li><NewsCard item={item} locale={locale} compact /></li>)}
+      </ul>
+    </section>
+    {
+      latestMedia.length > 0 && (
+        <section aria-labelledby="latest-news-title">
+          <h2 id="latest-news-title" class="text-xl font-bold text-brand-900">{m.news.latestNews}</h2>
+          <ul class="mt-4 space-y-3">
+            {latestMedia.map((item) => <li><NewsCard item={item} locale={locale} compact /></li>)}
+          </ul>
+        </section>
+      )
+    }
+  </div>
+  <p class="mt-4">
+    <a href={localePath(locale, '/news/')} class="font-semibold">{m.news.allNews}</a>
+  </p>
 
   <section class="mt-10" aria-labelledby="sections-title">
     <h2 id="sections-title" class="text-xl font-bold text-brand-900">{m.home.sectionsTitle}</h2>

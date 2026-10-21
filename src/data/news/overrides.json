@@ -1,0 +1,5 @@
+{
+  "$comment": "Hide or pin news items. Put an item's id or its link in a list. Pinned items appear at the top of their section.",
+  "hidden": [],
+  "pinned": []
+}

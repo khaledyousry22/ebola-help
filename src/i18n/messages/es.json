@@ -17,6 +17,7 @@
   },
   "nav": {
     "home": "Inicio",
+    "news": "Noticias",
     "health": "Información sanitaria",
     "about": "Acerca de"
   },
@@ -65,6 +66,27 @@
         "text": "Síntomas, transmisión, prevención, vacunas y tratamiento, y mitos frecuentes."
       }
     }
+  },
+  "news": {
+    "title": "Noticias y comunicados oficiales",
+    "description": "Comunicados de las autoridades sanitarias y cobertura informativa sobre el ébola, recopilados automáticamente cada hora, con enlaces a las fuentes originales.",
+    "intro": "Primero aparecen los comunicados de las autoridades sanitarias y después la cobertura informativa en su idioma. Cada titular enlaza al artículo original en el sitio web del medio.",
+    "updated": "Lista de noticias actualizada: {date}",
+    "official": "Comunicados oficiales",
+    "officialBadge": "Oficial",
+    "media": "Cobertura informativa en español",
+    "mediaEmpty": "No hay noticias recientes en español. Consulte las noticias en otros idiomas.",
+    "otherLanguages": "Noticias en otros idiomas",
+    "otherLanguagesDescription": "Noticias y comunicados oficiales sobre el ébola en otros idiomas, tal como se publicaron.",
+    "otherLanguagesIntro": "Estos contenidos se muestran en su idioma original. No se han traducido.",
+    "otherLanguagesLink": "Noticias en otros idiomas ({count})",
+    "originalLanguage": "Idioma original: {language}",
+    "alsoReportedBy": "También publicado por: {sources}",
+    "countries": "Países mencionados",
+    "policy": "Solo mostramos el titular, la fuente, la fecha y un breve extracto. Lea el artículo completo en el sitio web del medio.",
+    "latestOfficial": "Últimos comunicados oficiales",
+    "latestNews": "Últimas noticias",
+    "allNews": "Todas las noticias y comunicados oficiales"
   },
   "health": {
     "hubTitle": "Información sanitaria",
