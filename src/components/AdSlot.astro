@@ -1,0 +1,31 @@
+---
+/**
+ * One Google AdSense ad, clearly labelled. Hidden until the reader scrolls
+ * near it; never loaded on data-saving or very slow connections (see
+ * AdLoader). Place it only on pages listed in src/config.ts.
+ */
+import { ADS } from '../config';
+import { getMessages, type Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+const m = getMessages(Astro.props.locale);
+---
+{
+  ADS.enabled && (
+    <div data-ad-zone>
+      <aside aria-label={m.ads.label} class="my-10 border-y border-line py-3" data-ad hidden>
+        <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{m.ads.label}</p>
+        <ins
+          class="adsbygoogle"
+          style="display:block"
+          data-ad-client={ADS.client}
+          data-ad-slot={ADS.slot}
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+      </aside>
+    </div>
+  )
+}

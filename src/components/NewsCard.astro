@@ -4,6 +4,7 @@
  * extract and countries. Items in another language keep their own lang and
  * direction and are labelled with their original language.
  */
+import { NEWS_EXCERPTS } from '../config';
 import type { NewsItem } from '../data/news';
 import { isPinned } from '../data/news';
 import { format, formatDate, getMessages, LOCALES, type Locale } from '../i18n';
@@ -39,7 +40,7 @@ const Heading = headingLevel;
   <Heading class="mt-2 text-base font-semibold leading-snug sm:text-lg" lang={itemInfo.htmlLang} dir={itemInfo.dir}>
     <a href={item.url} rel="noopener noreferrer external" class="text-brand-800">{item.title}</a>
   </Heading>
-  {!compact && item.excerpt && <p class="mt-1 text-muted" lang={itemInfo.htmlLang} dir={itemInfo.dir}>{item.excerpt}</p>}
+  {!compact && NEWS_EXCERPTS && item.excerpt && <p class="mt-1 text-muted" lang={itemInfo.htmlLang} dir={itemInfo.dir}>{item.excerpt}</p>}
   {
     !compact && item.countries.length > 0 && (
       <p class="mt-2 text-sm text-muted">

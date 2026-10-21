@@ -87,7 +87,7 @@
     "originalLanguage": "Langue d'origine : {language}",
     "alsoReportedBy": "Également rapporté par : {sources}",
     "countries": "Pays mentionnés",
-    "policy": "Nous affichons uniquement le titre, la source, la date et un court extrait. Lisez l'article complet sur le site de l'éditeur.",
+    "policy": "Nous affichons uniquement le titre, la source et la date. Lisez l'article complet sur le site de l'éditeur.",
     "latestOfficial": "Derniers communiqués officiels",
     "latestNews": "Dernières actualités",
     "allNews": "Toutes les actualités et communiqués officiels"
@@ -161,6 +161,9 @@
     "boundaries": "Les frontières figurant sur cette carte sont approximatives et n'impliquent aucune prise de position quant au statut juridique d'un pays ou d'un territoire, ni quant à ses frontières.",
     "dataNote": "Données cartographiques : Natural Earth (domaine public)."
   },
+  "ads": {
+    "label": "Publicité"
+  },
   "health": {
     "hubTitle": "Informations sanitaires",
     "hubDescription": "Des pages courtes et factuelles sur la maladie d'Ebola : ce qu'elle est, ses symptômes, sa transmission, la prévention, les vaccins et traitements, et les idées reçues.",
@@ -189,15 +192,19 @@
     "independenceTitle": "Indépendant et non officiel",
     "independence": "Ebola.help n'est ni affilié à l'Organisation mondiale de la Santé (OMS), à une autre agence des Nations Unies, à Africa CDC ou à un gouvernement, ni approuvé par eux, et ne parle pas en leur nom. Le site n'a aucun statut officiel. Suivez toujours les consignes des autorités sanitaires de votre pays.",
     "sourcesTitle": "D'où viennent les informations",
-    "sources": "Nous renvoyons vers les sources officielles d'origine : ministères de la Santé, OMS, Africa CDC et autres agences de santé publique. Pour les articles de presse, nous affichons uniquement le titre, la source, la date et un court extrait, avec un lien vers l'article complet sur le site de l'éditeur.",
+    "sources": "Nous renvoyons vers les sources officielles d'origine : ministères de la Santé, OMS, Africa CDC et autres agences de santé publique. Pour les articles de presse, nous affichons uniquement le titre, la source et la date, avec un lien vers l'article complet sur le site de l'éditeur.",
     "verificationTitle": "Comment les coordonnées sont vérifiées",
     "verification": "Chaque numéro de téléphone, adresse et structure de santé publié sur ce site est vérifié auprès d'une source officielle. Pour chacun, nous indiquons cette source et la date de la dernière vérification. Si une information ne peut pas être vérifiée, nous ne la publions pas.",
     "translationTitle": "Traductions",
     "translation": "Les actualités sont présentées dans leur langue d'origine, avec l'indication de cette langue. Si un titre est un jour présenté en traduction automatique, il est clairement signalé comme tel, avec sa langue d'origine.",
     "medicalTitle": "Pas un avis médical",
     "medical": "Ce site fournit uniquement des informations générales. Il ne remplace pas les médecins, les infirmiers ni les autres professionnels de santé. Si vous vous sentez malade, contactez un agent de santé ou la ligne d'urgence sanitaire nationale.",
+    "advertisingTitle": "Publicité",
+    "advertising": "Pour couvrir ses frais, la page d'accueil, les pages d'actualités et la carte affichent des publicités de Google AdSense. Les pages de conseils de santé et de numéros d'aide n'affichent jamais de publicité. Les publicités sont choisies automatiquement par Google : ce ne sont pas des recommandations, et les annonceurs n'ont aucune influence sur le contenu de ce site. Aucune publicité n'est chargée sur les connexions en mode économie de données ou très lentes.",
     "privacyTitle": "Confidentialité",
-    "privacy": "Nous ne suivons pas les visiteurs. Le site enregistre un seul petit cookie pour mémoriser votre langue.",
+    "privacy": "Nous ne collectons nous-mêmes aucune donnée personnelle. Le site enregistre un seul petit cookie pour mémoriser votre langue. Google et d'autres sociétés publicitaires utilisent des cookies pour afficher des publicités, qui peuvent être fondées sur vos visites précédentes sur ce site et sur d'autres sites ({googleUse}). Vous pouvez désactiver les publicités personnalisées dans {adsSettings} ou sur {aboutAds}. Les visiteurs en Europe, au Royaume-Uni et en Suisse sont d'abord invités à donner leur consentement.",
+    "linkGoogleUse": "comment Google utilise les informations des sites qui utilisent ses services",
+    "linkAdsSettings": "les paramètres des annonces de Google",
     "contactTitle": "Signaler une erreur",
     "contact": "Si vous trouvez un numéro erroné ou toute autre erreur, écrivez-nous à {email}."
   },

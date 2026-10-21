@@ -3,6 +3,7 @@
  * entries in one of our six languages, cleans the link, writes a short
  * excerpt and tags countries.
  */
+import { NEWS_EXCERPTS } from '../../../src/config';
 import type { NewsSource } from '../../../src/data/news-sources';
 import type { NewsItem } from '../../../src/data/news-schema';
 import { tagCountries } from './countries';
@@ -37,7 +38,8 @@ export function toNewsItems(source: NewsSource, entries: RawEntry[], now: Date):
       id: itemId(url),
       url,
       title: title.length > 400 ? `${title.slice(0, 399)}…` : title,
-      excerpt: makeExcerpt(entry.summary, title, lang),
+      // Extracts are only kept when the site is non-commercial (see src/config.ts).
+      ...(NEWS_EXCERPTS ? { excerpt: makeExcerpt(entry.summary, title, lang) } : {}),
       lang,
       sourceId: source.id,
       sourceName: entry.outlet ?? source.name,

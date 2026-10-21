@@ -34,7 +34,8 @@ plain language.
   `.github/workflows/news.yml`). Sources in `src/data/news-sources.ts`; output
   `src/data/news/items.json` validated by `src/data/news-schema.ts`; hide/pin
   in `src/data/news/overrides.json`. Excerpts are capped (200 chars, 90 for
-  Chinese). Items are never translated; other-language items are labelled
+  Chinese) and switched off while ads are on (`NEWS_EXCERPTS` in
+  `src/config.ts`; WHO extracts are non-commercial only). Items are never translated; other-language items are labelled
   with their original language. In this container run it with
   `NODE_USE_ENV_PROXY=1` so Node's fetch uses the proxy.
 - Contacts: `src/data/help/<ISO>.json` (schema `src/data/help-schema.ts`).
@@ -46,6 +47,11 @@ plain language.
 - Map: SVG built at build time from world-atlas (Natural Earth) with d3-geo
   (`src/lib/africa-map.ts`); statuses and figures from `outbreak.json`.
   No map library is sent to visitors.
+- Ads (Google AdSense, `ADS` in `src/config.ts`): only via `<AdSlot>` on the
+  home, news, other-languages news and map pages. Never on health, help,
+  country, About or picker pages (browser tests enforce this). `AdLoader`
+  loads Google's script after page load, near the slot, and never on
+  Save-Data or 2G. About page carries Google's required privacy disclosures.
 - Use logical CSS (`ms-`, `pe-`, `start-`, `end-`, `border-s`), never
   `left`/`right`, so Arabic (RTL) mirrors automatically. Phone numbers and
   e-mail addresses get the `ltr-data` class.

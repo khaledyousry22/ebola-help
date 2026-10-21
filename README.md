@@ -74,6 +74,26 @@ page of the site to make sure no unconfirmed number or address appears.
   being monitored, outbreak over). The same information is in a table under
   the map. Situations and figures come from `src/data/outbreak.json`.
 
+### Advertising (Google AdSense)
+
+Ads appear only on the home page, the news pages and the map, below the main
+content and labelled "Advertisement". Pages with health advice, helplines,
+country pages and About never show ads. Ads load only when a reader scrolls
+near them, and never on data-saving or 2G connections.
+
+- Settings: `src/config.ts` (`ADS`). Set `enabled: false` to remove all ads.
+- `public/ads.txt` declares your publisher ID to advertisers.
+- While ads are on, news items show headline, source and date only (no
+  extracts): WHO's terms allow extracts only for non-commercial use.
+
+**In your AdSense account (after the site is online, Phase 6):**
+1. Sites → add `ebola.help`. Google checks it with the tag already on every page.
+2. Privacy & messaging → create the **European regulations message**
+   (required for visitors in Europe, the UK and Switzerland) and, if offered,
+   the US states message.
+3. Blocking controls → block advertiser categories for health products,
+   medicines and supplements, so no "cure" ads appear on an Ebola site.
+
 ### Reporting errors
 
 Visitors report wrong numbers to **wrongnumber@ebola.help** (shown on every

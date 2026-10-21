@@ -87,7 +87,7 @@
     "originalLanguage": "Idioma original: {language}",
     "alsoReportedBy": "También publicado por: {sources}",
     "countries": "Países mencionados",
-    "policy": "Solo mostramos el titular, la fuente, la fecha y un breve extracto. Lea el artículo completo en el sitio web del medio.",
+    "policy": "Solo mostramos el titular, la fuente y la fecha. Lea el artículo completo en el sitio web del medio.",
     "latestOfficial": "Últimos comunicados oficiales",
     "latestNews": "Últimas noticias",
     "allNews": "Todas las noticias y comunicados oficiales"
@@ -161,6 +161,9 @@
     "boundaries": "Las fronteras de este mapa son aproximadas y no implican ninguna opinión sobre la condición jurídica de ningún país o territorio, ni sobre sus fronteras.",
     "dataNote": "Datos cartográficos: Natural Earth (dominio público)."
   },
+  "ads": {
+    "label": "Publicidad"
+  },
   "health": {
     "hubTitle": "Información sanitaria",
     "hubDescription": "Páginas breves y objetivas sobre la enfermedad por el virus del Ébola: qué es, síntomas, transmisión, prevención, vacunas y tratamiento, y mitos.",
@@ -189,15 +192,19 @@
     "independenceTitle": "Independiente y no oficial",
     "independence": "Ebola.help no está afiliado a la Organización Mundial de la Salud (OMS), a ningún otro organismo de las Naciones Unidas, a Africa CDC ni a ningún gobierno, no cuenta con su respaldo y no habla en su nombre. No tiene carácter oficial. Siga siempre las indicaciones de las autoridades sanitarias de su país.",
     "sourcesTitle": "De dónde procede la información",
-    "sources": "Enlazamos a las fuentes oficiales originales: ministerios de salud, la OMS, Africa CDC y otras agencias de salud pública. De los artículos de prensa mostramos solo el titular, la fuente, la fecha y un breve extracto, con un enlace al artículo completo en el sitio web del medio.",
+    "sources": "Enlazamos a las fuentes oficiales originales: ministerios de salud, la OMS, Africa CDC y otras agencias de salud pública. De los artículos de prensa mostramos solo el titular, la fuente y la fecha, con un enlace al artículo completo en el sitio web del medio.",
     "verificationTitle": "Cómo se verifican los datos de contacto",
     "verification": "Cada número de teléfono, dirección y centro de salud de este sitio se verifica con una fuente oficial. Para cada uno indicamos esa fuente y la fecha de la última verificación. Si no podemos verificar un dato, no lo publicamos.",
     "translationTitle": "Traducciones",
     "translation": "Las noticias se muestran en su idioma original, indicando cuál es. Si alguna vez se muestra un titular con traducción automática, se indica claramente, junto con el idioma original.",
     "medicalTitle": "No es consejo médico",
     "medical": "Este sitio ofrece solo información general. No sustituye a médicos, personal de enfermería ni otros profesionales de la salud. Si se siente mal, contacte con un profesional sanitario o con la línea de emergencia sanitaria nacional.",
+    "advertisingTitle": "Publicidad",
+    "advertising": "Para cubrir sus gastos, la página de inicio, las páginas de noticias y el mapa muestran anuncios de Google AdSense. Las páginas con consejos de salud y líneas de ayuda nunca muestran anuncios. Google elige los anuncios automáticamente: no son recomendaciones y los anunciantes no influyen en el contenido de este sitio. No se cargan anuncios en conexiones con ahorro de datos o muy lentas.",
     "privacyTitle": "Privacidad",
-    "privacy": "No rastreamos a los visitantes. El sitio guarda una sola cookie pequeña para recordar su idioma.",
+    "privacy": "Nosotros no recopilamos datos personales. El sitio guarda una sola cookie pequeña para recordar su idioma. Google y otras empresas de publicidad usan cookies para mostrar anuncios, que pueden basarse en sus visitas anteriores a este y a otros sitios web ({googleUse}). Puede desactivar los anuncios personalizados en {adsSettings} o en {aboutAds}. A los visitantes de Europa, el Reino Unido y Suiza se les pide antes su consentimiento.",
+    "linkGoogleUse": "cómo usa Google la información de los sitios que utilizan sus servicios",
+    "linkAdsSettings": "la configuración de anuncios de Google",
     "contactTitle": "Informar de un error",
     "contact": "Si encuentra un número incorrecto o cualquier otro error, escríbanos a {email}."
   },

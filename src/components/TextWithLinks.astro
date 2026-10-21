@@ -1,0 +1,16 @@
+---
+/**
+ * A translated sentence with {placeholders} replaced by links, e.g.
+ * "Turn off ads in {adsSettings}" with links={{ adsSettings: { href, label } }}.
+ */
+interface Props {
+  text: string;
+  links: Record<string, { href: string; label: string }>;
+}
+const { text, links } = Astro.props;
+const parts = text.split(/(\{\w+\})/g).map((part) => {
+  const key = part.match(/^\{(\w+)\}$/)?.[1];
+  return key && links[key] ? { link: links[key] } : { text: part };
+});
+---
+{parts.map((p) => ('link' in p && p.link ? <a href={p.link.href} rel="noopener">{p.link.label}</a> : p.text))}

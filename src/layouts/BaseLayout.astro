@@ -5,7 +5,8 @@ import EmergencyBox from '../components/EmergencyBox.astro';
 import LocaleScript from '../components/LocaleScript.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import SiteHeader from '../components/SiteHeader.astro';
-import { SITE_URL } from '../config';
+import AdLoader from '../components/AdLoader.astro';
+import { ADS, SITE_URL } from '../config';
 import { getMessages, LOCALE_LIST, LOCALES, localePath, stripLocale, type Locale } from '../i18n';
 
 interface Props {
@@ -50,6 +51,7 @@ const canonical = new URL(localePath(locale, rest), SITE_URL).href;
       ))
     }
     <meta name="theme-color" content="#155a8a" />
+    {ADS.enabled && <meta name="google-adsense-account" content={ADS.client} />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     {
       info.code === 'ar' && (
@@ -78,5 +80,6 @@ const canonical = new URL(localePath(locale, rest), SITE_URL).href;
     </main>
     <SiteFooter locale={locale} />
     <LocaleScript />
+    <AdLoader />
   </body>
 </html>

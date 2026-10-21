@@ -1,4 +1,5 @@
 ---
+import AdSlot from '../../../components/AdSlot.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import NewsCard from '../../../components/NewsCard.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
@@ -47,6 +48,7 @@ const otherCount = otherLanguageNews(locale).reduce((sum, group) => sum + group.
     </section>
   </div>
 
+  <AdSlot locale={locale} />
   {
     otherCount > 0 && (
       <p class="mt-10">

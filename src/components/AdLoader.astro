@@ -1,0 +1,61 @@
+---
+/**
+ * Loads Google's ad script only when it is useful and affordable:
+ * - only on pages that contain an ad slot;
+ * - after the page has finished loading, when the reader scrolls near an ad;
+ * - never when the browser asks to save data or the connection is 2G.
+ * Google's consent message for Europe, the UK and Switzerland is shown by
+ * the same script (configured in the AdSense account).
+ */
+import { ADS } from '../config';
+---
+{
+  ADS.enabled && (
+    <script is:inline define:vars={{ client: ADS.client }}>
+      (function () {
+        var zones = document.querySelectorAll('[data-ad-zone]');
+        if (!zones.length) return;
+        var connection = navigator.connection || {};
+        if (connection.saveData || /(^|-)2g$/.test(connection.effectiveType || '')) return;
+        var loaded = false;
+        function loadScript() {
+          if (loaded) return;
+          loaded = true;
+          var script = document.createElement('script');
+          script.async = true;
+          script.crossOrigin = 'anonymous';
+          script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + client;
+          document.head.appendChild(script);
+        }
+        function show(zone) {
+          var ad = zone.querySelector('[data-ad]');
+          if (!ad || !ad.hidden) return;
+          ad.hidden = false;
+          loadScript();
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        }
+        function start() {
+          if (!('IntersectionObserver' in window)) return;
+          var observer = new IntersectionObserver(
+            function (entries) {
+              entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                  observer.unobserve(entry.target);
+                  show(entry.target);
+                }
+              });
+            },
+            { rootMargin: '300px 0px' },
+          );
+          zones.forEach(function (zone) { observer.observe(zone); });
+        }
+        function whenIdle() {
+          if ('requestIdleCallback' in window) requestIdleCallback(start, { timeout: 3000 });
+          else setTimeout(start, 1500);
+        }
+        if (document.readyState === 'complete') whenIdle();
+        else window.addEventListener('load', whenIdle);
+      })();
+    </script>
+  )
+}

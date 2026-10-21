@@ -7,3 +7,22 @@ export const CONTACT_EMAIL = 'wrongnumber@ebola.help';
 
 /** Time this copy of the site was built. Shown as "Last updated" in every footer. */
 export const BUILD_TIME = new Date();
+
+/**
+ * Google AdSense. Ads appear only where an <AdSlot> is placed: the home
+ * page, the news pages and the map. Never on health advice, helplines,
+ * country pages, About or the language picker.
+ * Set enabled to false to remove every ad from the site.
+ */
+export const ADS = {
+  enabled: true,
+  client: 'ca-pub-6667226078449577',
+  slot: '8499220315',
+} as const;
+
+/**
+ * Short extracts under news headlines. Off while the site shows ads: WHO's
+ * website terms allow extracts only for non-commercial use, and news feeds'
+ * terms vary. Headline, source, date and link are shown either way.
+ */
+export const NEWS_EXCERPTS = !ADS.enabled;

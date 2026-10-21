@@ -1,4 +1,5 @@
 ---
+import AdSlot from '../../../../components/AdSlot.astro';
 import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
 import NewsCard from '../../../../components/NewsCard.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
@@ -59,5 +60,6 @@ const groups = otherLanguageNews(locale).map((group) => ({ ...group, items: grou
     ))
   }
 
+  <AdSlot locale={locale} />
   <p class="max-w-[44rem] text-sm text-muted">{m.news.policy}</p>
 </BaseLayout>
