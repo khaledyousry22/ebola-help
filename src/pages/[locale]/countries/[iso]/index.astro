@@ -1,0 +1,60 @@
+---
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import ContactList from '../../../../components/ContactList.astro';
+import CountryFigures from '../../../../components/CountryFigures.astro';
+import NewsCard from '../../../../components/NewsCard.astro';
+import StatusBadge from '../../../../components/StatusBadge.astro';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { newsForCountry } from '../../../../data/news';
+import { countrySituation } from '../../../../data/outbreak';
+import { format, getMessages, LOCALE_CODES, localePath, type Locale } from '../../../../i18n';
+import { countryName } from '../../../../i18n/countries';
+import { COUNTRY_PAGES } from '../../../../lib/country-pages';
+
+export function getStaticPaths() {
+  return LOCALE_CODES.flatMap((locale) => COUNTRY_PAGES.map((iso) => ({ params: { locale, iso: iso.toLowerCase() } })));
+}
+
+const locale = Astro.params.locale as Locale;
+const iso = Astro.params.iso!.toUpperCase();
+const m = getMessages(locale);
+const name = countryName(locale, iso);
+const situation = countrySituation(iso);
+const news = newsForCountry(iso, locale).slice(0, 5);
+---
+<BaseLayout locale={locale} title={name} description={format(m.country.description, { country: name })}>
+  <div slot="intro" class="prose-page">
+    <Breadcrumbs
+      locale={locale}
+      items={[
+        { label: m.nav.home, href: localePath(locale) },
+        { label: m.help.title, href: localePath(locale, '/help/') },
+        { label: name },
+      ]}
+    />
+    <h1 class="text-2xl font-bold text-brand-900 sm:text-3xl">{name}</h1>
+    <div class="mt-3 space-y-2" data-country-situation>
+      <p><span class="sr-only">{m.country.status}: </span><StatusBadge locale={locale} status={situation.status} /></p>
+      <CountryFigures locale={locale} situation={situation} />
+    </div>
+  </div>
+
+  <div class="prose-page">
+    <ContactList locale={locale} iso={iso} />
+  </div>
+
+  <section aria-labelledby="news-title" class="mt-10">
+    <h2 id="news-title" class="text-xl font-bold text-brand-900">{m.country.latestNews}</h2>
+    {
+      news.length > 0 ? (
+        <ul class="mt-4 grid gap-3 lg:grid-cols-2">
+          {news.map((item) => <li><NewsCard item={item} locale={locale} compact /></li>)}
+        </ul>
+      ) : (
+        <p class="mt-3 text-muted">{m.country.noNews}</p>
+      )
+    }
+  </section>
+
+  <p class="mt-8"><a href={localePath(locale, '/help/')}>{m.country.allCountries}</a></p>
+</BaseLayout>

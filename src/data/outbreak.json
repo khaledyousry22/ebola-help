@@ -12,9 +12,44 @@
   },
   "moreInformation": "whoDon619",
   "countries": [
-    { "iso": "CD", "status": "outbreak", "source": "drcSitrep158" },
-    { "iso": "KE", "status": "cases", "source": "cdcSituation" },
-    { "iso": "NG", "status": "cases", "source": "afroNigeria" },
-    { "iso": "UG", "status": "ended", "endedOn": "2026-08-27", "source": "afroUgandaEnd" }
+    {
+      "iso": "CD",
+      "status": "outbreak",
+      "source": "drcSitrep158"
+    },
+    {
+      "iso": "KE",
+      "status": "cases",
+      "source": "cdcSituation",
+      "figures": {
+        "confirmedCases": 9,
+        "confirmedDeaths": 1,
+        "asOf": "2026-10-20",
+        "source": "cdcSituation"
+      }
+    },
+    {
+      "iso": "NG",
+      "status": "cases",
+      "source": "afroNigeria",
+      "figures": {
+        "confirmedCases": 1,
+        "confirmedDeaths": 0,
+        "asOf": "2026-10-20",
+        "source": "afroNigeria"
+      }
+    },
+    {
+      "iso": "UG",
+      "status": "ended",
+      "endedOn": "2026-08-27",
+      "source": "afroUgandaEnd",
+      "figures": {
+        "confirmedCases": 20,
+        "confirmedDeaths": 2,
+        "asOf": "2026-08-27",
+        "source": "afroUgandaEnd"
+      }
+    }
   ]
 }

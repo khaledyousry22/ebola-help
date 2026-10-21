@@ -1,0 +1,161 @@
+---
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CountryFigures from '../../../components/CountryFigures.astro';
+import StatusBadge from '../../../components/StatusBadge.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import type { MapStatus } from '../../../data/outbreak';
+import { format, getMessages, LOCALE_CODES, localePath, type Locale } from '../../../i18n';
+import { africaShapes, MAP_HEIGHT, MAP_WIDTH } from '../../../lib/africa-map';
+import { countryPath, sortedCountries } from '../../../lib/country-pages';
+
+export function getStaticPaths() {
+  return LOCALE_CODES.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale as Locale;
+const m = getMessages(locale);
+const rows = sortedCountries(locale);
+const byIso = new Map(rows.map((row) => [row.iso, row]));
+const shapes = africaShapes();
+const background = shapes.filter((s) => !s.iso || !byIso.has(s.iso));
+const highlighted = shapes.filter((s) => s.iso && byIso.has(s.iso));
+const legend: MapStatus[] = ['active', 'monitoring', 'recent', 'none'];
+---
+<BaseLayout locale={locale} title={m.map.title} description={m.map.description}>
+  <div slot="intro" class="prose-page">
+    <Breadcrumbs locale={locale} items={[{ label: m.nav.home, href: localePath(locale) }, { label: m.map.title }]} />
+    <h1 class="text-2xl font-bold text-brand-900 sm:text-3xl">{m.map.title}</h1>
+    <p class="mt-3 text-lg text-muted">{m.map.intro}</p>
+  </div>
+
+  <div class="grid items-start gap-6 lg:grid-cols-[minmax(0,1fr)_22rem]" data-map-root>
+    <figure>
+      <svg
+        viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`}
+        class="h-auto w-full rounded-lg bg-brand-50"
+        role="group"
+        aria-labelledby="map-title"
+        data-map
+      >
+        <title id="map-title">{m.map.mapLabel}</title>
+        <g aria-hidden="true">
+          {background.map((s) => <path d={s.d} class={s.iso ? 'map-none' : 'map-land'} />)}
+        </g>
+        <g>
+          {
+            highlighted.map((s) => {
+              const row = byIso.get(s.iso!)!;
+              return (
+                <a
+                  href={localePath(locale, countryPath(row.iso))}
+                  data-country={row.iso}
+                  aria-label={`${row.name}: ${m.country.statusLabel[row.situation.status]}`}
+                >
+                  <path d={s.d} class={`map-${row.situation.status}`} />
+                </a>
+              );
+            })
+          }
+        </g>
+      </svg>
+      <figcaption class="mt-3 text-sm text-muted">
+        <h2 class="sr-only">{m.map.legend}</h2>
+        <ul class="flex flex-wrap gap-2" data-legend>
+          {legend.map((status) => <li><StatusBadge locale={locale} status={status} /></li>)}
+        </ul>
+        <p class="mt-3">{m.map.boundaries}</p>
+        <p class="mt-1">{m.map.dataNote}</p>
+      </figcaption>
+    </figure>
+
+    <aside class="rounded-lg border border-line bg-white p-5 shadow-sm lg:sticky lg:top-4" data-map-panel aria-label={m.map.details}>
+      <div data-panel-body><p class="text-muted" data-panel-prompt>{m.map.selectPrompt}</p></div>
+      <button type="button" class="mt-4 min-h-11 rounded-md border border-brand-200 px-4 font-medium text-brand-800 hover:bg-brand-50" data-panel-close hidden>
+        {m.map.close}
+      </button>
+    </aside>
+  </div>
+
+  {
+    rows.map((row) => (
+      <template data-panel-for={row.iso}>
+        <h2 class="text-xl font-bold text-brand-900">{row.name}</h2>
+        <p class="mt-2"><StatusBadge locale={locale} status={row.situation.status} /></p>
+        <div class="mt-2 space-y-1"><CountryFigures locale={locale} situation={row.situation} /></div>
+        <p class="mt-4">
+          <a href={localePath(locale, countryPath(row.iso))} class="font-semibold">
+            {format(m.country.viewPage, { country: row.name })}
+          </a>
+        </p>
+      </template>
+    ))
+  }
+
+  <section aria-labelledby="table-title" class="mt-10">
+    <h2 id="table-title" class="text-xl font-bold text-brand-900">{m.map.tableTitle}</h2>
+    <div class="mt-4 overflow-x-auto">
+      <table class="w-full border-collapse text-start" data-map-table>
+        <thead>
+          <tr class="border-b-2 border-line text-sm text-muted">
+            <th scope="col" class="py-2 pe-4 text-start">{m.map.country}</th>
+            <th scope="col" class="py-2 pe-4 text-start">{m.country.status}</th>
+            <th scope="col" class="py-2 text-start">{m.map.figures}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            rows.map((row) => (
+              <tr class="border-b border-line align-top" data-row={row.iso}>
+                <th scope="row" class="py-3 pe-4 text-start font-semibold">
+                  <a href={localePath(locale, countryPath(row.iso))}>{row.name}</a>
+                </th>
+                <td class="py-3 pe-4"><StatusBadge locale={locale} status={row.situation.status} /></td>
+                <td class="py-3 text-sm"><CountryFigures locale={locale} situation={row.situation} /></td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      var root = document.querySelector('[data-map-root]');
+      if (!root) return;
+      var panel = root.querySelector('[data-map-panel]');
+      var body = panel.querySelector('[data-panel-body]');
+      var closeButton = panel.querySelector('[data-panel-close]');
+      var prompt = body.innerHTML;
+      var trigger = null;
+      function open(iso, link) {
+        var template = document.querySelector('template[data-panel-for="' + iso + '"]');
+        if (!template) return false;
+        body.replaceChildren(template.content.cloneNode(true));
+        closeButton.hidden = false;
+        trigger = link;
+        var heading = body.querySelector('h2');
+        if (heading) {
+          heading.setAttribute('tabindex', '-1');
+          heading.focus();
+        }
+        panel.scrollIntoView({ block: 'nearest' });
+        return true;
+      }
+      function close() {
+        body.innerHTML = prompt;
+        closeButton.hidden = true;
+        if (trigger) trigger.focus();
+        trigger = null;
+      }
+      root.addEventListener('click', function (event) {
+        var link = event.target.closest && event.target.closest('a[data-country]');
+        if (link && open(link.getAttribute('data-country'), link)) event.preventDefault();
+      });
+      closeButton.addEventListener('click', close);
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' && trigger) close();
+      });
+    })();
+  </script>
+</BaseLayout>

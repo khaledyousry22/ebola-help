@@ -56,8 +56,23 @@ failure if every source fails.
 ### Your checklist of phone numbers
 
 [`VERIFY_ME.md`](VERIFY_ME.md) lists every phone number, address or facility
-that is waiting for your check. Nothing on that list is shown on the website
-until you confirm it.
+that is waiting for your check, with the page where it was found and the
+exact text to look for. Nothing on that list is shown on the website until
+you confirm it.
+
+To confirm entries, tell Claude which ones match (for example
+"cd-numero-vert-151 OK"), or edit the country file in `src/data/help/`
+(instructions at the top of VERIFY_ME.md). An automatic test checks every
+page of the site to make sure no unconfirmed number or address appears.
+
+### Helplines and the map
+
+- **Helplines** (`/help/`): one page per country with its situation, official
+  figures, confirmed helplines (tap to call), health authorities and the
+  latest news about that country.
+- **Map** (`/map/`): Africa, coloured by situation (active outbreak, cases
+  being monitored, outbreak over). The same information is in a table under
+  the map. Situations and figures come from `src/data/outbreak.json`.
 
 ### Reporting errors
 
@@ -72,8 +87,8 @@ page). Make sure this mailbox or forward exists at your domain company
 | 1 | Languages, language picker, page layout, Arabic right-to-left | Done |
 | 2 | Design, outbreak banner and health information pages | Done |
 | 3 | Automatic news collection | Done |
-| 4 | Helplines, treatment centres and the map | Next |
-| 5 | Editing page, search engines, offline use, speed and accessibility checks | |
+| 4 | Helplines, treatment centres and the map | Done (numbers await your check) |
+| 5 | Editing page, search engines, offline use, speed and accessibility checks | Next |
 | 6 | Putting the site online at ebola.help (step-by-step guide) | |
 
 ---
@@ -89,6 +104,7 @@ npm test             # unit tests (translations, helpers)
 npm run build        # type check + build static site into dist/
 npm run test:e2e     # browser tests against the build (run build first)
 npm run news         # collect news now (add -- --dry to only report)
+npm run verify-me    # regenerate VERIFY_ME.md after editing src/data/help/
 ```
 
 The first run of `npm run test:e2e` on a new machine needs
@@ -110,6 +126,8 @@ src/
   data/news-sources.ts     news sources read by the hourly job
   data/news/items.json     collected news (written by the job)
   data/news/overrides.json hide or pin news items
+  data/help/<ISO>.json     helplines and contacts per country (pending/verified)
+  lib/africa-map.ts        builds the SVG map from Natural Earth data
 scripts/news/              the hourly news job (npm run news)
   styles/global.css        colours, fonts, base styles
 public/fonts/              Noto Sans Arabic (SIL Open Font License)

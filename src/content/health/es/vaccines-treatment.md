@@ -7,7 +7,7 @@ keyPoints:
   - Solo existen vacunas y medicamentos aprobados para la enfermedad por el virus del Ébola, causada por el virus del Ébola.
   - Contra el virus de Bundibugyo, causante del brote actual en la República Democrática del Congo, todavía no hay ninguna vacuna ni ningún medicamento aprobado. Se están evaluando productos candidatos en estudios de investigación.
   - Una vacuna no puede causar ébola. La vacuna aprobada contiene solo un gen del virus, no el virus completo.
-sources: [whoFactSheet, whoQuestions, cdcBasics, cdcVaccine, whoTreatmentTrial, whoVaccineAdvisoryGroup]
+sources: [whoFactSheet, whoQuestions, cdcBasics, cdcVaccine, whoTreatmentTrial, whoVaccineAdvisoryGroup, drcSitrep158]
 reviewed: 2026-10-21
 ---
 
@@ -30,7 +30,7 @@ Hay dos vacunas aprobadas: Ervebo, y Zabdeno junto con Mvabea. Ervebo se utiliza
 
 ### Contra la enfermedad por el virus de Bundibugyo
 
-No hay ninguna vacuna aprobada. En julio de 2026, un grupo de expertos de la OMS recomendó evaluar Ervebo en un estudio de investigación durante el brote actual, para saber si también protege contra el virus de Bundibugyo. Hasta que se conozcan los resultados, no se sabe si protege.
+No hay ninguna vacuna aprobada. En julio de 2026, un grupo de expertos de la OMS recomendó evaluar Ervebo en un estudio de investigación durante el brote actual, para saber si también protege contra el virus de Bundibugyo. En la República Democrática del Congo, el personal de primera línea de varias provincias ha recibido desde entonces Ervebo, según el Ministerio de Salud (octubre de 2026). Hasta que se conozcan los resultados de la investigación, no se sabe si protege contra el virus de Bundibugyo.
 
 ### ¿Puede una vacuna causar ébola?
 

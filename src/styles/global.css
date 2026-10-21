@@ -25,6 +25,13 @@
   --color-line: #d9e2ea;
   --color-surface: #f4f8fb;
 
+  /* Outbreak situation, used on the map and in badges. Calm, never red. */
+  --color-status-active: #c2410c;
+  --color-status-monitoring: #f2a516;
+  --color-status-recent: #5fb3a4;
+  --color-status-none: #d9e1e8;
+  --color-status-land: #eef1f4;
+
   --color-notice-50: #fff6e5;
   --color-notice-600: #c47a12;
   --color-notice-900: #6b3f00;
@@ -179,6 +186,56 @@
   /* Myths and facts: each myth is a heading followed by the fact. */
   .prose-content h2 + p strong:first-child {
     color: var(--color-teal-800);
+  }
+}
+
+@layer components {
+  .status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border-radius: 9999px;
+    padding: 0.15rem 0.7rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .status-badge::before {
+    content: '';
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 9999px;
+    border: 1px solid rgb(0 0 0 / 0.25);
+  }
+
+  .status-active { background: #fde6d8; color: #7c2d12; }
+  .status-active::before { background: var(--color-status-active); }
+  .status-monitoring { background: #fef3c7; color: #713f12; }
+  .status-monitoring::before { background: var(--color-status-monitoring); }
+  .status-recent { background: #d7efe9; color: #0b524d; }
+  .status-recent::before { background: var(--color-status-recent); }
+  .status-none { background: #eef2f5; color: #374151; }
+  .status-none::before { background: var(--color-status-none); }
+}
+
+@layer components {
+  [data-map] path {
+    stroke: #fff;
+    stroke-width: 0.7;
+    stroke-linejoin: round;
+  }
+  .map-land { fill: var(--color-status-land); }
+  .map-none { fill: var(--color-status-none); }
+  .map-active { fill: var(--color-status-active); }
+  .map-monitoring { fill: var(--color-status-monitoring); }
+  .map-recent { fill: var(--color-status-recent); }
+  [data-map] a:hover path,
+  [data-map] a:focus-visible path {
+    stroke: var(--color-brand-900);
+    stroke-width: 2.5;
+  }
+  [data-map] a:focus-visible {
+    outline: none;
   }
 }
 

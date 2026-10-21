@@ -18,6 +18,8 @@
   "nav": {
     "home": "Inicio",
     "news": "Noticias",
+    "map": "Mapa",
+    "help": "Líneas de ayuda",
     "health": "Información sanitaria",
     "about": "Acerca de"
   },
@@ -42,7 +44,9 @@
     "action": "Contacte de inmediato con la línea de emergencia sanitaria nacional o con las autoridades sanitarias locales. Indique si la persona ha estado cerca de alguien enfermo de ébola. La atención temprana aumenta las probabilidades de supervivencia.",
     "more": "Síntomas y consejos de seguridad",
     "care": "Evite tocar la sangre u otros fluidos corporales de la persona enferma. No toque el cuerpo de alguien que pueda haber muerto de ébola: las autoridades sanitarias pueden organizar una inhumación segura y digna.",
-    "hotlinePending": "Los números de las líneas de ayuda solo se mostrarán aquí después de verificarlos con una fuente oficial."
+    "hotlinePending": "Los números de las líneas de ayuda solo se mostrarán aquí después de verificarlos con una fuente oficial.",
+    "findHelpline": "Buscar las líneas de ayuda oficiales de su país",
+    "yourCountry": "Su país"
   },
   "home": {
     "heading": "Información clara y fiable sobre la enfermedad por el virus del Ébola",
@@ -87,6 +91,75 @@
     "latestOfficial": "Últimos comunicados oficiales",
     "latestNews": "Últimas noticias",
     "allNews": "Todas las noticias y comunicados oficiales"
+  },
+  "help": {
+    "title": "Líneas de ayuda y contactos sanitarios",
+    "description": "Líneas de ayuda oficiales, autoridades sanitarias y oficinas de país de la OMS en los países afectados por el ébola, cada una verificada con una fuente oficial.",
+    "intro": "Elija su país para ver sus líneas de ayuda y contactos sanitarios oficiales. Solo publicamos un número o una dirección después de verificarlo con una fuente oficial, y en cada uno se indica cuándo se verificó por última vez.",
+    "countriesTitle": "Países",
+    "pendingNote": "Las líneas de ayuda de este país se están verificando con fuentes oficiales y aparecerán aquí cuando se confirmen. Mientras tanto, contacte con las autoridades sanitarias de su país o acuda al centro de salud más cercano.",
+    "hotlines": "Líneas de ayuda",
+    "offices": "Autoridades sanitarias y oficina de la OMS",
+    "facilities": "Centros de tratamiento",
+    "facilitiesNone": "Todavía no se indican centros de tratamiento, porque no hay una lista oficial pública con direcciones. Los profesionales sanitarios y las líneas de ayuda pueden indicarle el centro adecuado.",
+    "lastVerified": "Última verificación: {date}",
+    "source": "Fuente",
+    "free": "Gratuito",
+    "officeNote": "Contacto de oficina, no es una línea de ayuda médica.",
+    "website": "Sitio web",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "policy": "Nunca suponemos un número ni una dirección. Cada uno procede de una fuente oficial y se verifica antes de publicarlo. Para informar de un número incorrecto, escriba a {email}.",
+    "purpose": {
+      "ebola-hotline": "Línea sobre el ébola",
+      "health-hotline": "Línea de emergencia sanitaria",
+      "report-symptoms": "Informar de síntomas",
+      "emergency": "Número de emergencia",
+      "information": "Línea de información"
+    },
+    "channel": {
+      "call": "Llamada",
+      "sms": "SMS",
+      "whatsapp": "WhatsApp",
+      "ussd": "Código para marcar"
+    },
+    "role": {
+      "ministry": "Ministerio de Salud",
+      "institute": "Instituto nacional de salud pública",
+      "who": "Oficina de país de la OMS"
+    }
+  },
+  "country": {
+    "description": "Situación del ébola, cifras oficiales, líneas de ayuda y últimas noticias: {country}.",
+    "status": "Situación",
+    "statusLabel": {
+      "active": "Brote activo",
+      "monitoring": "Casos confirmados, en vigilancia",
+      "recent": "Brote terminado",
+      "none": "Sin brote actual"
+    },
+    "endedOn": "Se declaró terminado el {date}.",
+    "figures": "Cifras oficiales",
+    "figuresLine": "Casos confirmados: {cases}. Muertes: {deaths}. A fecha de {date}.",
+    "latestNews": "Últimas noticias",
+    "noNews": "Ninguna noticia reciente menciona este país.",
+    "allCountries": "Todos los países",
+    "viewPage": "Abrir la página: {country}"
+  },
+  "map": {
+    "title": "Mapa de brotes",
+    "description": "Mapa de África que muestra dónde hay brotes de ébola activos o en vigilancia, con las cifras oficiales, las líneas de ayuda y las noticias de cada país.",
+    "intro": "Los países están coloreados según su situación actual respecto al ébola. Seleccione un país para ver los detalles. La misma información figura en la tabla debajo del mapa.",
+    "selectPrompt": "Seleccione un país en el mapa para ver su situación.",
+    "legend": "Leyenda",
+    "tableTitle": "Situación por país",
+    "country": "País",
+    "figures": "Cifras oficiales",
+    "details": "Detalles",
+    "close": "Cerrar",
+    "mapLabel": "Mapa de África con la situación del ébola por país",
+    "boundaries": "Las fronteras de este mapa son aproximadas y no implican ninguna opinión sobre la condición jurídica de ningún país o territorio, ni sobre sus fronteras.",
+    "dataNote": "Datos cartográficos: Natural Earth (dominio público)."
   },
   "health": {
     "hubTitle": "Información sanitaria",

@@ -37,6 +37,15 @@ plain language.
   Chinese). Items are never translated; other-language items are labelled
   with their original language. In this container run it with
   `NODE_USE_ENV_PROXY=1` so Node's fetch uses the proxy.
+- Contacts: `src/data/help/<ISO>.json` (schema `src/data/help-schema.ts`).
+  Each entry has sourceUrl, sourceQuote, foundOn and a status. Only
+  `verified` entries with `verifiedAt` reach the site (`src/data/help.ts`).
+  Entries not from an official website need an `ownerNote`. After editing,
+  run `npm run verify-me` (a test fails if VERIFY_ME.md is stale). A browser
+  test scans every built page for unverified numbers and addresses.
+- Map: SVG built at build time from world-atlas (Natural Earth) with d3-geo
+  (`src/lib/africa-map.ts`); statuses and figures from `outbreak.json`.
+  No map library is sent to visitors.
 - Use logical CSS (`ms-`, `pe-`, `start-`, `end-`, `border-s`), never
   `left`/`right`, so Arabic (RTL) mirrors automatically. Phone numbers and
   e-mail addresses get the `ltr-data` class.

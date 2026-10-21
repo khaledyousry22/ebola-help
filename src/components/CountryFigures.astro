@@ -1,0 +1,35 @@
+---
+/** Official figures for one country, with their date and source link. */
+import type { CountrySituation } from '../data/outbreak';
+import { SOURCES, sourceVersionFor } from '../data/sources';
+import { format, formatDate, formatNumber, getMessages, splitAt, type Locale } from '../i18n';
+import { languageName } from '../i18n/countries';
+
+interface Props {
+  locale: Locale;
+  situation: CountrySituation;
+}
+const { locale, situation } = Astro.props;
+const m = getMessages(locale);
+const figures = situation.figures;
+const source = figures ? sourceVersionFor(figures.source, locale) : undefined;
+const [beforeSource, afterSource] = splitAt(m.outbreak.source, 'source');
+---
+{
+  situation.endedOn && <p>{format(m.country.endedOn, { date: formatDate(locale, situation.endedOn) })}</p>
+}
+{
+  figures && source && (
+    <p data-country-figures>
+      {format(m.country.figuresLine, {
+        cases: formatNumber(locale, figures.confirmedCases),
+        deaths: formatNumber(locale, figures.confirmedDeaths),
+        date: formatDate(locale, figures.asOf),
+      })}{' '}
+      <span class="text-sm text-muted">
+        {beforeSource}<a href={source.url} hreflang={source.lang}>{m.publishers[SOURCES[figures.source].publisher]}</a>{afterSource}
+        {source.lang !== locale && format(m.outbreak.languageTag, { language: languageName(locale, source.lang) })}
+      </span>
+    </p>
+  )
+}

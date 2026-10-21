@@ -1,0 +1,48 @@
+---
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import EmailLink from '../../../components/EmailLink.astro';
+import StatusBadge from '../../../components/StatusBadge.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getMessages, LOCALE_CODES, localePath, type Locale } from '../../../i18n';
+import { countryPath, sortedCountries } from '../../../lib/country-pages';
+
+export function getStaticPaths() {
+  return LOCALE_CODES.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale as Locale;
+const m = getMessages(locale);
+const countries = sortedCountries(locale);
+---
+<BaseLayout locale={locale} title={m.help.title} description={m.help.description}>
+  <div slot="intro" class="prose-page">
+    <Breadcrumbs locale={locale} items={[{ label: m.nav.home, href: localePath(locale) }, { label: m.help.title }]} />
+    <h1 class="text-2xl font-bold text-brand-900 sm:text-3xl">{m.help.title}</h1>
+    <p class="mt-3 text-lg text-muted">{m.help.intro}</p>
+  </div>
+
+  <section aria-labelledby="countries-title">
+    <h2 id="countries-title" class="text-xl font-bold text-brand-900">{m.help.countriesTitle}</h2>
+    <ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3" data-country-list>
+      {
+        countries.map((c) => (
+          <li>
+            <a href={localePath(locale, countryPath(c.iso))} class="flex h-full flex-col gap-2 rounded-lg border border-line bg-white p-4 no-underline hover:border-brand-600 hover:bg-brand-50" data-country-link={c.iso}>
+              <span class="text-lg font-semibold text-brand-800 underline decoration-brand-200 underline-offset-4">{c.name}</span>
+              <StatusBadge locale={locale} status={c.situation.status} />
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section aria-labelledby="symptoms-title" class="prose-page mt-10">
+    <h2 id="symptoms-title">{m.emergency.title}</h2>
+    <p>{m.emergency.action}</p>
+    <p>{m.emergency.symptoms}</p>
+    <p>{m.emergency.care}</p>
+  </section>
+
+  <p class="mt-8 max-w-[44rem] text-sm text-muted"><EmailLink text={m.help.policy} /></p>
+</BaseLayout>

@@ -1,0 +1,66 @@
+{
+  "$comment": "Contacts for Uganda. Only entries with status \"verified\" (and a verifiedAt date) appear on the website. See VERIFY_ME.md.",
+  "country": "UG",
+  "entries": [
+    {
+      "id": "ug-toll-free-0800100066",
+      "kind": "phone",
+      "purpose": "health-hotline",
+      "channel": "call",
+      "number": "0800100066",
+      "display": "0800-100-066",
+      "free": true,
+      "organisation": "Ministry of Health, Uganda",
+      "sourceUrl": "https://health.go.ug/",
+      "sourceTitle": "Ministry of Health Uganda, home page",
+      "sourceQuote": "Toll-Free Emergency 0800-100-066",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "ug-sms-6767",
+      "kind": "phone",
+      "purpose": "report-symptoms",
+      "channel": "sms",
+      "number": "6767",
+      "free": true,
+      "organisation": "Ministry of Health, Uganda",
+      "sourceUrl": "https://plusnews.ug/uganda-confirms-ebola-outbreak-in-kibuli/",
+      "sourceTitle": "PlusNews (a news site, not an official source), May 2026",
+      "sourceQuote": "toll-free line 0800-100-066 or send a free SMS to 6767",
+      "foundOn": "2026-10-21",
+      "ownerNote": "Found only in a news report, not on an official website. Please confirm on the Ministry's website or official social media before approving.",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "ug-ministry-website",
+      "kind": "office",
+      "role": "ministry",
+      "organisation": "Ministry of Health, Uganda",
+      "website": "https://health.go.ug/",
+      "sourceUrl": "https://health.go.ug/",
+      "sourceTitle": "Ministry website (opened on 2026-10-21)",
+      "sourceQuote": "Toll-Free Emergency 0800-100-066",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "ug-who-office",
+      "kind": "office",
+      "role": "who",
+      "organisation": "World Health Organization (WHO), Uganda country office",
+      "address": "Plot 10 Upper Kololo Terrace, Kampala, P.O. Box 24578",
+      "phones": ["+256 414 335500", "+256 313 335500"],
+      "website": "https://www.afro.who.int/countries/uganda",
+      "sourceUrl": "https://www.afro.who.int/countries/uganda",
+      "sourceTitle": "WHO Regional Office for Africa, Uganda page",
+      "sourceQuote": "Physical Address Plot 10 Upper Kololo Terrace, Kampala P.O Box 24578 … Tel: +256 414 335500/ 313 335500",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    }
+  ]
+}

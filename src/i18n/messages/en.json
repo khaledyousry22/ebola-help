@@ -18,6 +18,8 @@
   "nav": {
     "home": "Home",
     "news": "News",
+    "map": "Map",
+    "help": "Helplines",
     "health": "Health information",
     "about": "About"
   },
@@ -42,7 +44,9 @@
     "action": "Contact your national health hotline or local health authorities immediately. Say if the person has been near someone ill with Ebola. Early care improves the chance of survival.",
     "more": "Symptoms and safety advice",
     "care": "Avoid touching the sick person's blood or other body fluids. Do not touch the body of someone who may have died of Ebola: the health authorities can arrange a safe and dignified burial.",
-    "hotlinePending": "Hotline numbers will be shown here only after they have been checked against an official source."
+    "hotlinePending": "Hotline numbers will be shown here only after they have been checked against an official source.",
+    "findHelpline": "Find official helplines for your country",
+    "yourCountry": "Your country"
   },
   "home": {
     "heading": "Clear, reliable information about Ebola disease",
@@ -87,6 +91,75 @@
     "latestOfficial": "Latest official updates",
     "latestNews": "Latest news",
     "allNews": "All news and official updates"
+  },
+  "help": {
+    "title": "Helplines and health contacts",
+    "description": "Official helplines, health authorities and WHO country offices in countries affected by Ebola, each checked against an official source.",
+    "intro": "Choose your country to see its official helplines and health contacts. We publish a phone number or address only after checking it against an official source, and each one shows when it was last checked.",
+    "countriesTitle": "Countries",
+    "pendingNote": "Helplines for this country are being checked against official sources and will appear here once confirmed. Until then, contact your national health authorities or go to the nearest health facility.",
+    "hotlines": "Helplines",
+    "offices": "Health authorities and WHO office",
+    "facilities": "Treatment centres",
+    "facilitiesNone": "Treatment centres are not listed yet, because no official public list with addresses is available. Health workers and helplines can direct you to the right centre.",
+    "lastVerified": "Last verified: {date}",
+    "source": "Source",
+    "free": "Free",
+    "officeNote": "Office contact, not a medical helpline.",
+    "website": "Website",
+    "address": "Address",
+    "phone": "Phone",
+    "policy": "We never guess a phone number or address. Each one comes from an official source and is checked before it is published. To report a wrong number, write to {email}.",
+    "purpose": {
+      "ebola-hotline": "Ebola hotline",
+      "health-hotline": "Health hotline",
+      "report-symptoms": "Report symptoms",
+      "emergency": "Emergency number",
+      "information": "Information line"
+    },
+    "channel": {
+      "call": "Call",
+      "sms": "SMS",
+      "whatsapp": "WhatsApp",
+      "ussd": "Dial code"
+    },
+    "role": {
+      "ministry": "Ministry of Health",
+      "institute": "National public health institute",
+      "who": "WHO country office"
+    }
+  },
+  "country": {
+    "description": "Ebola situation, official figures, helplines and latest news for {country}.",
+    "status": "Situation",
+    "statusLabel": {
+      "active": "Active outbreak",
+      "monitoring": "Cases confirmed, being monitored",
+      "recent": "Outbreak over",
+      "none": "No current outbreak"
+    },
+    "endedOn": "Declared over on {date}.",
+    "figures": "Official figures",
+    "figuresLine": "Confirmed cases: {cases}. Deaths: {deaths}. As of {date}.",
+    "latestNews": "Latest news",
+    "noNews": "No recent news mentions this country.",
+    "allCountries": "All countries",
+    "viewPage": "Open the page for {country}"
+  },
+  "map": {
+    "title": "Outbreak map",
+    "description": "Map of Africa showing where Ebola outbreaks are active or being monitored, with official figures, helplines and news for each country.",
+    "intro": "Countries are coloured by their current Ebola situation. Select a country for details. The same information is in the table below the map.",
+    "selectPrompt": "Select a country on the map to see its situation.",
+    "legend": "Legend",
+    "tableTitle": "Situation by country",
+    "country": "Country",
+    "figures": "Official figures",
+    "details": "Details",
+    "close": "Close",
+    "mapLabel": "Map of Africa showing the Ebola situation by country",
+    "boundaries": "Boundaries on this map are approximate and do not imply any opinion on the legal status of any country or territory, or on its borders.",
+    "dataNote": "Map data: Natural Earth (public domain)."
   },
   "health": {
     "hubTitle": "Health information",

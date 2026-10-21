@@ -1,0 +1,69 @@
+{
+  "$comment": "Contacts for Kenya. Only entries with status \"verified\" (and a verifiedAt date) appear on the website. See VERIFY_ME.md.",
+  "country": "KE",
+  "entries": [
+    {
+      "id": "ke-toll-free-719",
+      "kind": "phone",
+      "purpose": "ebola-hotline",
+      "channel": "call",
+      "number": "719",
+      "free": true,
+      "organisation": "Ministry of Health, Kenya",
+      "sourceUrl": "https://capitalfm.africa/cs-duale-announces-ebola-hotline-as-kenya-intensifies-contact-tracing/",
+      "sourceTitle": "Capital FM (a news site, not an official source), October 2026",
+      "sourceQuote": "urged the public to use the toll-free line 719",
+      "foundOn": "2026-10-21",
+      "ownerNote": "Found in news reports. Kenya's government websites (health.go.ke, kenyanews.go.ke) could not be opened from our servers. Please confirm on health.go.ke or the Ministry's official social media.",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "ke-ebola-line-0700719719",
+      "kind": "phone",
+      "purpose": "ebola-hotline",
+      "channel": "call",
+      "number": "+254700719719",
+      "display": "0700 719 719",
+      "organisation": "Ministry of Health, Kenya",
+      "sourceUrl": "https://capitalfm.africa/cs-duale-announces-ebola-hotline-as-kenya-intensifies-contact-tracing/",
+      "sourceTitle": "Capital FM (a news site, not an official source), October 2026",
+      "sourceQuote": "members of the public can call or send messages to 0700 719 719",
+      "foundOn": "2026-10-21",
+      "ownerNote": "Found in news reports only (also reported as the Ministry's JALI WhatsApp chatbot). Please confirm on an official Ministry channel.",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "ke-ussd-719",
+      "kind": "phone",
+      "purpose": "report-symptoms",
+      "channel": "ussd",
+      "number": "*719#",
+      "free": true,
+      "organisation": "Ministry of Health, Kenya",
+      "sourceUrl": "https://www.the-star.co.ke/news/2026-06-07-duale-kenya-still-ebola-free-67-test-negative",
+      "sourceTitle": "The Star (a news site, not an official source), June 2026",
+      "sourceQuote": "toll-free reporting platform, *719#",
+      "foundOn": "2026-10-21",
+      "ownerNote": "Found in a news report only. Please confirm on an official Ministry channel.",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "ke-who-office",
+      "kind": "office",
+      "role": "who",
+      "organisation": "World Health Organization (WHO), Kenya country office",
+      "address": "United Nations Complex, Gigiri, Block 12, Ground Floor, P.O. Box 45335–00100, Nairobi",
+      "phones": ["+254 207 620 302", "+254 205 120 302"],
+      "website": "https://www.afro.who.int/countries/kenya",
+      "sourceUrl": "https://www.afro.who.int/countries/kenya",
+      "sourceTitle": "WHO Regional Office for Africa, Kenya page",
+      "sourceQuote": "United Nations Complex in Gigiri Block-12 Ground Floor P.O. Box 45335 – 00100, Nairobi +254 207 620 302 +254 205 120 302",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    }
+  ]
+}

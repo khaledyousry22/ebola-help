@@ -7,7 +7,7 @@ keyPoints:
   - Approved vaccines and medicines exist only for Ebola virus disease, caused by Ebola virus.
   - For Bundibugyo virus, which causes the current outbreak in the Democratic Republic of the Congo, there is no approved vaccine or medicine yet. Candidates are being tested in research studies.
   - A vaccine cannot give you Ebola. The approved vaccine contains only one gene of the virus, not the whole virus.
-sources: [whoFactSheet, whoQuestions, cdcBasics, cdcVaccine, whoTreatmentTrial, whoVaccineAdvisoryGroup]
+sources: [whoFactSheet, whoQuestions, cdcBasics, cdcVaccine, whoTreatmentTrial, whoVaccineAdvisoryGroup, drcSitrep158]
 reviewed: 2026-10-21
 ---
 
@@ -30,7 +30,7 @@ Two vaccines are approved: Ervebo, and Zabdeno with Mvabea. Ervebo is used to pr
 
 ### For Bundibugyo virus disease
 
-There is no approved vaccine. In July 2026, a WHO expert group recommended that Ervebo be tested in a research study during the current outbreak, to find out whether it also protects against Bundibugyo virus. Until the results are known, it is not known whether it does.
+There is no approved vaccine. In July 2026, a WHO expert group recommended that Ervebo be tested in a research study during the current outbreak, to find out whether it also protects against Bundibugyo virus. In the Democratic Republic of the Congo, front-line workers in several provinces have since received Ervebo, according to the Ministry of Health (October 2026). Until the research results are known, it is not known whether it protects against Bundibugyo virus.
 
 ### Can a vaccine give you Ebola?
 

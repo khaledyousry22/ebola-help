@@ -1,0 +1,50 @@
+{
+  "$comment": "Contacts for the Democratic Republic of the Congo. Only entries with status \"verified\" (and a verifiedAt date) appear on the website. See VERIFY_ME.md.",
+  "country": "CD",
+  "entries": [
+    {
+      "id": "cd-numero-vert-151",
+      "kind": "phone",
+      "purpose": "health-hotline",
+      "channel": "call",
+      "number": "151",
+      "free": true,
+      "organisation": "Ministère de la Santé Publique, Hygiène et Prévoyance Sociale",
+      "sourceUrl": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_158_19_10_2026.pdf",
+      "sourceTitle": "INSP, SitRep N°158 /MVE-BDBV/19/10/2026, page 11 (footer)",
+      "sourceQuote": "Numéro vert : 151. www.sante.gouv.cd",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "cd-ministry-website",
+      "kind": "office",
+      "role": "ministry",
+      "organisation": "Ministère de la Santé Publique, Hygiène et Prévoyance Sociale",
+      "website": "https://www.sante.gouv.cd/",
+      "sourceUrl": "https://www.sante.gouv.cd/",
+      "sourceTitle": "Ministry website (opened on 2026-10-21) and INSP SitRep N°158 footer",
+      "sourceQuote": "Ministère de la Santé Publique, Hygiène et Prévoyance Sociale",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "cd-who-office",
+      "kind": "office",
+      "role": "who",
+      "organisation": "Organisation mondiale de la Santé (OMS), bureau de pays en RDC",
+      "address": "Avenue des Cliniques N°42, Boîte postale 1899, Kinshasa I",
+      "phones": ["+243 81 555 4952"],
+      "website": "https://www.afro.who.int/countries/democratic-republic-congo",
+      "sourceUrl": "https://www.afro.who.int/countries/democratic-republic-congo",
+      "sourceTitle": "WHO Regional Office for Africa, Democratic Republic of the Congo page",
+      "sourceQuote": "Avenue des Cliniques N°42 Boîte postale 1899 Kinshasa I Tel: +243 81 555 4952",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    }
+  ],
+  "facilityNote": "No official public list of Ebola treatment centres with addresses was found. The Ministry's daily report (SitRep N°158) mentions centres such as Météo and Bafwasende (Tshopo), Lita (Ituri), and Wamba and Boma Mangbetu (Haut-Uélé) only in passing, without addresses, so none are listed."
+}

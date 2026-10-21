@@ -2,7 +2,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 import { getMessages, LOCALE_CODES, LOCALES } from '../../src/i18n';
 
-const PAGES = ['/', '/news/', '/health/', '/about/'];
+const PAGES = ['/', '/news/', '/map/', '/help/', '/health/', '/about/'];
 
 test.describe('language picker', () => {
   test('shows all six languages by their native names', async ({ page }) => {

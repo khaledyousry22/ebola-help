@@ -18,6 +18,8 @@
   "nav": {
     "home": "首页",
     "news": "新闻",
+    "map": "地图",
+    "help": "求助热线",
     "health": "健康信息",
     "about": "关于我们"
   },
@@ -42,7 +44,9 @@
     "action": "请立即联系国家卫生热线或当地卫生部门，并说明此人是否接触过埃博拉患者。及早治疗可以提高存活机会。",
     "more": "症状和安全建议",
     "care": "避免接触患者的血液或其他体液。不要触碰可能死于埃博拉的人的遗体：卫生部门可以安排安全和体面的埋葬。",
-    "hotlinePending": "热线号码只有在经官方来源核实后才会显示在这里。"
+    "hotlinePending": "热线号码只有在经官方来源核实后才会显示在这里。",
+    "findHelpline": "查找您所在国家的官方求助热线",
+    "yourCountry": "您所在的国家"
   },
   "home": {
     "heading": "关于埃博拉病的清晰、可靠的信息",
@@ -87,6 +91,75 @@
     "latestOfficial": "最新官方通报",
     "latestNews": "最新新闻",
     "allNews": "全部新闻和官方通报"
+  },
+  "help": {
+    "title": "求助热线和卫生部门联系方式",
+    "description": "受埃博拉影响国家的官方求助热线、卫生部门和世卫组织国家办事处，均经官方来源核实。",
+    "intro": "请选择您所在的国家，查看该国的官方求助热线和卫生部门联系方式。我们只在根据官方来源核实后才发布电话号码或地址，并注明最近一次核实的日期。",
+    "countriesTitle": "国家",
+    "pendingNote": "该国的求助热线正在根据官方来源进行核实，确认后将显示在这里。在此之前，请联系本国卫生部门或前往最近的卫生机构。",
+    "hotlines": "求助热线",
+    "offices": "卫生部门和世卫组织办事处",
+    "facilities": "治疗中心",
+    "facilitiesNone": "由于没有附有地址的官方公开名单，目前尚未列出治疗中心。卫生工作者和求助热线可以为您指引合适的治疗中心。",
+    "lastVerified": "最近核实：{date}",
+    "source": "来源",
+    "free": "免费",
+    "officeNote": "办公室联系方式，不是医疗求助热线。",
+    "website": "网站",
+    "address": "地址",
+    "phone": "电话",
+    "policy": "我们绝不猜测任何电话号码或地址。每一条都来自官方来源，并在发布前经过核实。如发现号码错误，请发邮件至 {email}。",
+    "purpose": {
+      "ebola-hotline": "埃博拉热线",
+      "health-hotline": "卫生热线",
+      "report-symptoms": "报告症状",
+      "emergency": "紧急电话",
+      "information": "信息热线"
+    },
+    "channel": {
+      "call": "电话",
+      "sms": "短信",
+      "whatsapp": "WhatsApp",
+      "ussd": "拨号代码"
+    },
+    "role": {
+      "ministry": "卫生部",
+      "institute": "国家公共卫生研究所",
+      "who": "世卫组织国家办事处"
+    }
+  },
+  "country": {
+    "description": "{country}的埃博拉疫情、官方数据、求助热线和最新新闻。",
+    "status": "疫情状况",
+    "statusLabel": {
+      "active": "疫情正在持续",
+      "monitoring": "已确诊病例，正在监测",
+      "recent": "疫情已结束",
+      "none": "目前无疫情"
+    },
+    "endedOn": "已于{date}宣布结束。",
+    "figures": "官方数据",
+    "figuresLine": "确诊病例：{cases}。死亡：{deaths}。截至{date}。",
+    "latestNews": "最新新闻",
+    "noNews": "近期没有提及该国的新闻。",
+    "allCountries": "所有国家",
+    "viewPage": "打开{country}页面"
+  },
+  "map": {
+    "title": "疫情地图",
+    "description": "非洲地图，显示埃博拉疫情正在持续或处于监测中的地区，并提供各国的官方数据、求助热线和新闻。",
+    "intro": "各国按当前埃博拉疫情状况着色。选择一个国家可查看详情。地图下方的表格列有相同信息。",
+    "selectPrompt": "在地图上选择一个国家，查看该国的疫情状况。",
+    "legend": "图例",
+    "tableTitle": "各国疫情状况",
+    "country": "国家",
+    "figures": "官方数据",
+    "details": "详情",
+    "close": "关闭",
+    "mapLabel": "显示各国埃博拉疫情状况的非洲地图",
+    "boundaries": "本地图所示边界均为近似，并不意味着对任何国家或地区的法律地位或其边界持有任何意见。",
+    "dataNote": "地图数据：Natural Earth（公有领域）。"
   },
   "health": {
     "hubTitle": "健康信息",

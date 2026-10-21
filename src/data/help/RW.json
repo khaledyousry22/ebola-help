@@ -1,0 +1,50 @@
+{
+  "$comment": "Contacts for Rwanda. Only entries with status \"verified\" (and a verifiedAt date) appear on the website. See VERIFY_ME.md.",
+  "country": "RW",
+  "entries": [
+    {
+      "id": "rw-rbc-114",
+      "kind": "phone",
+      "purpose": "health-hotline",
+      "channel": "call",
+      "number": "114",
+      "free": true,
+      "organisation": "Rwanda Biomedical Centre (RBC)",
+      "sourceUrl": "https://rbc.gov.rw/",
+      "sourceTitle": "Rwanda Biomedical Centre, home page",
+      "sourceQuote": "Call Us Toll-Free: 114/+250 788 202 080",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "rw-rbc-mobile",
+      "kind": "phone",
+      "purpose": "health-hotline",
+      "channel": "call",
+      "number": "+250788202080",
+      "display": "+250 788 202 080",
+      "organisation": "Rwanda Biomedical Centre (RBC)",
+      "sourceUrl": "https://rbc.gov.rw/",
+      "sourceTitle": "Rwanda Biomedical Centre, home page",
+      "sourceQuote": "Call Us Toll-Free: 114/+250 788 202 080",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "rw-emergency-912",
+      "kind": "phone",
+      "purpose": "emergency",
+      "channel": "call",
+      "number": "912",
+      "organisation": "Ministry of Health, Rwanda",
+      "sourceUrl": "https://www.moh.gov.rw/",
+      "sourceTitle": "Ministry of Health Rwanda, home page",
+      "sourceQuote": "Emergency: 114 or 912",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    }
+  ]
+}

@@ -7,7 +7,7 @@ keyPoints:
   - 获准的疫苗和药物仅适用于由埃博拉病毒引起的埃博拉病毒病。
   - 针对引起刚果民主共和国当前疫情的本迪布焦病毒，目前还没有获准的疫苗或药物。候选产品正在研究中接受试验。
   - 疫苗不会让人感染埃博拉。获准的疫苗只含有该病毒的一个基因，而不是整个病毒。
-sources: [whoFactSheet, whoQuestions, cdcBasics, cdcVaccine, whoTreatmentTrial, whoVaccineAdvisoryGroup]
+sources: [whoFactSheet, whoQuestions, cdcBasics, cdcVaccine, whoTreatmentTrial, whoVaccineAdvisoryGroup, drcSitrep158]
 reviewed: 2026-10-21
 ---
 
@@ -30,7 +30,7 @@ reviewed: 2026-10-21
 
 ### 针对本迪布焦病毒病
 
-目前没有获准的疫苗。2026年7月，世卫组织的一个专家组建议在当前疫情期间通过研究试验Ervebo，以了解它是否也能预防本迪布焦病毒。在结果公布之前，尚不知道它是否有保护作用。
+目前没有获准的疫苗。2026年7月，世卫组织的一个专家组建议在当前疫情期间通过研究试验Ervebo，以了解它是否也能预防本迪布焦病毒。据刚果民主共和国卫生部报告（2026年10月），该国多个省份的一线工作人员此后已接种Ervebo。在研究结果公布之前，尚不知道它能否预防本迪布焦病毒。
 
 ### 疫苗会让人感染埃博拉吗？
 

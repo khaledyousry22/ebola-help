@@ -1,0 +1,98 @@
+---
+/**
+ * Helplines, offices and facilities for one country. Only entries the site
+ * owner has verified are shown; each shows its source and when it was last
+ * verified.
+ */
+import { hasPendingContacts, phoneHref, verifiedFacilities, verifiedOffices, verifiedPhones } from '../data/help';
+import { format, formatDate, getMessages, type Locale } from '../i18n';
+import EmailLink from './EmailLink.astro';
+
+interface Props {
+  locale: Locale;
+  iso: string;
+}
+const { locale, iso } = Astro.props;
+const m = getMessages(locale);
+const phones = verifiedPhones(iso);
+const offices = verifiedOffices(iso);
+const facilities = verifiedFacilities(iso);
+const pending = hasPendingContacts(iso);
+---
+<section aria-labelledby="hotlines-title" class="mt-8" data-hotlines>
+  <h2 id="hotlines-title" class="text-xl font-bold text-brand-900">{m.help.hotlines}</h2>
+  {
+    phones.length > 0 ? (
+      <ul class="mt-4 grid gap-3 sm:grid-cols-2">
+        {phones.map((p) => (
+          <li class="rounded-lg border border-teal-100 bg-teal-50 p-4" data-verified-phone={p.id}>
+            <p class="text-sm font-semibold text-teal-800">
+              {m.help.purpose[p.purpose]}
+              {p.free && <span class="ms-2 rounded bg-white px-2 py-0.5 text-xs text-teal-800">{m.help.free}</span>}
+            </p>
+            <p class="mt-1">
+              <a href={phoneHref(p)} class="ltr-data inline-flex min-h-11 items-center text-2xl font-bold text-brand-900" aria-label={`${m.help.channel[p.channel]}: ${p.display ?? p.number}`}>
+                {p.display ?? p.number}
+              </a>
+              <span class="ms-2 text-sm text-muted">{m.help.channel[p.channel]}</span>
+            </p>
+            <p class="text-sm text-ink">{p.organisation}</p>
+            <p class="mt-1 text-xs text-muted">
+              {format(m.help.lastVerified, { date: formatDate(locale, p.verifiedAt!) })} · <a href={p.sourceUrl}>{m.help.source}</a>
+            </p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="mt-3 rounded-lg bg-surface p-4" data-pending-note={pending ? '' : undefined}>{m.help.pendingNote}</p>
+    )
+  }
+</section>
+
+{
+  offices.length > 0 && (
+    <section aria-labelledby="offices-title" class="mt-8">
+      <h2 id="offices-title" class="text-xl font-bold text-brand-900">{m.help.offices}</h2>
+      <ul class="mt-4 space-y-3">
+        {offices.map((o) => (
+          <li class="rounded-lg border border-line p-4" data-verified-office={o.id}>
+            <p class="text-sm font-semibold text-muted">{m.help.role[o.role]}</p>
+            <p class="font-semibold">{o.organisation}</p>
+            {o.role === 'who' && <p class="text-sm text-muted">{m.help.officeNote}</p>}
+            {o.address && <p class="mt-1"><span class="sr-only">{m.help.address}: </span>{o.address}</p>}
+            {o.phones?.map((phone) => (
+              <p><a href={`tel:${phone.replace(/\s/g, '')}`} class="ltr-data">{phone}</a></p>
+            ))}
+            {o.website && <p><a href={o.website}>{m.help.website}</a></p>}
+            <p class="mt-1 text-xs text-muted">
+              {format(m.help.lastVerified, { date: formatDate(locale, o.verifiedAt!) })} · <a href={o.sourceUrl}>{m.help.source}</a>
+            </p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<section aria-labelledby="facilities-title" class="mt-8">
+  <h2 id="facilities-title" class="text-xl font-bold text-brand-900">{m.help.facilities}</h2>
+  {
+    facilities.length > 0 ? (
+      <ul class="mt-4 space-y-3">
+        {facilities.map((f) => (
+          <li class="rounded-lg border border-line p-4" data-verified-facility={f.id}>
+            <p class="font-semibold">{f.name}</p>
+            <p>{[f.place, f.province].filter(Boolean).join(', ')}</p>
+            <p class="mt-1 text-xs text-muted">
+              {format(m.help.lastVerified, { date: formatDate(locale, f.verifiedAt!) })} · <a href={f.sourceUrl}>{m.help.source}</a>
+            </p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="mt-3 text-muted">{m.help.facilitiesNone}</p>
+    )
+  }
+</section>
+
+<p class="mt-8 max-w-[44rem] text-sm text-muted"><EmailLink text={m.help.policy} /></p>

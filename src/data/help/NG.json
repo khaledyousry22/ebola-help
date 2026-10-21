@@ -1,0 +1,78 @@
+{
+  "$comment": "Contacts for Nigeria. Only entries with status \"verified\" (and a verifiedAt date) appear on the website. See VERIFY_ME.md.",
+  "country": "NG",
+  "entries": [
+    {
+      "id": "ng-ncdc-6232",
+      "kind": "phone",
+      "purpose": "health-hotline",
+      "channel": "call",
+      "number": "6232",
+      "free": true,
+      "organisation": "Nigeria Centre for Disease Control and Prevention (NCDC)",
+      "sourceUrl": "https://ncdc.gov.ng/news/537/national-public-health-advisory-on-state-preparedness-for-bundibugyo-ebola-virus-disease-%28evd%29",
+      "sourceTitle": "NCDC, National public health advisory on state preparedness for Bundibugyo Ebola virus disease, 28 May 2026",
+      "sourceQuote": "Toll Free Number: 6232",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "ng-ncdc-whatsapp",
+      "kind": "phone",
+      "purpose": "information",
+      "channel": "whatsapp",
+      "number": "+2347087110839",
+      "display": "+234 708 711 0839",
+      "organisation": "Nigeria Centre for Disease Control and Prevention (NCDC)",
+      "sourceUrl": "https://ncdc.gov.ng/news/537/national-public-health-advisory-on-state-preparedness-for-bundibugyo-ebola-virus-disease-%28evd%29",
+      "sourceTitle": "NCDC, National public health advisory on state preparedness for Bundibugyo Ebola virus disease, 28 May 2026",
+      "sourceQuote": "Whatsapp: +234 708 711 0839",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "ng-ncdc-sms",
+      "kind": "phone",
+      "purpose": "information",
+      "channel": "sms",
+      "number": "+2348099555577",
+      "display": "+234 809 955 5577",
+      "organisation": "Nigeria Centre for Disease Control and Prevention (NCDC)",
+      "sourceUrl": "https://ncdc.gov.ng/news/537/national-public-health-advisory-on-state-preparedness-for-bundibugyo-ebola-virus-disease-%28evd%29",
+      "sourceTitle": "NCDC, National public health advisory on state preparedness for Bundibugyo Ebola virus disease, 28 May 2026",
+      "sourceQuote": "SMS Number: +234 809 955 5577",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "ng-ncdc-website",
+      "kind": "office",
+      "role": "institute",
+      "organisation": "Nigeria Centre for Disease Control and Prevention (NCDC)",
+      "website": "https://ncdc.gov.ng/",
+      "sourceUrl": "https://ncdc.gov.ng/",
+      "sourceTitle": "NCDC website (opened on 2026-10-21)",
+      "sourceQuote": "Nigeria Centre for Disease Control and Prevention",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    },
+    {
+      "id": "ng-who-office",
+      "kind": "office",
+      "role": "who",
+      "organisation": "World Health Organization (WHO), Nigeria country office",
+      "address": "4th Floor, United Nations House, Plot 617/618 Central Area District, PMB 2861, Abuja",
+      "website": "https://www.afro.who.int/countries/nigeria",
+      "sourceUrl": "https://www.afro.who.int/countries/nigeria",
+      "sourceTitle": "WHO Regional Office for Africa, Nigeria page",
+      "sourceQuote": "4th Floor, United Nations House Plot 617/618 Central Area District PMB 2861 Abuja, Nigeria",
+      "foundOn": "2026-10-21",
+      "status": "pending",
+      "verifiedAt": null
+    }
+  ]
+}

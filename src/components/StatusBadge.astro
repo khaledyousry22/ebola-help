@@ -1,0 +1,11 @@
+---
+import type { MapStatus } from '../data/outbreak';
+import { getMessages, type Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+  status: MapStatus;
+}
+const { locale, status } = Astro.props;
+---
+<span class={`status-badge status-${status}`} data-status={status}>{getMessages(locale).country.statusLabel[status]}</span>

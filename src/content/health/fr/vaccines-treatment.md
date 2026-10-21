@@ -7,7 +7,7 @@ keyPoints:
   - Des vaccins et des médicaments approuvés n'existent que pour la maladie à virus Ebola, causée par le virus Ebola.
   - Contre le virus Bundibugyo, responsable de l'épidémie actuelle en République démocratique du Congo, il n'existe pas encore de vaccin ni de médicament approuvé. Des produits candidats sont testés dans le cadre d'études de recherche.
   - Un vaccin ne peut pas donner Ebola. Le vaccin approuvé ne contient qu'un seul gène du virus, et non le virus entier.
-sources: [whoFactSheet, whoQuestions, cdcBasics, cdcVaccine, whoTreatmentTrial, whoVaccineAdvisoryGroup]
+sources: [whoFactSheet, whoQuestions, cdcBasics, cdcVaccine, whoTreatmentTrial, whoVaccineAdvisoryGroup, drcSitrep158]
 reviewed: 2026-10-21
 ---
 
@@ -30,7 +30,7 @@ Deux vaccins sont approuvés : Ervebo, et Zabdeno associé à Mvabea. Ervebo est
 
 ### Contre la maladie à virus Bundibugyo
 
-Il n'existe pas de vaccin approuvé. En juillet 2026, un groupe d'experts de l'OMS a recommandé de tester Ervebo dans une étude de recherche pendant l'épidémie actuelle, afin de savoir s'il protège aussi contre le virus Bundibugyo. Tant que les résultats ne sont pas connus, on ne sait pas s'il protège.
+Il n'existe pas de vaccin approuvé. En juillet 2026, un groupe d'experts de l'OMS a recommandé de tester Ervebo dans une étude de recherche pendant l'épidémie actuelle, afin de savoir s'il protège aussi contre le virus Bundibugyo. En République démocratique du Congo, des personnels de première ligne de plusieurs provinces ont depuis reçu Ervebo, selon le ministère de la Santé (octobre 2026). Tant que les résultats de la recherche ne sont pas connus, on ne sait pas s'il protège contre le virus Bundibugyo.
 
 ### Un vaccin peut-il donner Ebola ?
 

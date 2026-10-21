@@ -16,8 +16,8 @@ const latestMedia = mediaCoverage(locale).slice(0, 3);
 const sections = [
   { ...m.home.sections.health, href: localePath(locale, '/health/') },
   { ...m.home.sections.news, href: localePath(locale, '/news/') },
-  { ...m.home.sections.help, href: undefined },
-  { ...m.home.sections.map, href: undefined },
+  { ...m.home.sections.help, href: localePath(locale, '/help/') },
+  { ...m.home.sections.map, href: localePath(locale, '/map/') },
 ];
 ---
 <BaseLayout locale={locale} description={m.meta.homeDescription} fullEmergency>
