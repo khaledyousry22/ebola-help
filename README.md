@@ -17,7 +17,8 @@ official sources.
 - The website is a set of ready-made pages. There is no server or database to
   look after, so there is nothing to update or patch.
 - It is designed for slow and expensive mobile connections: each page is about
-  4 to 7 KB to download and needs no JavaScript.
+  4 to 14 KB to download (the map page about 19 KB) and works without
+  JavaScript.
 - News updates itself every hour (see "The news" below).
 - You edit helplines, outbreak figures and news through simple web forms
   (see "The editing page" below).
@@ -108,6 +109,29 @@ near them, and never on data-saving or 2G connections.
 3. Blocking controls → block advertiser categories for health products,
    medicines and supplements, so no "cure" ads appear on an Ebola site.
 
+### Offline use and search engines
+
+- **Without a connection:** after a first visit, the site keeps the reader's
+  home page (with the emergency box), the helplines, the country pages and
+  the symptoms, transmission and prevention pages on their phone. They open
+  even with no signal. Other pages show a short "you are offline" page that
+  links to the saved ones. The saved copies refresh at most once a day,
+  and ads are never saved.
+- **Add to home screen:** readers can install the site like an app; it then
+  opens in their language.
+- **Search engines:** each language has its own list of pages (sitemap),
+  linked from `robots.txt`, and every page tells search engines about its
+  five translations. Shared links show a preview image in the reader's
+  language.
+
+### Speed and accessibility
+
+Checked with Google Lighthouse on mobile settings (slow 4G, mid-range phone),
+on 10 pages across all six languages: **100/100** for performance,
+accessibility, best practices and search engines on every page tested. The
+automatic browser tests also check every language for accessibility problems
+on each change.
+
 ### Reporting errors
 
 Visitors report wrong numbers to **wrongnumber@ebola.help** (shown on every
@@ -122,8 +146,8 @@ page). Make sure this mailbox or forward exists at your domain company
 | 2 | Design, outbreak banner and health information pages | Done |
 | 3 | Automatic news collection | Done |
 | 4 | Helplines, treatment centres and the map | Done (numbers await your check) |
-| 5 | Editing page, search engines, offline use, speed and accessibility checks | Next |
-| 6 | Putting the site online at ebola.help (step-by-step guide) | |
+| 5 | Editing page, search engines, offline use, speed and accessibility checks | Done |
+| 6 | Putting the site online at ebola.help (step-by-step guide) | Next |
 
 ---
 
