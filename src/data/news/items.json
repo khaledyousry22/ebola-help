@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-21T21:42:25.955Z",
+  "updatedAt": "2026-10-21T23:02:16.169Z",
   "items": [
+    {
+      "id": "2f81c4d21ed8d696",
+      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261021-sudan-s-war-escalates-as-un-warns-of-wider-regional-crisis",
+      "title": "Sudan’s war escalates as UN warns of wider regional crisis",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-21T22:41:43.000Z",
+      "firstSeenAt": "2026-10-21T23:02:16.169Z",
+      "countries": [
+        "CM",
+        "KE",
+        "NG",
+        "SD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "cb8cb39d20235c9f",
       "url": "https://insp.cd/sitrep-n159-mve-bdbv-20-10-2026/",
@@ -179,6 +197,22 @@
       "countries": [
         "CD",
         "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "59a5734c1fb50fc0",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143042",
+      "title": "世卫组织协助尼日利亚应对首例埃博拉输入病例",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "firstSeenAt": "2026-10-21T23:02:16.169Z",
+      "countries": [
+        "NG",
+        "UG"
       ],
       "alsoReportedBy": []
     },
