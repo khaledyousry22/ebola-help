@@ -17,7 +17,17 @@
   },
   "nav": {
     "home": "Home",
+    "health": "Health information",
     "about": "About"
+  },
+  "outbreak": {
+    "label": "Outbreak update",
+    "headline": "{country}: Ebola outbreak in progress (Bundibugyo virus)",
+    "figures": "Confirmed cases: {cases}. Deaths: {deaths}. Official figures as of {date}.",
+    "related": "Related cases have also been confirmed in: {countries}.",
+    "source": "Source: {source}",
+    "languageTag": "({language})",
+    "moreInfo": "Latest WHO update"
   },
   "picker": {
     "choose": "Choose your language",
@@ -26,10 +36,11 @@
   },
   "emergency": {
     "title": "If you or someone near you has symptoms",
+    "short": "Contact your national health hotline or local health authorities immediately.",
     "symptoms": "Sudden fever, severe tiredness, muscle pain, headache or sore throat, sometimes followed by vomiting, diarrhoea or unexplained bleeding.",
     "action": "Contact your national health hotline or local health authorities immediately. Say if the person has been near someone ill with Ebola. Early care improves the chance of survival.",
     "more": "Symptoms and safety advice",
-    "care": "Avoid touching the sick person's blood or other body fluids. Do not touch the body of someone who may have died of Ebola: the health authorities can arrange a safe burial.",
+    "care": "Avoid touching the sick person's blood or other body fluids. Do not touch the body of someone who may have died of Ebola: the health authorities can arrange a safe and dignified burial.",
     "hotlinePending": "Hotline numbers will be shown here only after they have been checked against an official source."
   },
   "home": {
@@ -54,6 +65,27 @@
         "text": "Symptoms, how Ebola spreads, prevention, vaccines and treatment, and common myths."
       }
     }
+  },
+  "health": {
+    "hubTitle": "Health information",
+    "hubDescription": "Short, factual pages about Ebola disease: what it is, symptoms, how it spreads, prevention, vaccines and treatment, and myths.",
+    "hubIntro": "Short, factual pages based on information from the World Health Organization (WHO) and the US Centers for Disease Control and Prevention (CDC). Each page lists its sources.",
+    "keyPoints": "Key points",
+    "sources": "Sources",
+    "sourcesIntro": "This page is a summary written by Ebola.help from these official sources. It is not an official text.",
+    "sourceDate": "Published or updated: {date}",
+    "sourceLanguage": "Language: {language}",
+    "reviewed": "Content last checked against its sources: {date}",
+    "disclaimer": "This page gives general information only. It does not replace advice from a doctor, nurse or other health worker. If you feel ill, contact a health worker or your national health hotline.",
+    "previous": "Previous",
+    "next": "Next",
+    "breadcrumb": "You are here"
+  },
+  "publishers": {
+    "who": "World Health Organization (WHO)",
+    "whoAfro": "WHO Regional Office for Africa",
+    "cdc": "US Centers for Disease Control and Prevention (CDC)",
+    "drcMoh": "Ministry of Public Health, Hygiene and Social Welfare, Democratic Republic of the Congo"
   },
   "about": {
     "heading": "About Ebola.help",

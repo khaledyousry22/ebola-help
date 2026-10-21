@@ -1,0 +1,22 @@
+---
+import { getMessages, type Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+  items: { label: string; href?: string }[];
+}
+const { locale, items } = Astro.props;
+const m = getMessages(locale);
+---
+<nav aria-label={m.health.breadcrumb} class="mb-3 text-sm text-muted">
+  <ol class="flex flex-wrap items-center gap-x-1">
+    {
+      items.map((item, index) => (
+        <li class="flex items-center gap-x-1">
+          {index > 0 && <span aria-hidden="true">›</span>}
+          {item.href ? <a href={item.href}>{item.label}</a> : <span aria-current="page">{item.label}</span>}
+        </li>
+      ))
+    }
+  </ol>
+</nav>

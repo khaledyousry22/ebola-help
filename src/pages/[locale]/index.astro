@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getMessages, LOCALE_CODES, type Locale } from '../../i18n';
+import { getMessages, LOCALE_CODES, localePath, type Locale } from '../../i18n';
 
 export function getStaticPaths() {
   return LOCALE_CODES.map((locale) => ({ params: { locale } }));
@@ -8,9 +8,15 @@ export function getStaticPaths() {
 
 const locale = Astro.params.locale as Locale;
 const m = getMessages(locale);
-const sections = [m.home.sections.news, m.home.sections.help, m.home.sections.map, m.home.sections.health];
+// Sections get a link as soon as their pages exist.
+const sections = [
+  { ...m.home.sections.health, href: localePath(locale, '/health/') },
+  { ...m.home.sections.news, href: undefined },
+  { ...m.home.sections.help, href: undefined },
+  { ...m.home.sections.map, href: undefined },
+];
 ---
-<BaseLayout locale={locale} description={m.meta.homeDescription}>
+<BaseLayout locale={locale} description={m.meta.homeDescription} fullEmergency>
   <div class="prose-page" slot="intro">
     <h1 class="text-2xl font-bold leading-tight text-brand-900 sm:text-3xl">{m.home.heading}</h1>
     <p class="mt-3 text-lg text-muted">{m.home.intro}</p>
@@ -22,7 +28,9 @@ const sections = [m.home.sections.news, m.home.sections.help, m.home.sections.ma
       {
         sections.map((section) => (
           <li class="rounded-lg border border-line bg-white p-5">
-            <h3 class="font-semibold text-brand-800">{section.title}</h3>
+            <h3 class="font-semibold text-brand-800">
+              {section.href ? <a href={section.href}>{section.title}</a> : section.title}
+            </h3>
             <p class="mt-1 text-muted">{section.text}</p>
           </li>
         ))

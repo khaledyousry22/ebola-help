@@ -87,8 +87,10 @@
     line-height: 1.6;
   }
 
+  /* Links are underlined so they never rely on colour alone (WCAG 1.4.1). */
   a {
     color: var(--color-brand-700);
+    text-decoration: underline;
     text-underline-offset: 0.2em;
   }
 
@@ -141,6 +143,42 @@
 
   .prose-page p {
     margin-bottom: 0.75rem;
+  }
+
+  /* Text written in Markdown (health pages). */
+  .prose-content h3 {
+    margin-top: 1.25rem;
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+    color: var(--color-brand-800);
+  }
+
+  .prose-content ul,
+  .prose-content ol {
+    margin-bottom: 0.75rem;
+    padding-inline-start: 1.25rem;
+  }
+
+  .prose-content ul {
+    list-style: disc;
+  }
+
+  .prose-content ol {
+    list-style: decimal;
+  }
+
+  .prose-content li {
+    margin-bottom: 0.25rem;
+  }
+
+  .prose-content strong {
+    font-weight: 700;
+    color: var(--color-brand-900);
+  }
+
+  /* Myths and facts: each myth is a heading followed by the fact. */
+  .prose-content h2 + p strong:first-child {
+    color: var(--color-teal-800);
   }
 }
 

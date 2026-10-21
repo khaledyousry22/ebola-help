@@ -17,10 +17,23 @@ official sources.
 - The website is a set of ready-made pages. There is no server or database to
   look after, so there is nothing to update or patch.
 - It is designed for slow and expensive mobile connections: each page is about
-  4 KB to download and needs no JavaScript.
+  4 to 7 KB to download and needs no JavaScript.
 - News updates will run automatically every hour (from Phase 3).
 - You will edit helplines and outbreak status through a simple web form
   (from Phase 5).
+
+### Updating the outbreak figures (until the editing form arrives in Phase 5)
+
+The banner at the top of every page reads `src/data/outbreak.json`. To update it
+on GitHub: open the file, click the pencil icon, change the numbers, then:
+
+- set `asOf` to the date the figures refer to (YYYY-MM-DD);
+- set `source` to the official source they come from. Sources are listed in
+  `src/data/sources.ts`; a new source must be added there first;
+- set `lastReviewed` to today.
+
+Save ("Commit changes"). If anything is missing or misspelled, the automatic
+checks fail and the site is not updated, so a wrong entry can never go live.
 
 ### Your checklist of phone numbers
 
@@ -39,8 +52,8 @@ page). Make sure this mailbox or forward exists at your domain company
 | Phase | What | Status |
 |-------|------|--------|
 | 1 | Languages, language picker, page layout, Arabic right-to-left | Done |
-| 2 | Design and core pages (health information) | Next |
-| 3 | Automatic news collection | |
+| 2 | Design, outbreak banner and health information pages | Done |
+| 3 | Automatic news collection | Next |
 | 4 | Helplines, treatment centres and the map | |
 | 5 | Editing page, search engines, offline use, speed and accessibility checks | |
 | 6 | Putting the site online at ebola.help (step-by-step guide) | |
@@ -72,6 +85,9 @@ src/
   components/              header, footer, emergency box, language menu
   pages/index.astro        language picker at /
   pages/[locale]/          pages generated for every language
+  content/health/<lang>/   health information pages (Markdown), one folder per language
+  data/sources.ts          every official source cited on the site
+  data/outbreak.json       figures shown in the outbreak banner
   styles/global.css        colours, fonts, base styles
 public/fonts/              Noto Sans Arabic (SIL Open Font License)
 tests/unit/                Vitest

@@ -1,9 +1,9 @@
 {
   "meta": {
     "siteName": "Ebola.help",
-    "tagline": "Informations indépendantes sur la maladie à virus Ebola",
+    "tagline": "Informations indépendantes sur la maladie d'Ebola",
     "homeTitle": "Ebola.help : actualités, numéros d'aide et prévention",
-    "homeDescription": "Informations indépendantes sur la maladie à virus Ebola en six langues : communiqués officiels, actualités, numéros d'aide et conseils de prévention, toujours avec un lien vers les sources officielles.",
+    "homeDescription": "Informations indépendantes sur la maladie d'Ebola en six langues : communiqués officiels, actualités, numéros d'aide et conseils de prévention, toujours avec un lien vers les sources officielles.",
     "aboutTitle": "À propos d'Ebola.help",
     "aboutDescription": "Qui gère Ebola.help, comment les informations sont vérifiées et pourquoi le site est indépendant de l'OMS et de tout gouvernement.",
     "notFoundTitle": "Page introuvable"
@@ -17,7 +17,17 @@
   },
   "nav": {
     "home": "Accueil",
+    "health": "Informations sanitaires",
     "about": "À propos"
+  },
+  "outbreak": {
+    "label": "Point sur l'épidémie",
+    "headline": "{country} : épidémie d'Ebola en cours (virus Bundibugyo)",
+    "figures": "Cas confirmés : {cases}. Décès : {deaths}. Chiffres officiels au {date}.",
+    "related": "Des cas liés ont aussi été confirmés dans les pays suivants : {countries}.",
+    "source": "Source : {source}",
+    "languageTag": "({language})",
+    "moreInfo": "Dernière mise à jour de l'OMS"
   },
   "picker": {
     "choose": "Choisissez votre langue",
@@ -26,14 +36,15 @@
   },
   "emergency": {
     "title": "Si vous ou une personne proche avez des symptômes",
+    "short": "Contactez immédiatement la ligne d'urgence sanitaire nationale ou les autorités sanitaires locales.",
     "symptoms": "Fièvre soudaine, grande fatigue, douleurs musculaires, maux de tête ou mal de gorge, parfois suivis de vomissements, de diarrhée ou de saignements inexpliqués.",
     "action": "Contactez immédiatement la ligne d'urgence sanitaire nationale ou les autorités sanitaires locales. Signalez si la personne a été en contact avec un malade d'Ebola. Une prise en charge précoce augmente les chances de survie.",
     "more": "Symptômes et conseils de sécurité",
-    "care": "Évitez de toucher le sang ou les autres liquides corporels de la personne malade. Ne touchez pas le corps d'une personne qui a pu mourir d'Ebola : les autorités sanitaires peuvent organiser un enterrement sécurisé.",
+    "care": "Évitez de toucher le sang ou les autres liquides corporels de la personne malade. Ne touchez pas le corps d'une personne qui a pu mourir d'Ebola : les autorités sanitaires peuvent organiser un enterrement digne et sécurisé.",
     "hotlinePending": "Les numéros d'urgence ne seront affichés ici qu'après avoir été vérifiés auprès d'une source officielle."
   },
   "home": {
-    "heading": "Des informations claires et fiables sur la maladie à virus Ebola",
+    "heading": "Des informations claires et fiables sur la maladie d'Ebola",
     "intro": "Ebola.help rassemble les communiqués officiels, les actualités, les numéros d'aide et les conseils de prévention en six langues. Chaque information renvoie à sa source d'origine pour que vous puissiez la vérifier vous-même.",
     "sectionsTitle": "Sur ce site",
     "sections": {
@@ -55,10 +66,31 @@
       }
     }
   },
+  "health": {
+    "hubTitle": "Informations sanitaires",
+    "hubDescription": "Des pages courtes et factuelles sur la maladie d'Ebola : ce qu'elle est, ses symptômes, sa transmission, la prévention, les vaccins et traitements, et les idées reçues.",
+    "hubIntro": "Des pages courtes et factuelles, fondées sur les informations de l'Organisation mondiale de la Santé (OMS) et des Centres pour le contrôle et la prévention des maladies des États-Unis (CDC). Chaque page indique ses sources.",
+    "keyPoints": "L'essentiel",
+    "sources": "Sources",
+    "sourcesIntro": "Cette page est un résumé rédigé par Ebola.help à partir de ces sources officielles. Ce n'est pas un texte officiel.",
+    "sourceDate": "Publié ou mis à jour : {date}",
+    "sourceLanguage": "Langue : {language}",
+    "reviewed": "Contenu vérifié par rapport à ses sources le {date}",
+    "disclaimer": "Cette page fournit uniquement des informations générales. Elle ne remplace pas l'avis d'un médecin, d'un infirmier ou d'un autre agent de santé. Si vous vous sentez malade, contactez un agent de santé ou la ligne d'urgence sanitaire nationale.",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "breadcrumb": "Vous êtes ici"
+  },
+  "publishers": {
+    "who": "Organisation mondiale de la Santé (OMS)",
+    "whoAfro": "Bureau régional de l'OMS pour l'Afrique",
+    "cdc": "Centres pour le contrôle et la prévention des maladies des États-Unis (CDC)",
+    "drcMoh": "Ministère de la Santé publique, Hygiène et Prévoyance sociale, République démocratique du Congo"
+  },
   "about": {
     "heading": "À propos d'Ebola.help",
     "whatTitle": "Ce qu'est ce site",
-    "what": "Ebola.help est un service d'information publique indépendant. Il rassemble les communiqués officiels, les actualités, les numéros d'aide et les conseils de prévention sur la maladie à virus Ebola en anglais, arabe, chinois, espagnol, français et russe.",
+    "what": "Ebola.help est un service d'information publique indépendant. Il rassemble les communiqués officiels, les actualités, les numéros d'aide et les conseils de prévention sur la maladie d'Ebola en anglais, arabe, chinois, espagnol, français et russe.",
     "independenceTitle": "Indépendant et non officiel",
     "independence": "Ebola.help n'est ni affilié à l'Organisation mondiale de la Santé (OMS), à une autre agence des Nations Unies, à Africa CDC ou à un gouvernement, ni approuvé par eux, et ne parle pas en leur nom. Le site n'a aucun statut officiel. Suivez toujours les consignes des autorités sanitaires de votre pays.",
     "sourcesTitle": "D'où viennent les informations",

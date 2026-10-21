@@ -12,8 +12,11 @@ const current = stripLocale(Astro.url.pathname);
 
 const links = [
   { path: '/', label: m.nav.home },
+  { path: '/health/', label: m.nav.health },
   { path: '/about/', label: m.nav.about },
 ];
+// A section link is active on its own page and on the pages below it.
+const isActive = (path: string) => (path === '/' ? current === '/' : current.startsWith(path));
 ---
 <header class="border-b border-line bg-white">
   <div class="container-page flex items-center justify-between gap-4 py-3">
@@ -29,10 +32,10 @@ const links = [
           <li>
             <a
               href={localePath(locale, link.path)}
-              aria-current={current === link.path ? 'page' : undefined}
+              aria-current={current === link.path ? 'page' : isActive(link.path) ? 'true' : undefined}
               class:list={[
                 'inline-flex min-h-11 items-center whitespace-nowrap border-b-3 px-3 text-sm font-medium no-underline',
-                current === link.path
+                isActive(link.path)
                   ? 'border-teal-700 text-brand-900'
                   : 'border-transparent text-muted hover:text-brand-900',
               ]}

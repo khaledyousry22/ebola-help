@@ -18,12 +18,16 @@ export interface LocaleInfo {
   nativeName: string;
   englishName: string;
   dir: 'ltr' | 'rtl';
-  /** BCP 47 tag for the html lang attribute and date formatting. */
+  /** BCP 47 tag for the html lang attribute and hreflang links. */
   htmlLang: string;
+  /** Locale used to format dates and numbers (English uses day-month-year). */
+  intl: string;
   /** Open Graph locale, e.g. fr_FR. */
   ogLocale: string;
   /** Browser language prefixes that should suggest this locale on the picker. */
   matches: readonly string[];
+  /** Space between two sentences: none in Chinese. */
+  sentenceGap: string;
 }
 
 export const LOCALES: Record<Locale, LocaleInfo> = {
@@ -33,8 +37,10 @@ export const LOCALES: Record<Locale, LocaleInfo> = {
     englishName: 'Arabic',
     dir: 'rtl',
     htmlLang: 'ar',
+    intl: 'ar',
     ogLocale: 'ar_AR',
     matches: ['ar'],
+    sentenceGap: ' ',
   },
   zh: {
     code: 'zh',
@@ -42,8 +48,10 @@ export const LOCALES: Record<Locale, LocaleInfo> = {
     englishName: 'Chinese',
     dir: 'ltr',
     htmlLang: 'zh-Hans',
+    intl: 'zh-Hans',
     ogLocale: 'zh_CN',
     matches: ['zh'],
+    sentenceGap: '',
   },
   en: {
     code: 'en',
@@ -51,8 +59,10 @@ export const LOCALES: Record<Locale, LocaleInfo> = {
     englishName: 'English',
     dir: 'ltr',
     htmlLang: 'en',
+    intl: 'en-GB',
     ogLocale: 'en_GB',
     matches: ['en'],
+    sentenceGap: ' ',
   },
   fr: {
     code: 'fr',
@@ -60,8 +70,10 @@ export const LOCALES: Record<Locale, LocaleInfo> = {
     englishName: 'French',
     dir: 'ltr',
     htmlLang: 'fr',
+    intl: 'fr',
     ogLocale: 'fr_FR',
     matches: ['fr'],
+    sentenceGap: ' ',
   },
   ru: {
     code: 'ru',
@@ -69,8 +81,10 @@ export const LOCALES: Record<Locale, LocaleInfo> = {
     englishName: 'Russian',
     dir: 'ltr',
     htmlLang: 'ru',
+    intl: 'ru',
     ogLocale: 'ru_RU',
     matches: ['ru'],
+    sentenceGap: ' ',
   },
   es: {
     code: 'es',
@@ -78,8 +92,10 @@ export const LOCALES: Record<Locale, LocaleInfo> = {
     englishName: 'Spanish',
     dir: 'ltr',
     htmlLang: 'es',
+    intl: 'es',
     ogLocale: 'es_ES',
     matches: ['es'],
+    sentenceGap: ' ',
   },
 };
 

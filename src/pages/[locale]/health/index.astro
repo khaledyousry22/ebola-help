@@ -1,0 +1,39 @@
+---
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getMessages, LOCALE_CODES, localePath, type Locale } from '../../../i18n';
+import { getHealthPages, splitHealthId } from '../../../lib/health';
+
+export function getStaticPaths() {
+  return LOCALE_CODES.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale as Locale;
+const m = getMessages(locale);
+const pages = await getHealthPages(locale);
+---
+<BaseLayout locale={locale} title={m.health.hubTitle} description={m.health.hubDescription}>
+  <div slot="intro" class="prose-page">
+    <Breadcrumbs locale={locale} items={[{ label: m.nav.home, href: localePath(locale) }, { label: m.health.hubTitle }]} />
+    <h1 class="text-2xl font-bold text-brand-900 sm:text-3xl">{m.health.hubTitle}</h1>
+    <p class="mt-3 text-lg text-muted">{m.health.hubIntro}</p>
+  </div>
+
+  <ul class="grid gap-4 sm:grid-cols-2" data-health-list>
+    {
+      pages.map((page) => (
+        <li>
+          <a
+            href={localePath(locale, `/health/${splitHealthId(page.id).slug}/`)}
+            class="block h-full rounded-lg border border-line bg-white p-5 no-underline transition-colors hover:border-brand-600 hover:bg-brand-50"
+          >
+            <span class="block text-lg font-semibold text-brand-800 underline decoration-brand-200 underline-offset-4">{page.data.title}</span>
+            <span class="mt-1 block text-muted">{page.data.description}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <p class="mt-8 max-w-[44rem] rounded-lg bg-surface p-4 text-sm text-muted">{m.health.disclaimer}</p>
+</BaseLayout>

@@ -23,6 +23,13 @@ plain language.
   (UI text). English is the reference; unit tests fail if a language is
   missing a key or a `{placeholder}`.
 - Pages live under `src/pages/[locale]/` and are generated for every locale.
+- Health pages: `src/content/health/<locale>/<slug>.md`. Every language has the
+  same slugs and cites the same source ids (unit tests enforce this). Text is
+  written by us from the sources (WHO website terms allow short extracts only,
+  not copying), using WHO's official terminology in each language.
+- Sources: `src/data/sources.ts`, with each publisher's own language versions.
+  Outbreak banner: `src/data/outbreak.json`, validated by `src/data/outbreak.ts`.
+- Quote YAML front matter values that contain `: `.
 - Use logical CSS (`ms-`, `pe-`, `start-`, `end-`, `border-s`), never
   `left`/`right`, so Arabic (RTL) mirrors automatically. Phone numbers and
   e-mail addresses get the `ltr-data` class.

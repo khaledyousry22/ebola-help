@@ -43,11 +43,23 @@ export function stripLocale(pathname: string): string {
 
 /** Long, human-readable date and time in the visitor's language, always in UTC. */
 export function formatDateTime(locale: Locale, date: Date): string {
-  return new Intl.DateTimeFormat(LOCALES[locale].htmlLang, {
+  return new Intl.DateTimeFormat(LOCALES[locale].intl, {
     dateStyle: 'long',
     timeStyle: 'short',
     timeZone: 'UTC',
   }).format(date) + ' UTC';
+}
+
+/** Long date in the reader's language from YYYY-MM-DD, e.g. '19 October 2026'. */
+export function formatDate(locale: Locale, isoDate: string): string {
+  return new Intl.DateTimeFormat(LOCALES[locale].intl, { dateStyle: 'long', timeZone: 'UTC' }).format(
+    new Date(`${isoDate}T00:00:00Z`),
+  );
+}
+
+/** Whole number with the reader's digit grouping, e.g. 9,637 or 9 637. */
+export function formatNumber(locale: Locale, value: number): string {
+  return new Intl.NumberFormat(LOCALES[locale].intl).format(value);
 }
 
 /**

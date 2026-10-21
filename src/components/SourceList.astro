@@ -1,0 +1,37 @@
+---
+import { SOURCES, sourceVersionFor, type SourceId } from '../data/sources';
+import { format, formatDate, getMessages, LOCALES, type Locale } from '../i18n';
+import { languageName } from '../i18n/countries';
+
+interface Props {
+  locale: Locale;
+  ids: readonly SourceId[];
+}
+const { locale, ids } = Astro.props;
+const m = getMessages(locale);
+---
+<section aria-labelledby="sources-title" class="mt-10 border-t border-line pt-6" data-sources>
+  <h2 id="sources-title" class="!mt-0 text-lg font-bold text-brand-900">{m.health.sources}</h2>
+  <p class="mt-1 text-sm text-muted">{m.health.sourcesIntro}</p>
+  <ol class="mt-4 list-decimal space-y-3 ps-6 text-sm">
+    {
+      ids.map((id) => {
+        const source = SOURCES[id];
+        const version = sourceVersionFor(id, locale);
+        return (
+          <li>
+            <span class="block font-semibold">{m.publishers[source.publisher]}</span>
+            <a href={version.url} hreflang={version.lang} lang={LOCALES[version.lang].htmlLang} dir={LOCALES[version.lang].dir}>
+              {version.title}
+            </a>
+            <br />
+            <span class="text-muted">
+              {format(m.health.sourceDate, { date: formatDate(locale, source.published) })}
+              {version.lang !== locale && ` · ${format(m.health.sourceLanguage, { language: languageName(locale, version.lang) })}`}
+            </span>
+          </li>
+        );
+      })
+    }
+  </ol>
+</section>

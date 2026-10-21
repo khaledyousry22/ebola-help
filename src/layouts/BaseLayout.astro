@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import AlertBanner from '../components/AlertBanner.astro';
 import EmergencyBox from '../components/EmergencyBox.astro';
 import LocaleScript from '../components/LocaleScript.astro';
 import SiteFooter from '../components/SiteFooter.astro';
@@ -12,9 +13,11 @@ interface Props {
   /** Page title without the site name. Omit on the home page. */
   title?: string;
   description: string;
+  /** Show the full emergency box (home page). Other pages show a compact one. */
+  fullEmergency?: boolean;
 }
 
-const { locale, title, description } = Astro.props;
+const { locale, title, description, fullEmergency = false } = Astro.props;
 const m = getMessages(locale);
 const info = LOCALES[locale];
 const rest = stripLocale(Astro.url.pathname);
@@ -62,11 +65,12 @@ const canonical = new URL(localePath(locale, rest), SITE_URL).href;
       {m.a11y.skipToContent}
     </a>
     <SiteHeader locale={locale} />
+    <AlertBanner locale={locale} />
     <main id="main" tabindex="-1" class="container-page flex-1 py-6 focus:outline-none sm:py-8">
       <!-- Page title first, then the emergency box, then the page content. -->
       <slot name="intro" />
       <div class="mt-6">
-        <EmergencyBox locale={locale} />
+        <EmergencyBox locale={locale} full={fullEmergency} />
       </div>
       <div class="mt-8">
         <slot />
