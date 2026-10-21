@@ -218,5 +218,11 @@
     "heading": "Página no encontrada",
     "text": "Esta página no existe o se ha trasladado.",
     "back": "Ir a la página de inicio"
+  },
+  "offline": {
+    "title": "No hay conexión",
+    "description": "Esta página no está disponible sin conexión a Internet.",
+    "text": "Esta página no está guardada en este dispositivo, por lo que no se puede mostrar sin conexión a Internet.",
+    "saved": "Estas páginas están guardadas en este dispositivo y se abren sin conexión:"
   }
 }

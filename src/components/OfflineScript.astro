@@ -1,0 +1,26 @@
+---
+import type { Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+---
+<!--
+  Installs the service worker (/sw.js) and asks it to keep this language's
+  emergency, helpline and prevention pages on the device for offline use.
+-->
+<script is:inline define:vars={{ locale }}>
+  if ('serviceWorker' in navigator) {
+    addEventListener('load', function () {
+      navigator.serviceWorker
+        .register('/sw.js')
+        .then(function () { return navigator.serviceWorker.ready; })
+        .then(function (registration) {
+          var connection = navigator.connection;
+          registration.active.postMessage({ save: locale, saveData: !!(connection && connection.saveData) });
+        })
+        .catch(function () {});
+    });
+  }
+</script>

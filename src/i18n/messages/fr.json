@@ -218,5 +218,11 @@
     "heading": "Page introuvable",
     "text": "Cette page n'existe pas ou a été déplacée.",
     "back": "Aller à la page d'accueil"
+  },
+  "offline": {
+    "title": "Vous êtes hors ligne",
+    "description": "Cette page n'est pas disponible sans connexion Internet.",
+    "text": "Cette page n'est pas enregistrée sur cet appareil : elle ne peut donc pas s'afficher sans connexion Internet.",
+    "saved": "Ces pages sont enregistrées sur cet appareil et s'ouvrent sans connexion :"
   }
 }

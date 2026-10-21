@@ -1,0 +1,38 @@
+---
+/**
+ * Shown by the service worker when a page is opened without a connection
+ * and was not saved on the device. Lists the pages that are saved.
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getMessages, LOCALE_CODES, localePath, type Locale } from '../../../i18n';
+import { countryPath, sortedCountries } from '../../../lib/country-pages';
+import { getHealthPages, splitHealthId } from '../../../lib/health';
+import { OFFLINE_HEALTH_PAGES } from '../../../lib/site-pages';
+
+export function getStaticPaths() {
+  return LOCALE_CODES.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale as Locale;
+const m = getMessages(locale);
+const health = (await getHealthPages(locale)).filter((entry) => OFFLINE_HEALTH_PAGES.includes(splitHealthId(entry.id).slug));
+const links = [
+  { href: localePath(locale), label: m.nav.home },
+  { href: localePath(locale, '/help/'), label: m.help.title },
+  ...sortedCountries(locale).map((c) => ({ href: localePath(locale, countryPath(c.iso)), label: c.name })),
+  ...health.map((entry) => ({ href: localePath(locale, `/health/${splitHealthId(entry.id).slug}/`), label: entry.data.title })),
+];
+---
+<BaseLayout locale={locale} title={m.offline.title} description={m.offline.description} noindex>
+  <div slot="intro" class="prose-page">
+    <h1 class="text-2xl font-bold text-brand-900 sm:text-3xl">{m.offline.title}</h1>
+    <p class="mt-3 text-lg text-muted">{m.offline.text}</p>
+  </div>
+
+  <section aria-labelledby="saved-title" class="prose-page">
+    <h2 id="saved-title" class="text-lg font-semibold">{m.offline.saved}</h2>
+    <ul data-offline-links>
+      {links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+    </ul>
+  </section>
+</BaseLayout>

@@ -11,6 +11,8 @@ export default defineConfig({
   use: {
     baseURL: `http://localhost:${PORT}`,
     trace: 'retain-on-failure',
+    // The service worker would serve saved copies between steps; tests/e2e/offline.spec.ts turns it on.
+    serviceWorkers: 'block',
     launchOptions: process.env['PW_CHROMIUM_PATH']
       ? { executablePath: process.env['PW_CHROMIUM_PATH'] }
       : {},

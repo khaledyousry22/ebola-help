@@ -15,7 +15,8 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "news": "tsx scripts/news/ingest.ts",
-    "verify-me": "tsx scripts/verify-me.ts"
+    "verify-me": "tsx scripts/verify-me.ts",
+    "images": "tsx scripts/images.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",

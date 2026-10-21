@@ -58,6 +58,14 @@ plain language.
   country, About or picker pages (browser tests enforce this). `AdLoader`
   loads Google's script after page load, near the slot, and never on
   Save-Data or 2G. About page carries Google's required privacy disclosures.
+- Search engines: `/sitemap-index.xml` and `/<locale>/sitemap.xml`, built from
+  `localePages()` in `src/lib/site-pages.ts` (a browser test checks it matches
+  the built pages). Share images and app icons in `public/social/` and
+  `public/icons/` are drawn by `npm run images`.
+- Offline: hand-written service worker `src/pages/sw.js.ts` (network first,
+  saved copy or `/<locale>/offline/` without a connection; saves
+  `offlinePages()` per language; same-origin only, never ads). Browser tests
+  block service workers except `tests/e2e/offline.spec.ts`.
 - Use logical CSS (`ms-`, `pe-`, `start-`, `end-`, `border-s`), never
   `left`/`right`, so Arabic (RTL) mirrors automatically. Phone numbers and
   e-mail addresses get the `ltr-data` class.

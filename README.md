@@ -139,6 +139,7 @@ npm run build        # type check + build static site into dist/
 npm run test:e2e     # browser tests against the build (run build first)
 npm run news         # collect news now (add -- --dry to only report)
 npm run verify-me    # regenerate VERIFY_ME.md after editing src/data/help/
+npm run images       # redraw share images and app icons (after changing the logo or tagline)
 ```
 
 The first run of `npm run test:e2e` on a new machine needs
