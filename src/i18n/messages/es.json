@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "siteName": "Ebola.help",
+    "tagline": "Información independiente sobre la enfermedad por el virus del Ébola",
+    "homeTitle": "Ebola.help: noticias, líneas de ayuda y prevención",
+    "homeDescription": "Información independiente sobre la enfermedad por el virus del Ébola en seis idiomas: comunicados oficiales, noticias, líneas de ayuda y consejos de prevención, siempre con enlaces a las fuentes oficiales.",
+    "aboutTitle": "Acerca de Ebola.help",
+    "aboutDescription": "Quién gestiona Ebola.help, cómo se verifica la información y por qué el sitio es independiente de la OMS y de cualquier gobierno.",
+    "notFoundTitle": "Página no encontrada"
+  },
+  "a11y": {
+    "skipToContent": "Ir al contenido principal",
+    "mainNav": "Navegación principal",
+    "languageMenu": "Idioma",
+    "homeLink": "Página de inicio de Ebola.help",
+    "externalLink": "(abre la fuente oficial)"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de"
+  },
+  "picker": {
+    "choose": "Elija su idioma",
+    "continue": "Continuar en español",
+    "suggested": "Sugerido para usted"
+  },
+  "emergency": {
+    "title": "Si usted o alguien cercano tiene síntomas",
+    "symptoms": "Fiebre repentina, cansancio intenso, dolor muscular, dolor de cabeza o de garganta, a veces seguidos de vómitos, diarrea o sangrado sin causa aparente.",
+    "action": "Contacte de inmediato con la línea de emergencia sanitaria nacional o con las autoridades sanitarias locales. Indique si la persona ha estado cerca de alguien enfermo de ébola. La atención temprana aumenta las probabilidades de supervivencia.",
+    "more": "Síntomas y consejos de seguridad",
+    "care": "Evite tocar la sangre u otros fluidos corporales de la persona enferma. No toque el cuerpo de alguien que pueda haber muerto de ébola: las autoridades sanitarias pueden organizar un entierro seguro.",
+    "hotlinePending": "Los números de las líneas de ayuda solo se mostrarán aquí después de verificarlos con una fuente oficial."
+  },
+  "home": {
+    "heading": "Información clara y fiable sobre la enfermedad por el virus del Ébola",
+    "intro": "Ebola.help reúne comunicados oficiales, noticias, líneas de ayuda y consejos de prevención en seis idiomas. Cada elemento enlaza a su fuente original para que pueda comprobarlo usted mismo.",
+    "sectionsTitle": "En este sitio",
+    "sections": {
+      "news": {
+        "title": "Noticias y comunicados oficiales",
+        "text": "Primero la información de las autoridades sanitarias y después la cobertura de medios de todo el mundo."
+      },
+      "help": {
+        "title": "Líneas de ayuda y centros de tratamiento",
+        "text": "Líneas directas, números de emergencia y centros de salud, cada uno verificado con una fuente oficial."
+      },
+      "map": {
+        "title": "Mapa de brotes",
+        "text": "Dónde hay brotes de ébola activos o en vigilancia, con las cifras oficiales más recientes."
+      },
+      "health": {
+        "title": "Información sanitaria",
+        "text": "Síntomas, transmisión, prevención, vacunas y tratamiento, y mitos frecuentes."
+      }
+    }
+  },
+  "about": {
+    "heading": "Acerca de Ebola.help",
+    "whatTitle": "Qué es este sitio",
+    "what": "Ebola.help es un servicio de información pública independiente. Reúne comunicados oficiales, noticias, líneas de ayuda y consejos de prevención sobre la enfermedad por el virus del Ébola en árabe, chino, español, francés, inglés y ruso.",
+    "independenceTitle": "Independiente y no oficial",
+    "independence": "Ebola.help no está afiliado a la Organización Mundial de la Salud (OMS), a ningún otro organismo de las Naciones Unidas, a Africa CDC ni a ningún gobierno, no cuenta con su respaldo y no habla en su nombre. No tiene carácter oficial. Siga siempre las indicaciones de las autoridades sanitarias de su país.",
+    "sourcesTitle": "De dónde procede la información",
+    "sources": "Enlazamos a las fuentes oficiales originales: ministerios de salud, la OMS, Africa CDC y otras agencias de salud pública. De los artículos de prensa mostramos solo el titular, la fuente, la fecha y un breve extracto, con un enlace al artículo completo en el sitio web del medio.",
+    "verificationTitle": "Cómo se verifican los datos de contacto",
+    "verification": "Cada número de teléfono, dirección y centro de salud de este sitio se verifica con una fuente oficial. Para cada uno indicamos esa fuente y la fecha de la última verificación. Si no podemos verificar un dato, no lo publicamos.",
+    "translationTitle": "Traducciones",
+    "translation": "Las noticias se muestran en su idioma original, indicando cuál es. Si alguna vez se muestra un titular con traducción automática, se indica claramente, junto con el idioma original.",
+    "medicalTitle": "No es consejo médico",
+    "medical": "Este sitio ofrece solo información general. No sustituye a médicos, personal de enfermería ni otros profesionales de la salud. Si se siente mal, contacte con un profesional sanitario o con la línea de emergencia sanitaria nacional.",
+    "privacyTitle": "Privacidad",
+    "privacy": "No rastreamos a los visitantes. El sitio guarda una sola cookie pequeña para recordar su idioma.",
+    "contactTitle": "Informar de un error",
+    "contact": "Si encuentra un número incorrecto o cualquier otro error, escríbanos a {email}."
+  },
+  "footer": {
+    "disclaimer": "Ebola.help es un servicio de información independiente. No está afiliado a la Organización Mundial de la Salud (OMS) ni a ningún gobierno.",
+    "medical": "Este sitio no sustituye a los profesionales de la salud.",
+    "wrongNumber": "¿Un número incorrecto u otro error? Escriba a {email}",
+    "lastUpdated": "Última actualización: {date}"
+  },
+  "notFound": {
+    "heading": "Página no encontrada",
+    "text": "Esta página no existe o se ha trasladado.",
+    "back": "Ir a la página de inicio"
+  }
+}

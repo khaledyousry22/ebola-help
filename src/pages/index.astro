@@ -1,0 +1,83 @@
+---
+/**
+ * Language picker at the site root.
+ * - First visit: six large buttons, one per language, with the browser's
+ *   language highlighted as a suggestion. The visitor always chooses.
+ * - Later visits: the saved choice (cookie) sends the visitor straight to
+ *   their language before the page is drawn.
+ */
+import NeutralLayout from '../layouts/NeutralLayout.astro';
+import { getMessages, LOCALE_COOKIE, LOCALE_LIST, localePath } from '../i18n';
+
+const codes = LOCALE_LIST.map((l) => l.code);
+const matches = Object.fromEntries(LOCALE_LIST.map((l) => [l.code, l.matches]));
+const en = getMessages('en');
+---
+<NeutralLayout
+  title={`${en.meta.siteName} · ${LOCALE_LIST.map((l) => getMessages(l.code).picker.choose).join(' · ')}`}
+  description={en.meta.homeDescription}
+  alternates
+>
+  <script is:inline slot="head" define:vars={{ codes, cookieName: LOCALE_COOKIE }}>
+    (function () {
+      var match = document.cookie.match(new RegExp('(?:^|; )' + cookieName + '=([^;]+)'));
+      if (match && codes.indexOf(match[1]) !== -1) location.replace('/' + match[1] + '/');
+    })();
+  </script>
+
+  <h1 class="sr-only">Ebola.help</h1>
+  <ul class="flex flex-wrap gap-x-4 gap-y-1 text-lg font-semibold text-brand-900" aria-label="Choose your language">
+    {
+      LOCALE_LIST.map((l) => (
+        <li lang={l.htmlLang} dir={l.dir}>
+          {getMessages(l.code).picker.choose}
+        </li>
+      ))
+    }
+  </ul>
+
+  <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3" data-picker>
+    {
+      LOCALE_LIST.map((l) => {
+        const m = getMessages(l.code);
+        return (
+          <li>
+            <a
+              href={localePath(l.code)}
+              lang={l.htmlLang}
+              hreflang={l.htmlLang}
+              dir={l.dir}
+              data-locale={l.code}
+              class="group flex min-h-24 flex-col justify-center rounded-xl border-2 border-brand-200 bg-white px-5 py-4 text-start no-underline shadow-sm transition-colors hover:border-brand-700 hover:bg-brand-50 data-[suggested]:border-teal-700 data-[suggested]:bg-teal-50"
+            >
+              <span class="text-2xl font-bold text-brand-900">{l.nativeName}</span>
+              <span class="mt-1 text-base text-muted">{m.picker.continue}</span>
+              <span
+                class="mt-2 hidden w-fit rounded-full bg-teal-700 px-3 py-0.5 text-sm font-semibold text-white group-data-[suggested]:inline-block"
+                data-suggested-label
+              >
+                {m.picker.suggested}
+              </span>
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+
+  <script is:inline define:vars={{ matches }}>
+    (function () {
+      var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+      for (var i = 0; i < langs.length; i++) {
+        var primary = String(langs[i]).toLowerCase().split('-')[0];
+        for (var code in matches) {
+          if (matches[code].indexOf(primary) !== -1) {
+            var link = document.querySelector('[data-picker] a[data-locale="' + code + '"]');
+            if (link) link.setAttribute('data-suggested', '');
+            return;
+          }
+        }
+      }
+    })();
+  </script>
+</NeutralLayout>

@@ -1,0 +1,31 @@
+---
+import { LOCALE_COOKIE } from '../i18n';
+---
+<!--
+  Remembers the language the visitor picks (picker or language menu) in a
+  cookie, and closes the language menu on outside click or Escape.
+  Everything still works without JavaScript; the choice is just not remembered.
+-->
+<script is:inline define:vars={{ cookieName: LOCALE_COOKIE }}>
+  document.addEventListener('click', function (event) {
+    var target = event.target instanceof Element ? event.target : null;
+    var link = target && target.closest('a[data-locale]');
+    if (link) {
+      document.cookie =
+        cookieName + '=' + link.getAttribute('data-locale') +
+        '; Max-Age=31536000; Path=/; SameSite=Lax' +
+        (location.protocol === 'https:' ? '; Secure' : '');
+    }
+    document.querySelectorAll('details[data-menu][open]').forEach(function (menu) {
+      if (!target || !menu.contains(target)) menu.removeAttribute('open');
+    });
+  });
+  document.addEventListener('keydown', function (event) {
+    if (event.key !== 'Escape') return;
+    document.querySelectorAll('details[data-menu][open]').forEach(function (menu) {
+      menu.removeAttribute('open');
+      var summary = menu.querySelector('summary');
+      if (summary) summary.focus();
+    });
+  });
+</script>

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "siteName": "Ebola.help",
+    "tagline": "Informations indépendantes sur la maladie à virus Ebola",
+    "homeTitle": "Ebola.help : actualités, numéros d'aide et prévention",
+    "homeDescription": "Informations indépendantes sur la maladie à virus Ebola en six langues : communiqués officiels, actualités, numéros d'aide et conseils de prévention, toujours avec un lien vers les sources officielles.",
+    "aboutTitle": "À propos d'Ebola.help",
+    "aboutDescription": "Qui gère Ebola.help, comment les informations sont vérifiées et pourquoi le site est indépendant de l'OMS et de tout gouvernement.",
+    "notFoundTitle": "Page introuvable"
+  },
+  "a11y": {
+    "skipToContent": "Aller au contenu principal",
+    "mainNav": "Navigation principale",
+    "languageMenu": "Langue",
+    "homeLink": "Page d'accueil d'Ebola.help",
+    "externalLink": "(ouvre la source officielle)"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos"
+  },
+  "picker": {
+    "choose": "Choisissez votre langue",
+    "continue": "Continuer en français",
+    "suggested": "Suggestion pour vous"
+  },
+  "emergency": {
+    "title": "Si vous ou une personne proche avez des symptômes",
+    "symptoms": "Fièvre soudaine, grande fatigue, douleurs musculaires, maux de tête ou mal de gorge, parfois suivis de vomissements, de diarrhée ou de saignements inexpliqués.",
+    "action": "Contactez immédiatement la ligne d'urgence sanitaire nationale ou les autorités sanitaires locales. Signalez si la personne a été en contact avec un malade d'Ebola. Une prise en charge précoce augmente les chances de survie.",
+    "more": "Symptômes et conseils de sécurité",
+    "care": "Évitez de toucher le sang ou les autres liquides corporels de la personne malade. Ne touchez pas le corps d'une personne qui a pu mourir d'Ebola : les autorités sanitaires peuvent organiser un enterrement sécurisé.",
+    "hotlinePending": "Les numéros d'urgence ne seront affichés ici qu'après avoir été vérifiés auprès d'une source officielle."
+  },
+  "home": {
+    "heading": "Des informations claires et fiables sur la maladie à virus Ebola",
+    "intro": "Ebola.help rassemble les communiqués officiels, les actualités, les numéros d'aide et les conseils de prévention en six langues. Chaque information renvoie à sa source d'origine pour que vous puissiez la vérifier vous-même.",
+    "sectionsTitle": "Sur ce site",
+    "sections": {
+      "news": {
+        "title": "Actualités et communiqués officiels",
+        "text": "D'abord les informations des autorités sanitaires, puis la couverture médiatique du monde entier."
+      },
+      "help": {
+        "title": "Numéros d'aide et centres de traitement",
+        "text": "Lignes d'urgence, numéros d'appel et structures de santé, chacun vérifié auprès d'une source officielle."
+      },
+      "map": {
+        "title": "Carte des épidémies",
+        "text": "Où des épidémies d'Ebola sont en cours ou sous surveillance, avec les derniers chiffres officiels."
+      },
+      "health": {
+        "title": "Informations sanitaires",
+        "text": "Symptômes, transmission, prévention, vaccins et traitements, et idées reçues."
+      }
+    }
+  },
+  "about": {
+    "heading": "À propos d'Ebola.help",
+    "whatTitle": "Ce qu'est ce site",
+    "what": "Ebola.help est un service d'information publique indépendant. Il rassemble les communiqués officiels, les actualités, les numéros d'aide et les conseils de prévention sur la maladie à virus Ebola en anglais, arabe, chinois, espagnol, français et russe.",
+    "independenceTitle": "Indépendant et non officiel",
+    "independence": "Ebola.help n'est ni affilié à l'Organisation mondiale de la Santé (OMS), à une autre agence des Nations Unies, à Africa CDC ou à un gouvernement, ni approuvé par eux, et ne parle pas en leur nom. Le site n'a aucun statut officiel. Suivez toujours les consignes des autorités sanitaires de votre pays.",
+    "sourcesTitle": "D'où viennent les informations",
+    "sources": "Nous renvoyons vers les sources officielles d'origine : ministères de la Santé, OMS, Africa CDC et autres agences de santé publique. Pour les articles de presse, nous affichons uniquement le titre, la source, la date et un court extrait, avec un lien vers l'article complet sur le site de l'éditeur.",
+    "verificationTitle": "Comment les coordonnées sont vérifiées",
+    "verification": "Chaque numéro de téléphone, adresse et structure de santé publié sur ce site est vérifié auprès d'une source officielle. Pour chacun, nous indiquons cette source et la date de la dernière vérification. Si une information ne peut pas être vérifiée, nous ne la publions pas.",
+    "translationTitle": "Traductions",
+    "translation": "Les actualités sont présentées dans leur langue d'origine, avec l'indication de cette langue. Si un titre est un jour présenté en traduction automatique, il est clairement signalé comme tel, avec sa langue d'origine.",
+    "medicalTitle": "Pas un avis médical",
+    "medical": "Ce site fournit uniquement des informations générales. Il ne remplace pas les médecins, les infirmiers ni les autres professionnels de santé. Si vous vous sentez malade, contactez un agent de santé ou la ligne d'urgence sanitaire nationale.",
+    "privacyTitle": "Confidentialité",
+    "privacy": "Nous ne suivons pas les visiteurs. Le site enregistre un seul petit cookie pour mémoriser votre langue.",
+    "contactTitle": "Signaler une erreur",
+    "contact": "Si vous trouvez un numéro erroné ou toute autre erreur, écrivez-nous à {email}."
+  },
+  "footer": {
+    "disclaimer": "Ebola.help est un service d'information indépendant. Il n'est affilié ni à l'Organisation mondiale de la Santé (OMS) ni à aucun gouvernement.",
+    "medical": "Ce site ne remplace pas les professionnels de santé.",
+    "wrongNumber": "Un numéro erroné ou une autre erreur ? Écrivez à {email}",
+    "lastUpdated": "Dernière mise à jour : {date}"
+  },
+  "notFound": {
+    "heading": "Page introuvable",
+    "text": "Cette page n'existe pas ou a été déplacée.",
+    "back": "Aller à la page d'accueil"
+  }
+}

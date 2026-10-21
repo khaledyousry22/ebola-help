@@ -1,0 +1,11 @@
+---
+import { CONTACT_EMAIL } from '../config';
+import { splitAt } from '../i18n';
+
+interface Props {
+  /** Translated sentence containing an {email} placeholder. */
+  text: string;
+}
+const [before, after] = splitAt(Astro.props.text, 'email');
+---
+{before}<a href={`mailto:${CONTACT_EMAIL}`} class="ltr-data font-medium">{CONTACT_EMAIL}</a>{after}

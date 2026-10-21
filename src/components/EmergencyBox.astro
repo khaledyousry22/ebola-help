@@ -1,0 +1,28 @@
+---
+import { getMessages, type Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const m = getMessages(locale);
+---
+<section
+  aria-labelledby="emergency-title"
+  class="rounded-lg border border-teal-100 border-s-4 border-s-teal-700 bg-teal-50 p-4 sm:p-5"
+  data-emergency-box
+>
+  <h2 id="emergency-title" class="text-lg font-bold text-teal-800">
+    <svg class="me-2 inline-block align-[-3px]" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
+    </svg>
+    {m.emergency.title}
+  </h2>
+  <p class="mt-2 font-medium text-ink">{m.emergency.action}</p>
+  <p class="mt-2 text-sm text-muted">{m.emergency.hotlinePending}</p>
+  <details class="mt-3">
+    <summary class="min-h-11 py-2 font-semibold text-teal-800">{m.emergency.more}</summary>
+    <p class="mt-1 text-ink">{m.emergency.symptoms}</p>
+    <p class="mt-2 text-ink">{m.emergency.care}</p>
+  </details>
+</section>

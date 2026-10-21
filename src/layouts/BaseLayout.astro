@@ -1,0 +1,78 @@
+---
+import '../styles/global.css';
+import EmergencyBox from '../components/EmergencyBox.astro';
+import LocaleScript from '../components/LocaleScript.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import { SITE_URL } from '../config';
+import { getMessages, LOCALE_LIST, LOCALES, localePath, stripLocale, type Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+  /** Page title without the site name. Omit on the home page. */
+  title?: string;
+  description: string;
+}
+
+const { locale, title, description } = Astro.props;
+const m = getMessages(locale);
+const info = LOCALES[locale];
+const rest = stripLocale(Astro.url.pathname);
+const fullTitle = title ? `${title} · ${m.meta.siteName}` : m.meta.homeTitle;
+const canonical = new URL(localePath(locale, rest), SITE_URL).href;
+---
+<!doctype html>
+<html lang={info.htmlLang} dir={info.dir}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {
+      LOCALE_LIST.map((l) => (
+        <link rel="alternate" hreflang={l.htmlLang} href={new URL(localePath(l.code, rest), SITE_URL).href} />
+      ))
+    }
+    <link rel="alternate" hreflang="x-default" href={new URL('/', SITE_URL).href} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={m.meta.siteName} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={info.ogLocale} />
+    {
+      LOCALE_LIST.filter((l) => l.code !== locale).map((l) => (
+        <meta property="og:locale:alternate" content={l.ogLocale} />
+      ))
+    }
+    <meta name="theme-color" content="#155a8a" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {
+      info.code === 'ar' && (
+        <link rel="preload" href="/fonts/noto-sans-arabic-arabic-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+      )
+    }
+  </head>
+  <body class="flex min-h-screen flex-col bg-white">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:start-2 focus:top-2 focus:z-50 focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:shadow"
+    >
+      {m.a11y.skipToContent}
+    </a>
+    <SiteHeader locale={locale} />
+    <main id="main" tabindex="-1" class="container-page flex-1 py-6 focus:outline-none sm:py-8">
+      <!-- Page title first, then the emergency box, then the page content. -->
+      <slot name="intro" />
+      <div class="mt-6">
+        <EmergencyBox locale={locale} />
+      </div>
+      <div class="mt-8">
+        <slot />
+      </div>
+    </main>
+    <SiteFooter locale={locale} />
+    <LocaleScript />
+  </body>
+</html>

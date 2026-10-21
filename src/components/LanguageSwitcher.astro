@@ -1,0 +1,43 @@
+---
+import { getMessages, LOCALE_LIST, LOCALES, localePath, stripLocale, type Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const m = getMessages(locale);
+const rest = stripLocale(Astro.url.pathname);
+---
+<details class="relative" data-menu>
+  <summary
+    class="flex min-h-11 list-none items-center gap-2 rounded-md border border-brand-200 bg-white px-3 py-2 text-sm font-medium text-brand-800 hover:border-brand-600 [&::-webkit-details-marker]:hidden"
+  >
+    <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z" />
+    </svg>
+    <span class="sr-only">{m.a11y.languageMenu}:</span>
+    <span>{LOCALES[locale].nativeName}</span>
+  </summary>
+  <ul class="absolute end-0 z-20 mt-2 w-48 rounded-md border border-line bg-white py-1 shadow-lg">
+    {
+      LOCALE_LIST.map((l) => (
+        <li>
+          <a
+            href={localePath(l.code, rest)}
+            lang={l.htmlLang}
+            hreflang={l.htmlLang}
+            dir={l.dir}
+            data-locale={l.code}
+            aria-current={l.code === locale ? 'true' : undefined}
+            class:list={[
+              'block px-4 py-3 text-start text-base no-underline hover:bg-brand-50',
+              l.code === locale ? 'font-bold text-brand-900' : 'text-ink',
+            ]}
+          >
+            {l.nativeName}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</details>

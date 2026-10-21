@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens. Calm institutional palette: blue for structure, teal for
+ * accents, amber only for notices. Every text colour meets WCAG AA (4.5:1)
+ * on the backgrounds it is used with.
+ */
+@theme {
+  --color-brand-50: #eef6fb;
+  --color-brand-100: #d5e9f5;
+  --color-brand-200: #a9d1ea;
+  --color-brand-600: #1f6fa8;
+  --color-brand-700: #155a8a;
+  --color-brand-800: #124a71;
+  --color-brand-900: #0f3a59;
+
+  --color-teal-50: #ebf8f5;
+  --color-teal-100: #cdeee8;
+  --color-teal-600: #0f7d73;
+  --color-teal-700: #0c665f;
+  --color-teal-800: #0b524d;
+
+  --color-ink: #1b2733;
+  --color-muted: #4a5868;
+  --color-line: #d9e2ea;
+  --color-surface: #f4f8fb;
+
+  --color-notice-50: #fff6e5;
+  --color-notice-600: #c47a12;
+  --color-notice-900: #6b3f00;
+
+  /* System fonts load instantly and cost no data. */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans",
+    "Helvetica Neue", Arial, sans-serif;
+  /* Chinese web fonts weigh several megabytes, so use the fonts already on the device. */
+  --font-zh: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", "Source Han Sans SC", sans-serif;
+  /* Arabic uses a self-hosted Noto Sans Arabic (about 50 KB), loaded only on /ar pages. */
+  --font-ar: "Noto Sans Arabic", "Segoe UI", Tahoma, "Geeza Pro", "Noto Naskh Arabic", system-ui,
+    sans-serif;
+}
+
+/* Arabic letters only; Latin characters on Arabic pages fall back to system fonts. */
+@font-face {
+  font-family: "Noto Sans Arabic";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/noto-sans-arabic-arabic-400-normal.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF,
+    U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+
+@font-face {
+  font-family: "Noto Sans Arabic";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/noto-sans-arabic-arabic-700-normal.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF,
+    U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--color-ink);
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  html:lang(zh) {
+    font-family: var(--font-zh);
+  }
+
+  html:lang(ar) {
+    font-family: var(--font-ar);
+  }
+
+  /* Arabic script needs more line height to stay readable. */
+  html:lang(ar) body {
+    line-height: 1.8;
+  }
+
+  body {
+    line-height: 1.6;
+  }
+
+  a {
+    color: var(--color-brand-700);
+    text-underline-offset: 0.2em;
+  }
+
+  a:hover {
+    color: var(--color-brand-900);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-brand-600);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  summary {
+    cursor: pointer;
+  }
+
+  /* Phone numbers and e-mail addresses always read left to right, even on Arabic pages. */
+  .ltr-data {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+}
+
+@layer components {
+  .container-page {
+    margin-inline: auto;
+    width: 100%;
+    max-width: 72rem;
+    padding-inline: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container-page {
+      padding-inline: 1.5rem;
+    }
+  }
+
+  .prose-page {
+    max-width: 44rem;
+  }
+
+  .prose-page h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-brand-900);
+  }
+
+  .prose-page p {
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

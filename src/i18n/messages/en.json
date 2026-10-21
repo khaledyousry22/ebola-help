@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "siteName": "Ebola.help",
+    "tagline": "Independent information about Ebola disease",
+    "homeTitle": "Ebola.help: news, helplines and prevention information",
+    "homeDescription": "Independent information about Ebola disease in six languages: official updates, news, helplines and prevention advice, always linked to the official sources.",
+    "aboutTitle": "About Ebola.help",
+    "aboutDescription": "Who runs Ebola.help, how information is checked, and why the site is independent of WHO and all governments.",
+    "notFoundTitle": "Page not found"
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "mainNav": "Main navigation",
+    "languageMenu": "Language",
+    "homeLink": "Ebola.help home page",
+    "externalLink": "(opens the official source)"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "picker": {
+    "choose": "Choose your language",
+    "continue": "Continue in English",
+    "suggested": "Suggested for you"
+  },
+  "emergency": {
+    "title": "If you or someone near you has symptoms",
+    "symptoms": "Sudden fever, severe tiredness, muscle pain, headache or sore throat, sometimes followed by vomiting, diarrhoea or unexplained bleeding.",
+    "action": "Contact your national health hotline or local health authorities immediately. Say if the person has been near someone ill with Ebola. Early care improves the chance of survival.",
+    "more": "Symptoms and safety advice",
+    "care": "Avoid touching the sick person's blood or other body fluids. Do not touch the body of someone who may have died of Ebola: the health authorities can arrange a safe burial.",
+    "hotlinePending": "Hotline numbers will be shown here only after they have been checked against an official source."
+  },
+  "home": {
+    "heading": "Clear, reliable information about Ebola disease",
+    "intro": "Ebola.help brings together official updates, news coverage, helplines and prevention advice in six languages. Every item links to its original source, so you can check it yourself.",
+    "sectionsTitle": "On this site",
+    "sections": {
+      "news": {
+        "title": "News and official updates",
+        "text": "Updates from health authorities first, then news coverage from around the world."
+      },
+      "help": {
+        "title": "Helplines and treatment centres",
+        "text": "Hotlines, emergency numbers and health facilities, each checked against an official source."
+      },
+      "map": {
+        "title": "Outbreak map",
+        "text": "Where Ebola outbreaks are active or being monitored, with the latest official figures."
+      },
+      "health": {
+        "title": "Health information",
+        "text": "Symptoms, how Ebola spreads, prevention, vaccines and treatment, and common myths."
+      }
+    }
+  },
+  "about": {
+    "heading": "About Ebola.help",
+    "whatTitle": "What this site is",
+    "what": "Ebola.help is an independent public information service. It gathers official updates, news coverage, helplines and prevention advice about Ebola disease in Arabic, Chinese, English, French, Russian and Spanish.",
+    "independenceTitle": "Independent and not official",
+    "independence": "Ebola.help is not affiliated with, endorsed by or speaking for the World Health Organization (WHO), any other United Nations agency, Africa CDC or any government. It has no official status. Always follow the instructions of your national health authorities.",
+    "sourcesTitle": "Where the information comes from",
+    "sources": "We link to the original official sources: national health ministries, WHO, Africa CDC and other public health agencies. For news articles we show only the headline, the source, the date and a short extract, with a link to the full article on the publisher's website.",
+    "verificationTitle": "How contact details are checked",
+    "verification": "Every phone number, address and health facility on this site is checked against an official source. Each one shows that source and the date it was last verified. If we cannot verify a detail, we do not publish it.",
+    "translationTitle": "Translations",
+    "translation": "News is shown in its original language, labelled with that language. If a headline is ever shown in machine translation, it is clearly marked as such, together with the original language.",
+    "medicalTitle": "Not medical advice",
+    "medical": "This site gives general information only. It does not replace doctors, nurses or other health workers. If you feel ill, contact a health worker or your national health hotline.",
+    "privacyTitle": "Privacy",
+    "privacy": "We do not track visitors. The site stores one small cookie to remember your language.",
+    "contactTitle": "Report an error",
+    "contact": "If you find a wrong phone number or any other error, please write to {email}."
+  },
+  "footer": {
+    "disclaimer": "Ebola.help is an independent information service. It is not affiliated with the World Health Organization (WHO) or any government.",
+    "medical": "This site does not replace medical professionals.",
+    "wrongNumber": "Found a wrong number or another error? Write to {email}",
+    "lastUpdated": "Last updated: {date}"
+  },
+  "notFound": {
+    "heading": "Page not found",
+    "text": "This page does not exist or has moved.",
+    "back": "Go to the home page"
+  }
+}
