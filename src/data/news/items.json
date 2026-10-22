@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-10-22T14:07:02.935Z",
+  "updatedAt": "2026-10-22T18:33:34.538Z",
   "items": [
+    {
+      "id": "f7f68286d50a228c",
+      "url": "https://www.rfi.fr/cn/%E9%9D%9E%E6%B4%B2/20261022-rfi%E6%B3%95%E5%B9%BF-%E4%B8%AD%E6%96%87-%E5%B0%BC%E5%8F%A4%E6%8B%89-%E9%9D%9E%E6%B4%B2-%E5%9F%83%E5%8D%9A%E6%8B%89%E7%AC%AC17%E8%BD%AE%E7%96%AB%E6%83%85%E9%A6%96%E6%AC%A1%E5%86%B2%E5%87%BB%E8%A5%BF%E9%9D%9E",
+      "title": "埃博拉第17轮疫情首次冲击西非",
+      "lang": "zh",
+      "sourceId": "rfi-cn",
+      "sourceName": "法广 RFI",
+      "official": false,
+      "publishedAt": "2026-10-22T14:28:49.000Z",
+      "firstSeenAt": "2026-10-22T18:33:34.538Z",
+      "countries": [
+        "CD",
+        "KE",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "7937257ee9d1bfed",
       "url": "https://www.rfi.fr/fr/afrique/20261022-ebola-au-nigeria-une-course-contre-la-montre-pour-identifier-les-contacts-du-premier-cas-d%C3%A9tect%C3%A9",
@@ -30,6 +47,38 @@
       "firstSeenAt": "2026-10-22T14:07:02.935Z",
       "countries": [
         "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7619dc55fc27f57e",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168647",
+      "title": "DR Congo: Ebola responders under pressure as outbreak expands",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-10-22T12:00:00.000Z",
+      "firstSeenAt": "2026-10-22T18:33:34.538Z",
+      "countries": [
+        "CD",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b522aba64a8043ae",
+      "url": "https://news.un.org/feed/view/fr/story/2026/10/1159709",
+      "title": "Ebola : face à la propagation régionale du virus, l’OMS appelle à une vigilance collective",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-10-22T12:00:00.000Z",
+      "firstSeenAt": "2026-10-22T18:33:34.538Z",
+      "countries": [
+        "CD",
+        "KE"
       ],
       "alsoReportedBy": []
     },
