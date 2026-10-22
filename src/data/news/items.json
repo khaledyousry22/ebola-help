@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-10-21T23:02:16.169Z",
+  "updatedAt": "2026-10-22T06:10:19.231Z",
   "items": [
+    {
+      "id": "c6fc0c1081418302",
+      "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20261022-ebola-aucun-pays-n-est-%C3%A0-l-abri-si-on-ne-renforce-pas-la-surveillance-affirme-le-dr-jean-kaseya",
+      "title": "Ebola: «Aucun pays n'est à l'abri si on ne renforce pas la surveillance», affirme le Dr Jean Kaseya",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-22T05:19:51.000Z",
+      "firstSeenAt": "2026-10-22T06:10:19.231Z",
+      "countries": [
+        "CD",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "fa7e5db8c5d1e8f3",
+      "url": "https://www.rfi.fr/fr/afrique/20261022-ebola-au-nigeria-des-zones-d-ombre-sur-le-parcours-de-la-patiente-pass%C3%A9e-par-l-ouganda",
+      "title": "Ebola au Nigeria: des zones d'ombre sur le parcours de la patiente passée par l'Ouganda",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-22T03:09:24.000Z",
+      "firstSeenAt": "2026-10-22T06:10:19.231Z",
+      "countries": [
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "2f81c4d21ed8d696",
       "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261021-sudan-s-war-escalates-as-un-warns-of-wider-regional-crisis",
