@@ -27,8 +27,8 @@
       "sourceTitle": "Ministry website (opened on 2026-10-21) and INSP SitRep N°158 footer",
       "sourceQuote": "Ministère de la Santé Publique, Hygiène et Prévoyance Sociale",
       "foundOn": "2026-10-21",
-      "status": "pending",
-      "verifiedAt": null
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     },
     {
       "id": "cd-who-office",
@@ -44,8 +44,8 @@
       "sourceTitle": "WHO Regional Office for Africa, Democratic Republic of the Congo page",
       "sourceQuote": "Avenue des Cliniques N°42 Boîte postale 1899 Kinshasa I Tel: +243 81 555 4952",
       "foundOn": "2026-10-21",
-      "status": "pending",
-      "verifiedAt": null
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     }
   ],
   "facilityNote": "No official public list of Ebola treatment centres with addresses was found. The Ministry's daily report (SitRep N°158) mentions centres such as Météo and Bafwasende (Tshopo), Lita (Ituri), and Wamba and Boma Mangbetu (Haut-Uélé) only in passing, without addresses, so none are listed."

@@ -56,14 +56,17 @@
       "role": "who",
       "organisation": "World Health Organization (WHO), Kenya country office",
       "address": "United Nations Complex, Gigiri, Block 12, Ground Floor, P.O. Box 45335–00100, Nairobi",
-      "phones": ["+254 207 620 302", "+254 205 120 302"],
+      "phones": [
+        "+254 207 620 302",
+        "+254 205 120 302"
+      ],
       "website": "https://www.afro.who.int/countries/kenya",
       "sourceUrl": "https://www.afro.who.int/countries/kenya",
       "sourceTitle": "WHO Regional Office for Africa, Kenya page",
       "sourceQuote": "United Nations Complex in Gigiri Block-12 Ground Floor P.O. Box 45335 – 00100, Nairobi +254 207 620 302 +254 205 120 302",
       "foundOn": "2026-10-21",
-      "status": "pending",
-      "verifiedAt": null
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     }
   ]
 }

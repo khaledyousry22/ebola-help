@@ -14,8 +14,8 @@
       "sourceTitle": "Rwanda Biomedical Centre, home page",
       "sourceQuote": "Call Us Toll-Free: 114/+250 788 202 080",
       "foundOn": "2026-10-21",
-      "status": "pending",
-      "verifiedAt": null
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     },
     {
       "id": "rw-rbc-mobile",
@@ -29,8 +29,8 @@
       "sourceTitle": "Rwanda Biomedical Centre, home page",
       "sourceQuote": "Call Us Toll-Free: 114/+250 788 202 080",
       "foundOn": "2026-10-21",
-      "status": "pending",
-      "verifiedAt": null
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     },
     {
       "id": "rw-emergency-912",
@@ -43,8 +43,8 @@
       "sourceTitle": "Ministry of Health Rwanda, home page",
       "sourceQuote": "Emergency: 114 or 912",
       "foundOn": "2026-10-21",
-      "status": "pending",
-      "verifiedAt": null
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     }
   ]
 }

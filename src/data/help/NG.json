@@ -14,8 +14,8 @@
       "sourceTitle": "NCDC, National public health advisory on state preparedness for Bundibugyo Ebola virus disease, 28 May 2026",
       "sourceQuote": "Toll Free Number: 6232",
       "foundOn": "2026-10-21",
-      "status": "pending",
-      "verifiedAt": null
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     },
     {
       "id": "ng-ncdc-whatsapp",
@@ -29,8 +29,8 @@
       "sourceTitle": "NCDC, National public health advisory on state preparedness for Bundibugyo Ebola virus disease, 28 May 2026",
       "sourceQuote": "Whatsapp: +234 708 711 0839",
       "foundOn": "2026-10-21",
-      "status": "pending",
-      "verifiedAt": null
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     },
     {
       "id": "ng-ncdc-sms",
@@ -44,8 +44,8 @@
       "sourceTitle": "NCDC, National public health advisory on state preparedness for Bundibugyo Ebola virus disease, 28 May 2026",
       "sourceQuote": "SMS Number: +234 809 955 5577",
       "foundOn": "2026-10-21",
-      "status": "pending",
-      "verifiedAt": null
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     },
     {
       "id": "ng-ncdc-website",
@@ -57,8 +57,8 @@
       "sourceTitle": "NCDC website (opened on 2026-10-21)",
       "sourceQuote": "Nigeria Centre for Disease Control and Prevention",
       "foundOn": "2026-10-21",
-      "status": "pending",
-      "verifiedAt": null
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     },
     {
       "id": "ng-who-office",
@@ -71,8 +71,8 @@
       "sourceTitle": "WHO Regional Office for Africa, Nigeria page",
       "sourceQuote": "4th Floor, United Nations House Plot 617/618 Central Area District PMB 2861 Abuja, Nigeria",
       "foundOn": "2026-10-21",
-      "status": "pending",
-      "verifiedAt": null
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     }
   ]
 }
