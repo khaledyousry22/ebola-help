@@ -1,6 +1,6 @@
 ---
 import { HELP_COUNTRIES, phoneHref, verifiedPhones } from '../data/help';
-import { getMessages, localePath, type Locale } from '../i18n';
+import { format, formatDate, getMessages, LOCALES, localePath, type Locale } from '../i18n';
 import { countryName } from '../i18n/countries';
 
 interface Props {
@@ -46,14 +46,18 @@ const countries = HELP_COUNTRIES.map((iso) => ({
       <div class="mt-3" data-emergency-picker hidden>
         <label for="emergency-country" class="me-2 text-sm font-semibold text-teal-800">{m.emergency.yourCountry}</label>
         <select id="emergency-country" class="min-h-11 rounded-md border border-teal-700 bg-white px-2">
+          {/* Nothing is preselected: a number from another country would not work. */}
+          <option value="">{m.emergency.chooseCountry}</option>
           {countries.map((c) => <option value={c.iso}>{c.name}</option>)}
         </select>
         {countries.map((c) => (
-          <ul class="mt-2 space-y-1" data-emergency-phones={c.iso} hidden>
+          <ul class="mt-2 space-y-2" data-emergency-phones={c.iso} hidden>
             {c.phones.map((p) => (
               <li>
-                {m.help.purpose[p.purpose]}:{' '}
-                <a href={phoneHref(p)} class="ltr-data text-lg font-bold text-brand-900">{p.display ?? p.number}</a>
+                {format(m.emergency.numberLabel, { purpose: m.help.purpose[p.purpose] })}{LOCALES[locale].sentenceGap}<a href={phoneHref(p)} class="ltr-data text-lg font-bold text-brand-900">{p.display ?? p.number}</a>
+                <span class="block text-xs text-muted">
+                  {format(m.help.lastVerified, { date: formatDate(locale, p.verifiedAt!) })} · <a href={p.sourceUrl}>{m.help.source}</a>
+                </span>
               </li>
             ))}
           </ul>

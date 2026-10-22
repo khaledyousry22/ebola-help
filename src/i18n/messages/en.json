@@ -46,7 +46,9 @@
     "care": "Avoid touching the sick person's blood or other body fluids. Do not touch the body of someone who may have died of Ebola: the health authorities can arrange a safe and dignified burial.",
     "hotlinePending": "Hotline numbers will be shown here only after they have been checked against an official source.",
     "findHelpline": "Find official helplines for your country",
-    "yourCountry": "Your country"
+    "yourCountry": "Your country",
+    "chooseCountry": "Choose your country",
+    "numberLabel": "{purpose}:"
   },
   "home": {
     "heading": "Clear, reliable information about Ebola disease",

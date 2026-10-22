@@ -46,7 +46,9 @@
     "care": "Évitez de toucher le sang ou les autres liquides corporels de la personne malade. Ne touchez pas le corps d'une personne qui a pu mourir d'Ebola : les autorités sanitaires peuvent organiser un enterrement digne et sécurisé.",
     "hotlinePending": "Les numéros d'urgence ne seront affichés ici qu'après avoir été vérifiés auprès d'une source officielle.",
     "findHelpline": "Trouver les numéros d'aide officiels de votre pays",
-    "yourCountry": "Votre pays"
+    "yourCountry": "Votre pays",
+    "chooseCountry": "Choisissez votre pays",
+    "numberLabel": "{purpose} :"
   },
   "home": {
     "heading": "Des informations claires et fiables sur la maladie d'Ebola",

@@ -46,7 +46,9 @@
     "care": "避免接触患者的血液或其他体液。不要触碰可能死于埃博拉的人的遗体：卫生部门可以安排安全和体面的埋葬。",
     "hotlinePending": "热线号码只有在经官方来源核实后才会显示在这里。",
     "findHelpline": "查找您所在国家的官方求助热线",
-    "yourCountry": "您所在的国家"
+    "yourCountry": "您所在的国家",
+    "chooseCountry": "请选择国家",
+    "numberLabel": "{purpose}："
   },
   "home": {
     "heading": "关于埃博拉病的清晰、可靠的信息",

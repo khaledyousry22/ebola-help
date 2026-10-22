@@ -46,7 +46,9 @@
     "care": "Evite tocar la sangre u otros fluidos corporales de la persona enferma. No toque el cuerpo de alguien que pueda haber muerto de ébola: las autoridades sanitarias pueden organizar una inhumación segura y digna.",
     "hotlinePending": "Los números de las líneas de ayuda solo se mostrarán aquí después de verificarlos con una fuente oficial.",
     "findHelpline": "Buscar las líneas de ayuda oficiales de su país",
-    "yourCountry": "Su país"
+    "yourCountry": "Su país",
+    "chooseCountry": "Elija su país",
+    "numberLabel": "{purpose}:"
   },
   "home": {
     "heading": "Información clara y fiable sobre la enfermedad por el virus del Ébola",
