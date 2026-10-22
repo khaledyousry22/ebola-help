@@ -119,6 +119,9 @@ test('About page explains advertising and links to Google’s privacy pages', as
   await expect(page.locator('[data-privacy] a[href="https://policies.google.com/technologies/partner-sites"]')).toBeVisible();
   await expect(page.locator('[data-privacy] a[href="https://adssettings.google.com/"]')).toBeVisible();
   await expect(page.locator('[data-privacy] a[href="https://www.aboutads.info/"]')).toBeVisible();
+  // The privacy policy address given to Google and others: /<locale>/about/#privacy
+  await expect(page.locator('section#privacy')).toHaveAttribute('data-privacy', '');
+  await expect(page.locator('section#advertising')).toHaveAttribute('data-advertising', '');
 });
 
 test('news items show no extracts while ads are on', async ({ page }) => {

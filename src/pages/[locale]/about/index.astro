@@ -45,14 +45,14 @@ const privacyLinks = {
 
     {
       ADS.enabled && (
-        <section data-advertising>
+        <section id="advertising" data-advertising>
           <h2>{a.advertisingTitle}</h2>
           <p>{a.advertising}</p>
         </section>
       )
     }
 
-    <section data-privacy>
+    <section id="privacy" data-privacy>
       <h2>{a.privacyTitle}</h2>
       <p><TextWithLinks text={a.privacy} links={privacyLinks} /></p>
     </section>
