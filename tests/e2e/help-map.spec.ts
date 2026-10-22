@@ -26,7 +26,6 @@ test('no unverified phone number, address or link appears on any page', () => {
   const pages = htmlFiles('dist').map((file) => ({ file, html: readFileSync(file, 'utf8') }));
   expect(pages.length).toBeGreaterThan(50);
   const unverified = HELP.flatMap((f) => f.entries).filter((e) => e.status !== 'verified');
-  expect(unverified.length).toBeGreaterThan(0);
 
   for (const entry of unverified) {
     const needles: string[] = [];

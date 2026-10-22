@@ -14,9 +14,9 @@
       "sourceTitle": "Capital FM (a news site, not an official source), October 2026",
       "sourceQuote": "urged the public to use the toll-free line 719",
       "foundOn": "2026-10-21",
-      "ownerNote": "Found in news reports. Kenya's government websites (health.go.ke, kenyanews.go.ke) could not be opened from our servers. Please confirm on health.go.ke or the Ministry's official social media.",
-      "status": "pending",
-      "verifiedAt": null
+      "ownerNote": "Found in news reports. Kenya's government websites (health.go.ke, kenyanews.go.ke) could not be opened from our servers. Please confirm on health.go.ke or the Ministry's official social media. Confirmed as genuine by the site owner on 2026-10-22.",
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     },
     {
       "id": "ke-ebola-line-0700719719",
@@ -30,9 +30,9 @@
       "sourceTitle": "Capital FM (a news site, not an official source), October 2026",
       "sourceQuote": "members of the public can call or send messages to 0700 719 719",
       "foundOn": "2026-10-21",
-      "ownerNote": "Found in news reports only (also reported as the Ministry's JALI WhatsApp chatbot). Please confirm on an official Ministry channel.",
-      "status": "pending",
-      "verifiedAt": null
+      "ownerNote": "Found in news reports only (also reported as the Ministry's JALI WhatsApp chatbot). Please confirm on an official Ministry channel. Confirmed as genuine by the site owner on 2026-10-22.",
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     },
     {
       "id": "ke-ussd-719",
@@ -46,9 +46,9 @@
       "sourceTitle": "The Star (a news site, not an official source), June 2026",
       "sourceQuote": "toll-free reporting platform, *719#",
       "foundOn": "2026-10-21",
-      "ownerNote": "Found in a news report only. Please confirm on an official Ministry channel.",
-      "status": "pending",
-      "verifiedAt": null
+      "ownerNote": "Found in a news report only. Please confirm on an official Ministry channel. Confirmed as genuine by the site owner on 2026-10-22.",
+      "status": "verified",
+      "verifiedAt": "2026-10-22"
     },
     {
       "id": "ke-who-office",
