@@ -1,6 +1,53 @@
 {
-  "updatedAt": "2026-10-22T08:24:01.600Z",
+  "updatedAt": "2026-10-22T14:07:02.935Z",
   "items": [
+    {
+      "id": "7937257ee9d1bfed",
+      "url": "https://www.rfi.fr/fr/afrique/20261022-ebola-au-nigeria-une-course-contre-la-montre-pour-identifier-les-contacts-du-premier-cas-d%C3%A9tect%C3%A9",
+      "title": "Ebola au Nigeria: une course contre-la-montre pour identifier les contacts du premier cas détecté",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-22T13:04:30.000Z",
+      "firstSeenAt": "2026-10-22T14:07:02.935Z",
+      "countries": [
+        "CD",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "0cb481c0bb35759e",
+      "url": "http://www.africanews.com/2026/10/22/nigeria-can-stop-ebola-spread-former-disease-control-chief-says/",
+      "title": "Nigeria can stop Ebola spread, former disease control chief says",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-22T12:21:58.000Z",
+      "firstSeenAt": "2026-10-22T14:07:02.935Z",
+      "countries": [
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "29c03df7db35c885",
+      "url": "https://www.rfi.fr/fr/afrique/20261022-ebola-au-kenya-la-gestion-des-autorit%C3%A9s-critiqu%C3%A9e-un-nouveau-cas-contact-ougandais-recherch%C3%A9",
+      "title": "Ebola au Kenya: la gestion des autorités critiquée, un nouveau cas contact ougandais recherché",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-22T08:49:54.000Z",
+      "firstSeenAt": "2026-10-22T14:07:02.935Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "d1d07529fa529b3f",
       "url": "https://www.dw.com/en/africa-cdc-calls-crisis-meeting-as-ebola-spreads/a-79728604?maca=en-rss-en-all-1573-rdf",
