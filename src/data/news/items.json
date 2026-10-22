@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-22T06:10:19.231Z",
+  "updatedAt": "2026-10-22T08:24:01.600Z",
   "items": [
+    {
+      "id": "d1d07529fa529b3f",
+      "url": "https://www.dw.com/en/africa-cdc-calls-crisis-meeting-as-ebola-spreads/a-79728604?maca=en-rss-en-all-1573-rdf",
+      "title": "Africa CDC calls crisis meeting as Ebola spreads",
+      "lang": "en",
+      "sourceId": "dw-en",
+      "sourceName": "DW",
+      "official": false,
+      "publishedAt": "2026-10-22T08:16:00.000Z",
+      "firstSeenAt": "2026-10-22T08:24:01.600Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "c6fc0c1081418302",
       "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20261022-ebola-aucun-pays-n-est-%C3%A0-l-abri-si-on-ne-renforce-pas-la-surveillance-affirme-le-dr-jean-kaseya",
