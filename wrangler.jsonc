@@ -1,0 +1,16 @@
+// Hosting on Cloudflare (Workers static assets, free plan). Cloudflare
+// rebuilds the site from GitHub on every change (build command
+// "npm run build") and serves the dist/ folder. There is no server code.
+// Setup steps for the site owner: DEPLOY.md.
+{
+  "name": "ebola-help",
+  "compatibility_date": "2026-10-22",
+  "assets": {
+    "directory": "./dist",
+    // /en serves /en/ (folders with a trailing slash, like the site's own links).
+    "html_handling": "auto-trailing-slash",
+    // Unknown addresses get the multilingual "page not found" page.
+    "not_found_handling": "404-page"
+  },
+  "observability": { "enabled": false }
+}

@@ -14,12 +14,15 @@ const NEVER = [
   '/fr/countries/ug/',
 ];
 
-/** Never contact Google during tests; record whether the ad script was requested. */
-async function watchAdScript(page: Page) {
+/**
+ * Never contact Google during tests; record whether the ad script was
+ * requested. "blocked" simulates an ad blocker, "empty" a script that loads.
+ */
+async function watchAdScript(page: Page, mode: 'blocked' | 'empty' = 'blocked') {
   const requested: string[] = [];
   await page.route(/googlesyndication\.com|doubleclick\.net/, (route) => {
     requested.push(route.request().url());
-    return route.abort();
+    return mode === 'blocked' ? route.abort() : route.fulfill({ body: '', contentType: 'text/javascript' });
   });
   return requested;
 }
@@ -46,7 +49,7 @@ for (const path of NEVER) {
 }
 
 test('the ad script is not loaded before the reader scrolls near the ad', async ({ page }) => {
-  const requested = await watchAdScript(page);
+  const requested = await watchAdScript(page, 'empty');
   await page.goto('/en/news/');
   await page.waitForTimeout(2500);
   expect(requested).toEqual([]);
@@ -56,6 +59,24 @@ test('the ad script is not loaded before the reader scrolls near the ad', async 
   await expect.poll(() => requested.length).toBeGreaterThan(0);
   expect(requested[0]).toContain(`adsbygoogle.js?client=${CLIENT}`);
   await expect(page.locator('[data-ad]')).toContainText(getMessages('en').ads.label);
+});
+
+test('no empty ad box when the ad script is blocked', async ({ page }) => {
+  const requested = await watchAdScript(page, 'blocked');
+  await page.goto('/en/news/');
+  await page.locator('[data-ad-zone]').scrollIntoViewIfNeeded();
+  await expect.poll(() => requested.length).toBeGreaterThan(0);
+  await expect(page.locator('[data-ad]')).toBeHidden();
+});
+
+test('no empty ad box when Google has no ad to show', async ({ page }) => {
+  await watchAdScript(page, 'empty');
+  await page.goto('/en/map/');
+  await page.locator('[data-ad-zone]').scrollIntoViewIfNeeded();
+  await expect(page.locator('[data-ad]')).toBeVisible();
+  // What Google's script does when no ad is available (site under review, no advertiser).
+  await page.locator('ins.adsbygoogle').evaluate((ins) => ins.setAttribute('data-ad-status', 'unfilled'));
+  await expect(page.locator('[data-ad]')).toBeHidden();
 });
 
 test('no ads at all when the browser asks to save data', async ({ page }) => {

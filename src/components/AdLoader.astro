@@ -18,6 +18,11 @@ import { ADS } from '../config';
         var connection = navigator.connection || {};
         if (connection.saveData || /(^|-)2g$/.test(connection.effectiveType || '')) return;
         var loaded = false;
+        var failed = false;
+        function hideAll() {
+          failed = true;
+          document.querySelectorAll('[data-ad]').forEach(function (ad) { ad.hidden = true; });
+        }
         function loadScript() {
           if (loaded) return;
           loaded = true;
@@ -25,11 +30,13 @@ import { ADS } from '../config';
           script.async = true;
           script.crossOrigin = 'anonymous';
           script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + client;
+          // Blocked or unreachable: no empty "Advertisement" box.
+          script.onerror = hideAll;
           document.head.appendChild(script);
         }
         function show(zone) {
           var ad = zone.querySelector('[data-ad]');
-          if (!ad || !ad.hidden) return;
+          if (failed || !ad || !ad.hidden) return;
           ad.hidden = false;
           loadScript();
           (window.adsbygoogle = window.adsbygoogle || []).push({});

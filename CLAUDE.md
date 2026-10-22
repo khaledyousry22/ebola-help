@@ -19,6 +19,10 @@ plain language.
 ## How the site is built
 
 - Astro 7, fully static output (`dist/`), no server or database. Tailwind v4.
+- Hosting: Cloudflare Workers static assets (`wrangler.jsonc`, no Worker
+  code), built by Workers Builds on every push to main (`npm run build`,
+  then `npx wrangler deploy`). Headers in `public/_headers`. Owner setup
+  steps: `DEPLOY.md`. CI runs `wrangler deploy --dry-run`.
 - Languages: `src/i18n/locales.ts` (list) and `src/i18n/messages/*.json`
   (UI text). English is the reference; unit tests fail if a language is
   missing a key or a `{placeholder}`.

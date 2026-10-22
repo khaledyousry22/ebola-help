@@ -40,6 +40,10 @@ jobs:
         run: npm test
       - name: Type check and build
         run: npm run build
+      - name: Check the Cloudflare hosting settings (wrangler.jsonc), without deploying
+        run: npx -y wrangler deploy --dry-run
+        env:
+          WRANGLER_SEND_METRICS: 'false'
       - name: Install browser for page tests
         run: npx playwright install --with-deps chromium
       - name: Page tests (languages, accessibility, disclaimer)

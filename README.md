@@ -15,7 +15,9 @@ official sources.
 ### How the site works
 
 - The website is a set of ready-made pages. There is no server or database to
-  look after, so there is nothing to update or patch.
+  look after, so there is nothing to update or patch. Cloudflare shows it to
+  visitors for free, from servers close to them, including in Africa
+  (setup: [DEPLOY.md](DEPLOY.md)).
 - It is designed for slow and expensive mobile connections: each page is about
   4 to 14 KB to download (the map page about 19 KB) and works without
   JavaScript.
@@ -101,13 +103,11 @@ near them, and never on data-saving or 2G connections.
 - While ads are on, news items show headline, source and date only (no
   extracts): WHO's terms allow extracts only for non-commercial use.
 
-**In your AdSense account (after the site is online, Phase 6):**
-1. Sites → add `ebola.help`. Google checks it with the tag already on every page.
-2. Privacy & messaging → create the **European regulations message**
-   (required for visitors in Europe, the UK and Switzerland) and, if offered,
-   the US states message.
-3. Blocking controls → block advertiser categories for health products,
-   medicines and supplements, so no "cure" ads appear on an Ebola site.
+- If Google has no ad to show (for example while it reviews the site), or an
+  ad blocker stops it, the ad space stays hidden: no empty boxes.
+
+Settings in your AdSense account (add the site, the consent message for
+Europe, blocking "cure" and medicine ads): [DEPLOY.md, Step 7](DEPLOY.md#step-7-google-adsense-10-minutes-once-the-site-is-on-ebolahelp).
 
 ### Offline use and search engines
 
@@ -135,8 +135,8 @@ on each change.
 ### Reporting errors
 
 Visitors report wrong numbers to **wrongnumber@ebola.help** (shown on every
-page). Make sure this mailbox or forward exists at your domain company
-(GoDaddy).
+page). Cloudflare forwards these messages to your usual inbox, for free
+([DEPLOY.md, Step 6](DEPLOY.md#step-6-receive-wrongnumberebolahelp-in-your-inbox-5-minutes)).
 
 ### Project phases
 
@@ -147,7 +147,7 @@ page). Make sure this mailbox or forward exists at your domain company
 | 3 | Automatic news collection | Done |
 | 4 | Helplines, treatment centres and the map | Done (numbers await your check) |
 | 5 | Editing page, search engines, offline use, speed and accessibility checks | Done |
-| 6 | Putting the site online at ebola.help (step-by-step guide) | Next |
+| 6 | Putting the site online at ebola.help | Ready: follow [DEPLOY.md](DEPLOY.md) |
 
 ---
 
@@ -186,6 +186,8 @@ src/
   data/news/items.json     collected news (written by the job)
   data/news/overrides.json hide or pin news items
   data/help/<ISO>.json     helplines and contacts per country (pending/verified)
+public/_headers            cache and security headers on Cloudflare
+wrangler.jsonc             Cloudflare hosting settings (serves dist/)
 .pages.yml                 editing page (Pages CMS) forms for the data files above
   lib/africa-map.ts        builds the SVG map from Natural Earth data
 scripts/news/              the hourly news job (npm run news)
