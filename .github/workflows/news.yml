@@ -2,9 +2,14 @@ name: News update
 
 # Collects Ebola news every hour and saves src/data/news/items.json when it
 # changes. A broken feed is skipped; the job only fails if every source fails.
+#
+# GitHub delays or drops scheduled runs when it is busy, so the job is
+# scheduled twice an hour and skips itself if the news was collected less
+# than 45 minutes ago. Each update rebuilds the site on Cloudflare, so this
+# also keeps the number of builds to about one an hour.
 on:
   schedule:
-    - cron: '23 * * * *'
+    - cron: '17,47 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -24,14 +29,26 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: npm
+      - name: Skip if the news was collected less than 45 minutes ago
+        id: recent
+        if: github.event_name == 'schedule'
+        run: |
+          last=$(node -p "require('./src/data/news/items.json').updatedAt")
+          age=$(( $(date -u +%s) - $(date -u -d "$last" +%s) ))
+          echo "News last collected $(( age / 60 )) minutes ago."
+          if [ "$age" -lt 2700 ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
+
       - run: npm ci --no-audit --no-fund
+        if: steps.recent.outputs.skip != 'true'
 
       - name: Collect news
+        if: steps.recent.outputs.skip != 'true'
         # GDELT is slow and often busy, so it is only tried every six hours.
         run: |
           if [ $(( $(date -u +%-H) % 6 )) -eq 0 ]; then npm run news; else npm run news -- --no-gdelt; fi
 
       - name: Save changes
+        if: steps.recent.outputs.skip != 'true'
         run: |
           git config user.name "ebola-help news bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
