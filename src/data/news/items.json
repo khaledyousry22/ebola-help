@@ -1,6 +1,67 @@
 {
-  "updatedAt": "2026-10-23T19:33:17.002Z",
+  "updatedAt": "2026-10-23T22:39:22.425Z",
   "items": [
+    {
+      "id": "ce079964dac77815",
+      "url": "https://www.dw.com/es/kenia-registra-una-segunda-muerte-por-%C3%A9bola/a-79747668?maca=spa-rss-sp-all-1122-rdf",
+      "title": "Kenia registra una segunda muerte por ébola",
+      "lang": "es",
+      "sourceId": "dw-es",
+      "sourceName": "DW",
+      "official": false,
+      "publishedAt": "2026-10-23T21:42:00.000Z",
+      "firstSeenAt": "2026-10-23T22:39:22.425Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "29dc97f27de8fbd7",
+      "url": "https://www.dw.com/en/ebola-kenya-announces-second-death/a-79747550?maca=en-rss-en-all-1573-rdf",
+      "title": "Ebola: Kenya announces second death",
+      "lang": "en",
+      "sourceId": "dw-en",
+      "sourceName": "DW",
+      "official": false,
+      "publishedAt": "2026-10-23T21:09:00.000Z",
+      "firstSeenAt": "2026-10-23T22:39:22.425Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "387aad5c4acb2285",
+      "url": "https://www.france24.com/en/building-collapse-in-nairobi-search-for-survivors-under-way",
+      "title": "Building collapse in Nairobi search for survivors under way",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-23T20:31:50.000Z",
+      "firstSeenAt": "2026-10-23T22:39:22.425Z",
+      "countries": [
+        "CV",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "2b00a402667f122a",
+      "url": "https://tass.ru/obschestvo/28248479",
+      "title": "В Кении зарегистрировали второй случай смерти от Эболы",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-10-23T20:19:00.000Z",
+      "firstSeenAt": "2026-10-23T22:39:22.425Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "ab82163669b8302f",
       "url": "https://actualite.cd/2026/10/23/ebola-en-rdc-le-premier-participant-lessai-clinique-tumaini-est-vaccine-contre-le-virus",
@@ -93,6 +154,22 @@
       "official": false,
       "publishedAt": "2026-10-23T12:00:00.000Z",
       "firstSeenAt": "2026-10-23T19:33:17.002Z",
+      "countries": [
+        "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "63784d1b60b62c87",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143059",
+      "title": "刚果（金）埃博拉疫情持续蔓延，肯尼亚加强防控措施",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "firstSeenAt": "2026-10-23T22:39:22.425Z",
       "countries": [
         "CD",
         "KE"
