@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-10-23T15:29:18.685Z",
+  "updatedAt": "2026-10-23T19:33:17.002Z",
   "items": [
+    {
+      "id": "ab82163669b8302f",
+      "url": "https://actualite.cd/2026/10/23/ebola-en-rdc-le-premier-participant-lessai-clinique-tumaini-est-vaccine-contre-le-virus",
+      "title": "Ebola en RDC : le premier participant à l'essai clinique \"Tumaini\" est vacciné contre le virus Bundibugyo à Bunia",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-23T18:31:04.000Z",
+      "firstSeenAt": "2026-10-23T19:33:17.002Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "cd7197c96e3fc027",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria (2026-DON622)",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-10-23T15:03:45.000Z",
+      "firstSeenAt": "2026-10-23T19:33:17.002Z",
+      "countries": [
+        "CD",
+        "KE",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "f2138ac6e52a1bee",
       "url": "https://www.dw.com/es/%C3%A9bola-dudas-sobre-el-papel-de-uganda-en-los-casos-de-kenia-y-nigeria/a-79745006?maca=spa-rss-sp-all-1122-rdf",
@@ -47,6 +80,22 @@
         "KE",
         "NG",
         "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "17a67c69ca7286ba",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168655",
+      "title": "‘Burden and loss’ builds in DR Congo, as Kenya strengthens Ebola containment",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "firstSeenAt": "2026-10-23T19:33:17.002Z",
+      "countries": [
+        "CD",
+        "KE"
       ],
       "alsoReportedBy": []
     },
