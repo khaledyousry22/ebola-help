@@ -1,6 +1,69 @@
 {
-  "updatedAt": "2026-10-23T05:24:40.222Z",
+  "updatedAt": "2026-10-23T10:32:24.759Z",
   "items": [
+    {
+      "id": "ca0b63f7ccb8e57f",
+      "url": "http://www.africanews.com/2026/10/23/nigeria-steps-up-airport-health-screenings-over-ebola-fears/",
+      "title": "Nigeria steps up airport health screenings over Ebola fears",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-23T09:42:51.000Z",
+      "firstSeenAt": "2026-10-23T10:32:24.759Z",
+      "countries": [
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d857cfb11b33a2f3",
+      "url": "https://www.france24.com/fr/afrique/20261023-ebola-nigeria-gr%C3%A8ve-s%C3%A9n%C3%A9gal-frappe-march%C3%A9-soudan-hebdo-afrique",
+      "title": "Ebola au Nigeria, grève au Sénégal, frappe sur un marché au Soudan : l'hebdo Afrique",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-23T09:32:05.000Z",
+      "firstSeenAt": "2026-10-23T10:32:24.759Z",
+      "countries": [
+        "NG",
+        "SD",
+        "SN"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "353d19ee61b14fd5",
+      "url": "http://www.africanews.com/2026/10/23/nigerias-health-minister-says-first-ebola-case-remains-isolated/",
+      "title": "Nigeria's health minister says first Ebola case remains isolated",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-23T08:29:45.000Z",
+      "firstSeenAt": "2026-10-23T10:32:24.759Z",
+      "countries": [
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d54d935c747a56c2",
+      "url": "https://www.france24.com/en/africa-faces-complex-ebola-outbreak-after-spread-to-nigeria-who",
+      "title": "Africa faces 'complex' Ebola outbreak after spread to Nigeria: WHO",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-23T08:28:09.000Z",
+      "firstSeenAt": "2026-10-23T10:32:24.759Z",
+      "countries": [
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "526d2903151d8304",
       "url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo",
@@ -111,6 +174,23 @@
       "countries": [
         "CD",
         "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "88c4184fc9946500",
+      "url": "https://news.un.org/feed/view/es/story/2026/10/1542095",
+      "title": "Los equipos de respuesta al ébola, bajo presión mientras el brote se expande",
+      "lang": "es",
+      "sourceId": "un-news-es",
+      "sourceName": "Noticias ONU",
+      "official": false,
+      "publishedAt": "2026-10-22T12:00:00.000Z",
+      "firstSeenAt": "2026-10-23T10:32:24.759Z",
+      "countries": [
+        "CD",
+        "NG",
+        "UG"
       ],
       "alsoReportedBy": []
     },
