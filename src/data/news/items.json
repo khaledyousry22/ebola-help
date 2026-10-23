@@ -1,6 +1,55 @@
 {
-  "updatedAt": "2026-10-23T10:32:24.759Z",
+  "updatedAt": "2026-10-23T15:29:18.685Z",
   "items": [
+    {
+      "id": "f2138ac6e52a1bee",
+      "url": "https://www.dw.com/es/%C3%A9bola-dudas-sobre-el-papel-de-uganda-en-los-casos-de-kenia-y-nigeria/a-79745006?maca=spa-rss-sp-all-1122-rdf",
+      "title": "Ébola: dudas sobre el papel de Uganda en los casos de Kenia y Nigeria",
+      "lang": "es",
+      "sourceId": "dw-es",
+      "sourceName": "DW",
+      "official": false,
+      "publishedAt": "2026-10-23T14:44:00.000Z",
+      "firstSeenAt": "2026-10-23T15:29:18.685Z",
+      "countries": [
+        "KE",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d81be8d53917477e",
+      "url": "https://actualite.cd/2026/10/23/kisangani-controverse-autour-dun-meeting-populaire-convoque-par-le-gouverneur-en-pleine",
+      "title": "Kisangani : controverse autour d'un meeting populaire convoqué par le Gouverneur en pleine épidémie d'Ebola",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-23T13:00:02.000Z",
+      "firstSeenAt": "2026-10-23T15:29:18.685Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "570e445800259610",
+      "url": "https://www.dw.com/en/uganda-says-it-has-no-active-ebola-cases-but-infections-in-kenya-and-nigeria-are-prompting-fresh-scrutiny/a-79741580?maca=en-rss-en-all-1573-rdf",
+      "title": "Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny",
+      "lang": "en",
+      "sourceId": "dw-en",
+      "sourceName": "DW",
+      "official": false,
+      "publishedAt": "2026-10-23T12:11:00.000Z",
+      "firstSeenAt": "2026-10-23T15:29:18.685Z",
+      "countries": [
+        "KE",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "ca0b63f7ccb8e57f",
       "url": "http://www.africanews.com/2026/10/23/nigeria-steps-up-airport-health-screenings-over-ebola-fears/",
@@ -763,6 +812,21 @@
       "official": true,
       "publishedAt": "2026-10-19T20:12:16.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "04f7ab30658d30ae",
+      "url": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026",
+      "title": "Ebola disease: Multi-country outbreak 2026",
+      "lang": "en",
+      "sourceId": "ecdc",
+      "sourceName": "European Centre for Disease Prevention and Control (ECDC)",
+      "official": true,
+      "publishedAt": "2026-10-19T15:36:21.000Z",
+      "firstSeenAt": "2026-10-23T15:29:18.685Z",
       "countries": [
         "CD"
       ],
