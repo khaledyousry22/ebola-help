@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-10-24T01:08:43.627Z",
+  "updatedAt": "2026-10-24T05:55:15.508Z",
   "items": [
+    {
+      "id": "f739182f5887abd1",
+      "url": "https://www.rfi.fr/fr/afrique/20261024-nigeria-la-d%C3%A9couverte-d-un-premier-cas-d-ebola-s-immisce-dans-le-d%C3%A9bat-politique",
+      "title": "Nigeria: la découverte d'un premier cas d'Ebola s'immisce dans le débat politique",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-24T02:40:49.000Z",
+      "firstSeenAt": "2026-10-24T05:55:15.508Z",
+      "countries": [
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e736ecf9cb9c513b",
+      "url": "https://www.dw.com/es/inicia-ensayo-de-vacuna-contra-brote-de-%C3%A9bola-en-rd-congo/a-79747806?maca=spa-rss-sp-all-1122-rdf",
+      "title": "Inicia ensayo de vacuna contra brote de ébola en RD Congo",
+      "lang": "es",
+      "sourceId": "dw-es",
+      "sourceName": "DW",
+      "official": false,
+      "publishedAt": "2026-10-24T01:04:00.000Z",
+      "firstSeenAt": "2026-10-24T05:55:15.508Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "ce079964dac77815",
       "url": "https://www.dw.com/es/kenia-registra-una-segunda-muerte-por-%C3%A9bola/a-79747668?maca=spa-rss-sp-all-1122-rdf",
