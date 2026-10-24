@@ -1,6 +1,55 @@
 {
-  "updatedAt": "2026-10-24T14:34:13.456Z",
+  "updatedAt": "2026-10-24T17:36:55.339Z",
   "items": [
+    {
+      "id": "f86a7b8e7a6aa9ae",
+      "url": "https://tass.ru/obschestvo/28250063",
+      "title": "В Нигерии заявили о генетической связи занесенного вируса Эболы со штаммом в Кении",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-10-24T16:28:02.000Z",
+      "firstSeenAt": "2026-10-24T17:36:55.339Z",
+      "countries": [
+        "KE",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ba9b0f0d756fb86a",
+      "url": "https://www.rfi.fr/fr/afrique/20261024-ebola-au-nigeria-et-au-kenya-les-deux-patients-se-sont-ils-crois%C3%A9s-en-ouganda",
+      "title": "Ebola au Nigeria et au Kenya: les deux patients se sont-ils croisés en Ouganda?",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-24T16:00:35.000Z",
+      "firstSeenAt": "2026-10-24T17:36:55.339Z",
+      "countries": [
+        "KE",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ed627ed46e2fe06c",
+      "url": "https://tass.ru/obschestvo/28249979",
+      "title": "Swissinfo: жена сотрудника посольства Швейцарии в Нигерии заразилась Эболой",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-10-24T15:05:53.000Z",
+      "firstSeenAt": "2026-10-24T17:36:55.339Z",
+      "countries": [
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "b431888ce09615cd",
       "url": "https://actualite.cd/2026/10/24/ebola-en-ituri-les-prestataires-de-rwampara-et-kasenyi-menacent-de-suspendre-leurs",
