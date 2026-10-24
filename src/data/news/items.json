@@ -1,6 +1,98 @@
 {
-  "updatedAt": "2026-10-24T05:55:15.508Z",
+  "updatedAt": "2026-10-24T11:01:58.044Z",
   "items": [
+    {
+      "id": "a17e32fceb1b80df",
+      "url": "https://insp.cd/sitrep-n161-mve-bdbv-22-10-2026/",
+      "title": "SitRep N°161/MVE-BDBV/22/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-24T10:56:08.000Z",
+      "firstSeenAt": "2026-10-24T11:01:58.044Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d1b7f00a4a8fff6a",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo",
+      "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+      "lang": "en",
+      "sourceId": "bbc-africa",
+      "sourceName": "BBC News",
+      "official": false,
+      "publishedAt": "2026-10-24T09:46:53.000Z",
+      "firstSeenAt": "2026-10-24T11:01:58.044Z",
+      "countries": [
+        "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "fb2854f5e705b901",
+      "url": "https://actualite.cd/2026/10/24/ebola-lacaj-appelle-un-audit-suite-la-gestion-opaque-des-fonds-alloues",
+      "title": "Ebola : l’ACAJ appelle à un audit suite à la gestion opaque des fonds alloués",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-24T09:28:03.000Z",
+      "firstSeenAt": "2026-10-24T11:01:58.044Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "634a3c227c161d65",
+      "url": "http://www.africanews.com/2026/10/24/new-tumaini-ebola-vaccine-trial-launches-in-bunia-as-drc-struggles/",
+      "title": "New Tumaini Ebola vaccine trial launches in Bunia as DRC struggles",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-24T08:38:44.000Z",
+      "firstSeenAt": "2026-10-24T11:01:58.044Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ce5226041c5d0732",
+      "url": "https://insp.cd/sitrep-n160-mve-bdbv-21-10-2026/",
+      "title": "SitRep N°160/MVE-BDBV/21/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-24T08:31:18.000Z",
+      "firstSeenAt": "2026-10-24T11:01:58.044Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "df08dcd7a19816af",
+      "url": "https://www.rfi.fr/fr/podcasts/le-d%C3%A9bat-africain/20261024-macky-sall-jette-l-%C3%A9ponge-et-ebola-de-retour-au-nigeria",
+      "title": "Macky Sall jette l'éponge, et Ebola de retour au Nigeria",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-24T06:10:49.000Z",
+      "firstSeenAt": "2026-10-24T11:01:58.044Z",
+      "countries": [
+        "KE",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "f739182f5887abd1",
       "url": "https://www.rfi.fr/fr/afrique/20261024-nigeria-la-d%C3%A9couverte-d-un-premier-cas-d-ebola-s-immisce-dans-le-d%C3%A9bat-politique",
