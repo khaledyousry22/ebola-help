@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-24T11:01:58.044Z",
+  "updatedAt": "2026-10-24T14:34:13.456Z",
   "items": [
+    {
+      "id": "b431888ce09615cd",
+      "url": "https://actualite.cd/2026/10/24/ebola-en-ituri-les-prestataires-de-rwampara-et-kasenyi-menacent-de-suspendre-leurs",
+      "title": "Ebola en Ituri : les prestataires de Rwampara et Kasenyi menacent de suspendre leurs activités",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-24T13:59:39.000Z",
+      "firstSeenAt": "2026-10-24T14:34:13.456Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "a17e32fceb1b80df",
       "url": "https://insp.cd/sitrep-n161-mve-bdbv-22-10-2026/",
