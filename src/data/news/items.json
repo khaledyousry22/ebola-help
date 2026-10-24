@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T22:39:22.425Z",
+  "updatedAt": "2026-10-24T01:08:43.627Z",
   "items": [
     {
       "id": "ce079964dac77815",
@@ -157,6 +157,36 @@
       "countries": [
         "CD",
         "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "482d76edd5dd0149",
+      "url": "https://news.un.org/feed/view/ru/story/2026/10/1468971",
+      "title": "ДР Конго: для борьбы с Эболой срочно требуются дополнительные ресурсы",
+      "lang": "ru",
+      "sourceId": "un-news-ru",
+      "sourceName": "Новости ООН",
+      "official": false,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "firstSeenAt": "2026-10-24T01:08:43.627Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "5c7e663676e20850",
+      "url": "https://news.un.org/feed/view/fr/story/2026/10/1159716",
+      "title": "RDC : la crise alimentaire s’aggrave dans les zones touchées par Ebola",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "firstSeenAt": "2026-10-24T01:08:43.627Z",
+      "countries": [
+        "CD"
       ],
       "alsoReportedBy": []
     },
