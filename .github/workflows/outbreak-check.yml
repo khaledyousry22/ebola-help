@@ -1,0 +1,31 @@
+name: Outbreak figures (dry run)
+
+# Proves that the figures job can still read the official page, without
+# changing anything. It runs on pull requests that touch the job or the
+# figures, so a change to the reading script is tested against the real page
+# before it is merged. The report appears in the run's summary.
+on:
+  pull_request:
+    paths:
+      - 'scripts/outbreak/**'
+      - 'src/data/outbreak.json'
+      - 'src/data/sources.ts'
+      - '.github/workflows/outbreak*.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Read the official figures and report what would change
+        run: npm run outbreak -- --dry

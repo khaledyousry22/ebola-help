@@ -15,6 +15,7 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "news": "tsx scripts/news/ingest.ts",
+    "outbreak": "tsx scripts/outbreak/update.ts",
     "verify-me": "tsx scripts/verify-me.ts",
     "images": "tsx scripts/images.ts"
   },

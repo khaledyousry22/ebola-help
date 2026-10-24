@@ -70,6 +70,28 @@ articles and never translates them.
 If a source stops working, the others carry on. The job only reports a
 failure if every source fails.
 
+### The outbreak figures
+
+The cases and deaths in the banner and on the map update themselves too.
+Every three hours a job on GitHub ("Outbreak figures", under the **Actions**
+tab) reads the CDC's current-situation page and saves the new numbers, with
+the date they refer to and the sentence they were read from. Each update
+reaches the website a couple of minutes later.
+
+The job refuses to publish anything that looks wrong: a number lower than
+the one already shown, a jump too large for one update, more deaths than
+cases, a date in the future, a country it could not read, or wording on the
+page it does not recognise. When that happens it changes nothing and opens
+an issue titled "Outbreak figures need a check", so you can look at the page
+yourself and, if the figures are right, type them on the editing page.
+
+- **Run the job now:** Actions tab → "Outbreak figures" → "Run workflow".
+- **Type the figures yourself:** editing page → "Outbreak figures and map".
+  Your numbers stay until the official page shows something newer.
+- **A country appears that the site does not list** (the job mentions it in
+  its report): adding one also means choosing its colour on the map, so that
+  is left to you.
+
 ### Your checklist of phone numbers
 
 [`VERIFY_ME.md`](VERIFY_ME.md) lists every phone number, address or facility

@@ -1,0 +1,101 @@
+name: Outbreak figures
+
+# Keeps the figures in the banner and on the map current, the same way the
+# news updates itself. Every three hours this job reads the CDC page, checks
+# the reading (scripts/outbreak/lib/plan.ts) and commits the new numbers.
+# Each commit rebuilds the site on Cloudflare, so the figures are live a
+# couple of minutes later.
+#
+# If anything is unexpected (a number lower than the one published, a jump
+# too large for one update, a country it could not read, wording it does not
+# recognise), nothing is changed and the job opens an issue instead. Figures
+# a few days old are better than wrong ones.
+on:
+  schedule:
+    - cron: '25 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: outbreak-figures
+  cancel-in-progress: false
+
+env:
+  ISSUE_TITLE: Outbreak figures need a check
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+
+      - name: Read the official figures
+        id: figures
+        # Ends with an error when a person is needed; the steps below handle that.
+        continue-on-error: true
+        run: npm run outbreak -- --report=outbreak-report.md
+
+      # A last check before anything reaches the site: the unit tests read
+      # outbreak.json through the same rules as the build.
+      - name: Check the data the site will read
+        if: steps.figures.outputs.changed == 'true'
+        run: npm test
+
+      - name: Publish the new figures
+        if: steps.figures.outputs.changed == 'true'
+        env:
+          SUMMARY: ${{ steps.figures.outputs.summary }}
+        run: |
+          git config user.name "ebola-help figures bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          {
+            printf '%s\n\n' "$SUMMARY"
+            printf 'Read automatically from the CDC page. The figures and the words they\n'
+            printf 'were read from are below; nothing is published unless every check in\n'
+            printf 'scripts/outbreak/lib/plan.ts passes.\n\n'
+            cat outbreak-report.md
+          } > outbreak-commit-message.txt
+          git add src/data/outbreak.json src/data/sources.ts
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -F outbreak-commit-message.txt
+          for attempt in 1 2 3; do
+            git push && exit 0
+            git pull --rebase origin main
+          done
+          exit 1
+
+      - name: Ask the owner to look
+        if: steps.figures.outputs.problems == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          number=$(gh issue list --state open --search "$ISSUE_TITLE in:title" --json number,title \
+            --jq "[.[] | select(.title == \"$ISSUE_TITLE\")] | .[0].number // empty")
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body-file outbreak-report.md
+          else
+            gh issue create --title "$ISSUE_TITLE" --body-file outbreak-report.md
+          fi
+
+      # A crash (rather than a reported problem) must not pass unnoticed.
+      - name: Report a job that did not finish
+        if: steps.figures.outcome == 'failure' && steps.figures.outputs.problems != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh issue create --title "Outbreak figures: the job did not finish" \
+            --body "The figures job stopped before it could report anything. The log is at $RUN_URL."
+          exit 1

@@ -33,6 +33,17 @@ plain language.
   not copying), using WHO's official terminology in each language.
 - Sources: `src/data/sources.ts`, with each publisher's own language versions.
   Outbreak banner: `src/data/outbreak.json`, validated by `src/data/outbreak.ts`.
+- Outbreak figures: `scripts/outbreak/` (run with `npm run outbreak`, every
+  three hours in `.github/workflows/outbreak.yml`). It reads the CDC
+  current-situation page (`cdcSituation` in `src/data/sources.ts`), and
+  `scripts/outbreak/lib/plan.ts` decides whether the reading may be
+  published: totals never fall, deaths never exceed cases, no jump over 25%,
+  no future date, every country with figures must be readable, countries
+  marked `ended` are left alone and a country not in `outbreak.json` is only
+  reported. A failed check writes nothing and opens an issue. Owner-typed
+  figures stand until the page shows something newer (`asOf`). `--dry` reports
+  without writing and `--page=FILE` reads a saved copy; a PR touching the job
+  runs the real page through it (`outbreak-check.yml`).
 - Quote YAML front matter values that contain `: `.
 - News: `scripts/news/` (run with `npm run news`, hourly in
   `.github/workflows/news.yml`). Sources in `src/data/news-sources.ts`; output
