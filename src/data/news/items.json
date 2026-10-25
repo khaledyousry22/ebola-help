@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-10-25T14:23:37.154Z",
+  "updatedAt": "2026-10-25T17:52:36.911Z",
   "items": [
+    {
+      "id": "9a48ad4761fc5e4a",
+      "url": "https://tass.ru/obschestvo/28251849",
+      "title": "Медперсонал ДР Конго объявил забастовку из-за задержки зарплат",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-10-25T17:18:51.000Z",
+      "firstSeenAt": "2026-10-25T17:52:36.911Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e1d35f36f569dda0",
+      "url": "https://actualite.cd/2026/10/25/butembo-quatre-nouveaux-survivants-debola-quittent-le-centre-de-traitement-de-matanda",
+      "title": "Butembo : quatre nouveaux survivants d’Ebola quittent le centre de traitement de Matanda",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-25T16:19:28.000Z",
+      "firstSeenAt": "2026-10-25T17:52:36.911Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3d04a7dfd96b5ee8",
+      "url": "https://actualite.cd/2026/10/25/ebola-dans-la-tshopo-un-infirmier-pris-pour-cible-et-tue-sur-fond-de-rumeur-bafwasende",
+      "title": "Ebola dans la Tshopo : un infirmier pris pour cible et tué sur fond de rumeur à Bafwasende",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-25T15:31:05.000Z",
+      "firstSeenAt": "2026-10-25T17:52:36.911Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "fa9f3300ade2b36c",
       "url": "https://actualite.cd/2026/10/25/ebola-butembo-neuf-personnes-gueries-en-une-semaine-au-cte-de-katwa",
