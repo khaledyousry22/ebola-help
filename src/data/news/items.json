@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-24T17:36:55.339Z",
+  "updatedAt": "2026-10-25T10:10:16.405Z",
   "items": [
+    {
+      "id": "278e9e47e22d3c95",
+      "url": "https://actualite.cd/2026/10/25/ebola-en-ituri-impayes-depuis-aout-les-agents-de-la-riposte-decretent-une-greve",
+      "title": "Ebola en Ituri : impayés depuis août, les agents de la riposte décrètent une grève illimitée à Nia-Nia",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-25T09:44:13.000Z",
+      "firstSeenAt": "2026-10-25T10:10:16.405Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "f86a7b8e7a6aa9ae",
       "url": "https://tass.ru/obschestvo/28250063",
