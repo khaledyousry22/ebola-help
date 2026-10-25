@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-10-25T10:10:16.405Z",
+  "updatedAt": "2026-10-25T14:23:37.154Z",
   "items": [
+    {
+      "id": "fa9f3300ade2b36c",
+      "url": "https://actualite.cd/2026/10/25/ebola-butembo-neuf-personnes-gueries-en-une-semaine-au-cte-de-katwa",
+      "title": "Ebola à Butembo : neuf personnes guéries en une semaine au CTE de Katwa",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-25T14:06:03.000Z",
+      "firstSeenAt": "2026-10-25T14:23:37.154Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7f433a13a3bfb2d9",
+      "url": "http://www.africanews.com/2026/10/25/red-cross-trains-staff-as-kenya-records-its-second-death-from-ebola/",
+      "title": "Red Cross trains staff as Kenya records its second death from Ebola",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-25T10:45:43.000Z",
+      "firstSeenAt": "2026-10-25T14:23:37.154Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "37fcf77d3c57bae0",
+      "url": "https://insp.cd/sitrep-n162-mve-bdbv-23-10-2026/",
+      "title": "SitRep N°162/MVE-BDBV/23/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-25T10:12:28.000Z",
+      "firstSeenAt": "2026-10-25T14:23:37.154Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "278e9e47e22d3c95",
       "url": "https://actualite.cd/2026/10/25/ebola-en-ituri-impayes-depuis-aout-les-agents-de-la-riposte-decretent-une-greve",
