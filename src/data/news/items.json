@@ -1,6 +1,67 @@
 {
-  "updatedAt": "2026-10-26T07:00:33.277Z",
+  "updatedAt": "2026-10-26T14:16:55.370Z",
   "items": [
+    {
+      "id": "3f181aba1c8b51b5",
+      "url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o",
+      "title": "Nurse killed in attack while responding to Ebola alert in DR Congo",
+      "lang": "en",
+      "sourceId": "bbc-africa",
+      "sourceName": "BBC News",
+      "official": false,
+      "publishedAt": "2026-10-26T12:57:58.000Z",
+      "firstSeenAt": "2026-10-26T14:16:55.370Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "149a2cfdff4f1413",
+      "url": "http://www.africanews.com/2026/10/26/nigeria-evacuates-only-confirmed-ebola-case-to-switzerland/",
+      "title": "Nigeria evacuates only confirmed Ebola case to Switzerland",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-26T12:53:45.000Z",
+      "firstSeenAt": "2026-10-26T14:16:55.370Z",
+      "countries": [
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "2b1e1235f71cd933",
+      "url": "https://www.afro.who.int/countries/kenya/publication/travel-route-kenyas-first-ebola-case",
+      "title": "Travel route of Kenya’s first Ebola case",
+      "lang": "en",
+      "sourceId": "who-afro-en",
+      "sourceName": "WHO Regional Office for Africa",
+      "official": true,
+      "publishedAt": "2026-10-26T10:41:00.000Z",
+      "firstSeenAt": "2026-10-26T14:16:55.370Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1265c3a97587eccd",
+      "url": "https://www.rfi.fr/fr/podcasts/appels-sur-l-actualit%C3%A9/20261026-vos-r%C3%A9actions-ebola-etat-d-alerte-au-nigeria-apr%C3%A8s-le-diagnostic-d-un-premier-cas",
+      "title": "VOS RÉACTIONS - Ebola: Etat d'alerte au Nigeria après le diagnostic d'un premier cas",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-26T09:40:50.000Z",
+      "firstSeenAt": "2026-10-26T14:16:55.370Z",
+      "countries": [
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "8f9185332583940b",
       "url": "https://tass.ru/proisshestviya/28252861",
