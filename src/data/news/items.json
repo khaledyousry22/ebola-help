@@ -1,6 +1,84 @@
 {
-  "updatedAt": "2026-10-25T17:52:36.911Z",
+  "updatedAt": "2026-10-26T07:00:33.277Z",
   "items": [
+    {
+      "id": "8f9185332583940b",
+      "url": "https://tass.ru/proisshestviya/28252861",
+      "title": "В ДР Конго число умерших от Эболы превысило 4,8 тыс.",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-10-26T06:57:21.000Z",
+      "firstSeenAt": "2026-10-26T07:00:33.277Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "34908992de58eeff",
+      "url": "https://insp.cd/sitrep-n163-mve-bdbv-24-10-2026/",
+      "title": "SitRep N°163/MVE-BDBV/24/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-26T06:35:31.000Z",
+      "firstSeenAt": "2026-10-26T07:00:33.277Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "8abb5ecc5aef7914",
+      "url": "http://www.africanews.com/2026/10/26/ebola-uganda-introduces-21-day-quarantine-for-people-entering-from-drc/",
+      "title": "Ebola: Uganda introduces 21-day quarantine for people entering from DRC",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-26T06:10:31.000Z",
+      "firstSeenAt": "2026-10-26T07:00:33.277Z",
+      "countries": [
+        "CD",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "10b05dd018c03aa9",
+      "url": "https://actualite.cd/2026/10/26/rdc-lonu-condamne-le-meurtre-dun-infirmier-engage-dans-la-riposte-contre-ebola",
+      "title": "RDC: l’ONU condamne le meurtre d’un infirmier engagé dans la riposte contre Ebola à Bafwasende et appelle à une enquête",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-26T05:20:48.000Z",
+      "firstSeenAt": "2026-10-26T07:00:33.277Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3676a135edbd27c5",
+      "url": "https://www.rfi.fr/fr/afrique/20261026-ebola-l-ouganda-renforce-son-dispositif-pour-pr%C3%A9venir-une-nouvelle-introduction-du-virus",
+      "title": "Ebola: l’Ouganda renforce son dispositif pour prévenir une nouvelle introduction du virus",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-26T04:07:15.000Z",
+      "firstSeenAt": "2026-10-26T07:00:33.277Z",
+      "countries": [
+        "CD",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "9a48ad4761fc5e4a",
       "url": "https://tass.ru/obschestvo/28251849",
