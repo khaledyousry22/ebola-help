@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-27T16:01:46.811Z",
+  "updatedAt": "2026-10-27T20:42:21.950Z",
   "items": [
+    {
+      "id": "6fb4f2390051294a",
+      "url": "https://africacdc.org/news-item/africa-cdc-commends-kenyas-decisive-leadership-and-strengthens-joint-efforts-to-contain-ebola/",
+      "title": "Africa CDC Commends Kenya’s Decisive Leadership and Strengthens Joint Efforts to Contain Ebola",
+      "lang": "en",
+      "sourceId": "africa-cdc",
+      "sourceName": "Africa CDC",
+      "official": true,
+      "publishedAt": "2026-10-27T16:23:36.000Z",
+      "firstSeenAt": "2026-10-27T20:42:21.950Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "7c5f770532d0142e",
       "url": "https://www.france24.com/en/africa/20261027-africa-ebola-outbreak-tops-10-000-cases-mainly-dr-congo",
