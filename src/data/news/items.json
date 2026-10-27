@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-26T19:59:46.210Z",
+  "updatedAt": "2026-10-27T05:06:25.725Z",
   "items": [
+    {
+      "id": "8fb0d678448d52ea",
+      "url": "https://tass.ru/obschestvo/28255183",
+      "title": "За пределами больниц. Как ДР Конго продолжает бороться со вспышкой Эболы",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-10-27T03:00:01.000Z",
+      "firstSeenAt": "2026-10-27T05:06:25.725Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "ea9992f6ddb2b111",
       "url": "http://www.africanews.com/2026/10/26/fear-and-misinformation-hamper-ebola-response-efforts-in-dr-congo/",
