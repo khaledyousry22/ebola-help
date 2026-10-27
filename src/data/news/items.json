@@ -1,6 +1,97 @@
 {
-  "updatedAt": "2026-10-27T10:35:41.256Z",
+  "updatedAt": "2026-10-27T16:01:46.811Z",
   "items": [
+    {
+      "id": "7c5f770532d0142e",
+      "url": "https://www.france24.com/en/africa/20261027-africa-ebola-outbreak-tops-10-000-cases-mainly-dr-congo",
+      "title": "Africa's Ebola outbreak tops 10,000 cases, mainly in DR Congo",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-27T15:45:18.000Z",
+      "firstSeenAt": "2026-10-27T16:01:46.811Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ed980290f47936fa",
+      "url": "https://www.france24.com/es/programas/%C3%A1frica-7-d%C3%ADas/20261027-el-%C3%A9bola-salta-a-nigeria-puede-frenarse-su-expansi%C3%B3n-transfronteriza",
+      "title": "El ébola salta a Nigeria: ¿puede frenarse su expansión transfronteriza?",
+      "lang": "es",
+      "sourceId": "france24-es-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-27T15:16:22.000Z",
+      "firstSeenAt": "2026-10-27T16:01:46.811Z",
+      "countries": [
+        "CD",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ffba2b522f855878",
+      "url": "https://actualite.cd/2026/10/27/ebola-beni-13-nouveaux-gueris-quittent-les-centres-de-traitement-en-pleine-expansion-de",
+      "title": "Ebola à Beni : 13 nouveaux guéris quittent les centres de traitement en pleine expansion de l'épidémie",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-27T13:01:09.000Z",
+      "firstSeenAt": "2026-10-27T16:01:46.811Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "96748814e974f2d4",
+      "url": "https://www.dw.com/ru/%D1%87%D0%B8%D1%81%D0%BB%D0%BE-%D0%BF%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%BD%D1%8B%D1%85-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B5%D0%B2-%D1%8D%D0%B1%D0%BE%D0%BB%D1%8B-%D0%B2-%D0%B4%D1%80%D0%BA-%D0%BF%D1%80%D0%B5%D0%B2%D1%8B%D1%81%D0%B8%D0%BB%D0%BE-10-000/a-79775744?maca=rus-rss-ru-all-1126-rdf",
+      "title": "Число подтвержденных случаев Эболы в ДРК превысило 10 000",
+      "lang": "ru",
+      "sourceId": "dw-ru",
+      "sourceName": "DW",
+      "official": false,
+      "publishedAt": "2026-10-27T12:06:00.000Z",
+      "firstSeenAt": "2026-10-27T16:01:46.811Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "30b54f2d8ed93ce1",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168676",
+      "title": "Kenya: 20 Ebola contacts released from quarantine",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-10-27T12:00:00.000Z",
+      "firstSeenAt": "2026-10-27T16:01:46.811Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "eb50c6f1909881b2",
+      "url": "https://www.dw.com/en/dr-congo-reports-over-10-000-ebola-cases-as-the-outbreak-spreads-abroad-with-no-approved-vaccine-or-specific-treatment-for-the-bundibugyo-virus/a-79773667?maca=en-rss-en-all-1573-rdf",
+      "title": "DR Congo reports over 10,000 Ebola cases as the outbreak spreads abroad, with no approved vaccine or specific treatment for the Bundibugyo virus",
+      "lang": "en",
+      "sourceId": "dw-en",
+      "sourceName": "DW",
+      "official": false,
+      "publishedAt": "2026-10-27T11:15:00.000Z",
+      "firstSeenAt": "2026-10-27T16:01:46.811Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "18f48ab8bf4264d0",
       "url": "https://actualite.cd/2026/10/27/rdc-lepidemie-debola-depasse-les-10-000-cas-confirmes-pres-de-4-900-morts",
@@ -147,6 +238,21 @@
       "official": false,
       "publishedAt": "2026-10-26T12:00:00.000Z",
       "firstSeenAt": "2026-10-26T19:59:46.210Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "87542e0a528b829b",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143070",
+      "title": "联合国官员谴责刚果民主共和国护士遇袭事件",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-10-26T12:00:00.000Z",
+      "firstSeenAt": "2026-10-27T16:01:46.811Z",
       "countries": [
         "CD"
       ],
