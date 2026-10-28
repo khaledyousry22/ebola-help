@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-27T20:42:21.950Z",
+  "updatedAt": "2026-10-28T11:40:17.393Z",
   "items": [
+    {
+      "id": "982e40b7808107ca",
+      "url": "https://insp.cd/sitrep-n165-mve-bdbv-26-10-2026/",
+      "title": "SitRep N°165/MVE-BDBV/26/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-28T07:10:59.000Z",
+      "firstSeenAt": "2026-10-28T11:40:17.393Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "6fb4f2390051294a",
       "url": "https://africacdc.org/news-item/africa-cdc-commends-kenyas-decisive-leadership-and-strengthens-joint-efforts-to-contain-ebola/",
@@ -88,6 +103,22 @@
       "publishedAt": "2026-10-27T12:00:00.000Z",
       "firstSeenAt": "2026-10-27T16:01:46.811Z",
       "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f09c02bdee42e6e6",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143081",
+      "title": "肯尼亚20名埃博拉病例接触者解除隔离，刚果（金）疫苗试验带来新希望",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-10-27T12:00:00.000Z",
+      "firstSeenAt": "2026-10-28T11:40:17.393Z",
+      "countries": [
+        "CD",
         "KE"
       ],
       "alsoReportedBy": []
