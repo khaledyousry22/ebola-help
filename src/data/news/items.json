@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-29T08:29:58.143Z",
+  "updatedAt": "2026-10-29T20:38:19.407Z",
   "items": [
+    {
+      "id": "100caf1ca357ad2a",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261029-rd-congo-un-centre-c%C3%A9l%C3%A8bre-la-sortie-des-derniers-patients-atteints-d-ebola",
+      "title": "RD Congo : un centre de soins célèbre la sortie des derniers patients atteints d’Ebola",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-29T17:39:40.000Z",
+      "firstSeenAt": "2026-10-29T20:38:19.407Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "09120ffb29a13dbf",
+      "url": "https://www.france24.com/en/video/20261029-dr-congo-a-centre-celebrates-the-discharge-of-last-ebola-patients",
+      "title": "DR Congo: A centre celebrates the discharge of last Ebola patients",
+      "lang": "en",
+      "sourceId": "france24-en-ebola",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-10-29T17:13:52.000Z",
+      "firstSeenAt": "2026-10-29T20:38:19.407Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "fa6b7cdc4baa58fe",
+      "url": "https://www.rfi.fr/cn/%E9%9D%9E%E6%B4%B2/20261029-rfi%E6%B3%95%E5%B9%BF%E4%B8%AD%E6%96%87-%E2%80%93-%E5%B0%BC%E5%8F%A4%E6%8B%89-%E2%80%93-%E9%9D%9E%E6%B4%B2-%E7%AC%AC17%E8%BD%AE%E5%9F%83%E5%8D%9A%E6%8B%89%E7%A1%AE%E8%AF%8A%E7%97%85%E4%BE%8B%E7%A0%B4%E4%B8%87",
+      "title": "非洲:第17轮埃博拉确诊病例破万",
+      "lang": "zh",
+      "sourceId": "rfi-cn",
+      "sourceName": "法广 RFI",
+      "official": false,
+      "publishedAt": "2026-10-29T15:31:46.000Z",
+      "firstSeenAt": "2026-10-29T20:38:19.407Z",
+      "countries": [
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "17b6fd7607b7d493",
+      "url": "http://www.africanews.com/2026/10/29/drc-ebola-clinic-celebrates-departure-of-last-confirmed-cases/",
+      "title": "DRC Ebola clinic celebrates departure of last confirmed cases",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-29T14:49:17.000Z",
+      "firstSeenAt": "2026-10-29T20:38:19.407Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "ed47590bb54c84d6",
       "url": "https://www.afro.who.int/countries/kenya/publication/who-kenya-newsletter-october-2026",
