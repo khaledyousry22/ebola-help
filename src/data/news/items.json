@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-10-28T21:54:10.377Z",
+  "updatedAt": "2026-10-29T08:29:58.143Z",
   "items": [
+    {
+      "id": "ed47590bb54c84d6",
+      "url": "https://www.afro.who.int/countries/kenya/publication/who-kenya-newsletter-october-2026",
+      "title": "WHO Kenya Newsletter | October 2026",
+      "lang": "en",
+      "sourceId": "who-afro-en",
+      "sourceName": "WHO Regional Office for Africa",
+      "official": true,
+      "publishedAt": "2026-10-29T08:02:35.000Z",
+      "firstSeenAt": "2026-10-29T08:29:58.143Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "016aaabb881ff348",
+      "url": "https://tass.ru/obschestvo/28265611",
+      "title": "Попова назвала Эболу большой мировой проблемой",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-10-29T07:45:27.000Z",
+      "firstSeenAt": "2026-10-29T08:29:58.143Z",
+      "countries": [
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a511b376d6041e6c",
+      "url": "https://www.rfi.fr/fr/afrique/20261029-ebola-la-situation-r%C3%A9gionale-appelle-%C3%A0-davantage-de-soutien-car-aucun-pays-n-est-actuellement-%C3%A0-l-abri",
+      "title": "Ebola: la situation régionale appelle «à davantage de soutien», car «aucun pays n'est actuellement à l'abri»",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-29T05:51:51.000Z",
+      "firstSeenAt": "2026-10-29T08:29:58.143Z",
+      "countries": [
+        "CD",
+        "KE",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "9d6612901b53d829",
       "url": "https://insp.cd/sitrep-n166-mve-bdbv-27-10-2026/",
@@ -74,6 +122,21 @@
       "official": false,
       "publishedAt": "2026-10-28T12:00:00.000Z",
       "firstSeenAt": "2026-10-28T17:25:20.168Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b41ebec9baf919b0",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143087",
+      "title": "刚果（金）埃博拉确诊病例破万，世卫组织呼吁持续开展防控工作",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-10-28T12:00:00.000Z",
+      "firstSeenAt": "2026-10-29T08:29:58.143Z",
       "countries": [
         "CD"
       ],
@@ -1764,6 +1827,21 @@
       "official": false,
       "publishedAt": "2026-10-20T09:31:37.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c5ceb2b2f878df55",
+      "url": "https://www.rfi.fr/fr/afrique/20261020-ebola-pour-l-oms-c-est-bien-s%C3%BBr-possible-de-retracer-ces-fonds-dont-la-gestion-est-floue-selon-africa-cdc",
+      "title": "Ebola: pour l’OMS, «c’est bien sûr possible de retracer ces fonds» dont la gestion est «floue» selon Africa CDC",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-10-20T08:37:51.000Z",
+      "firstSeenAt": "2026-10-29T08:29:58.143Z",
       "countries": [
         "CD"
       ],
