@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-10-29T20:38:19.407Z",
+  "updatedAt": "2026-10-30T13:37:02.199Z",
   "items": [
+    {
+      "id": "1c63f47e3fd1660f",
+      "url": "http://www.africanews.com/2026/10/30/car-tightens-border-checks-tightened-as-dr-congos-ebola-cases-rise/",
+      "title": "CAR tightens border checks as DR Congo's Ebola cases rise",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-30T08:25:50.000Z",
+      "firstSeenAt": "2026-10-30T13:37:02.199Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "07e3c8accdc088d5",
+      "url": "http://www.africanews.com/2026/10/30/dr-congo-msf-celebrates-ebola-patient-discharges-in-ituri-province/",
+      "title": "DR Congo: MSF celebrates Ebola patient discharges in Ituri province",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-30T07:54:01.000Z",
+      "firstSeenAt": "2026-10-30T13:37:02.199Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "2b6efae852d0be7e",
+      "url": "https://insp.cd/sitrep-n167-mve-bdbv-28-10-2026/",
+      "title": "SitRep N°167/MVE-BDBV/28/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-30T07:03:16.000Z",
+      "firstSeenAt": "2026-10-30T13:37:02.199Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "100caf1ca357ad2a",
       "url": "https://www.france24.com/fr/vid%C3%A9o/20261029-rd-congo-un-centre-c%C3%A9l%C3%A8bre-la-sortie-des-derniers-patients-atteints-d-ebola",
