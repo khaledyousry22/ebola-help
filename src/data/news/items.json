@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-30T13:37:02.199Z",
+  "updatedAt": "2026-10-30T22:58:42.691Z",
   "items": [
+    {
+      "id": "b38630ae18bd6e21",
+      "url": "https://insp.cd/sitrep-n168-mve-bdbv-29-10-2026/",
+      "title": "SitRep N°168/MVE-BDBV/29/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-30T19:21:19.000Z",
+      "firstSeenAt": "2026-10-30T22:58:42.691Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "1c63f47e3fd1660f",
       "url": "http://www.africanews.com/2026/10/30/car-tightens-border-checks-tightened-as-dr-congos-ebola-cases-rise/",
