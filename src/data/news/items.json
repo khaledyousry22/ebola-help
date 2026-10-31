@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-30T22:58:42.691Z",
+  "updatedAt": "2026-10-31T08:54:25.351Z",
   "items": [
+    {
+      "id": "f3711e52911646a4",
+      "url": "https://actualite.cd/2026/10/31/ebola-en-rdc-deux-jeunes-medecins-emportes-en-moins-de-48-heures",
+      "title": "Ebola en RDC : deux jeunes médecins emportés en moins de 48 heures",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-31T06:49:39.000Z",
+      "firstSeenAt": "2026-10-31T08:54:25.351Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "b38630ae18bd6e21",
       "url": "https://insp.cd/sitrep-n168-mve-bdbv-29-10-2026/",
