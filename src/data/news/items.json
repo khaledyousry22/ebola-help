@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-10-31T15:20:45.970Z",
+  "updatedAt": "2026-10-31T19:33:11.727Z",
   "items": [
+    {
+      "id": "21ccaac505fff887",
+      "url": "https://www.skynewsarabia.com/world/1901819-%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7-%D9%8A%D8%AA%D9%88%D8%B3%D8%B9-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D9%88-5-%D8%A2%D9%84%D8%A7%D9%81-%D9%88%D9%81%D8%A7%D8%A9-%D9%85%D8%A7%D9%8A%D9%88-%D8%A7%D9%84%D9%85%D8%A7%D8%B6%D9%8A",
+      "title": "إيبولا يتوسع في الكونغو.. 5 آلاف وفاة منذ مايو الماضي",
+      "lang": "ar",
+      "sourceId": "skynews-arabia",
+      "sourceName": "سكاي نيوز عربية",
+      "official": false,
+      "publishedAt": "2026-10-31T18:34:02.000Z",
+      "firstSeenAt": "2026-10-31T19:33:11.727Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "d12666957ba08fb0",
+      "url": "https://tass.ru/obschestvo/28274999",
+      "title": "В Нигерии сообщили о выявлении двух случаев с подозрением на Эболу",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-10-31T17:57:52.000Z",
+      "firstSeenAt": "2026-10-31T19:33:11.727Z",
+      "countries": [
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "107640f3190d3b61",
+      "url": "http://www.africanews.com/2026/10/31/ebola-deaths-top-5000-as-fear-of-continent-wide-spread-mounts/",
+      "title": "Ebola deaths top 5,000 as fear of continent-wide spread mounts",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-10-31T16:36:47.000Z",
+      "firstSeenAt": "2026-10-31T19:33:11.727Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "ac2f98d87a1596fd",
       "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo",
