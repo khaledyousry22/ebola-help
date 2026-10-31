@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-31T08:54:25.351Z",
+  "updatedAt": "2026-10-31T15:20:45.970Z",
   "items": [
+    {
+      "id": "ac2f98d87a1596fd",
+      "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo",
+      "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+      "lang": "en",
+      "sourceId": "bbc-africa",
+      "sourceName": "BBC News",
+      "official": false,
+      "publishedAt": "2026-10-31T15:16:20.000Z",
+      "firstSeenAt": "2026-10-31T15:20:45.970Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1cf613d3e02306df",
+      "url": "https://actualite.cd/2026/10/31/tshopo-le-cte-de-bafwasende-incendie-avant-son-inauguration",
+      "title": "Tshopo : le CTE de Bafwasende incendié avant son inauguration",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-31T12:36:25.000Z",
+      "firstSeenAt": "2026-10-31T15:20:45.970Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f425fb56f0f23eb9",
+      "url": "https://actualite.cd/2026/10/31/ebola-butembo-apres-23-jours-de-soins-victoire-retrouve-sa-famille-grace-aussi-au",
+      "title": "Ebola à Butembo : après 23 jours de soins, Victoire retrouve sa famille grâce aussi au soutien de son épouse",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-10-31T12:05:39.000Z",
+      "firstSeenAt": "2026-10-31T15:20:45.970Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c04e8ff1c46922b5",
+      "url": "https://www.dw.com/es/el-brote-de-%C3%A9bola-suma-m%C3%A1s-de-cinco-mil-muertos-en-la-rep%C3%BAblica-democr%C3%A1tica-del-congo/a-79814962?maca=spa-rss-sp-all-1122-rdf",
+      "title": "El brote de ébola suma más de cinco mil muertos en la República Democrática del Congo",
+      "lang": "es",
+      "sourceId": "dw-es",
+      "sourceName": "DW",
+      "official": false,
+      "publishedAt": "2026-10-31T09:49:00.000Z",
+      "firstSeenAt": "2026-10-31T15:20:45.970Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "f3711e52911646a4",
       "url": "https://actualite.cd/2026/10/31/ebola-en-rdc-deux-jeunes-medecins-emportes-en-moins-de-48-heures",
