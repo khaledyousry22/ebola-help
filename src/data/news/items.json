@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-10-31T22:50:45.134Z",
+  "updatedAt": "2026-11-01T09:20:14.805Z",
   "items": [
+    {
+      "id": "5603559b22b8a60f",
+      "url": "https://www.rfi.fr/fr/podcasts/le-club-rfi/20261101-club-rfi-butembo-rdc-une-campagne-de-sensibilisation-pour-contenir-l-%C3%A9pid%C3%A9mie-d-ebola",
+      "title": "Club RFI Butembo (RDC): une campagne de sensibilisation pour contenir l’épidémie d’Ebola",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-01T06:00:25.000Z",
+      "firstSeenAt": "2026-11-01T09:20:14.805Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "6c577bc13c1a9c0a",
+      "url": "https://insp.cd/sitrep-n169-mve-bdbv-30-10-2026/",
+      "title": "SitRep N°169/MVE-BDBV/30/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-10-31T23:28:55.000Z",
+      "firstSeenAt": "2026-11-01T09:20:14.805Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "6e144ad0d8221c79",
       "url": "https://actualite.cd/2026/10/31/nord-kivu-le-recensement-numerique-de-la-population-reprend-beni-apres-une-interruption",
