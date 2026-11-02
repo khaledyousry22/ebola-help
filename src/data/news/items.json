@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-01T09:20:14.805Z",
+  "updatedAt": "2026-11-02T06:55:02.057Z",
   "items": [
+    {
+      "id": "5475d2133ab61676",
+      "url": "https://insp.cd/sitrep-n170-mve-bdbv-31-10-2026/",
+      "title": "SitRep N°170/MVE-BDBV/31/10/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-02T05:21:16.000Z",
+      "firstSeenAt": "2026-11-02T06:55:02.057Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "5603559b22b8a60f",
       "url": "https://www.rfi.fr/fr/podcasts/le-club-rfi/20261101-club-rfi-butembo-rdc-une-campagne-de-sensibilisation-pour-contenir-l-%C3%A9pid%C3%A9mie-d-ebola",
