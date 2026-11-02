@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-02T06:55:02.057Z",
+  "updatedAt": "2026-11-02T17:05:12.146Z",
   "items": [
+    {
+      "id": "9c836e7fffcec896",
+      "url": "https://tass.ru/mezhdunarodnaya-panorama/28279721",
+      "title": "The Star: Кения требует отменить ограничения на въезд в Саудовскую Аравию из-за Эболы",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-11-02T16:17:33.000Z",
+      "firstSeenAt": "2026-11-02T17:05:12.146Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "525960f40e2b5f12",
+      "url": "http://www.africanews.com/2026/11/02/ebola-fatality-rate-in-dr-congo-tops-50-as-death-toll-reaches-5372/",
+      "title": "Ebola fatality rate in DR Congo tops 50% as death toll reaches 5,372",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-11-02T11:53:10.000Z",
+      "firstSeenAt": "2026-11-02T17:05:12.146Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "5475d2133ab61676",
       "url": "https://insp.cd/sitrep-n170-mve-bdbv-31-10-2026/",
