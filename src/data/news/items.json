@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-11-03T06:49:03.160Z",
+  "updatedAt": "2026-11-03T15:09:08.155Z",
   "items": [
+    {
+      "id": "ffc8b141f0cc56c9",
+      "url": "https://actualite.cd/2026/11/03/trafigura-et-la-fondation-trafigura-font-un-don-de-150-000-usd-pour-soutenir-la-riposte",
+      "title": "Trafigura et la Fondation Trafigura font un don de 150 000 USD pour soutenir la riposte à l’épidémie d’Ebola en RDC",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-03T14:57:33.000Z",
+      "firstSeenAt": "2026-11-03T15:09:08.155Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "729d7f57c219011b",
+      "url": "https://actualite.cd/2026/11/03/ebola-en-ituri-malgre-la-baisse-des-contaminations-des-deces-communautaires-signales",
+      "title": "Ebola en Ituri : malgré la baisse des contaminations, des décès communautaires signalés à Bunia après la fermeture du CTE Elikya",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-03T12:10:42.000Z",
+      "firstSeenAt": "2026-11-03T15:09:08.155Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "09ec410af93d9bd5",
+      "url": "https://insp.cd/sitrep-n171-mve-bdbv-01-11-2026/",
+      "title": "SitRep N°171/MVE-BDBV/01/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-03T09:42:48.000Z",
+      "firstSeenAt": "2026-11-03T15:09:08.155Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "e5ba023a5bcbfd39",
       "url": "https://africacdc.org/news-item/africa-cdc-solidaire-du-kenya-appelle-a-la-levee-des-restrictions-de-voyage-injustifiees-liees-a-ebola/",
