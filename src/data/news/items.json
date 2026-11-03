@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-02T17:05:12.146Z",
+  "updatedAt": "2026-11-03T06:49:03.160Z",
   "items": [
+    {
+      "id": "e5ba023a5bcbfd39",
+      "url": "https://africacdc.org/news-item/africa-cdc-solidaire-du-kenya-appelle-a-la-levee-des-restrictions-de-voyage-injustifiees-liees-a-ebola/",
+      "title": "AFRICA CDC SOLIDAIRE DU KENYA, APPELLE À LA LEVÉE DES RESTRICTIONS DE VOYAGE INJUSTIFIÉES LIÉES À EBOLA",
+      "lang": "fr",
+      "sourceId": "africa-cdc",
+      "sourceName": "Africa CDC",
+      "official": true,
+      "publishedAt": "2026-11-03T06:13:41.000Z",
+      "firstSeenAt": "2026-11-03T06:49:03.160Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3818bb48c5ea32f9",
+      "url": "https://africacdc.org/news-item/africa-cdc-stands-with-kenya-calls-for-lifting-of-unjustified-ebola-travel-restrictions/",
+      "title": "Africa CDC Stands with Kenya, Calls for Lifting of Unjustified Ebola Travel Restrictions",
+      "lang": "en",
+      "sourceId": "africa-cdc",
+      "sourceName": "Africa CDC",
+      "official": true,
+      "publishedAt": "2026-11-03T05:55:19.000Z",
+      "firstSeenAt": "2026-11-03T06:49:03.160Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "9c836e7fffcec896",
       "url": "https://tass.ru/mezhdunarodnaya-panorama/28279721",
