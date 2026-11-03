@@ -1,0 +1,55 @@
+{
+  "$comment": "Current outbreak situation shown in the banner on every page. Every figure needs an official source (see src/data/sources.ts) and the date the figure refers to. Update the numbers, asOf and source together.",
+  "virus": "bundibugyo",
+  "declared": "2026-05-15",
+  "lastReviewed": "2026-10-21",
+  "headline": {
+    "country": "CD",
+    "confirmedCases": 9637,
+    "confirmedDeaths": 4646,
+    "asOf": "2026-10-19",
+    "source": "drcSitrep158"
+  },
+  "moreInformation": "whoDon619",
+  "countries": [
+    {
+      "iso": "CD",
+      "status": "outbreak",
+      "source": "drcSitrep158"
+    },
+    {
+      "iso": "KE",
+      "status": "cases",
+      "source": "cdcSituation",
+      "figures": {
+        "confirmedCases": 9,
+        "confirmedDeaths": 1,
+        "asOf": "2026-10-20",
+        "source": "cdcSituation"
+      }
+    },
+    {
+      "iso": "NG",
+      "status": "cases",
+      "source": "afroNigeria",
+      "figures": {
+        "confirmedCases": 1,
+        "confirmedDeaths": 0,
+        "asOf": "2026-10-20",
+        "source": "afroNigeria"
+      }
+    },
+    {
+      "iso": "UG",
+      "status": "ended",
+      "endedOn": "2026-08-27",
+      "source": "afroUgandaEnd",
+      "figures": {
+        "confirmedCases": 20,
+        "confirmedDeaths": 2,
+        "asOf": "2026-08-27",
+        "source": "afroUgandaEnd"
+      }
+    }
+  ]
+}

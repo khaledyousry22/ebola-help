@@ -7,7 +7,10 @@
  */
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import raw from '../../src/data/outbreak.json' with { type: 'json' };
+// A fixed copy of src/data/outbreak.json from before the figures in the saved
+// CDC page. The live file changes every time the job publishes, and the job
+// runs these tests right after writing it, so the tests must not depend on it.
+import raw from '../fixtures/outbreak-published.json' with { type: 'json' };
 import { parseOutbreak } from '../../src/data/outbreak';
 import { parseCdcSituation, readAsOfDates, type CdcReading } from '../../scripts/outbreak/lib/cdc';
 import { planUpdate, SOURCE_ID } from '../../scripts/outbreak/lib/plan';

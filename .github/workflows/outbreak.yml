@@ -89,9 +89,9 @@ jobs:
             gh issue create --title "$ISSUE_TITLE" --body-file outbreak-report.md
           fi
 
-      # A crash (rather than a reported problem) must not pass unnoticed.
+      # A crash or a failed check (rather than a reported problem) must not pass unnoticed.
       - name: Report a job that did not finish
-        if: steps.figures.outcome == 'failure' && steps.figures.outputs.problems != 'true'
+        if: failure() && steps.figures.outputs.problems != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
