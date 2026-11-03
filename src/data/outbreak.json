@@ -5,10 +5,10 @@
   "lastReviewed": "2026-10-21",
   "headline": {
     "country": "CD",
-    "confirmedCases": 9637,
-    "confirmedDeaths": 4646,
-    "asOf": "2026-10-19",
-    "source": "drcSitrep158"
+    "confirmedCases": 10467,
+    "confirmedDeaths": 5103,
+    "asOf": "2026-10-31",
+    "source": "cdcSituation"
   },
   "moreInformation": "whoDon619",
   "countries": [
@@ -23,8 +23,8 @@
       "source": "cdcSituation",
       "figures": {
         "confirmedCases": 9,
-        "confirmedDeaths": 1,
-        "asOf": "2026-10-20",
+        "confirmedDeaths": 2,
+        "asOf": "2026-10-31",
         "source": "cdcSituation"
       }
     },
@@ -35,8 +35,8 @@
       "figures": {
         "confirmedCases": 1,
         "confirmedDeaths": 0,
-        "asOf": "2026-10-20",
-        "source": "afroNigeria"
+        "asOf": "2026-10-31",
+        "source": "cdcSituation"
       }
     },
     {

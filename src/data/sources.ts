@@ -178,8 +178,8 @@ export const SOURCES = {
         url: 'https://www.cdc.gov/ebola/situation-summary/index.html',
       },
     },
-    published: '2026-10-20',
-    checked: '2026-10-21',
+    published: '2026-10-31',
+    checked: '2026-11-03',
   },
 } as const satisfies Record<string, Source>;
 
