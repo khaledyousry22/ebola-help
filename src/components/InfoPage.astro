@@ -1,0 +1,39 @@
+---
+/** One policy page (editorial policy, privacy, contact) in the reader's language. */
+import { render } from 'astro:content';
+import Breadcrumbs from './Breadcrumbs.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { format, formatDate, getMessages, localePath, type Locale } from '../i18n';
+import { getInfoPage, type InfoSlug } from '../lib/info';
+
+interface Props {
+  locale: Locale;
+  slug: InfoSlug;
+}
+const { locale, slug } = Astro.props;
+const m = getMessages(locale);
+const entry = await getInfoPage(locale, slug);
+const { Content } = await render(entry);
+const updated = entry.data.updated.toISOString().slice(0, 10);
+---
+<BaseLayout locale={locale} title={entry.data.title} description={entry.data.description}>
+  <div slot="intro" class="prose-page">
+    <Breadcrumbs
+      locale={locale}
+      items={[
+        { label: m.nav.home, href: localePath(locale) },
+        { label: m.nav.about, href: localePath(locale, '/about/') },
+        { label: entry.data.title },
+      ]}
+    />
+    <h1 class="text-2xl font-bold text-brand-900 sm:text-3xl">{entry.data.title}</h1>
+    <p class="mt-2 text-sm text-muted">
+      <time datetime={updated}>{format(m.footer.lastUpdated, { date: formatDate(locale, updated) })}</time>
+    </p>
+  </div>
+  <article class="prose-page">
+    <div class="prose-content" data-info-page={slug}>
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

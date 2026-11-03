@@ -73,6 +73,15 @@ const { title, description, alternates = false, noindex = false } = Astro.props;
           ))
         }
       </ul>
+      <ul class="container-page mt-4 flex flex-wrap gap-x-5 gap-y-2" data-privacy-links>
+        {
+          LOCALE_LIST.map((l) => (
+            <li lang={l.htmlLang} dir={l.dir}>
+              <a href={localePath(l.code, '/privacy/')} hreflang={l.htmlLang}>{getMessages(l.code).footer.privacy}</a>
+            </li>
+          ))
+        }
+      </ul>
     </footer>
     <LocaleScript />
   </body>

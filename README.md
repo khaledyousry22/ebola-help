@@ -154,6 +154,14 @@ accessibility, best practices and search engines on every page tested. The
 automatic browser tests also check every language for accessibility problems
 on each change.
 
+### Who we are, privacy and contact pages
+
+Every page links to **About**, **Editorial policy**, **Privacy policy** and
+**Contact** (in all six languages). They are signed "the Ebola.help Team".
+Your privacy policy address for Google and other forms is
+https://ebola.help/en/privacy/. The texts are in `src/content/info/`; ask
+Claude to change them (for example if you add analytics or another service).
+
 ### Reporting errors
 
 Visitors report wrong numbers to **wrongnumber@ebola.help** (shown on every

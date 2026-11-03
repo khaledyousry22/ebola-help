@@ -11,6 +11,9 @@ const NEVER = [
   '/en/health/symptoms/',
   '/en/health/vaccines-treatment/',
   '/en/about/',
+  '/en/privacy/',
+  '/fr/editorial-policy/',
+  '/ar/contact/',
   '/fr/countries/ug/',
 ];
 

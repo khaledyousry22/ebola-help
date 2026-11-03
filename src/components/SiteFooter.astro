@@ -17,6 +17,13 @@ const m = getMessages(locale);
     <p>
       <time datetime={BUILD_TIME.toISOString()}>{format(m.footer.lastUpdated, { date: formatDateTime(locale, BUILD_TIME) })}</time>
     </p>
-    <p><a href={localePath(locale, '/about/')}>{m.nav.about}</a></p>
+    <nav aria-label={m.footer.linksLabel}>
+      <ul class="flex flex-wrap gap-x-5 gap-y-2" data-footer-links>
+        <li><a href={localePath(locale, '/about/')}>{m.nav.about}</a></li>
+        <li><a href={localePath(locale, '/editorial-policy/')}>{m.footer.editorial}</a></li>
+        <li><a href={localePath(locale, '/privacy/')}>{m.footer.privacy}</a></li>
+        <li><a href={localePath(locale, '/contact/')}>{m.footer.contact}</a></li>
+      </ul>
+    </nav>
   </div>
 </footer>

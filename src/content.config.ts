@@ -24,4 +24,18 @@ const health = defineCollection({
   }),
 });
 
-export const collections = { health };
+/**
+ * Site policy pages (editorial policy, privacy policy, contact):
+ * src/content/info/<locale>/<slug>.md, the same slugs in every language.
+ */
+const info = defineCollection({
+  loader: glob({ pattern: '*/*.md', base: './src/content/info' }),
+  schema: z.object({
+    title: z.string().min(1),
+    description: z.string().min(1),
+    /** Date the page was last changed (YYYY-MM-DD), shown at the top. */
+    updated: z.coerce.date(),
+  }),
+});
+
+export const collections = { health, info };

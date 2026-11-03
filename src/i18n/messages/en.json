@@ -193,6 +193,8 @@
     "what": "Ebola.help is an independent public information service. It gathers official updates, news coverage, helplines and prevention advice about Ebola disease in Arabic, Chinese, English, French, Russian and Spanish.",
     "independenceTitle": "Independent and not official",
     "independence": "Ebola.help is not affiliated with, endorsed by or speaking for the World Health Organization (WHO), any other United Nations agency, Africa CDC or any government. It has no official status. Always follow the instructions of your national health authorities.",
+    "whoTitle": "Who we are",
+    "who": "Ebola.help is written and maintained by the Ebola.help Team, an independent team. We are not a health authority, and we do not speak for any government or international organisation.",
     "sourcesTitle": "Where the information comes from",
     "sources": "We link to the original official sources: national health ministries, WHO, Africa CDC and other public health agencies. For news articles we show only the headline, the source and the date, with a link to the full article on the publisher's website.",
     "verificationTitle": "How contact details are checked",
@@ -205,6 +207,7 @@
     "advertising": "To cover its costs, the home page, the news pages and the map show ads from Google AdSense. Pages with health advice and helplines never show ads. Ads are chosen automatically by Google: they are not recommendations, and advertisers have no influence on the content of this site. No ads are loaded on data-saving or very slow connections.",
     "privacyTitle": "Privacy",
     "privacy": "We do not collect personal information ourselves. The site stores one small cookie to remember your language. Google and other advertising companies use cookies to show ads, which may be based on your previous visits to this and other websites ({googleUse}). You can turn off personalised ads in {adsSettings} or at {aboutAds}. Visitors in Europe, the United Kingdom and Switzerland are asked for their consent first.",
+    "privacyMore": "Full privacy policy",
     "linkGoogleUse": "how Google uses information from sites that use its services",
     "linkAdsSettings": "Google's Ads Settings",
     "contactTitle": "Report an error",
@@ -214,7 +217,11 @@
     "disclaimer": "Ebola.help is an independent information service. It is not affiliated with the World Health Organization (WHO) or any government.",
     "medical": "This site does not replace medical professionals.",
     "wrongNumber": "Found a wrong number or another error? Write to {email}",
-    "lastUpdated": "Last updated: {date}"
+    "lastUpdated": "Last updated: {date}",
+    "editorial": "Editorial policy",
+    "privacy": "Privacy policy",
+    "contact": "Contact",
+    "linksLabel": "About this site"
   },
   "notFound": {
     "heading": "Page not found",

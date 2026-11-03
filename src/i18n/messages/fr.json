@@ -193,6 +193,8 @@
     "what": "Ebola.help est un service d'information publique indépendant. Il rassemble les communiqués officiels, les actualités, les numéros d'aide et les conseils de prévention sur la maladie d'Ebola en anglais, arabe, chinois, espagnol, français et russe.",
     "independenceTitle": "Indépendant et non officiel",
     "independence": "Ebola.help n'est ni affilié à l'Organisation mondiale de la Santé (OMS), à une autre agence des Nations Unies, à Africa CDC ou à un gouvernement, ni approuvé par eux, et ne parle pas en leur nom. Le site n'a aucun statut officiel. Suivez toujours les consignes des autorités sanitaires de votre pays.",
+    "whoTitle": "Qui nous sommes",
+    "who": "Ebola.help est rédigé et tenu à jour par l'équipe d'Ebola.help, une équipe indépendante. Nous ne sommes pas une autorité sanitaire et nous ne parlons au nom d'aucun gouvernement ni d'aucune organisation internationale.",
     "sourcesTitle": "D'où viennent les informations",
     "sources": "Nous renvoyons vers les sources officielles d'origine : ministères de la Santé, OMS, Africa CDC et autres agences de santé publique. Pour les articles de presse, nous affichons uniquement le titre, la source et la date, avec un lien vers l'article complet sur le site de l'éditeur.",
     "verificationTitle": "Comment les coordonnées sont vérifiées",
@@ -205,6 +207,7 @@
     "advertising": "Pour couvrir ses frais, la page d'accueil, les pages d'actualités et la carte affichent des publicités de Google AdSense. Les pages de conseils de santé et de numéros d'aide n'affichent jamais de publicité. Les publicités sont choisies automatiquement par Google : ce ne sont pas des recommandations, et les annonceurs n'ont aucune influence sur le contenu de ce site. Aucune publicité n'est chargée sur les connexions en mode économie de données ou très lentes.",
     "privacyTitle": "Confidentialité",
     "privacy": "Nous ne collectons nous-mêmes aucune donnée personnelle. Le site enregistre un seul petit cookie pour mémoriser votre langue. Google et d'autres sociétés publicitaires utilisent des cookies pour afficher des publicités, qui peuvent être fondées sur vos visites précédentes sur ce site et sur d'autres sites ({googleUse}). Vous pouvez désactiver les publicités personnalisées dans {adsSettings} ou sur {aboutAds}. Les visiteurs en Europe, au Royaume-Uni et en Suisse sont d'abord invités à donner leur consentement.",
+    "privacyMore": "Politique de confidentialité complète",
     "linkGoogleUse": "comment Google utilise les informations des sites qui utilisent ses services",
     "linkAdsSettings": "les paramètres des annonces de Google",
     "contactTitle": "Signaler une erreur",
@@ -214,7 +217,11 @@
     "disclaimer": "Ebola.help est un service d'information indépendant. Il n'est affilié ni à l'Organisation mondiale de la Santé (OMS) ni à aucun gouvernement.",
     "medical": "Ce site ne remplace pas les professionnels de santé.",
     "wrongNumber": "Un numéro erroné ou une autre erreur ? Écrivez à {email}",
-    "lastUpdated": "Dernière mise à jour : {date}"
+    "lastUpdated": "Dernière mise à jour : {date}",
+    "editorial": "Politique éditoriale",
+    "privacy": "Politique de confidentialité",
+    "contact": "Contact",
+    "linksLabel": "À propos de ce site"
   },
   "notFound": {
     "heading": "Page introuvable",

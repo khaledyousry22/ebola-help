@@ -31,6 +31,13 @@ plain language.
   same slugs and cites the same source ids (unit tests enforce this). Text is
   written by us from the sources (WHO website terms allow short extracts only,
   not copying), using WHO's official terminology in each language.
+- Policy pages (editorial policy, privacy, contact):
+  `src/content/info/<locale>/<slug>.md`, slugs in `src/lib/info-pages.ts`,
+  linked from every footer; the site is signed "the Ebola.help Team". The
+  privacy policy must match what the site does (cookies, ad pages, hosting):
+  update it when that changes.
+- Search indexing: `NOINDEX_PAGES` (`src/lib/indexing.ts`) are noindex and
+  left out of the sitemaps: the news headline lists and the offline page.
 - Sources: `src/data/sources.ts`, with each publisher's own language versions.
   Outbreak banner: `src/data/outbreak.json`, validated by `src/data/outbreak.ts`.
 - Outbreak figures: `scripts/outbreak/` (run with `npm run outbreak`, every

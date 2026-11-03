@@ -100,3 +100,35 @@ describe('sources', () => {
     expect(sourceVersionFor('drcSitrep158', 'ru').lang).toBe('fr');
   });
 });
+
+describe('policy pages (editorial policy, privacy, contact)', () => {
+  const INFO = 'src/content/info';
+  const infoSlugs = (locale: string) =>
+    readdirSync(join(INFO, locale))
+      .filter((f) => f.endsWith('.md'))
+      .map((f) => f.replace(/\.md$/, ''))
+      .sort();
+
+  it('English has the three pages the footer links to', async () => {
+    const { INFO_PAGES } = await import('../../src/lib/info-pages');
+    expect(infoSlugs('en')).toEqual([...INFO_PAGES].sort());
+  });
+
+  for (const locale of LOCALE_CODES) {
+    it(`${locale} has the same policy pages, with valid front matter and the contact address`, () => {
+      expect(infoSlugs(locale)).toEqual(infoSlugs('en'));
+      for (const slug of infoSlugs(locale)) {
+        const text = readFileSync(join(INFO, locale, `${slug}.md`), 'utf8');
+        const data = parse(text.split('---')[1] ?? '');
+        const where = `${locale}/${slug}`;
+        expect(typeof data.title, where).toBe('string');
+        expect(typeof data.description, where).toBe('string');
+        expect(String(data.updated), where).toMatch(/^\d{4}-\d{2}-\d{2}|^\w{3} \w{3} \d{2} \d{4}/);
+        expect(text, where).toContain('mailto:wrongnumber@ebola.help');
+        // The same links in every language (sources of privacy information, the helplines page).
+        const links = (t: string) => [...t.matchAll(/\]\(([^)]+)\)/g)].map((m) => m[1]).sort();
+        expect(links(text), where).toEqual(links(readFileSync(join(INFO, 'en', `${slug}.md`), 'utf8')));
+      }
+    });
+  }
+});

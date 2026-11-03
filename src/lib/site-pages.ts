@@ -2,23 +2,26 @@ import { SITE_URL } from '../config';
 import { localePath, type Locale } from '../i18n';
 import { COUNTRY_PAGES, countryPath } from './country-pages';
 import { getHealthPages, splitHealthId } from './health';
+import { INFO_PAGES } from './info-pages';
+
+export { NOINDEX_PAGES } from './indexing';
 
 /**
- * Every page that exists in each language, as the part after /<locale>.
- * Used by the sitemaps. A browser test checks it against the built site.
+ * Every page in each language that search engines should index, as the part
+ * after /<locale>. Used by the sitemaps. A browser test checks it against
+ * the built site.
  */
 export async function localePages(): Promise<string[]> {
   const health = await getHealthPages('en');
   return [
     '/',
-    '/news/',
-    '/news/other-languages/',
     '/map/',
     '/help/',
     ...COUNTRY_PAGES.map(countryPath),
     '/health/',
     ...health.map((entry) => `/health/${splitHealthId(entry.id).slug}/`),
     '/about/',
+    ...INFO_PAGES.map((slug) => `/${slug}/`),
   ];
 }
 

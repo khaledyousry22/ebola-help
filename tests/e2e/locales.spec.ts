@@ -2,7 +2,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 import { getMessages, LOCALE_CODES, LOCALES } from '../../src/i18n';
 
-const PAGES = ['/', '/news/', '/map/', '/help/', '/health/', '/about/', '/offline/'];
+const PAGES = ['/', '/news/', '/map/', '/help/', '/health/', '/about/', '/editorial-policy/', '/privacy/', '/contact/', '/offline/'];
 
 test.describe('language picker', () => {
   test('shows all six languages by their native names', async ({ page }) => {
@@ -87,6 +87,9 @@ test.describe('localized pages', () => {
         await expect(page.locator('footer [data-disclaimer]')).toHaveText(m.footer.disclaimer);
         await expect(page.locator('[data-emergency-box] h2')).toHaveText(m.emergency.title);
         await expect(page.locator('footer a[href="mailto:wrongnumber@ebola.help"]')).toBeVisible();
+        for (const target of ['/about/', '/editorial-policy/', '/privacy/', '/contact/']) {
+          await expect(page.locator(`footer [data-footer-links] a[href="/${code}${target}"]`)).toBeVisible();
+        }
         // Calm order: the page title comes first, then the emergency box.
         const h1 = await page.locator('h1').boundingBox();
         const box = await page.locator('[data-emergency-box]').boundingBox();
@@ -147,12 +150,21 @@ test.describe('neutral pages', () => {
   test('picker page shows the disclaimer in all six languages and passes accessibility checks', async ({ page }) => {
     await page.goto('/');
     for (const code of LOCALE_CODES) {
-      await expect(page.locator(`footer [lang="${LOCALES[code].htmlLang}"]`)).toHaveText(
+      await expect(page.locator(`footer [data-disclaimer] [lang="${LOCALES[code].htmlLang}"]`)).toHaveText(
         getMessages(code).footer.disclaimer,
       );
     }
     const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
     expect(results.violations.map((v) => `${v.id}: ${v.help}`)).toEqual([]);
+  });
+
+  test('the language picker links to the privacy policy in every language', async ({ page }) => {
+    await page.goto('/');
+    for (const code of LOCALE_CODES) {
+      await expect(page.locator(`footer [data-privacy-links] a[href="/${code}/privacy/"]`)).toHaveText(
+        getMessages(code).footer.privacy,
+      );
+    }
   });
 
   test('unknown pages show a multilingual not-found page', async ({ page }) => {

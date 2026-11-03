@@ -15,7 +15,7 @@ const locale = Astro.params.locale as Locale;
 const m = getMessages(locale);
 const groups = otherLanguageNews(locale).map((group) => ({ ...group, items: group.items.slice(0, 15) }));
 ---
-<BaseLayout locale={locale} title={m.news.otherLanguages} description={m.news.otherLanguagesDescription}>
+<BaseLayout locale={locale} title={m.news.otherLanguages} description={m.news.otherLanguagesDescription} noindex>
   <div slot="intro" class="prose-page">
     <Breadcrumbs
       locale={locale}

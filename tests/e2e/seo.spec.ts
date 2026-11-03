@@ -2,6 +2,7 @@ import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { expect, test } from '@playwright/test';
 import { LOCALE_CODES } from '../../src/i18n';
+import { NOINDEX_PAGES } from '../../src/lib/indexing';
 
 const SITE = 'https://ebola.help';
 
@@ -26,8 +27,9 @@ test('robots.txt points to the sitemap index, which lists one sitemap per langua
 for (const locale of LOCALE_CODES) {
   test(`/${locale}/sitemap.xml lists every page in that language, with its translations`, () => {
     const xml = readFileSync(`dist/${locale}/sitemap.xml`, 'utf8');
-    // The offline page is only for the service worker, not for search engines.
-    const built = htmlFiles(`dist/${locale}`).map(urlOf).filter((url) => !url.endsWith('/offline/')).sort();
+    // The offline page and the news headline lists are kept out of search engines.
+    const hidden = NOINDEX_PAGES.map((path) => `${SITE}/${locale}${path}`);
+    const built = htmlFiles(`dist/${locale}`).map(urlOf).filter((url) => !hidden.includes(url)).sort();
     expect(locs(xml).sort()).toEqual(built);
     for (const href of xml.matchAll(/hreflang="[^"]+" href="([^"]+)"/g)) {
       const path = href[1]!.replace(SITE, 'dist');
@@ -41,5 +43,14 @@ test('every page has a share image that exists', () => {
     const image = readFileSync(file, 'utf8').match(/<meta property="og:image" content="([^"]+)"/)?.[1];
     expect(image, file).toBeTruthy();
     expect(existsSync(image!.replace(SITE, 'dist')), image).toBe(true);
+  }
+});
+
+test('pages kept out of search engines say so, and every other page may be indexed', () => {
+  for (const file of htmlFiles('dist')) {
+    const path = '/' + file.replace(/^dist\/[a-z]{2}\//, '').replace(/index\.html$/, '');
+    const noindex = /<meta name="robots" content="noindex"/.test(readFileSync(file, 'utf8'));
+    const expected = NOINDEX_PAGES.includes(path) || /^dist\/(404\.html|admin\/)/.test(file);
+    expect(noindex, file).toBe(expected);
   }
 });
