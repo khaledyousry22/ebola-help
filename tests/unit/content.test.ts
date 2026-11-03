@@ -40,10 +40,19 @@ describe('health pages', () => {
     }
   });
 
-  it('English has the six expected pages', () => {
-    expect(reference).toEqual(
-      ['myths-facts', 'prevention', 'symptoms', 'transmission', 'vaccines-treatment', 'what-is-ebola'],
-    );
+  it('English has the expected pages', () => {
+    expect(reference).toEqual([
+      'bundibugyo-virus',
+      'contacts',
+      'myths-facts',
+      'prevention',
+      'safe-burials',
+      'survivors',
+      'symptoms',
+      'transmission',
+      'vaccines-treatment',
+      'what-is-ebola',
+    ]);
   });
 
   for (const locale of LOCALE_CODES) {

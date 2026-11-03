@@ -26,7 +26,7 @@ export async function localePages(): Promise<string[]> {
 }
 
 /** Health pages kept on the reader's device for use without a connection. */
-export const OFFLINE_HEALTH_PAGES = ['symptoms', 'transmission', 'prevention'];
+export const OFFLINE_HEALTH_PAGES = ['symptoms', 'transmission', 'prevention', 'contacts', 'safe-burials'];
 
 /**
  * Pages the service worker (/sw.js) saves for each language, so the
