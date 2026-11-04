@@ -1,6 +1,49 @@
 {
-  "updatedAt": "2026-11-04T16:19:56.746Z",
+  "updatedAt": "2026-11-04T22:15:24.029Z",
   "items": [
+    {
+      "id": "f3b6803f8f6536b8",
+      "url": "http://www.africanews.com/2026/11/04/who-approves-clinical-trials-on-two-new-ebola-vaccines/",
+      "title": "WHO approves clinical trials on two new Ebola vaccines",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-11-04T20:09:43.000Z",
+      "firstSeenAt": "2026-11-04T22:15:24.029Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "260b555109963645",
+      "url": "https://www.bbc.co.uk/news/articles/crq8nj7xqdv9o",
+      "title": "British man infected with Ebola in DR Congo to be flown back to UK",
+      "lang": "en",
+      "sourceId": "bbc-africa",
+      "sourceName": "BBC News",
+      "official": false,
+      "publishedAt": "2026-11-04T18:34:19.000Z",
+      "firstSeenAt": "2026-11-04T22:15:24.029Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c1ebb6194fb75c63",
+      "url": "https://www.who.int/fr/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
+      "title": "Deux nouveaux vaccins candidats rejoignent l’essai sur la maladie d’Ebola dans un contexte de progrès de la recherche en matière de traitement",
+      "lang": "fr",
+      "sourceId": "who-news-fr",
+      "sourceName": "Organisation mondiale de la Santé (OMS)",
+      "official": true,
+      "publishedAt": "2026-11-04T15:25:48.000Z",
+      "firstSeenAt": "2026-11-04T22:15:24.029Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "69b3dfb792852053",
       "url": "https://actualite.cd/2026/11/04/ebola-bunia-apres-trois-episodes-de-violences-le-bourgmestre-de-mbunya-promet-de",
