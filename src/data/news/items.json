@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-04T08:02:37.946Z",
+  "updatedAt": "2026-11-04T16:19:56.746Z",
   "items": [
+    {
+      "id": "69b3dfb792852053",
+      "url": "https://actualite.cd/2026/11/04/ebola-bunia-apres-trois-episodes-de-violences-le-bourgmestre-de-mbunya-promet-de",
+      "title": "Ebola à Bunia : après trois épisodes de violences, le bourgmestre de Mbunya promet de protéger les équipes d’enterrement sécurisé",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-04T14:07:58.000Z",
+      "firstSeenAt": "2026-11-04T16:19:56.746Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "bfda2af02e522be4",
+      "url": "https://www.rfi.fr/fr/afrique/20261104-ebola-des-centaines-de-travailleurs-k%C3%A9nyans-dans-l-incertitude-apr%C3%A8s-la-fermeture-de-la-fronti%C3%A8re-saoudienne",
+      "title": "Ebola: des centaines de travailleurs kényans dans l'incertitude après la fermeture de la frontière saoudienne",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-04T10:21:57.000Z",
+      "firstSeenAt": "2026-11-04T16:19:56.746Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "e3f30b79dbdf6812",
       "url": "http://www.africanews.com/2026/11/04/us-requires-air-passengers-to-attest-they-havent-visited-ebola-hit-drc/",
