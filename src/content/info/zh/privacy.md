@@ -6,7 +6,7 @@ updated: 2026-11-05
 
 ## 概要
 
-您无需注册，也无需向我们提供任何个人信息即可使用 Ebola.help。我们不使用自己的分析或跟踪工具。在部分页面显示广告的 Google 和 Adsterra 可能会使用 Cookie；您可以关闭 Google 个性化广告。
+您无需注册，也无需向我们提供任何个人信息即可使用 Ebola.help。我们不使用自己的分析或跟踪工具。在部分页面显示广告的 Google 会使用 Cookie；您可以关闭个性化广告。
 
 ## 负责方
 
@@ -20,7 +20,7 @@ Ebola.help 由 Ebola.help 团队运营。您可以发送电子邮件至 [wrongnu
 
 您可以随时清除浏览器中 ebola.help 的数据，删除上述所有内容。
 
-## 广告（Google AdSense 和 Adsterra）
+## 广告（Google AdSense）
 
 首页、新闻页面和地图会显示 Google AdSense 广告。健康建议页面和求助热线页面从不显示广告。
 
@@ -29,8 +29,6 @@ Google 和其他广告公司使用 Cookie 展示广告，这些广告可能基�
 您可以在 [Google 广告设置](https://adssettings.google.com/)中或在 [aboutads.info](https://www.aboutads.info/) 关闭个性化广告。来自欧洲经济区、英国和瑞士的访问者在广告个性化之前会被征求同意。
 
 当您的浏览器要求节省流量或网速很慢时，不会加载广告。
-
-这些页面还可能显示 Adsterra 的原生广告：一个标有“广告”的小型赞助链接栏。Adsterra 可能会使用 Cookie 或类似技术来展示和统计这些广告；请参阅 [Adsterra 的隐私政策](https://adsterra.com/privacy-policy/)。如果访问者的设备设置为欧洲时区，则不会显示 Adsterra 广告。
 
 ## 网站托管
 

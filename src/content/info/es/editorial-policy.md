@@ -38,7 +38,7 @@ Si encuentra un error, escríbanos a [wrongnumber@ebola.help](mailto:wrongnumber
 
 ## Publicidad e independencia
 
-Para cubrir sus gastos, el sitio muestra anuncios de Google AdSense y anuncios nativos de Adsterra en la página de inicio, las páginas de noticias y el mapa. Las páginas con consejos de salud y líneas de ayuda nunca muestran anuncios, y nunca usamos ventanas emergentes. Estas redes eligen los anuncios automáticamente. Los anunciantes no influyen en lo que publicamos, y los anuncios no son recomendaciones. Pedimos a Google que no muestre anuncios de medicamentos, drogas ni suplementos. Adsterra no ofrece los mismos controles: si ve un anuncio engañoso, por ejemplo de una «cura», avísenos en [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help) y lo denunciaremos.
+Para cubrir sus gastos, el sitio muestra anuncios de Google AdSense en la página de inicio, las páginas de noticias y el mapa. Las páginas con consejos de salud y líneas de ayuda nunca muestran anuncios. Google elige los anuncios automáticamente. Los anunciantes no influyen en lo que publicamos, y los anuncios no son recomendaciones. Pedimos a Google que no muestre anuncios de medicamentos, drogas ni suplementos.
 
 ## No es consejo médico
 

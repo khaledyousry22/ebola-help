@@ -38,7 +38,7 @@ If you find an error, please write to [wrongnumber@ebola.help](mailto:wrongnumbe
 
 ## Advertising and independence
 
-To cover its costs, the site shows ads from Google AdSense and native ads from Adsterra on the home page, the news pages and the map. Pages with health advice and helplines never show ads, and we never use pop-ups. Ads are chosen automatically by these networks. Advertisers have no influence on what we publish, and ads are not recommendations. We ask Google not to show ads for medicines, drugs or supplements. Adsterra does not offer the same controls, so if you see a misleading ad, for example for a "cure", please tell us at [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help) and we will report it.
+To cover its costs, the site shows ads from Google AdSense on the home page, the news pages and the map. Pages with health advice and helplines never show ads. Ads are chosen automatically by Google. Advertisers have no influence on what we publish, and ads are not recommendations. We ask Google not to show ads for medicines, drugs or supplements.
 
 ## Not medical advice
 

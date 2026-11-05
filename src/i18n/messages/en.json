@@ -204,7 +204,7 @@
     "medicalTitle": "Not medical advice",
     "medical": "This site gives general information only. It does not replace doctors, nurses or other health workers. If you feel ill, contact a health worker or your national health hotline.",
     "advertisingTitle": "Advertising",
-    "advertising": "To cover its costs, the home page, the news pages and the map show ads from Google AdSense and Adsterra. Pages with health advice and helplines never show ads. Ads are chosen automatically by these networks: they are not recommendations, and advertisers have no influence on the content of this site. No ads are loaded on data-saving or very slow connections.",
+    "advertising": "To cover its costs, the home page, the news pages and the map show ads from Google AdSense. Pages with health advice and helplines never show ads. Ads are chosen automatically by Google: they are not recommendations, and advertisers have no influence on the content of this site. No ads are loaded on data-saving or very slow connections.",
     "privacyTitle": "Privacy",
     "privacy": "We do not collect personal information ourselves. The site stores one small cookie to remember your language. Google and other advertising companies use cookies to show ads, which may be based on your previous visits to this and other websites ({googleUse}). You can turn off personalised ads in {adsSettings} or at {aboutAds}. Visitors in Europe, the United Kingdom and Switzerland are asked for their consent first.",
     "privacyMore": "Full privacy policy",

@@ -1,6 +1,5 @@
 ---
 import AdSlot from '../../../components/AdSlot.astro';
-import NativeAd from '../../../components/NativeAd.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CountryFigures from '../../../components/CountryFigures.astro';
 import StatusBadge from '../../../components/StatusBadge.astro';
@@ -92,8 +91,6 @@ const legend: MapStatus[] = ['active', 'monitoring', 'recent', 'none'];
       </template>
     ))
   }
-
-  <NativeAd locale={locale} />
 
   <section aria-labelledby="table-title" class="mt-10">
     <h2 id="table-title" class="text-xl font-bold text-brand-900">{m.map.tableTitle}</h2>
