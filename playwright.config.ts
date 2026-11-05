@@ -13,6 +13,8 @@ export default defineConfig({
     trace: 'retain-on-failure',
     // The service worker would serve saved copies between steps; tests/e2e/offline.spec.ts turns it on.
     serviceWorkers: 'block',
+    // Readers are mostly in Africa; a European time zone turns Adsterra off (see NativeAd.astro).
+    timezoneId: 'Africa/Kinshasa',
     launchOptions: process.env['PW_CHROMIUM_PATH']
       ? { executablePath: process.env['PW_CHROMIUM_PATH'] }
       : {},

@@ -1,5 +1,6 @@
 ---
 import AdSlot from '../../../../components/AdSlot.astro';
+import NativeAd from '../../../../components/NativeAd.astro';
 import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
 import NewsCard from '../../../../components/NewsCard.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
@@ -47,7 +48,8 @@ const groups = otherLanguageNews(locale).map((group) => ({ ...group, items: grou
   </nav>
 
   {
-    groups.map((group) => (
+    groups.map((group, index) => (
+      <>
       <section id={`lang-${group.lang}`} aria-labelledby={`lang-${group.lang}-title`} class="mb-10" data-language-section={group.lang}>
         <h2 id={`lang-${group.lang}-title`} class="text-xl font-bold text-brand-900">
           {languageName(locale, group.lang)}{' '}
@@ -57,6 +59,8 @@ const groups = otherLanguageNews(locale).map((group) => ({ ...group, items: grou
           {group.items.map((item) => <li><NewsCard item={item} locale={locale} /></li>)}
         </ul>
       </section>
+      {index === 0 && <NativeAd locale={locale} />}
+      </>
     ))
   }
 

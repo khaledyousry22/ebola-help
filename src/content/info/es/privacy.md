@@ -1,12 +1,12 @@
 ---
 title: Política de privacidad
 description: "Qué información recopilan Ebola.help y los servicios que utiliza (Google AdSense, Cloudflare), qué se guarda en su dispositivo y qué opciones tiene."
-updated: 2026-11-03
+updated: 2026-11-05
 ---
 
 ## En resumen
 
-Puede usar Ebola.help sin registrarse y sin darnos ningún dato personal. No usamos herramientas propias de análisis ni de seguimiento. Google, que muestra los anuncios en algunas páginas, usa cookies; puede desactivar los anuncios personalizados.
+Puede usar Ebola.help sin registrarse y sin darnos ningún dato personal. No usamos herramientas propias de análisis ni de seguimiento. Google y Adsterra, que muestran los anuncios en algunas páginas, pueden usar cookies; puede desactivar los anuncios personalizados de Google.
 
 ## Quién es responsable
 
@@ -20,7 +20,7 @@ Ebola.help lo gestiona el equipo de Ebola.help. Puede escribirnos a [wrongnumber
 
 Puede borrar todo esto en cualquier momento eliminando los datos de su navegador para ebola.help.
 
-## Publicidad (Google AdSense)
+## Publicidad (Google AdSense y Adsterra)
 
 La página de inicio, las páginas de noticias y el mapa muestran anuncios de Google AdSense. Las páginas con consejos de salud y líneas de ayuda nunca muestran anuncios.
 
@@ -29,6 +29,8 @@ Google y otras empresas de publicidad usan cookies para mostrar anuncios. Estos 
 Puede desactivar la publicidad personalizada en la [configuración de anuncios de Google](https://adssettings.google.com/) o en [aboutads.info](https://www.aboutads.info/). A los visitantes del Espacio Económico Europeo, el Reino Unido y Suiza se les pide su consentimiento antes de personalizar los anuncios.
 
 No se cargan anuncios cuando su navegador pide ahorrar datos ni cuando la conexión es muy lenta.
+
+Las mismas páginas también pueden mostrar anuncios nativos de Adsterra: un pequeño recuadro de enlaces patrocinados, señalado como publicidad. Adsterra puede usar cookies o tecnologías similares para mostrar y contar estos anuncios; consulte la [política de privacidad de Adsterra](https://adsterra.com/privacy-policy/). Los anuncios de Adsterra no se muestran a los visitantes cuyo dispositivo tiene configurada una zona horaria europea.
 
 ## Alojamiento
 

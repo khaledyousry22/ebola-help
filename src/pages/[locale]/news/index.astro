@@ -1,5 +1,6 @@
 ---
 import AdSlot from '../../../components/AdSlot.astro';
+import NativeAd from '../../../components/NativeAd.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import NewsCard from '../../../components/NewsCard.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
@@ -32,6 +33,7 @@ const otherCount = otherLanguageNews(locale).reduce((sum, group) => sum + group.
       <ul class="mt-4 space-y-3">
         {official.map((item) => <li><NewsCard item={item} locale={locale} /></li>)}
       </ul>
+      <NativeAd locale={locale} />
     </section>
 
     <section aria-labelledby="media-title" data-section="media">

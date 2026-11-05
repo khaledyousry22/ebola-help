@@ -1,12 +1,12 @@
 ---
 title: Politique de confidentialité
 description: "Les informations que collectent Ebola.help et les services qu'il utilise (Google AdSense, Cloudflare), ce qui est enregistré sur votre appareil et vos choix."
-updated: 2026-11-03
+updated: 2026-11-05
 ---
 
 ## En bref
 
-Vous pouvez utiliser Ebola.help sans vous inscrire et sans nous donner d'informations personnelles. Nous n'utilisons pas nos propres outils de mesure d'audience ou de suivi. Google, qui affiche les publicités sur certaines pages, utilise des cookies ; vous pouvez désactiver les publicités personnalisées.
+Vous pouvez utiliser Ebola.help sans vous inscrire et sans nous donner d'informations personnelles. Nous n'utilisons pas nos propres outils de mesure d'audience ou de suivi. Google et Adsterra, qui affichent les publicités sur certaines pages, peuvent utiliser des cookies ; vous pouvez désactiver les publicités personnalisées de Google.
 
 ## Qui est responsable
 
@@ -20,7 +20,7 @@ Ebola.help est géré par l'équipe d'Ebola.help. Vous pouvez nous écrire à [w
 
 Vous pouvez tout supprimer à tout moment en effaçant les données de votre navigateur pour ebola.help.
 
-## Publicité (Google AdSense)
+## Publicité (Google AdSense et Adsterra)
 
 La page d'accueil, les pages d'actualités et la carte affichent des publicités de Google AdSense. Les pages de conseils de santé et de numéros d'aide n'affichent jamais de publicité.
 
@@ -29,6 +29,8 @@ Google et d'autres sociétés publicitaires utilisent des cookies pour afficher 
 Vous pouvez désactiver la publicité personnalisée dans les [paramètres des annonces de Google](https://adssettings.google.com/) ou sur [aboutads.info](https://www.aboutads.info/). Les visiteurs de l'Espace économique européen, du Royaume-Uni et de la Suisse sont invités à donner leur consentement avant que les publicités soient personnalisées.
 
 Aucune publicité n'est chargée lorsque votre navigateur demande d'économiser les données ou lorsque la connexion est très lente.
+
+Les mêmes pages peuvent aussi afficher des publicités natives d'Adsterra : un petit encadré de liens sponsorisés, signalé comme publicité. Adsterra peut utiliser des cookies ou des technologies similaires pour afficher et compter ces publicités ; voir la [politique de confidentialité d'Adsterra](https://adsterra.com/privacy-policy/). Les publicités d'Adsterra ne sont pas affichées aux visiteurs dont l'appareil est réglé sur un fuseau horaire européen.
 
 ## Hébergement
 

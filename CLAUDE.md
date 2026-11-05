@@ -80,6 +80,11 @@ plain language.
   country, About or picker pages (browser tests enforce this). `AdLoader`
   loads Google's script after page load, near the slot, and never on
   Save-Data or 2G. About page carries Google's required privacy disclosures.
+  Adsterra native banner (`ADSTERRA` in `src/config.ts`, `<NativeAd>`, at
+  most once per page) on the same pages only: loaded near the reader, never
+  on Save-Data/2G or European time zones, hidden if blocked or empty; no
+  pop-ups, social bars or redirect formats. The privacy and editorial
+  policies and the About page name both networks: keep them in sync.
 - Search engines: `/sitemap-index.xml` and `/<locale>/sitemap.xml`, built from
   `localePages()` in `src/lib/site-pages.ts` (a browser test checks it matches
   the built pages). Share images and app icons in `public/social/` and

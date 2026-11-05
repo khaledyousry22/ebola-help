@@ -24,6 +24,20 @@ export const ADS = {
 } as const;
 
 /**
+ * Adsterra native banner (website 6177846, ad unit 32109314): a labelled
+ * panel of sponsored links, one per page, on the same pages as AdSense
+ * (home, news, other-languages news, map). Never pop-ups or redirects.
+ * Not loaded on data-saving or 2G connections, or for visitors whose
+ * device uses a European time zone (see NativeAd.astro).
+ * Set enabled to false to remove every Adsterra ad from the site.
+ */
+export const ADSTERRA = {
+  enabled: true,
+  scriptUrl: 'https://bauval.org/21/1f0a9c3a57fe3968e0e2c11d2f931415',
+  containerId: 'container-1f0a9c3a57fe3968e0e2c11d2f931415',
+} as const;
+
+/**
  * Short extracts under news headlines. Off while the site shows ads: WHO's
  * website terms allow extracts only for non-commercial use, and news feeds'
  * terms vary. Headline, source, date and link are shown either way.

@@ -1,12 +1,12 @@
 ---
 title: Privacy policy
 description: What information Ebola.help and the services it uses (Google AdSense, Cloudflare) collect, what is stored on your device, and your choices.
-updated: 2026-11-03
+updated: 2026-11-05
 ---
 
 ## In short
 
-You can use Ebola.help without registering or giving us any personal information. We do not use analytics or tracking tools of our own. Google, which shows the ads on some pages, uses cookies; you can turn off personalised ads.
+You can use Ebola.help without registering or giving us any personal information. We do not use analytics or tracking tools of our own. Google and Adsterra, which show the ads on some pages, may use cookies; you can turn off personalised Google ads.
 
 ## Who is responsible
 
@@ -20,7 +20,7 @@ Ebola.help is run by the Ebola.help Team. You can contact us at [wrongnumber@ebo
 
 You can delete all of this at any time by clearing your browser's data for ebola.help.
 
-## Advertising (Google AdSense)
+## Advertising (Google AdSense and Adsterra)
 
 The home page, the news pages and the map show ads from Google AdSense. Pages with health advice and helplines never show ads.
 
@@ -29,6 +29,8 @@ Google and other advertising companies use cookies to show ads. These ads may be
 You can turn off personalised advertising in [Google's Ads Settings](https://adssettings.google.com/) or at [aboutads.info](https://www.aboutads.info/). Visitors in the European Economic Area, the United Kingdom and Switzerland are asked for their consent before ads are personalised.
 
 No ads are loaded when your browser asks to save data or when the connection is very slow.
+
+The same pages can also show native ads from Adsterra: a small panel of sponsored links, marked as an advertisement. Adsterra may use cookies or similar technologies to show and count these ads; see [Adsterra's privacy policy](https://adsterra.com/privacy-policy/). Adsterra ads are not shown to visitors whose device is set to a European time zone.
 
 ## Hosting
 
