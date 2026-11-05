@@ -1,6 +1,79 @@
 {
-  "updatedAt": "2026-11-05T09:51:38.333Z",
+  "updatedAt": "2026-11-05T18:01:55.715Z",
   "items": [
+    {
+      "id": "efc0ea2b89c6b6e6",
+      "url": "https://actualite.cd/2026/11/05/lubero-kayna-le-dernier-malade-debola-declare-gueri-les-autorites-sanitaires-appellent",
+      "title": "Lubero : à Kayna, le dernier malade d’Ebola déclaré guéri, les autorités sanitaires appellent à la vigilance",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-05T15:21:48.000Z",
+      "firstSeenAt": "2026-11-05T18:01:55.715Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c2142b8a7c2bf32f",
+      "url": "https://actualite.cd/2026/11/05/mongbwalu-au-coeur-de-la-riposte-contre-ebola-le-travail-dun-socio-anthropologue-pour",
+      "title": "Mongbwalu : au cœur de la riposte contre Ebola, le travail d’un socio-anthropologue pour vaincre la peur",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-05T14:57:47.000Z",
+      "firstSeenAt": "2026-11-05T18:01:55.715Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "1d60ec95a04d6700",
+      "url": "https://actualite.cd/2026/11/05/rdc-fmi-le-gouvernement-brandit-la-persistance-du-conflit-arme-dans-lest-et-lepidemie",
+      "title": "RDC-FMI: le gouvernement brandit la persistance du conflit armé dans l’Est et l’épidémie d’Ebola pour solliciter des moyens financiers supplémentaires",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-05T14:53:33.000Z",
+      "firstSeenAt": "2026-11-05T18:01:55.715Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "172f529846916ffa",
+      "url": "https://news.un.org/feed/view/fr/story/2026/11/1159792",
+      "title": "Ebola en RDC : deux nouveaux vaccins à l’essai face à une épidémie meurtrière",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "firstSeenAt": "2026-11-05T18:01:55.715Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "378c96920a6d163b",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168742",
+      "title": "Two new Ebola vaccines to join DR Congo clinical trial",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "firstSeenAt": "2026-11-05T18:01:55.715Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "765575ccf2805da3",
       "url": "https://actualite.cd/2026/11/05/rutshuru-la-peche-reprend-timidement-vitshumbi-et-nyakakoma-apres-un-mois-de-suspension",
