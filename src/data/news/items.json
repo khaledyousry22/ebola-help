@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:15:24.029Z",
+  "updatedAt": "2026-11-05T02:31:11.664Z",
   "items": [
     {
       "id": "f3b6803f8f6536b8",
@@ -54,6 +54,21 @@
       "official": false,
       "publishedAt": "2026-11-04T14:07:58.000Z",
       "firstSeenAt": "2026-11-04T16:19:56.746Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "978b5fe25fb5287b",
+      "url": "https://news.un.org/feed/view/ru/story/2026/11/1469047",
+      "title": "В клинические испытания включены две новые вакцины против Эболы",
+      "lang": "ru",
+      "sourceId": "un-news-ru",
+      "sourceName": "Новости ООН",
+      "official": false,
+      "publishedAt": "2026-11-04T12:00:00.000Z",
+      "firstSeenAt": "2026-11-05T02:31:11.664Z",
       "countries": [
         "CD"
       ],
