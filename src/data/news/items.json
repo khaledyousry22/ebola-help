@@ -1,6 +1,81 @@
 {
-  "updatedAt": "2026-11-05T02:31:11.664Z",
+  "updatedAt": "2026-11-05T09:51:38.333Z",
   "items": [
+    {
+      "id": "765575ccf2805da3",
+      "url": "https://actualite.cd/2026/11/05/rutshuru-la-peche-reprend-timidement-vitshumbi-et-nyakakoma-apres-un-mois-de-suspension",
+      "title": "Rutshuru : la pêche reprend timidement à Vitshumbi et Nyakakoma après un mois de suspension suite à Ebola",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-05T08:59:17.000Z",
+      "firstSeenAt": "2026-11-05T09:51:38.333Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "809452d68195fd97",
+      "url": "https://tass.ru/obschestvo/28288135",
+      "title": "Reuters: врач из Британии заразился вирусом Эбола в ДР Конго",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-11-05T08:45:15.000Z",
+      "firstSeenAt": "2026-11-05T09:51:38.333Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "51c788e578173b92",
+      "url": "https://actualite.cd/2026/11/05/ebola-en-ituri-msf-ouvre-un-centre-de-transit-pk47-pour-rapprocher-les-soins-des",
+      "title": "Ebola en Ituri : MSF ouvre un centre de transit à PK47 pour rapprocher les soins des communautés de Nia-Nia",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-05T08:25:36.000Z",
+      "firstSeenAt": "2026-11-05T09:51:38.333Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "6e3791178cbb424f",
+      "url": "https://insp.cd/sitrep-n173-mve-bdbv-03-11-2026/",
+      "title": "SitRep N°173/MVE-BDBV/03/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-05T07:18:56.000Z",
+      "firstSeenAt": "2026-11-05T09:51:38.333Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a42a15bd31c5a8ff",
+      "url": "https://www.rfi.fr/fr/afrique/20261105-ebola-m%C3%A9contentement-de-nairobi-face-aux-restrictions-de-voyage-pour-ses-ressortissants",
+      "title": "Ebola: mécontentement de Nairobi face aux restrictions de voyage pour ses ressortissants",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-05T04:27:17.000Z",
+      "firstSeenAt": "2026-11-05T09:51:38.333Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "f3b6803f8f6536b8",
       "url": "http://www.africanews.com/2026/11/04/who-approves-clinical-trials-on-two-new-ebola-vaccines/",
