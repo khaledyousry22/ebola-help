@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T18:01:55.715Z",
+  "updatedAt": "2026-11-05T23:38:45.240Z",
   "items": [
     {
       "id": "efc0ea2b89c6b6e6",
@@ -172,6 +172,51 @@
       "official": false,
       "publishedAt": "2026-11-04T18:34:19.000Z",
       "firstSeenAt": "2026-11-04T22:15:24.029Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7a342f292c458703",
+      "url": "https://www.who.int/ar/news-room/24-05-1448-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
+      "title": "إدراج لقاحين تجريبيين جديدين في تجربة لقاحات الإيبولا إبّان إحراز التقدم في البحوث المتعلّقة بالعلاج",
+      "lang": "ar",
+      "sourceId": "who-news-ar",
+      "sourceName": "منظمة الصحة العالمية",
+      "official": true,
+      "publishedAt": "2026-11-04T15:25:48.000Z",
+      "firstSeenAt": "2026-11-05T23:38:45.240Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "90946fcf22e2b54f",
+      "url": "https://www.who.int/ru/news-room/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
+      "title": "Исследования вакцин и препаратов против эболавирусной инфекции: в испытание включат две новые вакцины-кандидата",
+      "lang": "ru",
+      "sourceId": "who-news-ru",
+      "sourceName": "Всемирная организация здравоохранения (ВОЗ)",
+      "official": true,
+      "publishedAt": "2026-11-04T15:25:48.000Z",
+      "firstSeenAt": "2026-11-05T23:38:45.240Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "937555ab548c5933",
+      "url": "https://www.who.int/es/news-room/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
+      "title": "Un ensayo incorporará dos nuevas vacunas experimentales contra el ébola, mientras continúa la investigación sobre tratamientos",
+      "lang": "es",
+      "sourceId": "who-news-es",
+      "sourceName": "Organización Mundial de la Salud (OMS)",
+      "official": true,
+      "publishedAt": "2026-11-04T15:25:48.000Z",
+      "firstSeenAt": "2026-11-05T23:38:45.240Z",
       "countries": [
         "CD"
       ],
