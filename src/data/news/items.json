@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-11-06T18:30:10.613Z",
+  "updatedAt": "2026-11-06T23:31:24.365Z",
   "items": [
+    {
+      "id": "d6b6c2965361f8b5",
+      "url": "https://www.afro.who.int/countries/nigeria/publication/bundibugyo-virus-disease-outbreak-democratic-republic-congo-kenya-nigeria-weekly-external-situation",
+      "title": "BUNDIBUGYO VIRUS DISEASE OUTBREAK Democratic Republic of the Congo | Kenya | Nigeria - Weekly External Situation Report 24, Data as of 1 November 2026",
+      "lang": "en",
+      "sourceId": "who-afro-en",
+      "sourceName": "WHO Regional Office for Africa",
+      "official": true,
+      "publishedAt": "2026-11-06T19:48:33.000Z",
+      "firstSeenAt": "2026-11-06T23:31:24.365Z",
+      "countries": [
+        "CD",
+        "KE",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "d4f5fbaa1bcbd907",
       "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
