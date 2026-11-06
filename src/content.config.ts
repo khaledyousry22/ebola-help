@@ -38,4 +38,25 @@ const info = defineCollection({
   }),
 });
 
-export const collections = { health, info };
+/**
+ * Weekly situation updates: src/content/updates/<locale>/<YYYY-MM-DD>.md,
+ * the same dates in every language, each citing the same sources.
+ */
+const updates = defineCollection({
+  loader: glob({ pattern: '*/*.md', base: './src/content/updates' }),
+  schema: z.object({
+    title: z.string().min(1),
+    description: z.string().min(1),
+    /** Publication date. */
+    date: z.coerce.date(),
+    /** Date the figures in the update refer to. */
+    figuresAsOf: z.coerce.date(),
+    /** The "In short" points, also shown on the home page. */
+    keyPoints: z.array(z.string().min(1)).min(1),
+    sources: z
+      .array(z.string().refine(isSourceId, 'Unknown source id (see src/data/sources.ts)'))
+      .min(1),
+  }),
+});
+
+export const collections = { health, info, updates };

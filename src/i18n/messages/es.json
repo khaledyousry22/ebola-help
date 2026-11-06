@@ -18,6 +18,7 @@
   "nav": {
     "home": "Inicio",
     "news": "Noticias",
+    "updates": "Informes",
     "map": "Mapa",
     "help": "Líneas de ayuda",
     "health": "Información sanitaria",
@@ -70,6 +71,10 @@
       "health": {
         "title": "Información sanitaria",
         "text": "Síntomas, transmisión, prevención, vacunas y tratamiento, y mitos frecuentes."
+      },
+      "updates": {
+        "title": "Informes de situación",
+        "text": "Un resumen semanal del brote, redactado a partir de informes oficiales."
       }
     }
   },
@@ -93,6 +98,18 @@
     "latestOfficial": "Últimos comunicados oficiales",
     "latestNews": "Últimas noticias",
     "allNews": "Todas las noticias y comunicados oficiales"
+  },
+  "updates": {
+    "title": "Informes de situación",
+    "description": "Resúmenes semanales del brote de ébola causado por el virus de Bundibugyo, redactados a partir de informes oficiales, con sus fuentes.",
+    "intro": "Cada semana resumimos lo que dicen los informes oficiales sobre el brote: casos nuevos, países afectados, investigación y recomendaciones. Cada informe indica las fuentes oficiales en las que se basa.",
+    "latest": "Último informe de situación",
+    "figuresAsOf": "Cifras hasta el {date}",
+    "published": "Publicado el {date}",
+    "inShort": "En resumen",
+    "readMore": "Leer el informe completo",
+    "all": "Todos los informes de situación",
+    "disclaimer": "Este resumen lo redacta el equipo de Ebola.help a partir de los informes oficiales citados abajo. Las cifras cambian cada día: consulte las fuentes para obtener la información más reciente."
   },
   "help": {
     "title": "Líneas de ayuda y contactos sanitarios",

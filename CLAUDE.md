@@ -31,6 +31,12 @@ plain language.
   same slugs and cites the same source ids (unit tests enforce this). Text is
   written by us from the sources (WHO website terms allow short extracts only,
   not copying), using WHO's official terminology in each language.
+- Situation updates (weekly): `src/content/updates/<locale>/<YYYY-MM-DD>.md`
+  (title, description, date, figuresAsOf, keyPoints, sources), listed at
+  `/<locale>/updates/`, newest on the home page (`LatestUpdate`). Every
+  language has the same dates, sources, links and number of key points
+  (unit tests). Write only what the cited official reports say; the owner
+  approves the English draft first.
 - Policy pages (editorial policy, privacy, contact):
   `src/content/info/<locale>/<slug>.md`, slugs in `src/lib/info-pages.ts`,
   linked from every footer; the site is signed "the Ebola.help Team". The

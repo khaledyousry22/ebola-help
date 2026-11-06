@@ -1,5 +1,6 @@
 ---
 import AdSlot from '../../components/AdSlot.astro';
+import LatestUpdate from '../../components/LatestUpdate.astro';
 import NewsCard from '../../components/NewsCard.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { mediaCoverage, officialUpdates } from '../../data/news';
@@ -16,6 +17,7 @@ const latestOfficial = officialUpdates(locale).slice(0, 3);
 const latestMedia = mediaCoverage(locale).slice(0, 3);
 const sections = [
   { ...m.home.sections.health, href: localePath(locale, '/health/') },
+  { ...m.home.sections.updates, href: localePath(locale, '/updates/') },
   { ...m.home.sections.news, href: localePath(locale, '/news/') },
   { ...m.home.sections.help, href: localePath(locale, '/help/') },
   { ...m.home.sections.map, href: localePath(locale, '/map/') },
@@ -26,6 +28,8 @@ const sections = [
     <h1 class="text-2xl font-bold leading-tight text-brand-900 sm:text-3xl">{m.home.heading}</h1>
     <p class="mt-3 text-lg text-muted">{m.home.intro}</p>
   </div>
+
+  <LatestUpdate locale={locale} />
 
   <div class="grid gap-8 lg:grid-cols-2" data-home-news>
     <section aria-labelledby="latest-official-title">

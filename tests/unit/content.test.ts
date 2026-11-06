@@ -141,3 +141,39 @@ describe('policy pages (editorial policy, privacy, contact)', () => {
     });
   }
 });
+
+describe('situation updates', () => {
+  const UPDATES = 'src/content/updates';
+  const dates = (locale: string) =>
+    readdirSync(join(UPDATES, locale))
+      .filter((f) => f.endsWith('.md'))
+      .map((f) => f.replace(/\.md$/, ''))
+      .sort();
+  const read = (locale: string, slug: string) => {
+    const text = readFileSync(join(UPDATES, locale, `${slug}.md`), 'utf8');
+    return { text, data: parse(text.split('---')[1] ?? '') };
+  };
+  const links = (text: string) => [...text.matchAll(/\]\(([^)]+)\)/g)].map((m) => m[1]).sort();
+
+  it('every update is named after its publication date', () => {
+    for (const slug of dates('en')) {
+      expect(slug).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(String(read('en', slug).data.date)).toContain(slug);
+    }
+  });
+
+  for (const locale of LOCALE_CODES) {
+    it(`${locale} has every update, with the same sources, dates and links as English`, () => {
+      expect(dates(locale)).toEqual(dates('en'));
+      for (const slug of dates('en')) {
+        const en = read('en', slug);
+        const page = read(locale, slug);
+        expect(page.data.sources, `${locale}/${slug}`).toEqual(en.data.sources);
+        expect(String(page.data.figuresAsOf)).toBe(String(en.data.figuresAsOf));
+        expect(page.data.keyPoints.length).toBe(en.data.keyPoints.length);
+        expect(links(page.text)).toEqual(links(en.text));
+        for (const id of page.data.sources) expect(Object.keys(SOURCES)).toContain(id);
+      }
+    });
+  }
+});

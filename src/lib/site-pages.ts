@@ -2,6 +2,7 @@ import { SITE_URL } from '../config';
 import { localePath, type Locale } from '../i18n';
 import { COUNTRY_PAGES, countryPath } from './country-pages';
 import { getHealthPages, splitHealthId } from './health';
+import { getUpdates, updatePath } from './updates';
 import { INFO_PAGES } from './info-pages';
 
 export { NOINDEX_PAGES } from './indexing';
@@ -13,8 +14,11 @@ export { NOINDEX_PAGES } from './indexing';
  */
 export async function localePages(): Promise<string[]> {
   const health = await getHealthPages('en');
+  const updates = await getUpdates('en');
   return [
     '/',
+    '/updates/',
+    ...updates.map(updatePath),
     '/map/',
     '/help/',
     ...COUNTRY_PAGES.map(countryPath),

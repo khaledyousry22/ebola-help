@@ -18,6 +18,7 @@
   "nav": {
     "home": "Home",
     "news": "News",
+    "updates": "Updates",
     "map": "Map",
     "help": "Helplines",
     "health": "Health information",
@@ -70,6 +71,10 @@
       "health": {
         "title": "Health information",
         "text": "Symptoms, how Ebola spreads, prevention, vaccines and treatment, and common myths."
+      },
+      "updates": {
+        "title": "Situation updates",
+        "text": "A weekly summary of the outbreak, written from official reports."
       }
     }
   },
@@ -93,6 +98,18 @@
     "latestOfficial": "Latest official updates",
     "latestNews": "Latest news",
     "allNews": "All news and official updates"
+  },
+  "updates": {
+    "title": "Situation updates",
+    "description": "Weekly summaries of the Ebola outbreak caused by Bundibugyo virus, written from official reports, with their sources.",
+    "intro": "Every week, we summarise what official reports say about the outbreak: new cases, the countries affected, research and advice. Each update lists the official sources it is based on.",
+    "latest": "Latest situation update",
+    "figuresAsOf": "Figures up to {date}",
+    "published": "Published {date}",
+    "inShort": "In short",
+    "readMore": "Read the full update",
+    "all": "All situation updates",
+    "disclaimer": "This summary is written by the Ebola.help Team from the official reports listed below. Figures change every day: check the sources for the latest information."
   },
   "help": {
     "title": "Helplines and health contacts",

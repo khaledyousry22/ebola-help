@@ -2,7 +2,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 import { getMessages, LOCALE_CODES, LOCALES } from '../../src/i18n';
 
-const PAGES = ['/', '/news/', '/map/', '/help/', '/health/', '/about/', '/editorial-policy/', '/privacy/', '/contact/', '/offline/'];
+const PAGES = ['/', '/news/', '/updates/', '/updates/2026-11-06/', '/map/', '/help/', '/health/', '/about/', '/editorial-policy/', '/privacy/', '/contact/', '/offline/'];
 
 test.describe('language picker', () => {
   test('shows all six languages by their native names', async ({ page }) => {
@@ -182,4 +182,21 @@ test.describe('neutral pages', () => {
     const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
     expect(results.violations.map((v) => `${v.id}: ${v.help}`)).toEqual([]);
   });
+});
+
+test.describe('situation updates', () => {
+  for (const code of LOCALE_CODES) {
+    test(`/${code}/ shows the latest update in short and links to it`, async ({ page }) => {
+      const m = getMessages(code);
+      await page.goto(`/${code}/`);
+      const card = page.locator('[data-latest-update]');
+      await expect(card).toContainText(m.updates.latest);
+      await expect(card.locator('li').first()).toBeVisible();
+      await card.locator(`a[href="/${code}/updates/2026-11-06/"]`).first().click();
+      await expect(page.locator('h1')).toBeVisible();
+      await expect(page.locator('[data-update-disclaimer]')).toHaveText(m.updates.disclaimer);
+      await expect(page.locator('[data-sources] li')).toHaveCount(6);
+      await expect(page.locator(`header a[href="/${code}/updates/"]`)).toBeVisible();
+    });
+  }
 });

@@ -18,6 +18,7 @@
   "nav": {
     "home": "Accueil",
     "news": "Actualités",
+    "updates": "Points de situation",
     "map": "Carte",
     "help": "Numéros d'aide",
     "health": "Informations sanitaires",
@@ -70,6 +71,10 @@
       "health": {
         "title": "Informations sanitaires",
         "text": "Symptômes, transmission, prévention, vaccins et traitements, et idées reçues."
+      },
+      "updates": {
+        "title": "Points de situation",
+        "text": "Un résumé hebdomadaire de l'épidémie, rédigé à partir des rapports officiels."
       }
     }
   },
@@ -93,6 +98,18 @@
     "latestOfficial": "Derniers communiqués officiels",
     "latestNews": "Dernières actualités",
     "allNews": "Toutes les actualités et communiqués officiels"
+  },
+  "updates": {
+    "title": "Points de situation",
+    "description": "Résumés hebdomadaires de l'épidémie d'Ebola due au virus Bundibugyo, rédigés à partir des rapports officiels, avec leurs sources.",
+    "intro": "Chaque semaine, nous résumons ce que disent les rapports officiels sur l'épidémie : nouveaux cas, pays touchés, recherche et conseils. Chaque point de situation indique les sources officielles sur lesquelles il repose.",
+    "latest": "Dernier point de situation",
+    "figuresAsOf": "Chiffres arrêtés au {date}",
+    "published": "Publié le {date}",
+    "inShort": "En bref",
+    "readMore": "Lire le point de situation complet",
+    "all": "Tous les points de situation",
+    "disclaimer": "Ce résumé est rédigé par l'équipe d'Ebola.help à partir des rapports officiels cités ci-dessous. Les chiffres évoluent chaque jour : consultez les sources pour les informations les plus récentes."
   },
   "help": {
     "title": "Numéros d'aide et contacts sanitaires",
