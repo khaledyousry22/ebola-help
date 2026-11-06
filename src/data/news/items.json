@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-06T09:52:01.238Z",
+  "updatedAt": "2026-11-06T11:32:20.735Z",
   "items": [
+    {
+      "id": "33cafe05d6d3ce95",
+      "url": "https://tass.ru/obschestvo/28292495",
+      "title": "Заразившегося в ДРК Эболой британского врача изолировали в больнице Лондона",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-11-06T11:27:44.000Z",
+      "firstSeenAt": "2026-11-06T11:32:20.735Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "4962f8f7ec2e3cf8",
+      "url": "https://insp.cd/sitrep-n174-mve-bdbv-04-11-2026/",
+      "title": "SitRep N°174/MVE-BDBV/04/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-06T10:34:35.000Z",
+      "firstSeenAt": "2026-11-06T11:32:20.735Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "efc0ea2b89c6b6e6",
       "url": "https://actualite.cd/2026/11/05/lubero-kayna-le-dernier-malade-debola-declare-gueri-les-autorites-sanitaires-appellent",
