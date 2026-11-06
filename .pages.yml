@@ -22,7 +22,12 @@ components:
     required: true
     options:
       values:
+        - { name: drcSitrep173, label: "DR Congo Ministry of Health: situation report 173 (3 Nov 2026)" }
+        - { name: drcSitrep166, label: "DR Congo Ministry of Health: situation report 166 (27 Oct 2026)" }
         - { name: drcSitrep158, label: "DR Congo Ministry of Health: situation report 158" }
+        - { name: whoDon622, label: "WHO: Disease Outbreak News, 23 Oct 2026 (DR Congo, Kenya, Nigeria)" }
+        - { name: whoVaccineTrials, label: "WHO: new candidate vaccines join trial (4 Nov 2026)" }
+        - { name: africaCdcKenya, label: "Africa CDC: Kenya statement (3 Nov 2026)" }
         - { name: whoDon619, label: "WHO: Disease Outbreak News (DR Congo)" }
         - { name: afroUgandaEnd, label: "WHO Africa: Uganda ends outbreak" }
         - { name: afroNigeria, label: "WHO Africa: Nigeria confirms imported case" }

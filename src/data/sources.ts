@@ -11,7 +11,7 @@
  */
 import type { Locale } from '../i18n/locales';
 
-export type PublisherId = 'who' | 'whoAfro' | 'cdc' | 'drcMoh';
+export type PublisherId = 'who' | 'whoAfro' | 'cdc' | 'drcMoh' | 'africaCdc';
 
 export interface SourceVersion {
   title: string;
@@ -108,6 +108,85 @@ export const SOURCES = {
     },
     published: '2026-10-20',
     checked: '2026-10-21',
+  },
+  whoDon622: {
+    publisher: 'who',
+    versions: {
+      en: {
+        title: 'Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria',
+        url: 'https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622',
+      },
+    },
+    published: '2026-10-23',
+    checked: '2026-11-06',
+  },
+  whoVaccineTrials: {
+    publisher: 'who',
+    versions: {
+      en: {
+        title: 'Two new candidate vaccines to join Ebola trial as treatment research advances',
+        url: 'https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances',
+      },
+      fr: {
+        title: 'Deux nouveaux vaccins candidats rejoignent l’essai sur la maladie d’Ebola dans un contexte de progrès de la recherche en matière de traitement',
+        url: 'https://www.who.int/fr/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances',
+      },
+      es: {
+        title: 'Un ensayo incorporará dos nuevas vacunas experimentales contra el ébola, mientras continúa la investigación sobre tratamientos',
+        url: 'https://www.who.int/es/news-room/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances',
+      },
+      ru: {
+        title: 'Исследования вакцин и препаратов против эболавирусной инфекции: в испытание включат две новые вакцины-кандидата',
+        url: 'https://www.who.int/ru/news-room/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances',
+      },
+      ar: {
+        title: 'إدراج لقاحين تجريبيين جديدين في تجربة لقاحات الإيبولا إبّان إحراز التقدم في البحوث المتعلّقة بالعلاج',
+        url: 'https://www.who.int/ar/news-room/24-05-1448-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances',
+      },
+      zh: {
+        title: '埃博拉治疗研究取得进展，两款新候选疫苗将加入试验',
+        url: 'https://www.who.int/zh/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances',
+      },
+    },
+    published: '2026-11-04',
+    checked: '2026-11-06',
+  },
+  africaCdcKenya: {
+    publisher: 'africaCdc',
+    versions: {
+      en: {
+        title: 'Africa CDC Stands with Kenya, Calls for Lifting of Unjustified Ebola Travel Restrictions',
+        url: 'https://africacdc.org/news-item/africa-cdc-stands-with-kenya-calls-for-lifting-of-unjustified-ebola-travel-restrictions/',
+      },
+      fr: {
+        title: 'Africa CDC solidaire du Kenya, appelle à la levée des restrictions de voyage injustifiées liées à Ebola',
+        url: 'https://africacdc.org/news-item/africa-cdc-solidaire-du-kenya-appelle-a-la-levee-des-restrictions-de-voyage-injustifiees-liees-a-ebola/',
+      },
+    },
+    published: '2026-11-03',
+    checked: '2026-11-06',
+  },
+  drcSitrep166: {
+    publisher: 'drcMoh',
+    versions: {
+      fr: {
+        title: 'Rapport de situation de la 17e épidémie de la maladie à virus Ebola, SitRep N°166 (27 octobre 2026)',
+        url: 'https://insp.cd/sitrep-n166-mve-bdbv-27-10-2026/',
+      },
+    },
+    published: '2026-10-28',
+    checked: '2026-11-06',
+  },
+  drcSitrep173: {
+    publisher: 'drcMoh',
+    versions: {
+      fr: {
+        title: 'Rapport de situation de la 17e épidémie de la maladie à virus Ebola, SitRep N°173 (3 novembre 2026)',
+        url: 'https://insp.cd/sitrep-n173-mve-bdbv-03-11-2026/',
+      },
+    },
+    published: '2026-11-04',
+    checked: '2026-11-06',
   },
   drcSitrep158: {
     publisher: 'drcMoh',

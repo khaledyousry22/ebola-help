@@ -185,7 +185,8 @@
     "who": "Organisation mondiale de la Santé (OMS)",
     "whoAfro": "Bureau régional de l'OMS pour l'Afrique",
     "cdc": "Centres pour le contrôle et la prévention des maladies des États-Unis (CDC)",
-    "drcMoh": "Ministère de la Santé publique, Hygiène et Prévoyance sociale, République démocratique du Congo"
+    "drcMoh": "Ministère de la Santé publique, Hygiène et Prévoyance sociale, République démocratique du Congo",
+    "africaCdc": "Centres africains de contrôle et de prévention des maladies (Africa CDC)"
   },
   "about": {
     "heading": "À propos d'Ebola.help",
