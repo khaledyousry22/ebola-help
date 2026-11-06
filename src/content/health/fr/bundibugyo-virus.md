@@ -7,8 +7,8 @@ keyPoints:
   - "Il se transmet, et se prévient, comme les autres maladies d'Ebola, par contact direct avec le sang ou les liquides biologiques d'une personne malade ou décédée."
   - "Il n'existe encore ni vaccin ni médicament approuvé contre ce virus. Des soins de soutien précoces dans un centre de traitement augmentent les chances de survie."
   - "Les derniers chiffres officiels de l'épidémie actuelle figurent en haut de chaque page de ce site."
-sources: [whoDon619, whoFactSheet, whoTreatmentTrial, whoVaccineAdvisoryGroup, afroUgandaEnd, afroNigeria]
-reviewed: 2026-11-03
+sources: [whoDon619, whoDon622, whoVaccineTrials, whoFactSheet, whoTreatmentTrial, whoVaccineAdvisoryGroup, afroUgandaEnd, afroNigeria]
+reviewed: 2026-11-06
 ---
 
 ## L'un des trois virus Ebola qui provoquent de grandes épidémies
@@ -42,12 +42,27 @@ Avant 2026, le virus Bundibugyo avait provoqué deux épidémies connues : en Ou
 
 ## Vaccins et médicaments
 
-Il n'existe ni vaccin ni médicament approuvé contre la maladie à virus Bundibugyo. Ceux qui existent n'agissent que contre le virus Ebola.
+Il n'existe ni vaccin ni médicament approuvé contre la maladie à virus Bundibugyo. Ceux qui existent n'agissent que contre le virus Ebola. Des recherches sont en cours pendant l'épidémie :
 
-- **Vaccins :** en juillet 2026, un groupe d'experts de l'OMS a recommandé de tester Ervebo, le vaccin approuvé contre le virus Ebola, dans une étude de recherche pendant cette épidémie, afin de savoir s'il protège aussi contre le virus Bundibugyo. Aucun vaccin conçu spécifiquement contre le virus Bundibugyo n'était prêt à être testé.
-- **Médicaments :** depuis le 2 juillet 2026, un essai clinique parrainé par l'OMS, appelé PARTNERS, teste si un médicament à base d'anticorps (MBP134) et un médicament antiviral (remdesivir), seuls ou associés, améliorent la survie. Il est ouvert aux patients de tout âge atteints d'une maladie à virus Bundibugyo confirmée, qui reçoivent aussi tous les soins de soutien.
+- **Vaccins :** en juillet 2026, un groupe d'experts de l'OMS a recommandé de tester Ervebo, le vaccin approuvé contre le virus Ebola, pendant cette épidémie. Le 23 octobre, l'essai TUMAINI a commencé à Bunia. Il propose la vaccination aux personnes ayant été en contact avec un cas confirmé, une approche appelée vaccination en anneau, en commençant par Ervebo. Le 4 novembre, des experts de l'OMS ont recommandé d'y ajouter les deux premiers vaccins conçus spécifiquement contre le virus Bundibugyo, ChAdOx1 et mRNA-1469, après les autorisations nationales. Les résultats sont attendus début 2027.
+- **Médicaments :** depuis le 2 juillet 2026, un essai clinique parrainé par l'OMS, appelé PARTNERS, teste si un médicament à base d'anticorps (MBP134) et un médicament antiviral (remdesivir), seuls ou associés, améliorent la survie. Un autre médicament à base d'anticorps, le maftivimab, y sera bientôt ajouté. Une autre étude teste si l'obeldesivir peut éviter la maladie chez les personnes exposées au virus.
 
 Pour en savoir plus : [Vaccins et traitements](../vaccines-treatment/).
+
+## Chronologie
+
+- **15 mai 2026 :** la République démocratique du Congo déclare une épidémie de maladie d'Ebola due au virus Bundibugyo.
+- **17 mai 2026 :** l'OMS déclare que l'épidémie en République démocratique du Congo et en Ouganda constitue une urgence de santé publique de portée internationale.
+- **2 juillet 2026 :** l'essai PARTNERS sur les médicaments commence à inclure des patients.
+- **31 juillet 2026 :** un groupe d'experts de l'OMS recommande de tester le vaccin Ervebo contre le virus Bundibugyo.
+- **14 août 2026 :** l'OMS juge le risque très élevé en République démocratique du Congo, élevé dans les pays voisins et faible ailleurs.
+- **27 août 2026 :** l'Ouganda déclare la fin de son épidémie.
+- **6 octobre 2026 :** le Kenya confirme son premier cas, chez une personne venue de République démocratique du Congo en passant par l'Ouganda.
+- **20 octobre 2026 :** le Nigéria confirme un cas importé.
+- **23 octobre 2026 :** l'essai vaccinal TUMAINI commence à Bunia.
+- **4 novembre 2026 :** des experts de l'OMS recommandent d'ajouter à l'essai deux vaccins conçus contre le virus Bundibugyo.
+
+Pour les dernières évolutions, consultez nos [points de situation](../../updates/).
 
 ## Ce qui fait la différence
 

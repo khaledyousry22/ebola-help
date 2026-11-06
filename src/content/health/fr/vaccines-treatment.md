@@ -7,8 +7,8 @@ keyPoints:
   - Des vaccins et des médicaments approuvés n'existent que pour la maladie à virus Ebola, causée par le virus Ebola.
   - Contre le virus Bundibugyo, responsable de l'épidémie actuelle en République démocratique du Congo, il n'existe pas encore de vaccin ni de médicament approuvé. Des produits candidats sont testés dans le cadre d'études de recherche.
   - Un vaccin ne peut pas donner Ebola. Le vaccin approuvé ne contient qu'un seul gène du virus, et non le virus entier.
-sources: [whoFactSheet, whoQuestions, cdcBasics, cdcVaccine, whoTreatmentTrial, whoVaccineAdvisoryGroup, drcSitrep158]
-reviewed: 2026-10-21
+sources: [whoFactSheet, whoQuestions, cdcBasics, cdcVaccine, whoTreatmentTrial, whoVaccineAdvisoryGroup, whoDon622, whoVaccineTrials, drcSitrep158]
+reviewed: 2026-11-06
 ---
 
 ## Des soins qui améliorent la survie
@@ -30,7 +30,9 @@ Deux vaccins sont approuvés : Ervebo, et Zabdeno associé à Mvabea. Ervebo est
 
 ### Contre la maladie à virus Bundibugyo
 
-Il n'existe pas de vaccin approuvé. En juillet 2026, un groupe d'experts de l'OMS a recommandé de tester Ervebo dans une étude de recherche pendant l'épidémie actuelle, afin de savoir s'il protège aussi contre le virus Bundibugyo. En République démocratique du Congo, des personnels de première ligne de plusieurs provinces ont depuis reçu Ervebo, selon le ministère de la Santé (octobre 2026). Tant que les résultats de la recherche ne sont pas connus, on ne sait pas s'il protège contre le virus Bundibugyo.
+Il n'existe pas de vaccin approuvé. En juillet 2026, un groupe d'experts de l'OMS a recommandé de tester Ervebo dans une étude de recherche pendant l'épidémie actuelle, pour savoir s'il protège aussi contre le virus Bundibugyo. En République démocratique du Congo, des agents de première ligne de plusieurs provinces ont depuis reçu Ervebo, selon le ministère de la Santé (octobre 2026).
+
+Depuis le 23 octobre 2026, un essai appelé TUMAINI propose Ervebo aux personnes ayant été en contact avec un cas confirmé, une approche appelée vaccination en anneau. Le 4 novembre, des experts de l'OMS ont recommandé d'ajouter les deux premiers vaccins conçus spécifiquement contre le virus Bundibugyo, ChAdOx1 et mRNA-1469, après les autorisations nationales. Les résultats sont attendus début 2027. D'ici là, on ne sait pas si l'un de ces vaccins protège contre le virus Bundibugyo.
 
 ### Un vaccin peut-il donner Ebola ?
 
@@ -44,7 +46,7 @@ L'OMS recommande deux médicaments à base d'anticorps : l'ansuvimab (Ebanga) et
 
 ### Contre la maladie à virus Bundibugyo
 
-Aucun médicament n'est encore approuvé. Depuis le 2 juillet 2026, un essai clinique parrainé par l'OMS, appelé PARTNERS, est en cours en République démocratique du Congo. Il évalue si un médicament à base d'anticorps (MBP134) et un antiviral (le remdésivir), seuls ou associés, améliorent la survie. Les personnes qui y participent reçoivent aussi des soins de soutien complets.
+Aucun médicament n'est encore approuvé. Depuis le 2 juillet 2026, un essai clinique parrainé par l'OMS, appelé PARTNERS, est mené en République démocratique du Congo. Il teste si un médicament à base d'anticorps (MBP134) et un médicament antiviral (remdesivir), seuls ou associés, améliorent la survie, et un autre médicament à base d'anticorps, le maftivimab, y sera bientôt ajouté. Les participants reçoivent aussi tous les soins de soutien. Une autre étude teste si l'obeldesivir peut éviter la maladie chez les personnes exposées au virus. L'OMS attend les premiers résultats dans les prochains mois.
 
 ## Méfiez-vous des « remèdes »
 

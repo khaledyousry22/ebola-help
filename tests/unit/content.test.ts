@@ -50,6 +50,7 @@ describe('health pages', () => {
       'survivors',
       'symptoms',
       'transmission',
+      'travel',
       'vaccines-treatment',
       'what-is-ebola',
     ]);

@@ -7,8 +7,8 @@ keyPoints:
   - It spreads, and can be prevented, in the same way as other Ebola diseases, through direct contact with the blood or body fluids of a sick person or of someone who has died.
   - There is no approved vaccine or medicine for it yet. Early supportive care at a treatment centre improves the chance of survival.
   - The latest official figures for the current outbreak are shown at the top of every page of this site.
-sources: [whoDon619, whoFactSheet, whoTreatmentTrial, whoVaccineAdvisoryGroup, afroUgandaEnd, afroNigeria]
-reviewed: 2026-11-03
+sources: [whoDon619, whoDon622, whoVaccineTrials, whoFactSheet, whoTreatmentTrial, whoVaccineAdvisoryGroup, afroUgandaEnd, afroNigeria]
+reviewed: 2026-11-06
 ---
 
 ## One of three Ebola viruses that cause large outbreaks
@@ -42,12 +42,27 @@ Before 2026, Bundibugyo virus had caused two known outbreaks: in Uganda in 2007,
 
 ## Vaccines and medicines
 
-There is no approved vaccine or medicine for Bundibugyo virus disease. Those that exist work against Ebola virus only.
+There is no approved vaccine or medicine for Bundibugyo virus disease. Those that exist work against Ebola virus only. Research is under way during the outbreak:
 
-- **Vaccines:** in July 2026, a WHO expert group recommended that Ervebo, the vaccine approved against Ebola virus, be tested in a research study during this outbreak, to find out whether it also protects against Bundibugyo virus. No vaccine made specifically for Bundibugyo virus was ready to be tested.
-- **Medicines:** since 2 July 2026, a clinical trial sponsored by WHO, called PARTNERS, has been testing whether an antibody medicine (MBP134) and an antiviral medicine (remdesivir), alone or together, improve survival. It is open to patients of any age with confirmed Bundibugyo virus disease, who also receive full supportive care.
+- **Vaccines:** in July 2026, a WHO expert group recommended testing Ervebo, the vaccine approved against Ebola virus, in this outbreak. On 23 October, the TUMAINI trial began in Bunia. It offers vaccination to people who have been in contact with a confirmed case, an approach called ring vaccination, starting with Ervebo. On 4 November, WHO experts recommended adding the first two vaccines designed specifically against Bundibugyo virus, ChAdOx1 and mRNA-1469, once national approvals are given. Results are expected in early 2027.
+- **Medicines:** since 2 July 2026, a clinical trial sponsored by WHO, called PARTNERS, has been testing whether an antibody medicine (MBP134) and an antiviral medicine (remdesivir), alone or together, improve survival. Another antibody medicine, maftivimab, will soon be added. A separate study is testing whether obeldesivir can prevent illness in people who have been exposed to the virus.
 
 More in [Vaccines and treatment](../vaccines-treatment/).
+
+## Timeline
+
+- **15 May 2026:** the Democratic Republic of the Congo declares an outbreak of Ebola disease caused by Bundibugyo virus.
+- **17 May 2026:** WHO declares the epidemic in the Democratic Republic of the Congo and Uganda a public health emergency of international concern.
+- **2 July 2026:** the PARTNERS trial of medicines starts enrolling patients.
+- **31 July 2026:** a WHO expert group recommends testing the Ervebo vaccine against Bundibugyo virus.
+- **14 August 2026:** WHO judges the risk very high in the Democratic Republic of the Congo, high in neighbouring countries and low elsewhere.
+- **27 August 2026:** Uganda declares the end of its outbreak.
+- **6 October 2026:** Kenya confirms its first case, in a person who had travelled from the Democratic Republic of the Congo through Uganda.
+- **20 October 2026:** Nigeria confirms an imported case.
+- **23 October 2026:** the TUMAINI vaccine trial begins in Bunia.
+- **4 November 2026:** WHO experts recommend adding two vaccines designed against Bundibugyo virus to the trial.
+
+For the latest developments, see our [situation updates](../../updates/).
 
 ## What makes the difference
 
