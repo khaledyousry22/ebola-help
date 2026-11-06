@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T23:38:45.240Z",
+  "updatedAt": "2026-11-06T09:52:01.238Z",
   "items": [
     {
       "id": "efc0ea2b89c6b6e6",
@@ -172,6 +172,21 @@
       "official": false,
       "publishedAt": "2026-11-04T18:34:19.000Z",
       "firstSeenAt": "2026-11-04T22:15:24.029Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "5daebbab9faeccff",
+      "url": "https://www.who.int/zh/news-room/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
+      "title": "埃博拉治疗研究取得进展，两款新候选疫苗将加入试验",
+      "lang": "zh",
+      "sourceId": "who-news-zh",
+      "sourceName": "世界卫生组织",
+      "official": true,
+      "publishedAt": "2026-11-04T15:25:48.000Z",
+      "firstSeenAt": "2026-11-06T09:52:01.238Z",
       "countries": [
         "CD"
       ],
