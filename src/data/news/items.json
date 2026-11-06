@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-11-06T11:32:20.735Z",
+  "updatedAt": "2026-11-06T18:30:10.613Z",
   "items": [
+    {
+      "id": "d4f5fbaa1bcbd907",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria (2026-DON625)",
+      "lang": "en",
+      "sourceId": "who-don",
+      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
+      "official": true,
+      "publishedAt": "2026-11-06T17:49:59.000Z",
+      "firstSeenAt": "2026-11-06T18:30:10.613Z",
+      "countries": [
+        "CD",
+        "KE",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "da0a2d8256b2a052",
+      "url": "https://actualite.cd/2026/11/06/ebola-lassemblee-provinciale-de-la-tshopo-suspend-ses-activites-pendant-21-jours",
+      "title": "Ebola : l’Assemblée provinciale de la Tshopo suspend ses activités pendant 21 jours",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-06T17:40:15.000Z",
+      "firstSeenAt": "2026-11-06T18:30:10.613Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "33cafe05d6d3ce95",
       "url": "https://tass.ru/obschestvo/28292495",
