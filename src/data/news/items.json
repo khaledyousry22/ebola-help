@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-11-06T23:31:24.365Z",
+  "updatedAt": "2026-11-07T10:16:18.058Z",
   "items": [
+    {
+      "id": "a813797e3905995a",
+      "url": "https://actualite.cd/2026/11/07/rdc-des-tirs-darmes-entendus-lors-dune-tentative-dincendie-dun-centre-de-traitement",
+      "title": "RDC : des tirs d'armes entendus lors d'une tentative d'incendie d'un centre de traitement d’Ebola à Beni",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-07T09:08:32.000Z",
+      "firstSeenAt": "2026-11-07T10:16:18.058Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b36f214bd7df51ff",
+      "url": "https://actualite.cd/2026/11/07/riposte-contre-ebola-en-ituri-larmee-sensibilise-et-appelle-les-militaires-bunia-ne-pas",
+      "title": "Riposte contre Ebola en Ituri : l’armée sensibilise et appelle les militaires à Bunia à ne pas baisser la garde",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-07T08:47:25.000Z",
+      "firstSeenAt": "2026-11-07T10:16:18.058Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "e45bbdb6d8ab9fd9",
+      "url": "https://www.skynewsarabia.com/world/1903239-%D8%A7%D9%84%D9%85%D8%B1%D8%B6%D9%89-%D9%8A%D9%81%D8%B1%D9%88%D9%86-%D8%A7%D9%84%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7-%D9%88%D8%AF%D8%A7%D8%B9%D8%B4-%D9%8A%D8%B7%D9%88%D9%82%D8%A7%D9%86-%D8%B3%D9%83%D8%A7%D9%86-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D9%88",
+      "title": "المرضى يفرون.. الإيبولا وداعش يطوقان سكان الكونغو",
+      "lang": "ar",
+      "sourceId": "skynews-arabia",
+      "sourceName": "سكاي نيوز عربية",
+      "official": false,
+      "publishedAt": "2026-11-07T08:23:14.000Z",
+      "firstSeenAt": "2026-11-07T10:16:18.058Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "7d74c9c293666c31",
+      "url": "https://actualite.cd/2026/11/07/beni-un-autre-infirmier-emporte-par-ebola",
+      "title": "Beni : un autre infirmier emporté par Ebola",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-07T07:28:57.000Z",
+      "firstSeenAt": "2026-11-07T10:16:18.058Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "56478a30c0ec37d3",
+      "url": "https://insp.cd/sitrep-n175-mve-bdbv-05-11-2026/",
+      "title": "SitRep N°175/MVE-BDBV/05/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-07T07:25:45.000Z",
+      "firstSeenAt": "2026-11-07T10:16:18.058Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "00110f9dd429d55f",
+      "url": "https://www.rfi.fr/fr/afrique/20261107-ebola-deux-nouveaux-vaccins-contre-la-souche-bundibugyo-vont-%C3%AAtre-prochainement-test%C3%A9s-en-rdc",
+      "title": "Ebola: deux nouveaux vaccins contre la souche Bundibugyo vont être prochainement testés en RDC",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-07T03:53:51.000Z",
+      "firstSeenAt": "2026-11-07T10:16:18.058Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "d6b6c2965361f8b5",
       "url": "https://www.afro.who.int/countries/nigeria/publication/bundibugyo-virus-disease-outbreak-democratic-republic-congo-kenya-nigeria-weekly-external-situation",
