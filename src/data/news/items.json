@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-07T10:16:18.058Z",
+  "updatedAt": "2026-11-07T20:30:59.147Z",
   "items": [
+    {
+      "id": "b6040c682d3fb1c8",
+      "url": "https://www.rfi.fr/cn/%E9%9D%9E%E6%B4%B2/20261107-rfi%E6%B3%95%E5%B9%BF-%E4%B8%AD%E6%96%87-%E5%B0%BC%E5%8F%A4%E6%8B%89-%E9%9D%9E%E6%B4%B2-%E5%9F%83%E5%8D%9A%E6%8B%89-%E8%8B%B1%E5%9B%BD%E5%8C%BB%E7%94%9F%E5%88%9A%E6%9E%9C-%E9%87%91-%E7%A1%AE%E8%AF%8A",
+      "title": "埃博拉:英国医生刚果(金)确诊",
+      "lang": "zh",
+      "sourceId": "rfi-cn",
+      "sourceName": "法广 RFI",
+      "official": false,
+      "publishedAt": "2026-11-07T19:07:52.000Z",
+      "firstSeenAt": "2026-11-07T20:30:59.147Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "a813797e3905995a",
       "url": "https://actualite.cd/2026/11/07/rdc-des-tirs-darmes-entendus-lors-dune-tentative-dincendie-dun-centre-de-traitement",
