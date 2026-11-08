@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-08T13:25:54.437Z",
+  "updatedAt": "2026-11-08T18:30:36.138Z",
   "items": [
+    {
+      "id": "06f7c668ec8d2f62",
+      "url": "https://insp.cd/sitrep-n176-mve-bdbv-06-11-2026/",
+      "title": "SitRep N°176/MVE-BDBV/06/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-08T15:51:29.000Z",
+      "firstSeenAt": "2026-11-08T18:30:36.138Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "e1f2bed093f4e411",
       "url": "https://actualite.cd/2026/11/08/ebola-en-rdc-le-meilleur-remede-cest-la-paix-le-dg-de-loms-alerte-sur-les-consequences",
