@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-07T23:59:13.848Z",
+  "updatedAt": "2026-11-08T13:25:54.437Z",
   "items": [
+    {
+      "id": "e1f2bed093f4e411",
+      "url": "https://actualite.cd/2026/11/08/ebola-en-rdc-le-meilleur-remede-cest-la-paix-le-dg-de-loms-alerte-sur-les-consequences",
+      "title": "Ebola en RDC: « Le meilleur remède, c’est la paix » le DG de l’OMS alerte sur les conséquences des violences dans l’Est après des attaques contre des structures sanitaires",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-08T09:46:04.000Z",
+      "firstSeenAt": "2026-11-08T13:25:54.437Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ce2edd8a9f53df71",
+      "url": "https://actualite.cd/2026/11/08/ebola-bundibugyo-deux-nouveaux-vaccins-candidats-recommandes-pour-des-essais-cliniques",
+      "title": "Ebola Bundibugyo: deux nouveaux vaccins candidats recommandés pour des essais cliniques en RDC",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-08T09:40:27.000Z",
+      "firstSeenAt": "2026-11-08T13:25:54.437Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "bf9f7b4eefcd4177",
       "url": "https://www.dw.com/en/ebola-why-is-there-still-no-vaccine/a-79888134?maca=en-rss-en-all-1573-rdf",
