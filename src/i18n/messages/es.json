@@ -257,5 +257,9 @@
     "description": "Esta página no está disponible sin conexión a Internet.",
     "text": "Esta página no está guardada en este dispositivo, por lo que no se puede mostrar sin conexión a Internet.",
     "saved": "Estas páginas están guardadas en este dispositivo y se abren sin conexión:"
+  },
+  "feed": {
+    "source": "Fuente: {source}, {date}",
+    "more": "Noticias, líneas de ayuda e información sanitaria en seis idiomas: {url}"
   }
 }

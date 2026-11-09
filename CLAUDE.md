@@ -66,6 +66,12 @@ plain language.
   `src/config.ts`; WHO extracts are non-commercial only). Items are never translated; other-language items are labelled
   with their original language. In this container run it with
   `NODE_USE_ENV_PROXY=1` so Node's fetch uses the proxy.
+- Social media: `/feeds/social.xml` (`src/pages/feeds/social.xml.ts`,
+  `src/lib/social-feed.ts`) is an RSS feed of official, non-hidden news and the
+  weekly updates in `SOCIAL_FEED_LOCALES` (`src/config.ts`). Zapier posts each
+  new entry on the Facebook Page (owner setup: `SOCIAL.md`); entry ids never
+  change, so nothing is posted twice. Footer links to the accounts:
+  `SOCIAL_LINKS`; Patreon: `PATREON_URL` (both in `src/config.ts`).
 - Contacts: `src/data/help/<ISO>.json` (schema `src/data/help-schema.ts`).
   Each entry has sourceUrl, sourceQuote, foundOn and a status. Only
   `verified` entries with `verifiedAt` reach the site (`src/data/help.ts`).

@@ -54,3 +54,29 @@ test('pages kept out of search engines say so, and every other page may be index
     expect(noindex, file).toBe(expected);
   }
 });
+
+test('the social media feed is valid RSS with official news and weekly updates', async ({ page, request }) => {
+  const response = await request.get('/feeds/social.xml');
+  expect(response.status()).toBe(200);
+  const xml = await response.text();
+  const result = await page.evaluate((text) => {
+    const doc = new DOMParser().parseFromString(text, 'application/xml');
+    return {
+      error: doc.querySelector('parsererror')?.textContent ?? null,
+      items: [...doc.querySelectorAll('item')].map((item) => ({
+        id: item.querySelector('guid')?.textContent ?? '',
+        link: item.querySelector('link')?.textContent ?? '',
+        text: item.querySelector('description')?.textContent ?? '',
+      })),
+    };
+  }, xml);
+  expect(result.error).toBeNull();
+  expect(result.items.length).toBeGreaterThan(0);
+  expect(result.items.length).toBeLessThanOrEqual(30);
+  expect(new Set(result.items.map((i) => i.id)).size).toBe(result.items.length);
+  expect(result.items.some((i) => i.id.startsWith('update-en-'))).toBe(true);
+  for (const item of result.items) {
+    expect(item.link).toMatch(/^https:\/\//);
+    expect(item.text.length).toBeGreaterThan(0);
+  }
+});

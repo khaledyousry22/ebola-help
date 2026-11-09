@@ -257,5 +257,9 @@
     "description": "This page is not available without an internet connection.",
     "text": "This page is not saved on this device, so it cannot be shown without an internet connection.",
     "saved": "These pages are saved on this device and open without a connection:"
+  },
+  "feed": {
+    "source": "Source: {source}, {date}",
+    "more": "News, helplines and health information in six languages: {url}"
   }
 }

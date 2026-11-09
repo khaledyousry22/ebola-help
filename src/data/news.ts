@@ -63,6 +63,11 @@ export function officialUpdates(locale: Locale): NewsItem[] {
   );
 }
 
+/** Official items in these languages (not hidden), for the social media feed /feeds/social.xml. */
+export function officialNewsIn(locales: readonly Locale[]): NewsItem[] {
+  return VISIBLE.filter((item) => item.official && locales.includes(item.lang));
+}
+
 /** News coverage (not official) in the reader's language. */
 export function mediaCoverage(locale: Locale): NewsItem[] {
   return ordered(VISIBLE.filter((item) => !item.official && item.lang === locale));

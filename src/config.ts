@@ -14,6 +14,13 @@ export const SOCIAL_LINKS = [
   { name: 'Facebook', url: 'https://www.facebook.com/ebolahelpfb' },
 ] as const;
 
+/**
+ * Languages shared on social media. /feeds/social.xml lists official news and
+ * the weekly updates in these languages, and a posting service turns each new
+ * entry into a Facebook post (see SOCIAL.md).
+ */
+export const SOCIAL_FEED_LOCALES = ['en', 'fr'] as const;
+
 /** Where visitors report wrong phone numbers or other errors. Shown in every footer. */
 export const CONTACT_EMAIL = 'wrongnumber@ebola.help';
 

@@ -70,6 +70,10 @@ articles and never translates them.
 If a source stops working, the others carry on. The job only reports a
 failure if every source fails.
 
+**Facebook:** official news and the weekly updates, in English and French,
+can be posted automatically on the Ebola.help Facebook Page through the free
+Zapier service. Setup (once, about 10 minutes): [SOCIAL.md](SOCIAL.md).
+
 ### The outbreak figures
 
 The cases and deaths in the banner and on the map update themselves too.
