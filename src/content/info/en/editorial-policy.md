@@ -38,7 +38,7 @@ If you find an error, please write to [wrongnumber@ebola.help](mailto:wrongnumbe
 
 ## Advertising and independence
 
-To cover its costs, the site shows ads from Google AdSense on the home page, the news pages and the map. Pages with health advice and helplines never show ads. Ads are chosen automatically by Google. Advertisers have no influence on what we publish, and ads are not recommendations. We ask Google not to show ads for medicines, drugs or supplements. Readers can also support the site on [Patreon](https://www.patreon.com/cw/ebolahelp); supporters have no influence on what we publish.
+To cover its costs, the site shows ads from Google AdSense on the home page, the news pages and the map. Pages with health advice and helplines never show ads. Ads are chosen automatically by Google. Advertisers have no influence on what we publish, and ads are not recommendations. We ask Google not to show ads for medicines, drugs or supplements. Readers can also support the site on [Patreon](https://www.patreon.com/c/ebolahelp/membership); supporters have no influence on what we publish.
 
 ## Not medical advice
 

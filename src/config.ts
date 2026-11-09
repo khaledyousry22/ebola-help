@@ -6,7 +6,7 @@ export const SITE_URL = 'https://ebola.help';
 export const REPOSITORY = 'khaledyousry22/ebola-help';
 
 /** Where readers can support the site. Linked from every footer, the About page and the editorial policy. */
-export const PATREON_URL = 'https://www.patreon.com/cw/ebolahelp';
+export const PATREON_URL = 'https://www.patreon.com/c/ebolahelp/membership';
 
 /** Where visitors report wrong phone numbers or other errors. Shown in every footer. */
 export const CONTACT_EMAIL = 'wrongnumber@ebola.help';

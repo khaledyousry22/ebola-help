@@ -2,6 +2,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { parse } from 'yaml';
+import { PATREON_URL } from '../../src/config';
 import { LOCALE_CODES } from '../../src/i18n';
 import { SOURCES, sourceVersionFor } from '../../src/data/sources';
 
@@ -138,6 +139,10 @@ describe('policy pages (editorial policy, privacy, contact)', () => {
         // The same links in every language (sources of privacy information, the helplines page).
         const links = (t: string) => [...t.matchAll(/\]\(([^)]+)\)/g)].map((m) => m[1]).sort();
         expect(links(text), where).toEqual(links(readFileSync(join(INFO, 'en', `${slug}.md`), 'utf8')));
+        // Any Patreon link is the one in src/config.ts, also used by the menu, footer and About page.
+        for (const link of links(text).filter((l) => l?.includes('patreon.com'))) {
+          expect(link, where).toBe(PATREON_URL);
+        }
       }
     });
   }

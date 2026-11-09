@@ -1,6 +1,7 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 import { getMessages, LOCALE_CODES, LOCALES } from '../../src/i18n';
+import { PATREON_URL } from '../../src/config';
 
 const PAGES = ['/', '/news/', '/updates/', '/updates/2026-11-06/', '/map/', '/help/', '/health/', '/about/', '/editorial-policy/', '/privacy/', '/contact/', '/offline/'];
 
@@ -87,7 +88,7 @@ test.describe('localized pages', () => {
         await expect(page.locator('footer [data-disclaimer]')).toHaveText(m.footer.disclaimer);
         await expect(page.locator('[data-emergency-box] h2')).toHaveText(m.emergency.title);
         await expect(page.locator('footer a[href="mailto:wrongnumber@ebola.help"]')).toBeVisible();
-        await expect(page.locator('footer [data-support-link]')).toHaveAttribute('href', 'https://www.patreon.com/cw/ebolahelp');
+        await expect(page.locator('footer [data-support-link]')).toHaveAttribute('href', PATREON_URL);
         await expect(page.locator('footer [data-support-link]')).toHaveText(m.footer.support);
         for (const target of ['/about/', '/editorial-policy/', '/privacy/', '/contact/']) {
           await expect(page.locator(`footer [data-footer-links] a[href="/${code}${target}"]`)).toBeVisible();
@@ -209,7 +210,7 @@ test('the About page explains how to support the site, with no influence on cont
     await page.goto(`/${code}/about/`);
     const section = page.locator('section#support');
     await expect(section.locator('h2')).toHaveText(m.about.supportTitle);
-    await expect(section.locator('a[href="https://www.patreon.com/cw/ebolahelp"]')).toHaveText(m.about.linkPatreon);
+    await expect(section.locator(`a[href="${PATREON_URL}"]`)).toHaveText(m.about.linkPatreon);
   }
 });
 
@@ -222,6 +223,6 @@ test('the main menu links to Patreon just before About, in every language', asyn
     const support = labels.findIndex((text) => text.trim() === m.nav.support);
     expect(support, code).toBeGreaterThan(-1);
     expect(labels[support + 1]?.trim(), code).toBe(m.nav.about);
-    await expect(page.locator('header [data-nav-support]')).toHaveAttribute('href', 'https://www.patreon.com/cw/ebolahelp');
+    await expect(page.locator('header [data-nav-support]')).toHaveAttribute('href', PATREON_URL);
   }
 });

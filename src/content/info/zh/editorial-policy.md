@@ -38,7 +38,7 @@ Ebola.help 由 Ebola.help 团队撰写和维护，这是一个独立团队。我
 
 ## 广告与独立性
 
-为支付运营费用，本网站在首页、新闻页面和地图上显示 Google AdSense 广告。健康建议页面和求助热线页面从不显示广告。广告由 Google 自动选择，广告主对我们发布的内容没有任何影响，广告也不是推荐。我们已要求 Google 不显示药品、毒品或保健品广告。 读者也可以在 [Patreon](https://www.patreon.com/cw/ebolahelp) 上支持本网站；支持者对我们发布的内容没有任何影响。
+为支付运营费用，本网站在首页、新闻页面和地图上显示 Google AdSense 广告。健康建议页面和求助热线页面从不显示广告。广告由 Google 自动选择，广告主对我们发布的内容没有任何影响，广告也不是推荐。我们已要求 Google 不显示药品、毒品或保健品广告。 读者也可以在 [Patreon](https://www.patreon.com/c/ebolahelp/membership) 上支持本网站；支持者对我们发布的内容没有任何影响。
 
 ## 非医疗建议
 
