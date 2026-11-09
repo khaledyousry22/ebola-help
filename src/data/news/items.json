@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-11-08T18:30:36.138Z",
+  "updatedAt": "2026-11-09T09:48:49.284Z",
   "items": [
+    {
+      "id": "582fc1137dfe97b6",
+      "url": "https://actualite.cd/2026/11/09/ebola-en-rdc-une-grenade-decouverte-devant-le-bureau-de-la-zone-de-sante-de-beni",
+      "title": "Ebola en RDC: une grenade découverte devant le Bureau de la zone de santé de Beni",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-09T08:55:59.000Z",
+      "firstSeenAt": "2026-11-09T09:48:49.284Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "8815fe358a1805ff",
+      "url": "https://actualite.cd/2026/11/09/est-de-la-rdc-africa-cdc-condamne-lattaque-des-adf-cantine-et-alerte-sur-les-risques-de",
+      "title": "Est de la RDC : Africa CDC condamne l’attaque des ADF à Cantine et alerte sur les risques de propagation d’Ebola",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-09T08:09:09.000Z",
+      "firstSeenAt": "2026-11-09T09:48:49.284Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "09673b02267ac6d5",
+      "url": "https://insp.cd/sitrep-n177-mve-bdbv-07-11-2026/",
+      "title": "SitRep N°177/MVE-BDBV/07/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-09T05:19:15.000Z",
+      "firstSeenAt": "2026-11-09T09:48:49.284Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "5468acb61fd2fcc4",
+      "url": "https://actualite.cd/2026/11/09/beni-msf-condamne-une-tentative-dincendie-de-son-centre-ebola-ou-etaient-hospitalises-36",
+      "title": "Beni : MSF condamne une tentative d’incendie de son centre Ebola où étaient hospitalisés 36 patients",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-09T05:18:47.000Z",
+      "firstSeenAt": "2026-11-09T09:48:49.284Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "06f7c668ec8d2f62",
       "url": "https://insp.cd/sitrep-n176-mve-bdbv-06-11-2026/",
