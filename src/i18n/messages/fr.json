@@ -223,6 +223,9 @@
     "medical": "Ce site fournit uniquement des informations générales. Il ne remplace pas les médecins, les infirmiers ni les autres professionnels de santé. Si vous vous sentez malade, contactez un agent de santé ou la ligne d'urgence sanitaire nationale.",
     "advertisingTitle": "Publicité",
     "advertising": "Pour couvrir ses frais, la page d'accueil, les pages d'actualités et la carte affichent des publicités de Google AdSense. Les pages de conseils de santé et de numéros d'aide n'affichent jamais de publicité. Les publicités sont choisies automatiquement par Google : ce ne sont pas des recommandations, et les annonceurs n'ont aucune influence sur le contenu de ce site. Aucune publicité n'est chargée sur les connexions en mode économie de données ou très lentes.",
+    "supportTitle": "Soutenir Ebola.help",
+    "support": "Ebola.help est gratuit pour tous et ne reçoit aucun financement officiel. S'il vous est utile, vous pouvez aider à couvrir ses frais sur {patreon}. Les personnes qui nous soutiennent n'ont aucune influence sur ce que nous publions.",
+    "linkPatreon": "notre page Patreon",
     "privacyTitle": "Confidentialité",
     "privacy": "Nous ne collectons nous-mêmes aucune donnée personnelle. Le site enregistre un seul petit cookie pour mémoriser votre langue. Google et d'autres sociétés publicitaires utilisent des cookies pour afficher des publicités, qui peuvent être fondées sur vos visites précédentes sur ce site et sur d'autres sites ({googleUse}). Vous pouvez désactiver les publicités personnalisées dans {adsSettings} ou sur {aboutAds}. Les visiteurs en Europe, au Royaume-Uni et en Suisse sont d'abord invités à donner leur consentement.",
     "privacyMore": "Politique de confidentialité complète",
@@ -239,7 +242,8 @@
     "editorial": "Politique éditoriale",
     "privacy": "Politique de confidentialité",
     "contact": "Contact",
-    "linksLabel": "À propos de ce site"
+    "linksLabel": "À propos de ce site",
+    "support": "Soutenir Ebola.help sur Patreon"
   },
   "notFound": {
     "heading": "Page introuvable",

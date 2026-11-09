@@ -223,6 +223,9 @@
     "medical": "本网站仅提供一般性信息，不能取代医生、护士或其他卫生工作者。如果您感到不适，请联系卫生工作者或国家卫生热线。",
     "advertisingTitle": "广告",
     "advertising": "为支付运营费用，首页、新闻页面和地图会显示 Google AdSense 广告。健康建议页面和求助热线页面从不显示广告。广告由 Google 自动选择，并非推荐，广告主对本网站内容没有任何影响。在开启省流量模式或网速很慢时，不会加载广告。",
+    "supportTitle": "支持 Ebola.help",
+    "support": "Ebola.help 对所有人免费，没有任何官方资助。如果您觉得本网站有用，可以通过{patreon}帮助支付运营费用。支持者对我们发布的内容没有任何影响。",
+    "linkPatreon": "我们的 Patreon 页面",
     "privacyTitle": "隐私",
     "privacy": "我们自己不收集个人信息。本网站只保存一个小型 Cookie，用于记住您选择的语言。Google 和其他广告公司使用 Cookie 展示广告，这些广告可能基于您以前访问本网站和其他网站的情况（{googleUse}）。您可以在{adsSettings}或 {aboutAds} 关闭个性化广告。来自欧洲、英国和瑞士的访问者会先被征求同意。",
     "privacyMore": "完整的隐私政策",
@@ -239,7 +242,8 @@
     "editorial": "编辑方针",
     "privacy": "隐私政策",
     "contact": "联系我们",
-    "linksLabel": "关于本网站"
+    "linksLabel": "关于本网站",
+    "support": "在 Patreon 上支持 Ebola.help"
   },
   "notFound": {
     "heading": "未找到页面",

@@ -1,7 +1,7 @@
 ---
 title: Politique éditoriale
 description: "Qui rédige Ebola.help, d'où viennent ses informations, comment les pages sont rédigées, vérifiées et corrigées, et comment sont traitées l'actualité et la publicité."
-updated: 2026-11-05
+updated: 2026-11-09
 ---
 
 ## Qui nous sommes
@@ -38,7 +38,7 @@ Si vous trouvez une erreur, écrivez-nous à [wrongnumber@ebola.help](mailto:wro
 
 ## Publicité et indépendance
 
-Pour couvrir ses frais, le site affiche des publicités de Google AdSense sur la page d'accueil, les pages d'actualités et la carte. Les pages de conseils de santé et de numéros d'aide n'affichent jamais de publicité. Les publicités sont choisies automatiquement par Google. Les annonceurs n'ont aucune influence sur ce que nous publions, et les publicités ne sont pas des recommandations. Nous demandons à Google de ne pas afficher de publicités pour des médicaments, des drogues ou des compléments alimentaires.
+Pour couvrir ses frais, le site affiche des publicités de Google AdSense sur la page d'accueil, les pages d'actualités et la carte. Les pages de conseils de santé et de numéros d'aide n'affichent jamais de publicité. Les publicités sont choisies automatiquement par Google. Les annonceurs n'ont aucune influence sur ce que nous publions, et les publicités ne sont pas des recommandations. Nous demandons à Google de ne pas afficher de publicités pour des médicaments, des drogues ou des compléments alimentaires. Les lecteurs peuvent aussi soutenir le site sur [Patreon](https://www.patreon.com/cw/ebolahelp) ; les personnes qui nous soutiennent n'ont aucune influence sur ce que nous publions.
 
 ## Pas un avis médical
 

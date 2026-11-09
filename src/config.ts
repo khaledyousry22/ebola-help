@@ -5,6 +5,9 @@ export const SITE_URL = 'https://ebola.help';
 /** GitHub repository holding the site and its data. The editing page saves here. */
 export const REPOSITORY = 'khaledyousry22/ebola-help';
 
+/** Where readers can support the site. Linked from every footer, the About page and the editorial policy. */
+export const PATREON_URL = 'https://www.patreon.com/cw/ebolahelp';
+
 /** Where visitors report wrong phone numbers or other errors. Shown in every footer. */
 export const CONTACT_EMAIL = 'wrongnumber@ebola.help';
 

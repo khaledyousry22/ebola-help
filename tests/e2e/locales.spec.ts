@@ -87,6 +87,8 @@ test.describe('localized pages', () => {
         await expect(page.locator('footer [data-disclaimer]')).toHaveText(m.footer.disclaimer);
         await expect(page.locator('[data-emergency-box] h2')).toHaveText(m.emergency.title);
         await expect(page.locator('footer a[href="mailto:wrongnumber@ebola.help"]')).toBeVisible();
+        await expect(page.locator('footer [data-support-link]')).toHaveAttribute('href', 'https://www.patreon.com/cw/ebolahelp');
+        await expect(page.locator('footer [data-support-link]')).toHaveText(m.footer.support);
         for (const target of ['/about/', '/editorial-policy/', '/privacy/', '/contact/']) {
           await expect(page.locator(`footer [data-footer-links] a[href="/${code}${target}"]`)).toBeVisible();
         }
@@ -198,5 +200,15 @@ test.describe('situation updates', () => {
       await expect(page.locator('[data-sources] li')).toHaveCount(6);
       await expect(page.locator(`header a[href="/${code}/updates/"]`)).toBeVisible();
     });
+  }
+});
+
+test('the About page explains how to support the site, with no influence on content', async ({ page }) => {
+  for (const code of LOCALE_CODES) {
+    const m = getMessages(code);
+    await page.goto(`/${code}/about/`);
+    const section = page.locator('section#support');
+    await expect(section.locator('h2')).toHaveText(m.about.supportTitle);
+    await expect(section.locator('a[href="https://www.patreon.com/cw/ebolahelp"]')).toHaveText(m.about.linkPatreon);
   }
 });

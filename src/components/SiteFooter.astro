@@ -1,5 +1,5 @@
 ---
-import { BUILD_TIME } from '../config';
+import { BUILD_TIME, PATREON_URL } from '../config';
 import { format, formatDateTime, getMessages, localePath, type Locale } from '../i18n';
 import EmailLink from './EmailLink.astro';
 
@@ -14,6 +14,7 @@ const m = getMessages(locale);
     <p class="font-semibold text-ink" data-disclaimer>{m.footer.disclaimer}</p>
     <p>{m.footer.medical}</p>
     <p><EmailLink text={m.footer.wrongNumber} /></p>
+    <p><a href={PATREON_URL} class="font-semibold" data-support-link>{m.footer.support}</a></p>
     <p>
       <time datetime={BUILD_TIME.toISOString()}>{format(m.footer.lastUpdated, { date: formatDateTime(locale, BUILD_TIME) })}</time>
     </p>

@@ -1,7 +1,7 @@
 ---
 import EmailLink from '../../../components/EmailLink.astro';
 import TextWithLinks from '../../../components/TextWithLinks.astro';
-import { ADS } from '../../../config';
+import { ADS, PATREON_URL } from '../../../config';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getMessages, LOCALE_CODES, localePath, type Locale } from '../../../i18n';
 
@@ -64,6 +64,11 @@ const privacyLinks = {
         </section>
       )
     }
+
+    <section id="support" data-support>
+      <h2>{a.supportTitle}</h2>
+      <p><TextWithLinks text={a.support} links={{ patreon: { href: PATREON_URL, label: a.linkPatreon } }} /></p>
+    </section>
 
     <section id="privacy" data-privacy>
       <h2>{a.privacyTitle}</h2>

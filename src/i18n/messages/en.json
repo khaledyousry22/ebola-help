@@ -223,6 +223,9 @@
     "medical": "This site gives general information only. It does not replace doctors, nurses or other health workers. If you feel ill, contact a health worker or your national health hotline.",
     "advertisingTitle": "Advertising",
     "advertising": "To cover its costs, the home page, the news pages and the map show ads from Google AdSense. Pages with health advice and helplines never show ads. Ads are chosen automatically by Google: they are not recommendations, and advertisers have no influence on the content of this site. No ads are loaded on data-saving or very slow connections.",
+    "supportTitle": "Support Ebola.help",
+    "support": "Ebola.help is free for everyone and receives no official funding. If you find it useful, you can help cover its costs on {patreon}. Supporters have no influence on what we publish.",
+    "linkPatreon": "our Patreon page",
     "privacyTitle": "Privacy",
     "privacy": "We do not collect personal information ourselves. The site stores one small cookie to remember your language. Google and other advertising companies use cookies to show ads, which may be based on your previous visits to this and other websites ({googleUse}). You can turn off personalised ads in {adsSettings} or at {aboutAds}. Visitors in Europe, the United Kingdom and Switzerland are asked for their consent first.",
     "privacyMore": "Full privacy policy",
@@ -239,7 +242,8 @@
     "editorial": "Editorial policy",
     "privacy": "Privacy policy",
     "contact": "Contact",
-    "linksLabel": "About this site"
+    "linksLabel": "About this site",
+    "support": "Support Ebola.help on Patreon"
   },
   "notFound": {
     "heading": "Page not found",
