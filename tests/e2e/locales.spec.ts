@@ -212,3 +212,16 @@ test('the About page explains how to support the site, with no influence on cont
     await expect(section.locator('a[href="https://www.patreon.com/cw/ebolahelp"]')).toHaveText(m.about.linkPatreon);
   }
 });
+
+test('the main menu links to Patreon just before About, in every language', async ({ page }) => {
+  for (const code of LOCALE_CODES) {
+    const m = getMessages(code);
+    await page.goto(`/${code}/health/`);
+    const items = page.locator('header nav li a');
+    const labels = await items.allTextContents();
+    const support = labels.findIndex((text) => text.trim() === m.nav.support);
+    expect(support, code).toBeGreaterThan(-1);
+    expect(labels[support + 1]?.trim(), code).toBe(m.nav.about);
+    await expect(page.locator('header [data-nav-support]')).toHaveAttribute('href', 'https://www.patreon.com/cw/ebolahelp');
+  }
+});
