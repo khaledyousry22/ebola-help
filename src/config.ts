@@ -8,6 +8,12 @@ export const REPOSITORY = 'khaledyousry22/ebola-help';
 /** Where readers can support the site. Linked from every footer, the About page and the editorial policy. */
 export const PATREON_URL = 'https://www.patreon.com/c/ebolahelp/membership';
 
+/** Ebola.help on social media. Linked from every footer. */
+export const SOCIAL_LINKS = [
+  { name: 'X', url: 'https://x.com/ebolahelpx' },
+  { name: 'Facebook', url: 'https://www.facebook.com/ebolahelpfb' },
+] as const;
+
 /** Where visitors report wrong phone numbers or other errors. Shown in every footer. */
 export const CONTACT_EMAIL = 'wrongnumber@ebola.help';
 

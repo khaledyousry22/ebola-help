@@ -1,7 +1,7 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 import { getMessages, LOCALE_CODES, LOCALES } from '../../src/i18n';
-import { PATREON_URL } from '../../src/config';
+import { PATREON_URL, SOCIAL_LINKS } from '../../src/config';
 
 const PAGES = ['/', '/news/', '/updates/', '/updates/2026-11-06/', '/map/', '/help/', '/health/', '/about/', '/editorial-policy/', '/privacy/', '/contact/', '/offline/'];
 
@@ -90,6 +90,13 @@ test.describe('localized pages', () => {
         await expect(page.locator('footer a[href="mailto:wrongnumber@ebola.help"]')).toBeVisible();
         await expect(page.locator('footer [data-support-link]')).toHaveAttribute('href', PATREON_URL);
         await expect(page.locator('footer [data-support-link]')).toHaveText(m.footer.support);
+        await expect(page.locator('footer [data-social] > span')).toHaveText(m.footer.follow);
+        const social = page.locator('footer [data-social-link]');
+        await expect(social).toHaveCount(SOCIAL_LINKS.length);
+        for (const [i, link] of SOCIAL_LINKS.entries()) {
+          await expect(social.nth(i)).toHaveAttribute('href', link.url);
+          await expect(social.nth(i)).toHaveText(link.name);
+        }
         for (const target of ['/about/', '/editorial-policy/', '/privacy/', '/contact/']) {
           await expect(page.locator(`footer [data-footer-links] a[href="/${code}${target}"]`)).toBeVisible();
         }
