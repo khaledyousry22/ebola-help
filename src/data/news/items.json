@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-11-09T20:45:05.880Z",
+  "updatedAt": "2026-11-10T11:13:56.984Z",
   "items": [
+    {
+      "id": "86d868971bc77032",
+      "url": "https://actualite.cd/2026/11/10/ebola-beni-13-patients-gueris-quittent-le-centre-de-traitement",
+      "title": "Ebola à Beni : 13 patients guéris quittent le centre de traitement",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-10T10:57:47.000Z",
+      "firstSeenAt": "2026-11-10T11:13:56.984Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "231efcac56311632",
+      "url": "https://insp.cd/sitrep-n178-mve-bdbv-08-11-2026/",
+      "title": "SitRep N°178/MVE-BDBV/08/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-10T07:57:49.000Z",
+      "firstSeenAt": "2026-11-10T11:13:56.984Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "92718e40df8b2a65",
+      "url": "https://www.rfi.fr/fr/afrique/20261110-rdc-ituri-violences-menacent-populations-et-la-lutte-contre-ebola-fataki",
+      "title": "RDC: en Ituri, les violences menacent les populations et la lutte contre Ebola",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-10T07:47:51.000Z",
+      "firstSeenAt": "2026-11-10T11:13:56.984Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "fc7c5d0295f52938",
+      "url": "https://actualite.cd/2026/11/10/ebola-en-rdc-le-nord-kivu-devient-le-principal-foyer-de-nouvelles-notifications-lituri",
+      "title": "Ebola en RDC: le Nord-Kivu devient le principal foyer de nouvelles notifications, l’Ituri conserve 70 % des cas cumulés (Gouvernement)",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-10T05:39:45.000Z",
+      "firstSeenAt": "2026-11-10T11:13:56.984Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "d577dd2c5fa47596",
       "url": "https://actualite.cd/2026/11/09/apres-lattaque-meurtriere-des-adf-cantine-aloya-beni-africa-cdc-reclame-un-corridor-de",
