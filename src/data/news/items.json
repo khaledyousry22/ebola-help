@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-11-10T18:41:18.304Z",
+  "updatedAt": "2026-11-10T23:44:26.552Z",
   "items": [
+    {
+      "id": "0c3817cf81e4ae18",
+      "url": "https://insp.cd/sitrep-n179-mve-bdbv-09-11-2026/",
+      "title": "SitRep N°179/MVE-BDBV/09/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-10T21:52:09.000Z",
+      "firstSeenAt": "2026-11-10T23:44:26.552Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "37e05c330078661e",
+      "url": "https://www.afro.who.int/countries/kenya/publication/bundibugyo-virus-disease-outbreak-democratic-republic-congo-kenya-nigeria-weekly-external-situation",
+      "title": "BUNDIBUGYO VIRUS DISEASE OUTBREAK Democratic Republic of the Congo | Kenya | Nigeria - Weekly External Situation Report 25, Data as of 7 November 2026",
+      "lang": "en",
+      "sourceId": "who-afro-en",
+      "sourceName": "WHO Regional Office for Africa",
+      "official": true,
+      "publishedAt": "2026-11-10T20:10:51.000Z",
+      "firstSeenAt": "2026-11-10T23:44:26.552Z",
+      "countries": [
+        "CD",
+        "KE",
+        "NG"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "1741d3edb999db0f",
       "url": "https://actualite.cd/2026/11/10/crise-humanitaire-djugu-lonu-salarme-des-violences-fataki-et-plaine-savo-qui",
