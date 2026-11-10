@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-10T11:13:56.984Z",
+  "updatedAt": "2026-11-10T18:41:18.304Z",
   "items": [
+    {
+      "id": "1741d3edb999db0f",
+      "url": "https://actualite.cd/2026/11/10/crise-humanitaire-djugu-lonu-salarme-des-violences-fataki-et-plaine-savo-qui",
+      "title": "Crise humanitaire à Djugu : l'ONU s'alarme des violences à Fataki et Plaine Savo qui compromettent la riposte contre Ebola",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-10T13:52:39.000Z",
+      "firstSeenAt": "2026-11-10T18:41:18.304Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "86d868971bc77032",
       "url": "https://actualite.cd/2026/11/10/ebola-beni-13-patients-gueris-quittent-le-centre-de-traitement",
