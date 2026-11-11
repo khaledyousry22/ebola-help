@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-10T23:44:26.552Z",
+  "updatedAt": "2026-11-11T03:05:49.163Z",
   "items": [
+    {
+      "id": "b560b8e721245c8b",
+      "url": "https://tass.ru/obschestvo/28304631",
+      "title": "Reuters: число случаев заражения Эболой в ДР Конго превысило 11 тыс.",
+      "lang": "ru",
+      "sourceId": "tass",
+      "sourceName": "ТАСС",
+      "official": false,
+      "publishedAt": "2026-11-11T00:22:26.000Z",
+      "firstSeenAt": "2026-11-11T03:05:49.163Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "0c3817cf81e4ae18",
       "url": "https://insp.cd/sitrep-n179-mve-bdbv-09-11-2026/",
