@@ -1,6 +1,49 @@
 {
-  "updatedAt": "2026-11-11T03:05:49.163Z",
+  "updatedAt": "2026-11-11T10:58:58.170Z",
   "items": [
+    {
+      "id": "aba1d9b74379c0f2",
+      "url": "https://actualite.cd/2026/11/11/ebola-des-chauffeurs-engages-dans-la-ripost-ont-paralyse-les-activites-lhopital-de",
+      "title": "Ebola: des chauffeurs engagés dans la ripost ont paralysé les activités à l’hôpital de Mongbwalu réclamant la libération d’un de leurs impliqué dans un accident routier",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-11T10:08:42.000Z",
+      "firstSeenAt": "2026-11-11T10:58:58.170Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "80cddbec8e729b9a",
+      "url": "https://www.dw.com/es/rd-congo-supera-barrera-de-los-11-000-casos-de-%C3%A9bola-incluidos-5-387-muertos/a-79914424?maca=spa-rss-sp-all-1122-rdf",
+      "title": "RD Congo supera barrera de los 11.000 casos de ébola, incluidos 5.387 muertos",
+      "lang": "es",
+      "sourceId": "dw-es",
+      "sourceName": "DW",
+      "official": false,
+      "publishedAt": "2026-11-11T06:27:00.000Z",
+      "firstSeenAt": "2026-11-11T10:58:58.170Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3ecdf216579f8841",
+      "url": "https://www.skynewsarabia.com/world/1903965-%D8%B9%D8%AF%D8%AF-%D9%85%D8%B5%D8%A7%D8%A8%D9%8A-%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D9%88-%D9%8A%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-11-%D8%A3%D9%84%D9%81%D8%A7",
+      "title": "عدد مصابي \"إيبولا\" في الكونغو يتجاوز 11 ألفا",
+      "lang": "ar",
+      "sourceId": "skynews-arabia",
+      "sourceName": "سكاي نيوز عربية",
+      "official": false,
+      "publishedAt": "2026-11-11T03:12:10.000Z",
+      "firstSeenAt": "2026-11-11T10:58:58.170Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "b560b8e721245c8b",
       "url": "https://tass.ru/obschestvo/28304631",
@@ -58,6 +101,21 @@
       "official": false,
       "publishedAt": "2026-11-10T13:52:39.000Z",
       "firstSeenAt": "2026-11-10T18:41:18.304Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "72db36e42005f397",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168781",
+      "title": "Ebola: IOM urges wider surveillance beyond formal routes in DR Congo",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "firstSeenAt": "2026-11-11T10:58:58.170Z",
       "countries": [
         "CD"
       ],
@@ -5796,21 +5854,6 @@
       "countries": [
         "CD",
         "UG"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "6f6a9f6e8bc903c9",
-      "url": "https://www.rfi.fr/es/africa/20260515-agencia-sanitaria-declara-un-brote-de-%C3%A9bola-en-el-este-de-la-rep%C3%BAblica-democr%C3%A1tica-del-congo",
-      "title": "Agencia sanitaria declara un brote de ébola en el este de la República Democrática del Congo",
-      "lang": "es",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-15T08:43:36.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD"
       ],
       "alsoReportedBy": []
     }
