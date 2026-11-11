@@ -1,6 +1,67 @@
 {
-  "updatedAt": "2026-11-11T10:58:58.170Z",
+  "updatedAt": "2026-11-11T18:42:16.863Z",
   "items": [
+    {
+      "id": "c48a4aaa3dd83923",
+      "url": "https://www.dw.com/en/kenya-s-last-ebola-patient-leaves-hospital/a-79921240?maca=en-rss-en-all-1573-rdf",
+      "title": "Kenya's last Ebola patient leaves hospital",
+      "lang": "en",
+      "sourceId": "dw-en",
+      "sourceName": "DW",
+      "official": false,
+      "publishedAt": "2026-11-11T16:16:00.000Z",
+      "firstSeenAt": "2026-11-11T18:42:16.863Z",
+      "countries": [
+        "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "63c8b0b202cfcfb4",
+      "url": "http://www.africanews.com/2026/11/11/kenya-discharges-last-ebola-patient-begins-42-day-countdown-to-being-declared-ebola-free/",
+      "title": "Kenya discharges last Ebola patient, begins 42-day countdown to being declared Ebola-free",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-11-11T15:44:14.000Z",
+      "firstSeenAt": "2026-11-11T18:42:16.863Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f948ad050a0cd549",
+      "url": "https://actualite.cd/2026/11/11/ebola-en-ituri-renforcement-des-capacites-de-plus-de-60-leaders-communautaires-rwampara",
+      "title": "Ebola en Ituri : renforcement des capacités de plus de 60 leaders communautaires à Rwampara",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-11T15:09:10.000Z",
+      "firstSeenAt": "2026-11-11T18:42:16.863Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "65b9630b084197a2",
+      "url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o",
+      "title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
+      "lang": "en",
+      "sourceId": "bbc-africa",
+      "sourceName": "BBC News",
+      "official": false,
+      "publishedAt": "2026-11-11T12:53:11.000Z",
+      "firstSeenAt": "2026-11-11T18:42:16.863Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "aba1d9b74379c0f2",
       "url": "https://actualite.cd/2026/11/11/ebola-des-chauffeurs-engages-dans-la-ripost-ont-paralyse-les-activites-lhopital-de",
