@@ -18,3 +18,7 @@
 # The offline helper must always be checked for updates.
 /sw.js
   Cache-Control: no-cache
+
+# Social media feed (SOCIAL.md): tell feed readers and Zapier it is RSS.
+/feeds/social.xml
+  Content-Type: application/rss+xml; charset=utf-8
