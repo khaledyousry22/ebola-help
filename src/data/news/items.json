@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-12T01:01:24.139Z",
+  "updatedAt": "2026-11-12T08:20:53.528Z",
   "items": [
+    {
+      "id": "25eefeb95ec01298",
+      "url": "https://insp.cd/sitrep-n180-mve-bdbv-10-11-2026/",
+      "title": "SitRep N°180/MVE-BDBV/10/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-12T05:35:50.000Z",
+      "firstSeenAt": "2026-11-12T08:20:53.528Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "c48a4aaa3dd83923",
       "url": "https://www.dw.com/en/kenya-s-last-ebola-patient-leaves-hospital/a-79921240?maca=en-rss-en-all-1573-rdf",
