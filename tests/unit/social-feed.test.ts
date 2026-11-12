@@ -21,22 +21,25 @@ const item = (over: Partial<NewsItem> = {}): NewsItem => ({
 });
 
 describe('social media feed', () => {
-  it('posts a news item as headline, source and date, linking to the original', () => {
+  it('posts a news item as headline, source, date and original link, previewing the Ebola.help news page', () => {
     const entry = newsEntry(item());
     expect(entry.id).toBe('news-0123456789abcdef');
-    expect(entry.link).toBe('https://www.who.int/emergencies/disease-outbreak-news/item/example');
+    expect(entry.link).toBe('https://ebola.help/en/news/');
     expect(entry.text).toBe(
       [
         'Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo',
         '',
         'Source: World Health Organization (WHO): Disease Outbreak News, 6 November 2026',
+        'https://www.who.int/emergencies/disease-outbreak-news/item/example',
+        '',
         'News, helplines and health information in six languages: https://ebola.help/en/',
       ].join('\n'),
     );
   });
 
-  it('writes a French item in French', () => {
+  it('writes a French item in French, previewing the French news page', () => {
     const entry = newsEntry(item({ lang: 'fr', title: 'Point de situation', sourceName: 'INSP' }));
+    expect(entry.link).toBe('https://ebola.help/fr/news/');
     expect(entry.text).toContain('Source : INSP, 6 novembre 2026');
     expect(entry.text).toContain('https://ebola.help/fr/');
   });

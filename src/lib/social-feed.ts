@@ -35,19 +35,26 @@ export interface UpdateSummary {
 
 const homeUrl = (locale: Locale) => `${SITE_URL}/${locale}/`;
 
-/** An official news item: headline, source and date, then a link to the site. The preview is the original article. */
+/**
+ * An official news item: headline, source, date and the original link, then a
+ * link to the site. The preview is the Ebola.help news page: some official
+ * sites cannot be read by Facebook (no preview tags, bot protection), and
+ * Facebook then refuses the post ("Failed to parse URL").
+ */
 export function newsEntry(item: NewsItem): FeedEntry {
   const m = getMessages(item.lang);
   const date = formatDate(item.lang, item.publishedAt.slice(0, 10));
   return {
     id: `news-${item.id}`,
     title: item.title,
-    link: item.url,
+    link: `${SITE_URL}/${item.lang}/news/`,
     date: new Date(item.firstSeenAt),
     text: [
       item.title,
       '',
       format(m.feed.source, { source: item.sourceName, date }),
+      item.url,
+      '',
       format(m.feed.more, { url: homeUrl(item.lang) }),
     ].join('\n'),
   };

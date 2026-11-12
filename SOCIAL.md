@@ -15,8 +15,10 @@ their headlines are sometimes alarming, and only official sources are shared
 under the Ebola.help name.
 
 A free service, **Zapier**, checks this list every 15 minutes and posts each new
-entry on the Ebola.help Facebook Page. Each post shows the headline, the source
-and date, and a link to Ebola.help, with a preview of the original page.
+entry on the Ebola.help Facebook Page. Each post shows the headline, the source,
+the date and the link to the original, with a preview of the Ebola.help news
+page (or of the weekly update). The preview always comes from Ebola.help,
+because Facebook cannot read some official websites and then refuses the post.
 
 ## Why Zapier, and not a Facebook app of our own?
 
@@ -51,7 +53,7 @@ Zapier's buttons may be worded slightly differently from what is written here.
      the list does not open). Do not type the word: the field must show a
      small coloured tag with the start of a post.
    - Link URL: the same way, pick **Link** from the list. The tag shows a web
-     address such as `https://insp.cd/...`. If the field contains the plain
+     address such as `https://ebola.help/fr/news/`. If the field contains the plain
      word "Link", Facebook answers "Failed to parse URL".
 5. Click **Test step**. This publishes one real post on the Page (you can
    delete it afterwards).
