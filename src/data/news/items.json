@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T17:06:08.232Z",
+  "updatedAt": "2026-11-12T22:44:07.865Z",
   "items": [
     {
       "id": "537f70a23f0f99f4",
@@ -41,6 +41,36 @@
       "firstSeenAt": "2026-11-12T17:06:08.232Z",
       "countries": [
         "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "2478b81cc9e83018",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143184",
+      "title": "肯尼亚最后一名埃博拉患者出院，疫情结束进入倒计时",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-11-12T12:00:00.000Z",
+      "firstSeenAt": "2026-11-12T22:44:07.865Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "95cc4ab57ad775b0",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168790",
+      "title": "Kenya begins countdown towards end of Ebola after last patient discharged",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-11-12T12:00:00.000Z",
+      "firstSeenAt": "2026-11-12T22:44:07.865Z",
+      "countries": [
         "KE"
       ],
       "alsoReportedBy": []
@@ -6016,22 +6046,6 @@
       "sourceName": "RFI",
       "official": false,
       "publishedAt": "2026-05-17T09:43:25.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD",
-        "UG"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "c79747a8afe5018f",
-      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602",
-      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda (2026-DON602)",
-      "lang": "en",
-      "sourceId": "who-don",
-      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
-      "official": true,
-      "publishedAt": "2026-05-16T22:00:00.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [
         "CD",
