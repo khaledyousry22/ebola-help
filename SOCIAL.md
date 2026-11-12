@@ -46,8 +46,13 @@ Zapier's buttons may be worded slightly differently from what is written here.
    - Sign in with the Facebook account that manages the Ebola.help Page, and
      allow Zapier to post on the Page.
    - Page: **Ebola.help**
-   - Message: click the field and choose **Description** from step 1.
-   - Link URL: choose **Link** from step 1.
+   - Message: click in the field, then pick **Description** from the list of
+     step 1 data (use the **+** or **Insert data** button, or type `/`, if
+     the list does not open). Do not type the word: the field must show a
+     small coloured tag with the start of a post.
+   - Link URL: the same way, pick **Link** from the list. The tag shows a web
+     address such as `https://insp.cd/...`. If the field contains the plain
+     word "Link", Facebook answers "Failed to parse URL".
 5. Click **Test step**. This publishes one real post on the Page (you can
    delete it afterwards).
 6. Click **Publish**. From now on, every new entry is posted automatically.
