@@ -1,6 +1,65 @@
 {
-  "updatedAt": "2026-11-12T08:20:53.528Z",
+  "updatedAt": "2026-11-12T17:06:08.232Z",
   "items": [
+    {
+      "id": "537f70a23f0f99f4",
+      "url": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo",
+      "title": "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
+      "lang": "en",
+      "sourceId": "bbc-africa",
+      "sourceName": "BBC News",
+      "official": false,
+      "publishedAt": "2026-11-12T15:18:20.000Z",
+      "firstSeenAt": "2026-11-12T17:06:08.232Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ed1d0602ed26b468",
+      "url": "https://actualite.cd/2026/11/12/ebola-en-rdc-le-dg-de-loms-appelle-un-financement-adapte-aux-besoins-operationnels",
+      "title": "Ebola en RDC : le DG de l’OMS appelle à un financement adapté aux besoins opérationnels urgents, et formule cinq demandes aux États membres et aux partenaires",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-12T14:35:08.000Z",
+      "firstSeenAt": "2026-11-12T17:06:08.232Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "76973fbc27ec1fee",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261112-kenya-le-dernier-patient-atteint-du-virus-ebola-officiellement-gu%C3%A9ri",
+      "title": "Kenya : le dernier patient atteint du virus Ebola officiellement guéri",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-11-12T13:18:36.000Z",
+      "firstSeenAt": "2026-11-12T17:06:08.232Z",
+      "countries": [
+        "CD",
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ce3260d3051a251c",
+      "url": "http://www.africanews.com/2026/11/12/dr-congo-ebola-outbreak-surpasses-11000-cases-as-conflict-hampers-response/",
+      "title": "DR Congo Ebola outbreak surpasses 11,000 cases as conflict hampers response",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-11-12T08:40:22.000Z",
+      "firstSeenAt": "2026-11-12T17:06:08.232Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "25eefeb95ec01298",
       "url": "https://insp.cd/sitrep-n180-mve-bdbv-10-11-2026/",
@@ -45,7 +104,9 @@
       "countries": [
         "KE"
       ],
-      "alsoReportedBy": []
+      "alsoReportedBy": [
+        "France 24"
+      ]
     },
     {
       "id": "f948ad050a0cd549",
@@ -73,6 +134,37 @@
       "publishedAt": "2026-11-11T12:53:11.000Z",
       "firstSeenAt": "2026-11-11T18:42:16.863Z",
       "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "16dc3786d06be03c",
+      "url": "https://news.un.org/feed/view/es/story/2026/11/1542163",
+      "title": "COP31, sequía en Centroamérica, Gaza, ébola… las noticias del miércoles",
+      "lang": "es",
+      "sourceId": "un-news-es",
+      "sourceName": "Noticias ONU",
+      "official": false,
+      "publishedAt": "2026-11-11T12:00:00.000Z",
+      "firstSeenAt": "2026-11-12T17:06:08.232Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "36386c912ed648fd",
+      "url": "https://news.un.org/feed/view/fr/story/2026/11/1159824",
+      "title": "Ebola : en RDC, les violences et les déplacements entravent la lutte contre l’épidémie",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-11-11T12:00:00.000Z",
+      "firstSeenAt": "2026-11-12T17:06:08.232Z",
+      "countries": [
+        "CD",
         "KE"
       ],
       "alsoReportedBy": []
@@ -5940,22 +6032,6 @@
       "sourceName": "World Health Organization (WHO): Disease Outbreak News",
       "official": true,
       "publishedAt": "2026-05-16T22:00:00.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD",
-        "UG"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "901529de40a9fa24",
-      "url": "https://www.rfi.fr/ru/%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5/20260516-%D0%B2-%D0%B0%D1%84%D1%80%D0%B8%D0%BA%D0%B5-%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B2%D1%81%D0%BF%D1%8B%D1%88%D0%BA%D0%B0-%D1%8D%D0%B1%D0%BE%D0%BB%D1%8B-%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BE%D1%82-%D0%BD%D1%8B%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE-%D1%88%D1%82%D0%B0%D0%BC%D0%BC%D0%B0-%D0%BE%D1%87%D0%B5%D0%BD%D1%8C-%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%B0%D1%8F-%D0%B2%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D1%8B-%D0%B8-%D0%BB%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B5%D1%82",
-      "title": "В Африке новая вспышка Эболы. Смертность от нынешнего штамма «очень высокая», вакцины и лечения нет",
-      "lang": "ru",
-      "sourceId": "rfi-ru-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-16T14:00:47.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [
         "CD",
