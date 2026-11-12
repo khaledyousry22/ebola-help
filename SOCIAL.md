@@ -32,8 +32,10 @@ Headlines with alarming words ("terrifying", "deadly", "panic", "meurtrière",
 with them; that is the safer mistake.
 
 Together the two lists send about 200 posts a month, more than the 100 of
-Zapier's free plan. That is why they are separate: the main list stays free and
-keeps working even if the media list stops.
+Zapier's free plan. That is why they are separate: the main list alone fits the
+free plan. **Do not add the media Zap while on the free plan.** All Zaps in an
+account share the same 100 posts, and once they are used up, every post (the
+official ones too) stops until the next month.
 
 ## What each post looks like
 
