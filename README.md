@@ -72,8 +72,8 @@ failure if every source fails.
 
 **Facebook:** official news, the weekly updates, a daily health tip and the
 case figures, in English and French, are posted automatically on the
-Ebola.help Facebook Page through the free Zapier service. Media news can be
-added with a second Zap (Zapier's paid plan). Setup: [SOCIAL.md](SOCIAL.md).
+Ebola.help Facebook Page through the free Zapier service, and media news
+through the free Make.com service. Setup: [SOCIAL.md](SOCIAL.md).
 
 ### The outbreak figures
 

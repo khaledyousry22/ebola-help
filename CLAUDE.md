@@ -74,8 +74,8 @@ plain language.
   banner figures when they change (all languages in one post).
   `/feeds/media.xml`: non-official news without alarming headlines (word lists
   in `social-feed.ts`). Zapier posts each new entry on the Facebook Page (owner
-  setup: `SOCIAL.md`; free plan 100 posts a month, so the media feed is kept
-  separate). Entry ids never change, so nothing is posted twice. Previews are
+  setup: `SOCIAL.md`; Zapier's free plan allows 100 posts a month, so the
+  media feed goes through Make.com's free plan, checked every 2 hours). Entry ids never change, so nothing is posted twice. Previews are
   always Ebola.help pages (Facebook rejects some sites). Footer links to the
   accounts: `SOCIAL_LINKS`; Patreon: `PATREON_URL` (both in `src/config.ts`).
 - Contacts: `src/data/help/<ISO>.json` (schema `src/data/help-schema.ts`).
