@@ -260,6 +260,9 @@
   },
   "feed": {
     "source": "来源：{source}，{date}",
-    "more": "六种语言的新闻、求助热线和健康信息：{url}"
+    "more": "六种语言的新闻、求助热线和健康信息：{url}",
+    "tip": "须知：{text}",
+    "readMore": "了解更多：{title}，{url}",
+    "mapMore": "地图和求助热线：{url}"
   }
 }

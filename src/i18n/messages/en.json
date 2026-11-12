@@ -260,6 +260,9 @@
   },
   "feed": {
     "source": "Source: {source}, {date}",
-    "more": "News, helplines and health information in six languages: {url}"
+    "more": "News, helplines and health information in six languages: {url}",
+    "tip": "Good to know: {text}",
+    "readMore": "Read more: {title}, {url}",
+    "mapMore": "Map and helplines: {url}"
   }
 }

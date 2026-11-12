@@ -260,6 +260,9 @@
   },
   "feed": {
     "source": "Source : {source}, {date}",
-    "more": "Actualités, numéros d'aide et informations sanitaires en six langues : {url}"
+    "more": "Actualités, numéros d'aide et informations sanitaires en six langues : {url}",
+    "tip": "Bon à savoir : {text}",
+    "readMore": "En savoir plus : {title}, {url}",
+    "mapMore": "Carte et numéros d'aide : {url}"
   }
 }

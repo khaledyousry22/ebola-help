@@ -55,11 +55,10 @@ test('pages kept out of search engines say so, and every other page may be index
   }
 });
 
-test('the social media feed is valid RSS with official news and weekly updates', async ({ page, request }) => {
-  const response = await request.get('/feeds/social.xml');
+async function readFeed(page: import('@playwright/test').Page, request: import('@playwright/test').APIRequestContext, path: string) {
+  const response = await request.get(path);
   expect(response.status()).toBe(200);
-  const xml = await response.text();
-  const result = await page.evaluate((text) => {
+  return page.evaluate((text) => {
     const doc = new DOMParser().parseFromString(text, 'application/xml');
     return {
       error: doc.querySelector('parsererror')?.textContent ?? null,
@@ -69,14 +68,36 @@ test('the social media feed is valid RSS with official news and weekly updates',
         text: item.querySelector('description')?.textContent ?? '',
       })),
     };
-  }, xml);
-  expect(result.error).toBeNull();
-  expect(result.items.length).toBeGreaterThan(0);
-  expect(result.items.length).toBeLessThanOrEqual(30);
-  expect(new Set(result.items.map((i) => i.id)).size).toBe(result.items.length);
-  expect(result.items.some((i) => i.id.startsWith('update-en-'))).toBe(true);
-  for (const item of result.items) {
-    expect(item.link).toMatch(/^https:\/\//);
-    expect(item.text.length).toBeGreaterThan(0);
-  }
+  }, await response.text());
+}
+
+for (const path of ['/feeds/social.xml', '/feeds/media.xml']) {
+  test(`${path} is valid RSS for Facebook posts, previewing Ebola.help pages`, async ({ page, request }) => {
+    const feed = await readFeed(page, request, path);
+    expect(feed.error).toBeNull();
+    expect(feed.items.length).toBeGreaterThan(0);
+    expect(feed.items.length).toBeLessThanOrEqual(30);
+    expect(new Set(feed.items.map((i) => i.id)).size).toBe(feed.items.length);
+    for (const item of feed.items) {
+      expect(item.link).toMatch(/^https:\/\/ebola\.help\/(en|fr)\//);
+      expect(item.text.length).toBeGreaterThan(0);
+    }
+  });
+}
+
+test('the social feed has weekly updates and today\'s health tip in English and French', async ({ page, request }) => {
+  const feed = await readFeed(page, request, '/feeds/social.xml');
+  expect(feed.items.some((i) => i.id.startsWith('update-en-'))).toBe(true);
+  const tip = feed.items.find((i) => i.id.startsWith('tip-'));
+  expect(tip?.text).toMatch(/^Good to know: [\s\S]+\n\nBon à savoir : /);
+});
+
+test('the media feed has news coverage only, never official news', async ({ page, request }) => {
+  const feed = await readFeed(page, request, '/feeds/media.xml');
+  const officialIds = new Set(
+    (JSON.parse(readFileSync('src/data/news/items.json', 'utf8')) as { items: { id: string; official: boolean }[] }).items
+      .filter((i) => i.official)
+      .map((i) => `news-${i.id}`),
+  );
+  for (const item of feed.items) expect(officialIds.has(item.id)).toBe(false);
 });

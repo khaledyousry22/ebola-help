@@ -63,6 +63,9 @@ export function officialUpdates(locale: Locale): NewsItem[] {
   );
 }
 
+/** Everything shown on the site: hidden items left out. */
+export const visibleNews = (): NewsItem[] => VISIBLE;
+
 /** Official items in these languages (not hidden), for the social media feed /feeds/social.xml. */
 export function officialNewsIn(locales: readonly Locale[]): NewsItem[] {
   return VISIBLE.filter((item) => item.official && locales.includes(item.lang));

@@ -19,6 +19,9 @@
 /sw.js
   Cache-Control: no-cache
 
-# Social media feed (SOCIAL.md): tell feed readers and Zapier it is RSS.
+# Social media feeds (SOCIAL.md): tell feed readers and Zapier they are RSS.
 /feeds/social.xml
+  Content-Type: application/rss+xml; charset=utf-8
+
+/feeds/media.xml
   Content-Type: application/rss+xml; charset=utf-8
