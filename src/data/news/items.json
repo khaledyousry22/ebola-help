@@ -1,6 +1,158 @@
 {
-  "updatedAt": "2026-11-13T10:59:25.223Z",
+  "updatedAt": "2026-11-13T18:31:06.713Z",
   "items": [
+    {
+      "id": "42b04ade59eeb27e",
+      "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20261113-ebola-en-rdc-on-ne-comprend-pas-pourquoi-l-argent-n-arrive-pas-dans-les-poches-des-travailleurs-interroge-msf",
+      "title": "Ebola en RDC: «On ne comprend pas pourquoi l'argent n'arrive pas dans les poches des travailleurs», interroge MSF",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-13T16:57:34.000Z",
+      "firstSeenAt": "2026-11-13T18:31:06.713Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "4848cff387b71187",
+      "url": "https://actualite.cd/2026/11/13/ebola-en-rdc-malgre-le-renforcement-de-la-riposte-la-transmission-reste-active-dans",
+      "title": "Ebola en RDC : malgré le renforcement de la riposte, la transmission reste active dans plusieurs zones",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-13T15:53:40.000Z",
+      "firstSeenAt": "2026-11-13T18:31:06.713Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a4462ffb7143c7b8",
+      "url": "https://actualite.cd/2026/11/13/ebola-au-nord-kivu-les-prestataires-des-zones-de-sante-de-butembo-katwa-et-musienene",
+      "title": "Ebola au Nord-Kivu : les prestataires des zones de santé de Butembo, Katwa et Musienene observent une grève sèche",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-13T15:50:01.000Z",
+      "firstSeenAt": "2026-11-13T18:31:06.713Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "63f37758302eb637",
+      "url": "https://www.france24.com/fr/afrique/20261113-fin-des-joj-naufrage-d-une-pirogue-au-s%C3%A9n%C3%A9gal-plus-aucun-cas-d-ebola-au-kenya-l-hebdo-afrique",
+      "title": "Fin des JOJ, naufrage d'une pirogue au Sénégal, plus aucun cas d'Ebola au Kenya : l'hebdo Afrique",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-11-13T15:11:44.000Z",
+      "firstSeenAt": "2026-11-13T18:31:06.713Z",
+      "countries": [
+        "KE",
+        "SN"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ac28c0edb3946712",
+      "url": "http://www.africanews.com/2026/11/13/nigeria-ebola-patient-contacts-complete-21-day-monitoring-without-signs-of-infection/",
+      "title": "Nigeria Ebola patient contacts complete 21-day monitoring without signs of infection",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-11-13T14:56:21.000Z",
+      "firstSeenAt": "2026-11-13T18:31:06.713Z",
+      "countries": [
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f831d13deca9db8e",
+      "url": "https://actualite.cd/2026/11/13/nord-kivu-le-centre-de-sante-de-reference-de-kirumba-ferme-pour-21-jours-apres-la",
+      "title": "Nord-Kivu : le centre de santé de référence de Kirumba fermé pour 21 jours après la détection de deux cas confirmés d'Ebola",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-13T12:08:15.000Z",
+      "firstSeenAt": "2026-11-13T18:31:06.713Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "412f4cca5a718c3a",
+      "url": "https://news.un.org/feed/view/fr/story/2026/11/1159836",
+      "title": "RDC : la guerre et Ebola aggravent une crise alimentaire qui menace 30 millions de personnes",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "firstSeenAt": "2026-11-13T18:31:06.713Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "4d70ba0571944675",
+      "url": "https://news.un.org/feed/view/ru/story/2026/11/1469099",
+      "title": "ДР Конго: вооруженные столкновения и нападения на медработников мешают борьбе с Эболой",
+      "lang": "ru",
+      "sourceId": "un-news-ru",
+      "sourceName": "Новости ООН",
+      "official": false,
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "firstSeenAt": "2026-11-13T18:31:06.713Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "770ecf4befe2a4ec",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168797",
+      "title": "DR Congo Ebola outbreak: Unrest fuelled by armed groups holds back response",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "firstSeenAt": "2026-11-13T18:31:06.713Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "50504e7d67ef4a25",
+      "url": "http://www.africanews.com/2026/11/13/swiss-hospital-discharges-ebola-patient-after-successful-treatment/",
+      "title": "Swiss hospital discharges Ebola patient after successful treatment",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-11-13T11:31:24.000Z",
+      "firstSeenAt": "2026-11-13T18:31:06.713Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "0ee7637fc11aa39c",
       "url": "https://www.rfi.fr/fr/afrique/20261113-ebola-rdc-oms-alarme-cons%C3%A9quences-attaques-arm%C3%A9es-sur-la-riposte",
@@ -115,6 +267,21 @@
       "official": false,
       "publishedAt": "2026-11-12T12:00:00.000Z",
       "firstSeenAt": "2026-11-12T22:44:07.865Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "637ab09f2c5bfb8d",
+      "url": "https://news.un.org/feed/view/ru/story/2026/11/1469093",
+      "title": "Кения может официально стать свободной от Эболы через 42 дня",
+      "lang": "ru",
+      "sourceId": "un-news-ru",
+      "sourceName": "Новости ООН",
+      "official": false,
+      "publishedAt": "2026-11-12T12:00:00.000Z",
+      "firstSeenAt": "2026-11-13T18:31:06.713Z",
       "countries": [
         "KE"
       ],
@@ -6082,19 +6249,6 @@
       "countries": [
         "CD"
       ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "912646b1d3e635bb",
-      "url": "https://www.rfi.fr/ru/%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5/20260517-%D0%B2%D0%BE%D0%B7-%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%B8%D0%BB%D0%B0-%D0%B2%D1%81%D0%BF%D1%8B%D1%88%D0%BA%D1%83-%D1%8D%D0%B1%D0%BE%D0%BB%D1%8B-%D0%B2-%D0%B0%D1%84%D1%80%D0%B8%D0%BA%D0%B5-%D1%87%D1%80%D0%B5%D0%B7%D0%B2%D1%8B%D1%87%D0%B0%D0%B9%D0%BD%D0%BE%D0%B9-%D1%81%D0%B8%D1%82%D1%83%D0%B0%D1%86%D0%B8%D0%B8%D0%B5%D0%B9-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F",
-      "title": "ВОЗ объявила вспышку Эболы в Африке «чрезвычайной ситуацией международного значения»",
-      "lang": "ru",
-      "sourceId": "rfi-ru-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-17T12:09:12.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [],
       "alsoReportedBy": []
     }
   ]
