@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-11-13T02:57:00.765Z",
+  "updatedAt": "2026-11-13T10:59:25.223Z",
   "items": [
+    {
+      "id": "0ee7637fc11aa39c",
+      "url": "https://www.rfi.fr/fr/afrique/20261113-ebola-rdc-oms-alarme-cons%C3%A9quences-attaques-arm%C3%A9es-sur-la-riposte",
+      "title": "Ebola en RDC: l’OMS s’alarme des conséquences des attaques armées sur la riposte à l’épidémie",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-13T10:17:38.000Z",
+      "firstSeenAt": "2026-11-13T10:59:25.223Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f01b963cfb788a60",
+      "url": "https://actualite.cd/2026/11/13/ebola-le-kenya-libere-son-dernier-patient-et-entame-42-jours-de-surveillance-avant-une",
+      "title": "Ebola: le Kenya libère son dernier patient et entame 42 jours de surveillance avant une éventuelle déclaration de fin de l’épidémie",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-13T09:36:35.000Z",
+      "firstSeenAt": "2026-11-13T10:59:25.223Z",
+      "countries": [
+        "KE"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "048ec1b8540c28d3",
+      "url": "https://actualite.cd/2026/11/13/riposte-contre-ebola-en-rdc-malgre-des-centaines-de-millions-de-dollars-mobilises-des",
+      "title": "Riposte contre Ebola en RDC : malgré des centaines de millions de dollars mobilisés, des équipes restent sans moyens, alerte MSF",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-13T09:01:08.000Z",
+      "firstSeenAt": "2026-11-13T10:59:25.223Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "af1acbde25b19db8",
       "url": "https://insp.cd/sitrep-n181-mve-bdbv-11-11-2026/",
@@ -6050,22 +6095,6 @@
       "publishedAt": "2026-05-17T12:09:12.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "f773ce67726276b1",
-      "url": "https://www.rfi.fr/es/salud/20260517-%C3%A9bola-la-oms-declara-una-emergencia-de-salud-p%C3%BAblica-de-importancia-internacional",
-      "title": "Ébola: La OMS declara una \"emergencia de salud pública de importancia internacional\"",
-      "lang": "es",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-17T09:43:25.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD",
-        "UG"
-      ],
       "alsoReportedBy": []
     }
   ]
