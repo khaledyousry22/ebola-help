@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-12T22:44:07.865Z",
+  "updatedAt": "2026-11-13T02:57:00.765Z",
   "items": [
+    {
+      "id": "af1acbde25b19db8",
+      "url": "https://insp.cd/sitrep-n181-mve-bdbv-11-11-2026/",
+      "title": "SitRep N°181/MVE-BDBV/11/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-12T22:57:27.000Z",
+      "firstSeenAt": "2026-11-13T02:57:00.765Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "537f70a23f0f99f4",
       "url": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo",
