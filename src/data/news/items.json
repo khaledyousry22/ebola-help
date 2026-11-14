@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T06:24:20.330Z",
+  "updatedAt": "2026-11-14T13:49:02.916Z",
   "items": [
     {
       "id": "42b04ade59eeb27e",
@@ -6264,21 +6264,6 @@
       "countries": [
         "CD",
         "UG"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "6c944a339634773d",
-      "url": "https://www.rfi.fr/es/africa/20260518-%C3%A9bola-el-riesgo-de-propagaci%C3%B3n-de-esta-epidemia-es-muy-alto-advierte-vir%C3%B3logo",
-      "title": "Ébola: “El riesgo de propagación de esta epidemia es muy alto”, advierte virólogo",
-      "lang": "es",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-18T09:34:26.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD"
       ],
       "alsoReportedBy": []
     }
