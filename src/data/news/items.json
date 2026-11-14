@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T18:31:06.713Z",
+  "updatedAt": "2026-11-14T06:24:20.330Z",
   "items": [
     {
       "id": "42b04ade59eeb27e",
@@ -94,6 +94,21 @@
       "alsoReportedBy": []
     },
     {
+      "id": "26f421b771c014de",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143195",
+      "title": "刚果（金）：武装袭击阻碍埃博拉疫情防控",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "firstSeenAt": "2026-11-14T06:24:20.330Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
       "id": "412f4cca5a718c3a",
       "url": "https://news.un.org/feed/view/fr/story/2026/11/1159836",
       "title": "RDC : la guerre et Ebola aggravent une crise alimentaire qui menace 30 millions de personnes",
@@ -135,6 +150,22 @@
       "firstSeenAt": "2026-11-13T18:31:06.713Z",
       "countries": [
         "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "cec5fe08b21bb453",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143201",
+      "title": "【世界进行时】2026年11月13日",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "firstSeenAt": "2026-11-14T06:24:20.330Z",
+      "countries": [
+        "KE",
+        "SN"
       ],
       "alsoReportedBy": []
     },
