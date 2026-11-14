@@ -1,6 +1,34 @@
 {
-  "updatedAt": "2026-11-14T13:49:02.916Z",
+  "updatedAt": "2026-11-14T19:11:14.052Z",
   "items": [
+    {
+      "id": "764999d4e06dcf40",
+      "url": "https://actualite.cd/2026/11/14/assemblee-nationale-singoma-mwanza-appelle-le-gouvernement-intensifier-les-efforts",
+      "title": "Assemblée nationale : Singoma Mwanza appelle le Gouvernement à intensifier les efforts malgré la baisse des contaminations d’Ebola",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-14T17:47:18.000Z",
+      "firstSeenAt": "2026-11-14T19:11:14.052Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "ffda4ba93b924148",
+      "url": "https://insp.cd/sitrep-n182-mve-bdbv-12-11-2026/",
+      "title": "SitRep N°182/MVE-BDBV/12/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-14T14:18:20.000Z",
+      "firstSeenAt": "2026-11-14T19:11:14.052Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "42b04ade59eeb27e",
       "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20261113-ebola-en-rdc-on-ne-comprend-pas-pourquoi-l-argent-n-arrive-pas-dans-les-poches-des-travailleurs-interroge-msf",
@@ -6248,22 +6276,6 @@
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [
         "CD"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "28abf970a3d39482",
-      "url": "https://www.rfi.fr/es/ciencia/20260518-la-oms-celebra-su-asamblea-mundial-de-la-salud-en-medio-de-una-emergencia-sanitaria-y-financiera",
-      "title": "La OMS celebra su Asamblea Mundial de la Salud en medio de una emergencia sanitaria y financiera",
-      "lang": "es",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-18T14:47:24.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD",
-        "UG"
       ],
       "alsoReportedBy": []
     }
