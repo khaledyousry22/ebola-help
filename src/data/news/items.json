@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-14T19:11:14.052Z",
+  "updatedAt": "2026-11-15T02:39:53.499Z",
   "items": [
+    {
+      "id": "f82aa0ae44bf17ae",
+      "url": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o",
+      "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
+      "lang": "en",
+      "sourceId": "bbc-africa",
+      "sourceName": "BBC News",
+      "official": false,
+      "publishedAt": "2026-11-15T00:06:55.000Z",
+      "firstSeenAt": "2026-11-15T02:39:53.499Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "764999d4e06dcf40",
       "url": "https://actualite.cd/2026/11/14/assemblee-nationale-singoma-mwanza-appelle-le-gouvernement-intensifier-les-efforts",
