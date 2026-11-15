@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-15T09:56:30.375Z",
+  "updatedAt": "2026-11-15T17:12:48.713Z",
   "items": [
+    {
+      "id": "a64a9eb56e19398f",
+      "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-international/20261115-ebola-l-absence-de-vaccin-explique-l-ampleur-de-cette-%C3%A9pid%C3%A9mie-dit-jean-kaseya-africa-cdc",
+      "title": "Ebola: «L'absence de vaccin explique l'ampleur de cette épidémie», selon Jean Kaseya (Africa CDC)",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-15T13:53:29.000Z",
+      "firstSeenAt": "2026-11-15T17:12:48.713Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "dfff81bdf57818a9",
       "url": "https://actualite.cd/2026/11/15/ebola-en-rdc-nous-ne-devons-pas-confondre-les-progres-realises-dans-certains-endroits",
@@ -6303,36 +6318,6 @@
       "sourceName": "RFI",
       "official": false,
       "publishedAt": "2026-05-20T11:28:11.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "c4f1a24bd524362d",
-      "url": "https://www.rfi.fr/es/africa/20260519-%C3%A9bola-en-la-rd-del-congo-la-magnitud-y-la-rapidez-de-la-epidemia-obligan-a-la-oms-a-dar-la-voz-de-alarma",
-      "title": "Ébola en la RD del Congo: la magnitud y la rapidez de la epidemia obligan a la OMS a dar la voz de alarma",
-      "lang": "fr",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-19T14:01:55.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "016b0d0d292c6837",
-      "url": "https://www.rfi.fr/ru/%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5/20260519-%D0%B2%D0%BE%D0%B7-%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%BE%D0%BA%D0%BE%D0%B5%D0%BD-%D0%BC%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B0%D0%BC%D0%B8-%D0%B8-%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D1%8C%D1%8E-%D1%8D%D0%BF%D0%B8%D0%B4%D0%B5%D0%BC%D0%B8%D0%B8-%D1%8D%D0%B1%D0%BE%D0%BB%D1%8B",
-      "title": "ВОЗ глубоко обеспокоена «масштабами и скоростью» распространения эпидемии Эболы",
-      "lang": "ru",
-      "sourceId": "rfi-ru-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-19T13:29:32.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [
         "CD"
