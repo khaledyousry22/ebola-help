@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-11-15T02:39:53.499Z",
+  "updatedAt": "2026-11-15T09:56:30.375Z",
   "items": [
+    {
+      "id": "dfff81bdf57818a9",
+      "url": "https://actualite.cd/2026/11/15/ebola-en-rdc-nous-ne-devons-pas-confondre-les-progres-realises-dans-certains-endroits",
+      "title": "Ebola en RDC : « Nous ne devons pas confondre les progrès réalisés dans certains endroits avec la maîtrise de l’épidémie dans son ensemble», prévient le DG de l’OMS",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-15T08:45:08.000Z",
+      "firstSeenAt": "2026-11-15T09:56:30.375Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "b97f766ae56ec575",
+      "url": "https://africacdc.org/news-item/six-months-on-accessing-hard-to-reach-communities-key-to-halting-ebola-outbreak/",
+      "title": "Six months on, accessing hard-to-reach communities key to halting Ebola outbreak",
+      "lang": "en",
+      "sourceId": "africa-cdc",
+      "sourceName": "Africa CDC",
+      "official": true,
+      "publishedAt": "2026-11-15T08:24:03.000Z",
+      "firstSeenAt": "2026-11-15T09:56:30.375Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "71d531da4fa4f4b9",
+      "url": "http://www.africanews.com/2026/11/15/dr-congo-ebola-awareness-campaigns-conducted-at-schools-in-bunia/",
+      "title": "DR Congo: Ebola-awareness campaigns conducted at schools in Bunia",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-11-15T07:46:00.000Z",
+      "firstSeenAt": "2026-11-15T09:56:30.375Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "26f33676d50b5b15",
+      "url": "https://www.rfi.fr/fr/afrique/20261115-ebola-en-rdc-six-mois-apr%C3%A8s-son-apparition-l-%C3%A9pid%C3%A9mie-poursuit-sa-progression",
+      "title": "Ebola en RDC: six mois après son apparition, l'épidémie poursuit sa progression",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-15T04:12:01.000Z",
+      "firstSeenAt": "2026-11-15T09:56:30.375Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "f82aa0ae44bf17ae",
       "url": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o",
@@ -6273,21 +6333,6 @@
       "sourceName": "RFI",
       "official": false,
       "publishedAt": "2026-05-19T13:29:32.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "647badf5dbeb6366",
-      "url": "https://www.rfi.fr/es/africa/20260519-ebola-eeuu-restringe-ingreso-para-viajeros-del-centro-de-%C3%A1frica-por-el-contagio-de-un-estadounidense",
-      "title": "Ebola: EEUU restringe ingreso para viajeros del centro de África por el contagio de un estadounidense",
-      "lang": "es",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-19T08:45:15.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [
         "CD"
