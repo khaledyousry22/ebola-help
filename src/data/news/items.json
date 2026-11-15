@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:12:48.713Z",
+  "updatedAt": "2026-11-15T21:50:43.043Z",
   "items": [
     {
       "id": "a64a9eb56e19398f",
@@ -11,6 +11,21 @@
       "official": false,
       "publishedAt": "2026-11-15T13:53:29.000Z",
       "firstSeenAt": "2026-11-15T17:12:48.713Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "405fb341655d013d",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143203",
+      "title": "刚果（金）埃博拉疫情应对已至六个月 社区触达仍是成败关键",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-11-15T12:00:00.000Z",
+      "firstSeenAt": "2026-11-15T21:50:43.043Z",
       "countries": [
         "CD"
       ],
