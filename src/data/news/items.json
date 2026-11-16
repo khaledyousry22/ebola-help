@@ -1,6 +1,98 @@
 {
-  "updatedAt": "2026-11-16T09:45:17.510Z",
+  "updatedAt": "2026-11-16T19:52:59.335Z",
   "items": [
+    {
+      "id": "b477463f3f2b6684",
+      "url": "https://insp.cd/linsp-renforce-le-dispositif-national-dalerte-sanitaire-a-travers-la-formation-de-55-teleoperateurs/",
+      "title": "L’INSP RENFORCE LE DISPOSITIF NATIONAL D’ALERTE SANITAIRE À TRAVERS LA FORMATION DE 55 TÉLÉOPÉRATEURS.",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-16T19:11:40.000Z",
+      "firstSeenAt": "2026-11-16T19:52:59.335Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "eedded1592496725",
+      "url": "https://www.skynewsarabia.com/world/1905141-%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D9%88-%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D9%85%D8%B3%D9%84%D8%AD%D8%A9-%D8%AA%D8%B9%D8%B7%D9%84-%D8%AA%D8%AA%D8%A8%D8%B9-%D8%A3%D9%83%D8%AB%D8%B1-%D8%A3%D9%84%D9%81-%D9%85%D8%AE%D8%A7%D9%84%D8%B7",
+      "title": "إيبولا في الكونغو.. هجمات مسلحة تعطل تتبع أكثر من ألف مخالط",
+      "lang": "ar",
+      "sourceId": "skynews-arabia",
+      "sourceName": "سكاي نيوز عربية",
+      "official": false,
+      "publishedAt": "2026-11-16T17:54:23.000Z",
+      "firstSeenAt": "2026-11-16T19:52:59.335Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "5f074f0c9d6b4a37",
+      "url": "http://www.africanews.com/2026/11/16/congo-struggles-to-tame-ebola-outbreak-six-months-into-response/",
+      "title": "Congo struggles to tame ebola outbreak six months into response",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-11-16T15:26:35.000Z",
+      "firstSeenAt": "2026-11-16T19:52:59.335Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f19216b428e08f8e",
+      "url": "https://www.afro.who.int/publications/report-regional-immunization-technical-advisory-group-meeting-addis-ababa-july-2026",
+      "title": "Report of the Regional Immunization Technical Advisory Group meeting, Addis Ababa, July 2026",
+      "lang": "en",
+      "sourceId": "who-afro-en",
+      "sourceName": "WHO Regional Office for Africa",
+      "official": true,
+      "publishedAt": "2026-11-16T13:50:32.000Z",
+      "firstSeenAt": "2026-11-16T19:52:59.335Z",
+      "countries": [
+        "CD",
+        "ET",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "24772ca2f5c22547",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261116-rd-congo-pr%C3%A8s-de-5-500-d%C3%A9c%C3%A8s-depuis-le-d%C3%A9but-de-l-%C3%A9pid%C3%A9mie-d-%C3%A9bola",
+      "title": "RD Congo : près de 5 500 décès depuis le début de l'épidémie d'ébola",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-11-16T13:27:36.000Z",
+      "firstSeenAt": "2026-11-16T19:52:59.335Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a276b8b7d1d842d7",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261116-ebola-en-rdc-l-%C3%A9pid%C3%A9mie-a-fait-plus-de-5400-mort-en-six-mois",
+      "title": "Ebola en RDC : l'épidémie a fait plus de 5400 mort en six mois",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-11-16T11:36:09.000Z",
+      "firstSeenAt": "2026-11-16T19:52:59.335Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "b5f6d74958c464db",
       "url": "https://www.dw.com/ar/%D9%85%D9%81%D8%A7%D8%B1%D9%82%D8%A9-%D8%A7%D9%84%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%84%D8%A7-%D9%8A%D8%B2%D8%A7%D9%84-%D9%81%D9%8A%D8%B1%D9%88%D8%B3-%D9%85%D8%B9%D8%B1%D9%88%D9%81-%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D8%AF%D9%87%D8%B4%D8%A9/a-79874163?maca=ara-rss-ar-all-1125-rdf",
@@ -6391,21 +6483,6 @@
       "sourceName": "RFI",
       "official": false,
       "publishedAt": "2026-05-21T09:57:39.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "1d2ad352b9472239",
-      "url": "https://www.rfi.fr/es/salud/20260520-oms-epidemia-de-%C3%A9bola-en-rdc-no-representa-una-emergencia-pand%C3%A9mica",
-      "title": "OMS: epidemia de ébola en RDC no representa \"una emergencia pandémica\"",
-      "lang": "es",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-20T11:28:11.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [
         "CD"
