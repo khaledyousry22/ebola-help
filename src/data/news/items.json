@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-11-15T21:50:43.043Z",
+  "updatedAt": "2026-11-16T02:09:28.910Z",
   "items": [
+    {
+      "id": "bf2c07ed5a5b2b4a",
+      "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261115-ebola-en-rdc-55-471-d%C3%A9c%C3%A8s-pour-11-197-cas-cumul%C3%A9s-ont-%C3%A9t%C3%A9-recens%C3%A9s-en-six-mois",
+      "title": "Ebola en RDC : 55 471 décès pour 11 197 cas cumulés ont été recensés en six mois",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-11-15T22:17:57.000Z",
+      "firstSeenAt": "2026-11-16T02:09:28.910Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "89158c1e7c60b1f8",
+      "url": "https://insp.cd/sitrep-n184-mve-bdbv-14-11-2026/",
+      "title": "SitRep N°184/MVE-BDBV/14/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-15T22:12:58.000Z",
+      "firstSeenAt": "2026-11-16T02:09:28.910Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "22fbeeca75e84df9",
+      "url": "https://insp.cd/sitrep-n183-mve-bdbv-13-11-2026/",
+      "title": "SitRep N°183/MVE-BDBV/13/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-15T22:09:07.000Z",
+      "firstSeenAt": "2026-11-16T02:09:28.910Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "a64a9eb56e19398f",
       "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-international/20261115-ebola-l-absence-de-vaccin-explique-l-ampleur-de-cette-%C3%A9pid%C3%A9mie-dit-jean-kaseya-africa-cdc",
