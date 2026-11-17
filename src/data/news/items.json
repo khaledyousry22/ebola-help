@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-11-16T19:52:59.335Z",
+  "updatedAt": "2026-11-17T02:56:13.585Z",
   "items": [
+    {
+      "id": "e03cad1dca2a1c1f",
+      "url": "http://www.africanews.com/2026/11/16/oif-violence-in-south-africa-and-ebola-in-the-drc-your-news-roundup-africanews-today/",
+      "title": "OIF, violence in South Africa and Ebola in the DRC: your news roundup [Africanews Today]",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-11-16T21:23:02.000Z",
+      "firstSeenAt": "2026-11-17T02:56:13.585Z",
+      "countries": [
+        "CD",
+        "RW",
+        "ZA"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "b477463f3f2b6684",
       "url": "https://insp.cd/linsp-renforce-le-dispositif-national-dalerte-sanitaire-a-travers-la-formation-de-55-teleoperateurs/",
@@ -73,6 +90,21 @@
       "official": false,
       "publishedAt": "2026-11-16T13:27:36.000Z",
       "firstSeenAt": "2026-11-16T19:52:59.335Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "46e70d5a3fda582d",
+      "url": "https://news.un.org/feed/view/fr/story/2026/11/1159846",
+      "title": "Six mois après l'apparition d'Ebola en RDC, l’accès aux populations isolées reste un défi",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-11-16T12:00:00.000Z",
+      "firstSeenAt": "2026-11-17T02:56:13.585Z",
       "countries": [
         "CD"
       ],
