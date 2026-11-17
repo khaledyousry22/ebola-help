@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-17T02:56:13.585Z",
+  "updatedAt": "2026-11-17T11:53:05.026Z",
   "items": [
+    {
+      "id": "c42f86c949a7c0cb",
+      "url": "https://actualite.cd/2026/11/17/ebola-en-rdc-la-transmission-interrompue-dans-de-nombreux-premiers-epicentres-bunia",
+      "title": "Ebola en RDC : la transmission interrompue dans de nombreux premiers épicentres, Bunia enregistre une baisse de moitié",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-17T10:02:20.000Z",
+      "firstSeenAt": "2026-11-17T11:53:05.026Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "c8a08c1b9d05b759",
+      "url": "https://actualite.cd/2026/11/17/haut-uele-nganya-durba-la-riposte-contre-ebola-attaquee-coups-de-pierres-et-de-machettes",
+      "title": "Haut-Uélé: à Nganya (Durba), la riposte contre Ebola attaquée à coups de pierres et de machettes",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-17T09:17:07.000Z",
+      "firstSeenAt": "2026-11-17T11:53:05.026Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "e03cad1dca2a1c1f",
       "url": "http://www.africanews.com/2026/11/16/oif-violence-in-south-africa-and-ebola-in-the-drc-your-news-roundup-africanews-today/",
@@ -6504,21 +6534,6 @@
       "publishedAt": "2026-05-21T13:14:47.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "31a1cb0ac1e24a31",
-      "url": "https://www.rfi.fr/es/salud/20260521-%C3%A9bola-todav%C3%ADa-queda-mucho-trabajo-por-hacer-estima-florent-uzzeni-de-m%C3%A9dicos-sin-fronteras",
-      "title": "Ébola: \"Todavía queda mucho trabajo por hacer\", estima Florent Uzzeni de Médicos Sin Fronteras",
-      "lang": "es",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-21T09:57:39.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD"
-      ],
       "alsoReportedBy": []
     }
   ]
