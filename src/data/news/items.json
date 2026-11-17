@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-17T11:53:05.026Z",
+  "updatedAt": "2026-11-17T20:56:22.906Z",
   "items": [
+    {
+      "id": "50ca8451bd4a224c",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143214",
+      "title": "世卫组织：刚果（金）埃博拉疫情已致逾5400人死亡",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "firstSeenAt": "2026-11-17T20:56:22.906Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "c42f86c949a7c0cb",
       "url": "https://actualite.cd/2026/11/17/ebola-en-rdc-la-transmission-interrompue-dans-de-nombreux-premiers-epicentres-bunia",
@@ -6521,19 +6536,6 @@
         "CD",
         "UG"
       ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "1e32f667e3992316",
-      "url": "https://www.rfi.fr/es/salud/20260521-%C3%A9bola-el-ministro-de-salud-congole%C3%B1o-asegura-a-rfi-que-hay-159-muertes-y-626-casos-sospechosos",
-      "title": "Ébola: el ministro de Salud congoleño asegura a RFI que hay 159 muertes y 626 casos sospechosos",
-      "lang": "es",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-21T13:14:47.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [],
       "alsoReportedBy": []
     }
   ]
