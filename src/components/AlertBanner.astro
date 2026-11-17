@@ -1,17 +1,20 @@
 ---
 /**
- * Calm, factual outbreak banner shown on every language page.
+ * Calm, factual outbreak figures shown on every language page: a slim strip
+ * under the header, or a card with large figures on the home page.
  * All content comes from src/data/outbreak.json and the cited sources.
  */
 import { OUTBREAK } from '../data/outbreak';
 import { SOURCES, sourceVersionFor } from '../data/sources';
-import { format, formatDate, formatNumber, getMessages, LOCALES, splitAt, type Locale } from '../i18n';
+import { format, formatDate, formatNumber, getMessages, LOCALES, localePath, splitAt, type Locale } from '../i18n';
 import { countryName, formatList, languageName } from '../i18n/countries';
+import Icon from './Icon.astro';
 
 interface Props {
   locale: Locale;
+  variant?: 'strip' | 'card';
 }
-const { locale } = Astro.props;
+const { locale, variant = 'strip' } = Astro.props;
 const m = getMessages(locale);
 const info = LOCALES[locale];
 const h = OUTBREAK.headline;
@@ -19,31 +22,73 @@ const related = OUTBREAK.countries
   .filter((c) => c.status === 'cases')
   .map((c) => countryName(locale, c.iso));
 
-const figures = format(m.outbreak.figures, {
-  cases: formatNumber(locale, h.confirmedCases),
-  deaths: formatNumber(locale, h.confirmedDeaths),
-  date: formatDate(locale, h.asOf),
-});
+const cases = formatNumber(locale, h.confirmedCases);
+const deaths = formatNumber(locale, h.confirmedDeaths);
+const date = formatDate(locale, h.asOf);
+const headline = format(m.outbreak.headline, { country: countryName(locale, h.country) });
+const figures = format(m.outbreak.figures, { cases, deaths, date });
 const relatedText = related.length > 0 ? format(m.outbreak.related, { countries: formatList(locale, related) }) : '';
 
 const source = sourceVersionFor(h.source, locale);
 const more = sourceVersionFor(OUTBREAK.moreInformation, locale);
 const languageTag = (lang: Locale) => format(m.outbreak.languageTag, { language: languageName(locale, lang) });
 const [beforeSource, afterSource] = splitAt(m.outbreak.source, 'source');
+const linkClass = variant === 'card' ? 'font-medium text-white' : 'font-medium text-notice-900';
 ---
-<aside aria-label={m.outbreak.label} class="border-b border-notice-600/40 bg-notice-50 text-notice-900" data-outbreak-banner>
-  <div class="container-page flex gap-3 py-3 text-sm">
-    <svg class="mt-0.5 shrink-0" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-      <circle cx="12" cy="12" r="9" /><path d="M12 8h.01M11 12h1v5h1" />
-    </svg>
-    <div class="space-y-1">
-      <p class="font-bold">{format(m.outbreak.headline, { country: countryName(locale, h.country) })}</p>
-      <p>{[figures, relatedText].filter(Boolean).join(info.sentenceGap)}</p>
-      <p>
-        {beforeSource}<a href={source.url} hreflang={source.lang} class="font-medium text-notice-900">{m.publishers[SOURCES[h.source].publisher]}</a>{source.lang !== locale && `${info.sentenceGap}${languageTag(source.lang)}`}{afterSource}
-        <span aria-hidden="true"> · </span>
-        <a href={more.url} hreflang={more.lang} class="font-medium text-notice-900">{m.outbreak.moreInfo}</a>{more.lang !== locale && `${info.sentenceGap}${languageTag(more.lang)}`}
+{
+  variant === 'card' ? (
+    <aside
+      aria-label={m.outbreak.label}
+      class="rounded-2xl border border-white/20 bg-brand-950/55 p-5 text-white shadow-lg sm:p-6"
+      data-outbreak-banner
+    >
+      <p class="flex items-center gap-2 text-[0.8125rem] font-bold uppercase tracking-wider text-[#fcd58a] rtl:tracking-normal">
+        <span class="size-2 rounded-full bg-[#f2a516]" aria-hidden="true" />
+        {m.outbreak.label}
       </p>
-    </div>
-  </div>
-</aside>
+      <p class="mt-2 text-lg font-bold leading-snug">{headline}</p>
+      <dl class="mt-4 grid grid-cols-2 gap-3">
+        <div class="min-w-0 rounded-xl bg-white/10 p-3 sm:p-4">
+          <dt class="hyphens-auto break-words text-[0.8125rem] leading-snug text-[#d7e6f2] sm:text-sm">{m.outbreak.cases}</dt>
+          <dd class="tabular mt-1 text-3xl font-extrabold tracking-tight sm:text-4xl">{cases}</dd>
+        </div>
+        <div class="min-w-0 rounded-xl bg-white/10 p-3 sm:p-4">
+          <dt class="hyphens-auto break-words text-[0.8125rem] leading-snug text-[#d7e6f2] sm:text-sm">{m.outbreak.deaths}</dt>
+          <dd class="tabular mt-1 text-3xl font-extrabold tracking-tight sm:text-4xl">{deaths}</dd>
+        </div>
+      </dl>
+      <p class="mt-3 text-sm text-[#d7e6f2]">{format(m.outbreak.asOf, { date })}</p>
+      {relatedText && <p class="mt-1 text-sm text-[#d7e6f2]">{relatedText}</p>}
+      <p class="mt-3 text-sm text-[#d7e6f2]">
+        {beforeSource}<a href={source.url} hreflang={source.lang} class={linkClass}>{m.publishers[SOURCES[h.source].publisher]}</a>{source.lang !== locale && `${info.sentenceGap}${languageTag(source.lang)}`}{afterSource}
+        <span aria-hidden="true"> · </span>
+        <a href={more.url} hreflang={more.lang} class={linkClass}>{m.outbreak.moreInfo}</a>{more.lang !== locale && `${info.sentenceGap}${languageTag(more.lang)}`}
+      </p>
+      <p class="mt-4 border-t border-white/15 pt-3">
+        <a href={localePath(locale, '/map/')} class="link-arrow text-white">
+          {m.map.title}
+          <Icon name="arrow-right" size={18} flip />
+        </a>
+      </p>
+    </aside>
+  ) : (
+    <aside aria-label={m.outbreak.label} class="border-b border-notice-100 bg-notice-50 text-notice-900" data-outbreak-banner>
+      <div class="container-page flex gap-3 py-2.5 text-sm">
+        <span class="mt-0.5 inline-flex size-6 flex-none items-center justify-center rounded-full bg-notice-100">
+          <Icon name="activity" size={14} />
+        </span>
+        <div class="space-y-0.5">
+          <p>
+            <strong class="font-bold">{headline}</strong>
+            <span class="lg:ms-1 max-lg:block">{[figures, relatedText].filter(Boolean).join(info.sentenceGap)}</span>
+          </p>
+          <p class="text-[0.8125rem]">
+            {beforeSource}<a href={source.url} hreflang={source.lang} class={linkClass}>{m.publishers[SOURCES[h.source].publisher]}</a>{source.lang !== locale && `${info.sentenceGap}${languageTag(source.lang)}`}{afterSource}
+            <span aria-hidden="true"> · </span>
+            <a href={more.url} hreflang={more.lang} class={linkClass}>{m.outbreak.moreInfo}</a>{more.lang !== locale && `${info.sentenceGap}${languageTag(more.lang)}`}
+          </p>
+        </div>
+      </div>
+    </aside>
+  )
+}

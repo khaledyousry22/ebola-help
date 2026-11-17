@@ -6,6 +6,7 @@
  * - Later visits: the saved choice (cookie) sends the visitor straight to
  *   their language before the page is drawn.
  */
+import Icon from '../components/Icon.astro';
 import NeutralLayout from '../layouts/NeutralLayout.astro';
 import { getMessages, LOCALE_COOKIE, LOCALE_LIST, localePath } from '../i18n';
 
@@ -25,8 +26,7 @@ const en = getMessages('en');
     })();
   </script>
 
-  <h1 class="sr-only">Ebola.help</h1>
-  <ul class="flex flex-wrap gap-x-4 gap-y-1 text-lg font-semibold text-brand-900" aria-label="Choose your language">
+  <ul slot="band" class="mt-5 flex flex-wrap gap-x-5 gap-y-1 text-lg font-semibold text-white sm:text-xl" aria-label="Choose your language">
     {
       LOCALE_LIST.map((l) => (
         <li lang={l.htmlLang} dir={l.dir}>
@@ -36,7 +36,8 @@ const en = getMessages('en');
     }
   </ul>
 
-  <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3" data-picker>
+  <h1 class="sr-only">Ebola.help</h1>
+  <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3" data-picker>
     {
       LOCALE_LIST.map((l) => {
         const m = getMessages(l.code);
@@ -48,16 +49,19 @@ const en = getMessages('en');
               hreflang={l.htmlLang}
               dir={l.dir}
               data-locale={l.code}
-              class="group flex min-h-24 flex-col justify-center rounded-xl border-2 border-brand-200 bg-white px-5 py-4 text-start no-underline shadow-sm transition-colors hover:border-brand-700 hover:bg-brand-50 data-[suggested]:border-teal-700 data-[suggested]:bg-teal-50"
+              class="card group flex min-h-28 items-center gap-4 px-6 py-5 text-start data-[suggested]:border-teal-700 data-[suggested]:bg-teal-50"
             >
-              <span class="text-2xl font-bold text-brand-900">{l.nativeName}</span>
-              <span class="mt-1 text-base text-muted">{m.picker.continue}</span>
-              <span
-                class="mt-2 hidden w-fit rounded-full bg-teal-700 px-3 py-0.5 text-sm font-semibold text-white group-data-[suggested]:inline-block"
-                data-suggested-label
-              >
-                {m.picker.suggested}
+              <span class="flex min-w-0 flex-1 flex-col items-start">
+                <span class="text-2xl font-extrabold text-brand-950">{l.nativeName}</span>
+                <span class="mt-1 text-base text-muted">{m.picker.continue}</span>
+                <span
+                  class="mt-2 hidden w-fit rounded-full bg-teal-700 px-3 py-0.5 text-sm font-semibold text-white group-data-[suggested]:inline-block"
+                  data-suggested-label
+                >
+                  {m.picker.suggested}
+                </span>
               </span>
+              <Icon name="arrow-right" size={22} flip class="text-teal-700" />
             </a>
           </li>
         );

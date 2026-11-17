@@ -1,5 +1,6 @@
 ---
 import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import Icon from '../../../../components/Icon.astro';
 import ContactList from '../../../../components/ContactList.astro';
 import CountryFigures from '../../../../components/CountryFigures.astro';
 import NewsCard from '../../../../components/NewsCard.astro';
@@ -23,38 +24,47 @@ const situation = countrySituation(iso);
 const news = newsForCountry(iso, locale).slice(0, 5);
 ---
 <BaseLayout locale={locale} title={name} description={format(m.country.description, { country: name })}>
-  <div slot="intro" class="prose-page">
-    <Breadcrumbs
-      locale={locale}
-      items={[
-        { label: m.nav.home, href: localePath(locale) },
-        { label: m.help.title, href: localePath(locale, '/help/') },
-        { label: name },
-      ]}
-    />
-    <h1 class="text-2xl font-bold text-brand-900 sm:text-3xl">{name}</h1>
-    <div class="mt-3 space-y-2" data-country-situation>
-      <p><span class="sr-only">{m.country.status}: </span><StatusBadge locale={locale} status={situation.status} /></p>
-      <CountryFigures locale={locale} situation={situation} />
+  <div slot="intro" class="grid items-center gap-6 lg:grid-cols-[minmax(0,1fr)_24rem] lg:gap-12" data-country-situation>
+    <div>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { label: m.nav.home, href: localePath(locale) },
+          { label: m.help.title, href: localePath(locale, '/help/') },
+          { label: name },
+        ]}
+      />
+      <h1 class="page-title">{name}</h1>
+      <p class="mt-4"><span class="sr-only">{m.country.status}: </span><StatusBadge locale={locale} status={situation.status} /></p>
     </div>
-  </div>
-
-  <div class="prose-page">
-    <ContactList locale={locale} iso={iso} />
-  </div>
-
-  <section aria-labelledby="news-title" class="mt-10">
-    <h2 id="news-title" class="text-xl font-bold text-brand-900">{m.country.latestNews}</h2>
     {
-      news.length > 0 ? (
-        <ul class="mt-4 grid gap-3 lg:grid-cols-2">
-          {news.map((item) => <li><NewsCard item={item} locale={locale} compact /></li>)}
-        </ul>
-      ) : (
-        <p class="mt-3 text-muted">{m.country.noNews}</p>
+      (situation.figures || situation.endedOn) && (
+        <div class="card space-y-3 p-4 sm:p-5">
+          <h2 class="eyebrow">{m.country.figures}</h2>
+          <CountryFigures locale={locale} situation={situation} tiles />
+        </div>
       )
     }
-  </section>
+  </div>
 
-  <p class="mt-8"><a href={localePath(locale, '/help/')}>{m.country.allCountries}</a></p>
+  <div class="gap-10 lg:grid lg:grid-cols-[minmax(0,1fr)_24rem]">
+    <div>
+      <ContactList locale={locale} iso={iso} />
+    </div>
+
+    <section aria-labelledby="news-title" class="max-lg:mt-10">
+      <h2 id="news-title" class="section-title">{m.country.latestNews}</h2>
+      {
+        news.length > 0 ? (
+          <ul class="card mt-4 divide-y divide-line">
+            {news.map((item) => <li><NewsCard item={item} locale={locale} compact /></li>)}
+          </ul>
+        ) : (
+          <p class="mt-3 text-muted">{m.country.noNews}</p>
+        )
+      }
+    </section>
+  </div>
+
+  <p class="mt-10"><a href={localePath(locale, '/help/')} class="btn btn-outline">{m.country.allCountries}<Icon name="arrow-right" size={18} flip /></a></p>
 </BaseLayout>

@@ -106,6 +106,21 @@ plain language.
   saved copy or `/<locale>/offline/` without a connection; saves
   `offlinePages()` per language; same-origin only, never ads). Browser tests
   block service workers except `tests/e2e/offline.spec.ts`.
+- Design: shared classes in `src/styles/global.css` (`page-title`,
+  `page-lead`, `section-title`, `eyebrow`, `card`, `card-title`, `btn`
+  `btn-primary|outline|light|ghost`, `icon-chip`, `paper`, `check-list`,
+  `note`). Every page has a heading band (`page-head`; the home page uses the
+  dark `page-head-hero` with the figures card, `AlertBanner variant="card"`).
+  Icons: `<Icon name>` from `src/lib/icons.ts` (Lucide, ISC, copied in; add an
+  icon there), brand logos in `src/lib/brand-icons.ts` (Simple Icons, CC0).
+  Arrows get `flip` so they point the right way in Arabic. Print styles hide
+  menus, banner, footer and `.no-print`. A browser test checks nothing is
+  wider than a 320px phone screen.
+- Structured data for search engines: `<JsonLd>` with helpers in
+  `src/lib/structured-data.ts` (organisation and website on home pages,
+  `MedicalWebPage` on guides, `Article` on updates, breadcrumbs from
+  `<Breadcrumbs>`). Share links (`<ShareLinks>`: WhatsApp, Facebook, X) are
+  plain links on guides and updates: nothing is loaded from those networks.
 - Use logical CSS (`ms-`, `pe-`, `start-`, `end-`, `border-s`), never
   `left`/`right`, so Arabic (RTL) mirrors automatically. Phone numbers and
   e-mail addresses get the `ltr-data` class.

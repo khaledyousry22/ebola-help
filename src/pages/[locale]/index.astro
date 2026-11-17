@@ -1,10 +1,16 @@
 ---
 import AdSlot from '../../components/AdSlot.astro';
+import AlertBanner from '../../components/AlertBanner.astro';
+import Icon from '../../components/Icon.astro';
+import JsonLd from '../../components/JsonLd.astro';
 import LatestUpdate from '../../components/LatestUpdate.astro';
 import NewsCard from '../../components/NewsCard.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { mediaCoverage, officialUpdates } from '../../data/news';
-import { getMessages, LOCALE_CODES, localePath, type Locale } from '../../i18n';
+import { SITE_URL } from '../../config';
+import { getMessages, LOCALE_CODES, LOCALES, localePath, type Locale } from '../../i18n';
+import type { IconName } from '../../lib/icons';
+import { organization, ORGANIZATION_ID } from '../../lib/structured-data';
 
 export function getStaticPaths() {
   return LOCALE_CODES.map((locale) => ({ params: { locale } }));
@@ -12,61 +18,91 @@ export function getStaticPaths() {
 
 const locale = Astro.params.locale as Locale;
 const m = getMessages(locale);
-// Sections get a link as soon as their pages exist.
-const latestOfficial = officialUpdates(locale).slice(0, 3);
-const latestMedia = mediaCoverage(locale).slice(0, 3);
-const sections = [
-  { ...m.home.sections.health, href: localePath(locale, '/health/') },
-  { ...m.home.sections.updates, href: localePath(locale, '/updates/') },
-  { ...m.home.sections.news, href: localePath(locale, '/news/') },
-  { ...m.home.sections.help, href: localePath(locale, '/help/') },
-  { ...m.home.sections.map, href: localePath(locale, '/map/') },
+const latestOfficial = officialUpdates(locale).slice(0, 4);
+const latestMedia = mediaCoverage(locale).slice(0, 4);
+const sections: { title: string; text: string; href: string; icon: IconName }[] = [
+  { ...m.home.sections.help, href: localePath(locale, '/help/'), icon: 'phone' },
+  { ...m.home.sections.health, href: localePath(locale, '/health/'), icon: 'heart-pulse' },
+  { ...m.home.sections.map, href: localePath(locale, '/map/'), icon: 'map' },
+  { ...m.home.sections.updates, href: localePath(locale, '/updates/'), icon: 'clipboard-list' },
+  { ...m.home.sections.news, href: localePath(locale, '/news/'), icon: 'newspaper' },
+  { title: m.meta.aboutTitle, text: m.meta.aboutDescription, href: localePath(locale, '/about/'), icon: 'info' },
 ];
 ---
-<BaseLayout locale={locale} description={m.meta.homeDescription} fullEmergency>
-  <div class="prose-page" slot="intro">
-    <h1 class="text-2xl font-bold leading-tight text-brand-900 sm:text-3xl">{m.home.heading}</h1>
-    <p class="mt-3 text-lg text-muted">{m.home.intro}</p>
+<BaseLayout locale={locale} description={m.meta.homeDescription} fullEmergency hero>
+  <div slot="intro" class="grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_26rem] lg:gap-14">
+    <div>
+      <h1 class="page-title">{m.home.heading}</h1>
+      <p class="page-lead max-w-[38rem]">{m.home.intro}</p>
+      <ul class="mt-6 flex flex-wrap gap-3">
+        <li>
+          <a href={localePath(locale, '/help/')} class="btn btn-light"><Icon name="phone" size={18} class="text-teal-700" />{m.nav.help}</a>
+        </li>
+        <li><a href={localePath(locale, '/health/')} class="btn btn-ghost">{m.nav.health}</a></li>
+        <li><a href={localePath(locale, '/updates/')} class="btn btn-ghost">{m.nav.updates}</a></li>
+      </ul>
+    </div>
+    <AlertBanner locale={locale} variant="card" />
   </div>
+
+  <section aria-labelledby="sections-title">
+    <h2 id="sections-title" class="section-title">{m.home.sectionsTitle}</h2>
+    <ul class="mt-4 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
+      {
+        sections.map((section) => (
+          <li>
+            <a href={section.href} class="card flex h-full gap-3 p-4 max-sm:flex-col sm:gap-4 sm:p-5">
+              <span class="icon-chip"><Icon name={section.icon} size={22} /></span>
+              <span class="min-w-0">
+                <span class="card-title block leading-snug sm:text-lg">{section.title}</span>
+                <span class="mt-1.5 block text-[0.9375rem] text-muted max-sm:hidden">{section.text}</span>
+              </span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
 
   <LatestUpdate locale={locale} />
 
-  <div class="grid gap-8 lg:grid-cols-2" data-home-news>
+  <div class="mt-12 grid gap-x-8 gap-y-10 lg:grid-cols-2" data-home-news>
     <section aria-labelledby="latest-official-title">
-      <h2 id="latest-official-title" class="text-xl font-bold text-brand-900">{m.news.latestOfficial}</h2>
-      <ul class="mt-4 space-y-3">
+      <h2 id="latest-official-title" class="section-title">{m.news.latestOfficial}</h2>
+      <ul class="card mt-4 divide-y divide-line">
         {latestOfficial.map((item) => <li><NewsCard item={item} locale={locale} compact /></li>)}
       </ul>
     </section>
     {
       latestMedia.length > 0 && (
         <section aria-labelledby="latest-news-title">
-          <h2 id="latest-news-title" class="text-xl font-bold text-brand-900">{m.news.latestNews}</h2>
-          <ul class="mt-4 space-y-3">
+          <h2 id="latest-news-title" class="section-title">{m.news.latestNews}</h2>
+          <ul class="card mt-4 divide-y divide-line">
             {latestMedia.map((item) => <li><NewsCard item={item} locale={locale} compact /></li>)}
           </ul>
         </section>
       )
     }
   </div>
-  <p class="mt-4">
-    <a href={localePath(locale, '/news/')} class="font-semibold">{m.news.allNews}</a>
+  <p class="mt-5">
+    <a href={localePath(locale, '/news/')} class="btn btn-outline">{m.news.allNews}<Icon name="arrow-right" size={18} flip /></a>
   </p>
 
   <AdSlot locale={locale} />
-  <section class="mt-10" aria-labelledby="sections-title">
-    <h2 id="sections-title" class="text-xl font-bold text-brand-900">{m.home.sectionsTitle}</h2>
-    <ul class="mt-4 grid gap-4 sm:grid-cols-2">
-      {
-        sections.map((section) => (
-          <li class="rounded-lg border border-line bg-white p-5">
-            <h3 class="font-semibold text-brand-800">
-              {section.href ? <a href={section.href}>{section.title}</a> : section.title}
-            </h3>
-            <p class="mt-1 text-muted">{section.text}</p>
-          </li>
-        ))
-      }
-    </ul>
-  </section>
+  <JsonLd
+    data={{
+      '@graph': [
+        organization,
+        {
+          '@type': 'WebSite',
+          '@id': `${SITE_URL}/#website`,
+          url: `${SITE_URL}/`,
+          name: m.meta.siteName,
+          description: m.meta.homeDescription,
+          inLanguage: LOCALES[locale].htmlLang,
+          publisher: { '@id': ORGANIZATION_ID },
+        },
+      ],
+    }}
+  />
 </BaseLayout>

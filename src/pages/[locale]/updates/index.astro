@@ -1,5 +1,6 @@
 ---
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import Icon from '../../../components/Icon.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { format, formatDate, getMessages, LOCALE_CODES, localePath, type Locale } from '../../../i18n';
 import { getUpdates, isoDay, updatePath } from '../../../lib/updates';
@@ -15,23 +16,26 @@ const updates = await getUpdates(locale);
 <BaseLayout locale={locale} title={m.updates.title} description={m.updates.description}>
   <div slot="intro" class="prose-page">
     <Breadcrumbs locale={locale} items={[{ label: m.nav.home, href: localePath(locale) }, { label: m.updates.title }]} />
-    <h1 class="text-2xl font-bold text-brand-900 sm:text-3xl">{m.updates.title}</h1>
-    <p class="mt-3 text-lg text-muted">{m.updates.intro}</p>
+    <h1 class="page-title">{m.updates.title}</h1>
+    <p class="page-lead">{m.updates.intro}</p>
   </div>
 
-  <ol class="space-y-4" data-updates-list>
+  <ol class="max-w-[48rem] space-y-4" data-updates-list>
     {
       updates.map((entry) => (
-        <li class="rounded-lg border border-line p-5">
-          <h2 class="text-xl font-bold text-brand-900">
-            <a href={localePath(locale, updatePath(entry))}>{entry.data.title}</a>
-          </h2>
-          <p class="mt-1 text-sm text-muted">
-            <time datetime={isoDay(entry.data.date)}>{format(m.updates.published, { date: formatDate(locale, isoDay(entry.data.date)) })}</time>
-            {' · '}
-            {format(m.updates.figuresAsOf, { date: formatDate(locale, isoDay(entry.data.figuresAsOf)) })}
-          </p>
-          <p class="mt-2">{entry.data.description}</p>
+        <li class="card flex gap-4 p-5 sm:p-6">
+          <span class="icon-chip max-sm:hidden"><Icon name="clipboard-list" size={22} /></span>
+          <div class="min-w-0">
+            <p class="text-sm text-muted">
+              <time datetime={isoDay(entry.data.date)}>{format(m.updates.published, { date: formatDate(locale, isoDay(entry.data.date)) })}</time>
+              {' · '}
+              {format(m.updates.figuresAsOf, { date: formatDate(locale, isoDay(entry.data.figuresAsOf)) })}
+            </p>
+            <h2 class="mt-1 text-xl font-bold leading-snug">
+              <a href={localePath(locale, updatePath(entry))} class="text-brand-800">{entry.data.title}</a>
+            </h2>
+            <p class="mt-2">{entry.data.description}</p>
+          </div>
         </li>
       ))
     }

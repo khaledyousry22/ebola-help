@@ -19,9 +19,11 @@ interface Props {
   fullEmergency?: boolean;
   /** Keep the page out of search engines (offline page). */
   noindex?: boolean;
+  /** Home page: dark heading band. The page shows the outbreak figures itself, as a card. */
+  hero?: boolean;
 }
 
-const { locale, title, description, fullEmergency = false, noindex = false } = Astro.props;
+const { locale, title, description, fullEmergency = false, noindex = false, hero = false } = Astro.props;
 const m = getMessages(locale);
 const info = LOCALES[locale];
 const rest = stripLocale(Astro.url.pathname);
@@ -59,7 +61,7 @@ const canonical = new URL(localePath(locale, rest), SITE_URL).href;
         <meta property="og:locale:alternate" content={l.ogLocale} />
       ))
     }
-    <meta name="theme-color" content="#155a8a" />
+    <meta name="theme-color" content="#0a2740" />
     {ADS.enabled && <meta name="google-adsense-account" content={ADS.client} />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
@@ -70,23 +72,27 @@ const canonical = new URL(localePath(locale, rest), SITE_URL).href;
       )
     }
   </head>
-  <body class="flex min-h-screen flex-col bg-white">
+  <body class="flex min-h-screen flex-col">
     <a
       href="#main"
-      class="sr-only focus:not-sr-only focus:absolute focus:start-2 focus:top-2 focus:z-50 focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:shadow"
+      class="sr-only focus:not-sr-only focus:absolute focus:start-2 focus:top-2 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:shadow-lg"
     >
       {m.a11y.skipToContent}
     </a>
     <SiteHeader locale={locale} />
-    <AlertBanner locale={locale} />
-    <main id="main" tabindex="-1" class="container-page flex-1 py-6 focus:outline-none sm:py-8">
+    {!hero && <AlertBanner locale={locale} />}
+    <main id="main" tabindex="-1" class="flex-1 focus:outline-none">
       <!-- Page title first, then the emergency box, then the page content. -->
-      <slot name="intro" />
-      <div class="mt-6">
-        <EmergencyBox locale={locale} full={fullEmergency} />
+      <div class:list={['page-head', hero && 'page-head-hero']}>
+        <div class:list={['container-page', hero ? 'py-10 sm:py-14' : 'py-7 sm:py-9']}>
+          <slot name="intro" />
+        </div>
       </div>
-      <div class="mt-8">
-        <slot />
+      <div class="container-page py-6 sm:py-8">
+        <EmergencyBox locale={locale} full={fullEmergency} />
+        <div class="mt-8 sm:mt-10">
+          <slot />
+        </div>
       </div>
     </main>
     <SiteFooter locale={locale} />

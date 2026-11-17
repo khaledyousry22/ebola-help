@@ -47,23 +47,24 @@ const { title, description, alternates = false, noindex = false } = Astro.props;
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content={LOCALE_LIST.map((l) => getMessages(l.code).meta.tagline).join(' · ')} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="theme-color" content="#155a8a" />
+    <meta name="theme-color" content="#0a2740" />
     {ADS.enabled && <meta name="google-adsense-account" content={ADS.client} />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <slot name="head" />
   </head>
-  <body class="flex min-h-screen flex-col bg-surface">
-    <header class="border-b border-line bg-white">
-      <div class="container-page py-4">
-        <Logo size={36} />
+  <body class="flex min-h-screen flex-col">
+    <header class="page-head page-head-hero">
+      <div class="container-page py-6 sm:py-8">
+        <Logo size={40} light />
+        <slot name="band" />
       </div>
     </header>
-    <main id="main" class="container-page flex-1 py-8">
+    <main id="main" class="container-page flex-1 py-8 sm:py-10">
       <slot />
     </main>
-    <footer class="border-t border-line bg-white py-6 text-sm text-muted">
+    <footer class="site-footer mt-10 bg-brand-950 py-8 text-sm text-[#c9d9e6]">
       <ul class="container-page space-y-2" data-disclaimer>
         {
           LOCALE_LIST.map((l) => (
@@ -73,11 +74,11 @@ const { title, description, alternates = false, noindex = false } = Astro.props;
           ))
         }
       </ul>
-      <ul class="container-page mt-4 flex flex-wrap gap-x-5 gap-y-2" data-privacy-links>
+      <ul class="container-page mt-5 flex flex-wrap gap-x-5 gap-y-1 border-t border-white/15 pt-4" data-privacy-links>
         {
           LOCALE_LIST.map((l) => (
             <li lang={l.htmlLang} dir={l.dir}>
-              <a href={localePath(l.code, '/privacy/')} hreflang={l.htmlLang}>{getMessages(l.code).footer.privacy}</a>
+              <a href={localePath(l.code, '/privacy/')} hreflang={l.htmlLang} class="footer-link">{getMessages(l.code).footer.privacy}</a>
             </li>
           ))
         }

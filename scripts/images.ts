@@ -20,23 +20,25 @@ const arabicFont = (weight: number) =>
   readFileSync(`public/fonts/noto-sans-arabic-arabic-${weight}-normal.woff2`).toString('base64');
 
 const MARK = `<svg width="120" height="120" viewBox="0 0 32 32" aria-hidden="true">
-  <circle cx="16" cy="16" r="16" fill="#0c665f"/><circle cx="16" cy="9.5" r="2.6" fill="#fff"/>
+  <circle cx="16" cy="16" r="16" fill="#0f7d73"/><circle cx="16" cy="9.5" r="2.6" fill="#fff"/>
   <rect x="13.4" y="13.6" width="5.2" height="11.6" rx="2.6" fill="#fff"/></svg>`;
 
 const page = (body: string) => `<!doctype html><html><head><meta charset="utf-8"><style>
   @font-face { font-family: "Noto Sans Arabic"; font-weight: 400; src: url(data:font/woff2;base64,${arabicFont(400)}) format("woff2"); }
   @font-face { font-family: "Noto Sans Arabic"; font-weight: 700; src: url(data:font/woff2;base64,${arabicFont(700)}) format("woff2"); }
   * { box-sizing: border-box; margin: 0; }
-  body { width: 1200px; height: 630px; background: #f4f8fb; color: #1b2733; font-family: Inter, "Noto Sans Arabic", "WenQuanYi Zen Hei", sans-serif;
-    display: flex; flex-direction: column; justify-content: center; padding: 72px 88px; border-bottom: 18px solid #0c665f; }
+  /* Same dark band as the home page (.page-head-hero in src/styles/global.css). */
+  body { width: 1200px; height: 630px; color: #fff; font-family: Inter, "Noto Sans Arabic", "WenQuanYi Zen Hei", sans-serif;
+    background: radial-gradient(900px 500px at 88% -10%, rgb(15 125 115 / 0.6), transparent 60%), linear-gradient(135deg, #0a2740 0%, #0d3a5c 55%, #0c4f5c 100%);
+    display: flex; flex-direction: column; justify-content: center; padding: 72px 88px; border-bottom: 14px solid #0f7d73; }
   .brand { display: flex; align-items: center; gap: 28px; direction: ltr; }
-  .name { font-family: Inter, sans-serif; font-size: 84px; font-weight: 700; letter-spacing: -0.02em; color: #0f3a59; }
-  .name span { color: #0c665f; }
-  .tagline { margin-top: 48px; font-size: 54px; font-weight: 600; line-height: 1.25; color: #0f3a59; }
-  .sections { margin-top: 28px; font-size: 34px; color: #4a5868; }
+  .name { font-family: Inter, sans-serif; font-size: 84px; font-weight: 800; letter-spacing: -0.02em; color: #fff; }
+  .name span { color: #9adcd1; }
+  .tagline { margin-top: 48px; font-size: 56px; font-weight: 700; line-height: 1.25; color: #fff; }
+  .sections { margin-top: 28px; font-size: 34px; color: #d7e6f2; }
   [lang="ar"] { font-family: "Noto Sans Arabic", sans-serif; }
   [lang^="zh"] { font-family: "WenQuanYi Zen Hei", sans-serif; }
-  .grid { margin-top: 44px; display: grid; grid-template-columns: 1fr 1fr; gap: 18px 48px; font-size: 30px; font-weight: 600; color: #0f3a59; }
+  .grid { margin-top: 44px; display: grid; grid-template-columns: 1fr 1fr; gap: 18px 48px; font-size: 30px; font-weight: 600; color: #fff; }
 </style></head><body>${body}</body></html>`;
 
 const brand = `<div class="brand">${MARK}<div class="name">Ebola<span>.help</span></div></div>`;

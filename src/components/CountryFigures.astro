@@ -8,8 +8,10 @@ import { languageName } from '../i18n/countries';
 interface Props {
   locale: Locale;
   situation: CountrySituation;
+  /** Large figures in tiles (country pages) instead of one sentence (map, table). */
+  tiles?: boolean;
 }
-const { locale, situation } = Astro.props;
+const { locale, situation, tiles = false } = Astro.props;
 const m = getMessages(locale);
 const figures = situation.figures;
 const source = figures ? sourceVersionFor(figures.source, locale) : undefined;
@@ -19,7 +21,29 @@ const [beforeSource, afterSource] = splitAt(m.outbreak.source, 'source');
   situation.endedOn && <p>{format(m.country.endedOn, { date: formatDate(locale, situation.endedOn) })}</p>
 }
 {
-  figures && source && (
+  figures && source && tiles && (
+    <>
+      <dl class="grid grid-cols-2 gap-3">
+        <div class="min-w-0 rounded-xl bg-surface p-3 sm:p-4">
+          <dt class="hyphens-auto break-words text-[0.8125rem] leading-snug text-muted sm:text-sm">{m.outbreak.cases}</dt>
+          <dd class="tabular mt-1 text-3xl font-extrabold tracking-tight text-brand-950">{formatNumber(locale, figures.confirmedCases)}</dd>
+        </div>
+        <div class="min-w-0 rounded-xl bg-surface p-3 sm:p-4">
+          <dt class="hyphens-auto break-words text-[0.8125rem] leading-snug text-muted sm:text-sm">{m.outbreak.deaths}</dt>
+          <dd class="tabular mt-1 text-3xl font-extrabold tracking-tight text-brand-950">{formatNumber(locale, figures.confirmedDeaths)}</dd>
+        </div>
+      </dl>
+      <p class="text-sm text-muted" data-country-figures>
+        {format(m.outbreak.asOf, { date: formatDate(locale, figures.asOf) })}
+        <span aria-hidden="true"> · </span>
+        {beforeSource}<a href={source.url} hreflang={source.lang}>{m.publishers[SOURCES[figures.source].publisher]}</a>{afterSource}
+        {source.lang !== locale && format(m.outbreak.languageTag, { language: languageName(locale, source.lang) })}
+      </p>
+    </>
+  )
+}
+{
+  figures && source && !tiles && (
     <p data-country-figures>
       {format(m.country.figuresLine, {
         cases: formatNumber(locale, figures.confirmedCases),

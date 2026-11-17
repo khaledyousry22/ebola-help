@@ -2,6 +2,7 @@
 import { HELP_COUNTRIES, phoneHref, verifiedPhones } from '../data/help';
 import { format, formatDate, getMessages, LOCALES, localePath, type Locale } from '../i18n';
 import { countryName } from '../i18n/countries';
+import Icon from './Icon.astro';
 
 interface Props {
   locale: Locale;
@@ -24,59 +25,57 @@ const countries = HELP_COUNTRIES.map((iso) => ({
 ---
 <section
   aria-labelledby="emergency-title"
-  class="rounded-lg border border-teal-100 border-s-4 border-s-teal-700 bg-teal-50 p-4 sm:p-5"
+  class="card relative overflow-hidden border-teal-200 p-4 ps-5 sm:p-6 sm:ps-7"
   data-emergency-box
 >
-  <h2 id="emergency-title" class="text-lg font-bold text-teal-800">
-    <svg class="me-2 inline-block align-[-3px]" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
-    </svg>
-    {m.emergency.title}
-  </h2>
-  {
-    full ? (
-      <p class="mt-2 font-medium text-ink">{m.emergency.action}</p>
-    ) : (
-      <p class="mt-1 font-medium text-ink">{m.emergency.short}</p>
-    )
-  }
-
-  {
-    countries.length > 0 && (
-      <div class="mt-3" data-emergency-picker hidden>
-        <label for="emergency-country" class="me-2 text-sm font-semibold text-teal-800">{m.emergency.yourCountry}</label>
-        <select id="emergency-country" class="min-h-11 rounded-md border border-teal-700 bg-white px-2">
-          {/* Nothing is preselected: a number from another country would not work. */}
-          <option value="">{m.emergency.chooseCountry}</option>
-          {countries.map((c) => <option value={c.iso}>{c.name}</option>)}
-        </select>
-        {countries.map((c) => (
-          <ul class="mt-2 space-y-2" data-emergency-phones={c.iso} hidden>
-            {c.phones.map((p) => (
-              <li>
-                {format(m.emergency.numberLabel, { purpose: m.help.purpose[p.purpose] })}{LOCALES[locale].sentenceGap}<a href={phoneHref(p)} class="ltr-data text-lg font-bold text-brand-900">{p.display ?? p.number}</a>
-                <span class="block text-xs text-muted">
-                  {format(m.help.lastVerified, { date: formatDate(locale, p.verifiedAt!) })} · <a href={p.sourceUrl}>{m.help.source}</a>
-                </span>
-              </li>
-            ))}
-          </ul>
-        ))}
+  <span class="absolute inset-y-0 start-0 w-1.5 bg-teal-700" aria-hidden="true"></span>
+  <div class="gap-x-8 gap-y-4 lg:grid lg:grid-cols-[minmax(0,1fr)_21rem] lg:items-start">
+    <div class="flex gap-4">
+      <span class="icon-chip max-sm:hidden"><Icon name="phone" size={22} /></span>
+      <div class="min-w-0">
+        <h2 id="emergency-title" class="text-lg font-bold leading-snug text-brand-950 sm:text-xl">{m.emergency.title}</h2>
+        <p class="mt-1.5 text-ink">{full ? m.emergency.action : m.emergency.short}</p>
+        <details class="mt-1">
+          <summary class="min-h-11 py-2.5 font-semibold text-teal-800">{m.emergency.more}</summary>
+          {!full && <p class="mt-1 text-ink">{m.emergency.action}</p>}
+          <p class="mt-2 text-ink">{m.emergency.symptoms}</p>
+          <p class="mt-2 text-ink">{m.emergency.care}</p>
+          {countries.length === 0 && <p class="mt-2 text-sm text-muted">{m.emergency.hotlinePending}</p>}
+        </details>
       </div>
-    )
-  }
+    </div>
 
-  <p class="mt-2">
-    <a href={localePath(locale, '/help/')} class="font-semibold text-teal-800">{m.emergency.findHelpline}</a>
-  </p>
-
-  <details class="mt-2">
-    <summary class="min-h-11 py-2 font-semibold text-teal-800">{m.emergency.more}</summary>
-    {!full && <p class="mt-1 text-ink">{m.emergency.action}</p>}
-    <p class="mt-2 text-ink">{m.emergency.symptoms}</p>
-    <p class="mt-2 text-ink">{m.emergency.care}</p>
-    {countries.length === 0 && <p class="mt-2 text-sm text-muted">{m.emergency.hotlinePending}</p>}
-  </details>
+    <div class="max-lg:mt-2">
+      {
+        countries.length > 0 && (
+          <div class="mb-3" data-emergency-picker hidden>
+            <label for="emergency-country" class="block text-sm font-semibold text-brand-950">{m.emergency.yourCountry}</label>
+            <select id="emergency-country" class="mt-1 min-h-12 w-full rounded-[0.625rem] border border-teal-700 bg-white px-3 text-base font-medium text-ink">
+              {/* Nothing is preselected: a number from another country would not work. */}
+              <option value="">{m.emergency.chooseCountry}</option>
+              {countries.map((c) => <option value={c.iso}>{c.name}</option>)}
+            </select>
+            {countries.map((c) => (
+              <ul class="mt-3 space-y-2" data-emergency-phones={c.iso} hidden>
+                {c.phones.map((p) => (
+                  <li class="rounded-[0.625rem] bg-teal-50 px-3 py-2">
+                    <span class="text-sm font-semibold text-teal-800">{format(m.emergency.numberLabel, { purpose: m.help.purpose[p.purpose] })}</span>{LOCALES[locale].sentenceGap}<a href={phoneHref(p)} class="ltr-data text-xl font-extrabold text-brand-950">{p.display ?? p.number}</a>
+                    <span class="block text-xs text-muted">
+                      {format(m.help.lastVerified, { date: formatDate(locale, p.verifiedAt!) })} · <a href={p.sourceUrl}>{m.help.source}</a>
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            ))}
+          </div>
+        )
+      }
+      <a href={localePath(locale, '/help/')} class="btn btn-primary w-full text-center">
+        {m.emergency.findHelpline}
+        <Icon name="arrow-right" size={18} flip />
+      </a>
+    </div>
+  </div>
 </section>
 
 {

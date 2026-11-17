@@ -9,6 +9,7 @@ import type { NewsItem } from '../data/news';
 import { isPinned } from '../data/news';
 import { format, formatDate, getMessages, LOCALES, type Locale } from '../i18n';
 import { countryName, formatList, languageName } from '../i18n/countries';
+import Icon from './Icon.astro';
 
 interface Props {
   item: NewsItem;
@@ -23,29 +24,36 @@ const itemInfo = LOCALES[item.lang];
 const foreign = item.lang !== locale;
 const Heading = headingLevel;
 ---
-<article class="rounded-lg border border-line bg-white p-4 sm:p-5" data-news-item data-official={item.official ? '' : undefined} data-lang={item.lang}>
-  <p class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
-    {item.official && <span class="rounded bg-teal-700 px-2 py-0.5 text-xs font-semibold text-white">{m.news.officialBadge}</span>}
+<article class="p-4 sm:p-5" data-news-item data-official={item.official ? '' : undefined} data-lang={item.lang}>
+  <p class="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-sm text-muted">
+    {
+      item.official && (
+        <span class="inline-flex items-center gap-1 rounded-full bg-teal-700 py-0.5 pe-2.5 ps-1.5 text-xs font-semibold text-white">
+          <Icon name="badge-check" size={14} />
+          {m.news.officialBadge}
+        </span>
+      )
+    }
     {isPinned(item) && <span aria-hidden="true">📌</span>}
-    <span class="font-medium text-ink" lang={itemInfo.htmlLang} dir="auto">{item.sourceName}</span>
+    <span class="font-semibold text-ink" lang={itemInfo.htmlLang} dir="auto">{item.sourceName}</span>
     <time datetime={item.publishedAt}>{formatDate(locale, item.publishedAt.slice(0, 10))}</time>
     {
       foreign && (
-        <span class="rounded border border-brand-200 bg-brand-50 px-2 py-0.5 text-xs text-brand-800" data-original-language>
+        <span class="rounded-full border border-brand-200 bg-brand-50 px-2.5 py-0.5 text-xs text-brand-800" data-original-language>
           {format(m.news.originalLanguage, { language: languageName(locale, item.lang) })}
         </span>
       )
     }
   </p>
-  <Heading class="mt-2 text-base font-semibold leading-snug sm:text-lg" lang={itemInfo.htmlLang} dir={itemInfo.dir}>
-    <a href={item.url} rel="noopener noreferrer external" class="text-brand-800">{item.title}</a>
+  <Heading class="mt-2 text-[1.0625rem] font-semibold leading-snug" lang={itemInfo.htmlLang} dir={itemInfo.dir}>
+    <a href={item.url} rel="noopener noreferrer external" class="text-brand-800 decoration-brand-200 hover:decoration-teal-600">{item.title}</a>
   </Heading>
   {!compact && NEWS_EXCERPTS && item.excerpt && <p class="mt-1 text-muted" lang={itemInfo.htmlLang} dir={itemInfo.dir}>{item.excerpt}</p>}
   {
     !compact && item.countries.length > 0 && (
-      <p class="mt-2 text-sm text-muted">
-        <span class="sr-only">{m.news.countries}: </span>
-        {formatList(locale, item.countries.map((c) => countryName(locale, c)))}
+      <p class="mt-2 flex items-center gap-1.5 text-sm text-muted">
+        <Icon name="map-pin" size={14} />
+        <span><span class="sr-only">{m.news.countries}: </span>{formatList(locale, item.countries.map((c) => countryName(locale, c)))}</span>
       </p>
     )
   }

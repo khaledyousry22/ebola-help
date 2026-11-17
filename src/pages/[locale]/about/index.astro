@@ -31,10 +31,10 @@ const privacyLinks = {
 };
 ---
 <BaseLayout locale={locale} title={m.meta.aboutTitle} description={m.meta.aboutDescription}>
-  <h1 slot="intro" class="text-2xl font-bold text-brand-900 sm:text-3xl">{a.heading}</h1>
-  <article class="prose-page">
+  <h1 slot="intro" class="page-title">{a.heading}</h1>
+  <article class="paper prose-page">
 
-    <section class="rounded-lg border border-notice-600 bg-notice-50 p-4 text-notice-900" data-independence>
+    <section class="rounded-xl border border-notice-600/50 bg-notice-50 p-5 text-notice-900" data-independence>
       <h2 class="!mt-0 !text-notice-900">{a.independenceTitle}</h2>
       <p class="!mb-0">{a.independence}</p>
     </section>

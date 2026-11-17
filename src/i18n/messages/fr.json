@@ -32,7 +32,10 @@
     "related": "Des cas liés ont aussi été confirmés dans les pays suivants : {countries}.",
     "source": "Source : {source}",
     "languageTag": "({language})",
-    "moreInfo": "Dernière mise à jour de l'OMS"
+    "moreInfo": "Dernière mise à jour de l'OMS",
+    "cases": "Cas confirmés",
+    "deaths": "Décès",
+    "asOf": "Chiffres officiels au {date}"
   },
   "picker": {
     "choose": "Choisissez votre langue",
@@ -264,5 +267,8 @@
     "tip": "Bon à savoir : {text}",
     "readMore": "En savoir plus : {title}, {url}",
     "mapMore": "Carte et numéros d'aide : {url}"
+  },
+  "share": {
+    "title": "Partager cette page"
   }
 }

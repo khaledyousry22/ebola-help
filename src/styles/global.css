@@ -1,29 +1,33 @@
 @import "tailwindcss";
 
 /*
- * Design tokens. Calm institutional palette: blue for structure, teal for
+ * Design tokens. Calm palette: deep navy for structure, teal for actions and
  * accents, amber only for notices. Every text colour meets WCAG AA (4.5:1)
- * on the backgrounds it is used with.
+ * on the backgrounds it is used with (browser tests check every page).
  */
 @theme {
-  --color-brand-50: #eef6fb;
-  --color-brand-100: #d5e9f5;
-  --color-brand-200: #a9d1ea;
+  --color-brand-50: #eef5fb;
+  --color-brand-100: #d9e8f5;
+  --color-brand-200: #b3d0ea;
   --color-brand-600: #1f6fa8;
   --color-brand-700: #155a8a;
   --color-brand-800: #124a71;
-  --color-brand-900: #0f3a59;
+  --color-brand-900: #0e3553;
+  --color-brand-950: #0a2740;
 
   --color-teal-50: #ebf8f5;
   --color-teal-100: #cdeee8;
+  --color-teal-200: #9adcd1;
   --color-teal-600: #0f7d73;
   --color-teal-700: #0c665f;
   --color-teal-800: #0b524d;
 
-  --color-ink: #1b2733;
+  --color-ink: #0f1f2e;
   --color-muted: #4a5868;
-  --color-line: #d9e2ea;
-  --color-surface: #f4f8fb;
+  --color-line: #dbe3ea;
+  --color-surface: #f3f6f9;
+  /* Page background: white cards sit on it. */
+  --color-canvas: #f5f7fa;
 
   /* Outbreak situation, used on the map and in badges. Calm, never red. */
   --color-status-active: #c2410c;
@@ -32,9 +36,13 @@
   --color-status-none: #d9e1e8;
   --color-status-land: #eef1f4;
 
-  --color-notice-50: #fff6e5;
+  --color-notice-50: #fff7e8;
+  --color-notice-100: #fdecc8;
   --color-notice-600: #c47a12;
   --color-notice-900: #6b3f00;
+
+  --shadow-card: 0 1px 2px rgb(15 31 46 / 0.04), 0 1px 3px rgb(15 31 46 / 0.06);
+  --shadow-lift: 0 2px 4px rgb(15 31 46 / 0.05), 0 8px 24px rgb(15 31 46 / 0.1);
 
   /* System fonts load instantly and cost no data. */
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans",
@@ -72,9 +80,10 @@
   html {
     font-family: var(--font-sans);
     color: var(--color-ink);
-    background-color: #fff;
+    background-color: var(--color-canvas);
     -webkit-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
   }
 
   html:lang(zh) {
@@ -85,34 +94,43 @@
     font-family: var(--font-ar);
   }
 
+  body {
+    line-height: 1.6;
+  }
+
   /* Arabic script needs more line height to stay readable. */
   html:lang(ar) body {
     line-height: 1.8;
-  }
-
-  body {
-    line-height: 1.6;
   }
 
   /* Links are underlined so they never rely on colour alone (WCAG 1.4.1). */
   a {
     color: var(--color-brand-700);
     text-decoration: underline;
+    text-decoration-thickness: 1px;
     text-underline-offset: 0.2em;
   }
 
   a:hover {
     color: var(--color-brand-900);
+    text-decoration-thickness: 2px;
   }
 
   :focus-visible {
     outline: 3px solid var(--color-brand-600);
     outline-offset: 2px;
-    border-radius: 2px;
+    border-radius: 4px;
   }
 
   summary {
     cursor: pointer;
+  }
+
+  /* Figures line up in tables and tiles. */
+  time,
+  table,
+  .tabular {
+    font-variant-numeric: tabular-nums;
   }
 
   /* Phone numbers and e-mail addresses always read left to right, even on Arabic pages. */
@@ -136,34 +154,308 @@
     }
   }
 
+  /* ---- Headings ---- */
+  .page-title {
+    font-size: clamp(1.75rem, 1.35rem + 1.8vw, 2.5rem);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--color-brand-950);
+    text-wrap: balance;
+  }
+
+  .page-lead {
+    margin-top: 0.75rem;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--color-muted);
+    text-wrap: pretty;
+  }
+
+  .section-title {
+    font-size: 1.375rem;
+    font-weight: 750;
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+    color: var(--color-brand-950);
+  }
+
+  .eyebrow {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-teal-700);
+  }
+
+  /* Tight letter spacing breaks joined Arabic letters and crowds Chinese. */
+  :lang(ar) :is(.page-title, .section-title, .eyebrow),
+  :lang(zh) :is(.page-title, .section-title, .eyebrow) {
+    letter-spacing: 0;
+  }
+
+  :lang(ar) .page-title,
+  :lang(zh) .page-title {
+    line-height: 1.4;
+  }
+
+  /* ---- Page heading band, under the header on every page ---- */
+  .page-head {
+    border-bottom: 1px solid var(--color-line);
+    background: linear-gradient(180deg, #fff 0%, var(--color-brand-50) 160%);
+  }
+
+  /* Home page: dark band with the official figures. */
+  .page-head-hero {
+    border-bottom: 0;
+    color: #fff;
+    background:
+      radial-gradient(60rem 30rem at 85% -10%, rgb(15 125 115 / 0.55), transparent 60%),
+      linear-gradient(135deg, var(--color-brand-950) 0%, #0d3a5c 55%, #0c4f5c 100%);
+  }
+
+  [dir='rtl'] .page-head-hero {
+    background:
+      radial-gradient(60rem 30rem at 15% -10%, rgb(15 125 115 / 0.55), transparent 60%),
+      linear-gradient(225deg, var(--color-brand-950) 0%, #0d3a5c 55%, #0c4f5c 100%);
+  }
+
+  .page-head-hero .page-title {
+    color: #fff;
+    font-size: clamp(2rem, 1.4rem + 2.6vw, 3.25rem);
+  }
+
+  .page-head-hero .page-lead {
+    color: #d7e6f2;
+  }
+
+  /* ---- Cards ---- */
+  .card {
+    border: 1px solid var(--color-line);
+    border-radius: 0.875rem;
+    background: #fff;
+    box-shadow: var(--shadow-card);
+  }
+
+  /* A whole card that is one link. */
+  a.card {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    transition:
+      border-color 0.15s,
+      box-shadow 0.15s,
+      transform 0.15s;
+  }
+
+  a.card:hover {
+    border-color: var(--color-brand-200);
+    box-shadow: var(--shadow-lift);
+    transform: translateY(-2px);
+  }
+
+  /* The title inside a card link keeps an underline, so it still reads as a link. */
+  .card-title {
+    font-weight: 700;
+    color: var(--color-brand-800);
+    text-decoration: underline;
+    text-decoration-color: var(--color-brand-200);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.25em;
+  }
+
+  a.card:hover .card-title {
+    color: var(--color-brand-950);
+    text-decoration-color: var(--color-teal-600);
+  }
+
+  /* Icon in a soft rounded square. */
+  .icon-chip {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 0.75rem;
+    background: var(--color-teal-50);
+    color: var(--color-teal-700);
+  }
+
+  .icon-chip-brand {
+    background: var(--color-brand-50);
+    color: var(--color-brand-700);
+  }
+
+  /* ---- Buttons (links that look like buttons) ---- */
+  .btn {
+    display: inline-flex;
+    min-height: 2.75rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 0.625rem;
+    padding: 0.5rem 1.125rem;
+    font-weight: 650;
+    line-height: 1.3;
+    text-decoration: none;
+    transition:
+      background-color 0.15s,
+      border-color 0.15s,
+      color 0.15s;
+  }
+
+  .btn:hover {
+    text-decoration: none;
+  }
+
+  .btn-primary {
+    background: var(--color-teal-700);
+    color: #fff;
+  }
+
+  .btn-primary:hover {
+    background: var(--color-teal-800);
+    color: #fff;
+  }
+
+  .btn-outline {
+    border-color: var(--color-brand-200);
+    background: #fff;
+    color: var(--color-brand-800);
+  }
+
+  .btn-outline:hover {
+    border-color: var(--color-brand-600);
+    background: var(--color-brand-50);
+    color: var(--color-brand-950);
+  }
+
+  /* On the dark home page band. */
+  .btn-light {
+    background: #fff;
+    color: var(--color-brand-950);
+  }
+
+  .btn-light:hover {
+    background: var(--color-teal-50);
+    color: var(--color-brand-950);
+  }
+
+  .btn-ghost {
+    border-color: rgb(255 255 255 / 0.45);
+    color: #fff;
+  }
+
+  .btn-ghost:hover {
+    border-color: #fff;
+    background: rgb(255 255 255 / 0.12);
+    color: #fff;
+  }
+
+  /* "See all" style link with an arrow. */
+  .link-arrow {
+    display: inline-flex;
+    min-height: 2.75rem;
+    align-items: center;
+    gap: 0.375rem;
+    font-weight: 650;
+  }
+
+  /* ---- Main menu: scrolls sideways on small screens, fading at the edge ---- */
+  .nav-scroll {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .nav-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: 1023px) {
+    .nav-scroll {
+      mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent);
+    }
+
+    [dir='rtl'] .nav-scroll {
+      mask-image: linear-gradient(to left, #000 calc(100% - 2.5rem), transparent);
+    }
+  }
+
+  /* ---- Footer (dark) ---- */
+  .site-footer a:not(.btn) {
+    color: #fff;
+  }
+
+  .site-footer a:not(.btn):hover {
+    color: var(--color-teal-200);
+  }
+
+  .footer-heading {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-teal-200);
+  }
+
+  :lang(ar) .footer-heading,
+  :lang(zh) .footer-heading {
+    letter-spacing: 0;
+  }
+
+  .footer-link {
+    display: inline-flex;
+    min-height: 2.5rem;
+    align-items: center;
+  }
+
+  /* ---- Reading pages ---- */
   .prose-page {
     max-width: 44rem;
   }
 
   .prose-page h2 {
-    margin-top: 2rem;
+    margin-top: 2.25rem;
     margin-bottom: 0.5rem;
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--color-brand-900);
+    font-size: 1.375rem;
+    font-weight: 750;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+    color: var(--color-brand-950);
+  }
+
+  :lang(ar) .prose-page h2,
+  :lang(zh) .prose-page h2 {
+    letter-spacing: 0;
   }
 
   .prose-page p {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.875rem;
   }
 
-  /* Text written in Markdown (health pages). */
+  /* Text written in Markdown (health pages, updates, policies). */
+  .prose-content {
+    font-size: 1.0625rem;
+  }
+
+  .prose-content > :first-child {
+    margin-top: 0;
+  }
+
   .prose-content h3 {
-    margin-top: 1.25rem;
+    margin-top: 1.5rem;
     margin-bottom: 0.25rem;
+    font-size: 1.125rem;
     font-weight: 700;
     color: var(--color-brand-800);
   }
 
   .prose-content ul,
   .prose-content ol {
-    margin-bottom: 0.75rem;
-    padding-inline-start: 1.25rem;
+    margin-bottom: 0.875rem;
+    padding-inline-start: 1.375rem;
   }
 
   .prose-content ul {
@@ -175,17 +467,81 @@
   }
 
   .prose-content li {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.375rem;
+    padding-inline-start: 0.125rem;
+  }
+
+  .prose-content li::marker {
+    color: var(--color-teal-600);
   }
 
   .prose-content strong {
     font-weight: 700;
-    color: var(--color-brand-900);
+    color: var(--color-brand-950);
   }
 
   /* Myths and facts: each myth is a heading followed by the fact. */
   .prose-content h2 + p strong:first-child {
     color: var(--color-teal-800);
+  }
+
+  /* A reading page on a white sheet. Edge to edge on phones, to keep lines long enough. */
+  .paper {
+    border: 1px solid var(--color-line);
+    border-radius: 0.875rem;
+    background: #fff;
+    box-shadow: var(--shadow-card);
+    padding: 2rem 2.25rem;
+    max-width: 46rem;
+  }
+
+  @media (max-width: 639px) {
+    .paper {
+      margin-inline: -1rem;
+      border-inline: 0;
+      border-radius: 0;
+      padding: 1.5rem 1rem;
+    }
+  }
+
+  /* Lists of key points: a tick instead of a dot. */
+  .check-list {
+    display: grid;
+    gap: 0.625rem;
+  }
+
+  .check-list > li {
+    position: relative;
+    padding-inline-start: 1.875rem;
+  }
+
+  .check-list > li::before {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0.2em;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 9999px;
+    background-color: var(--color-teal-700);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 0.75rem;
+  }
+
+  :lang(ar) .check-list > li::before {
+    top: 0.35em;
+  }
+
+  /* Small grey note (disclaimers, policies). */
+  .note {
+    border-radius: 0.75rem;
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
+    padding: 0.875rem 1rem;
+    font-size: 0.875rem;
+    color: var(--color-muted);
   }
 }
 
@@ -253,4 +609,56 @@
    hide the empty labelled space. Google sets data-ad-status on the ad. */
 [data-ad]:has(> ins[data-ad-status="unfilled"]) {
   display: none;
+}
+
+/* Printing (helplines and guides are useful on paper where connections are poor):
+   only the page itself, in black on white. */
+@media print {
+  header,
+  footer,
+  [data-outbreak-banner],
+  [data-ad-zone],
+  .no-print {
+    display: none !important;
+  }
+
+  html,
+  body,
+  .page-head,
+  .page-head-hero {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .page-head-hero .page-title,
+  .page-head-hero .page-lead {
+    color: #000 !important;
+  }
+
+  .card,
+  .paper {
+    box-shadow: none !important;
+    break-inside: avoid;
+  }
+
+  .paper {
+    border: 0;
+    padding: 0;
+    max-width: none;
+  }
+
+  details > * {
+    display: block !important;
+  }
+
+  a {
+    color: #000 !important;
+  }
+
+  /* Show where links to official sources and helplines go. */
+  [data-sources] a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.8em;
+    word-break: break-all;
+  }
 }

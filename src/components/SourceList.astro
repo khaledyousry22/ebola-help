@@ -2,6 +2,7 @@
 import { SOURCES, sourceVersionFor, type SourceId } from '../data/sources';
 import { format, formatDate, getMessages, LOCALES, type Locale } from '../i18n';
 import { languageName } from '../i18n/countries';
+import Icon from './Icon.astro';
 
 interface Props {
   locale: Locale;
@@ -11,7 +12,7 @@ const { locale, ids } = Astro.props;
 const m = getMessages(locale);
 ---
 <section aria-labelledby="sources-title" class="mt-10 border-t border-line pt-6" data-sources>
-  <h2 id="sources-title" class="!mt-0 text-lg font-bold text-brand-900">{m.health.sources}</h2>
+  <h2 id="sources-title" class="!mt-0 flex items-center gap-2 !text-lg"><Icon name="book-open" size={20} class="text-teal-700" />{m.health.sources}</h2>
   <p class="mt-1 text-sm text-muted">{m.health.sourcesIntro}</p>
   <ol class="mt-4 list-decimal space-y-3 ps-6 text-sm">
     {

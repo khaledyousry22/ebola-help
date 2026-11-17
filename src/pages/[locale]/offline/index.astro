@@ -25,14 +25,16 @@ const links = [
 ---
 <BaseLayout locale={locale} title={m.offline.title} description={m.offline.description} noindex>
   <div slot="intro" class="prose-page">
-    <h1 class="text-2xl font-bold text-brand-900 sm:text-3xl">{m.offline.title}</h1>
-    <p class="mt-3 text-lg text-muted">{m.offline.text}</p>
+    <h1 class="page-title">{m.offline.title}</h1>
+    <p class="page-lead">{m.offline.text}</p>
   </div>
 
-  <section aria-labelledby="saved-title" class="prose-page">
-    <h2 id="saved-title" class="text-lg font-semibold">{m.offline.saved}</h2>
-    <ul data-offline-links>
-      {links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
-    </ul>
+  <section aria-labelledby="saved-title" class="paper prose-page">
+    <h2 id="saved-title" class="!mt-0">{m.offline.saved}</h2>
+    <div class="prose-content">
+      <ul data-offline-links>
+        {links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+      </ul>
+    </div>
   </section>
 </BaseLayout>

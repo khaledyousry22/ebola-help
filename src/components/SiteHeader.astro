@@ -1,6 +1,7 @@
 ---
 import { PATREON_URL } from '../config';
 import { getMessages, localePath, stripLocale, type Locale } from '../i18n';
+import Icon from './Icon.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import Logo from './Logo.astro';
 
@@ -23,19 +24,27 @@ const aboutLink = { path: '/about/', label: m.nav.about };
 // A section link is active on its own page and on the pages below it.
 const isActive = (path: string) => (path === '/' ? current === '/' : current.startsWith(path));
 const linkClass = (active: boolean) => [
-  'inline-flex min-h-11 items-center whitespace-nowrap border-b-3 px-3 text-sm font-medium no-underline',
-  active ? 'border-teal-700 text-brand-900' : 'border-transparent text-muted hover:text-brand-900',
+  'inline-flex min-h-12 items-center gap-1.5 whitespace-nowrap border-b-3 px-3 text-[0.9375rem] no-underline transition-colors',
+  active
+    ? 'border-teal-600 font-bold text-brand-950'
+    : 'border-transparent font-medium text-muted hover:border-brand-200 hover:text-brand-950',
 ];
 ---
-<header class="border-b border-line bg-white">
-  <div class="container-page flex items-center justify-between gap-4 py-3">
+<header class="relative z-30 border-b border-line bg-white shadow-[0_1px_3px_rgb(15_31_46/0.05)]">
+  <div class="container-page flex items-center justify-between gap-3 py-3 max-[399px]:gap-2">
     <a href={localePath(locale)} class="no-underline" aria-label={m.a11y.homeLink} data-logo>
       <Logo />
     </a>
-    <LanguageSwitcher locale={locale} />
+    <div class="flex items-center gap-2">
+      <a href={localePath(locale, '/help/')} class="btn btn-primary max-sm:px-3" data-header-help>
+        <Icon name="phone" size={18} />
+        <span class="max-sm:sr-only">{m.nav.help}</span>
+      </a>
+      <LanguageSwitcher locale={locale} />
+    </div>
   </div>
-  <nav aria-label={m.a11y.mainNav} class="border-t border-line bg-surface">
-    <ul class="container-page flex gap-1 overflow-x-auto">
+  <nav aria-label={m.a11y.mainNav} class="border-t border-line">
+    <ul class="container-page nav-scroll flex gap-1">
       {
         links.map((link) => (
           <li>
@@ -51,10 +60,10 @@ const linkClass = (active: boolean) => [
       }
       <li>
         <a href={PATREON_URL} aria-label={`${m.nav.support} (Patreon)`} class:list={linkClass(false)} data-nav-support>
-          {m.nav.support}
+          <Icon name="heart" size={15} class="text-teal-700" />{m.nav.support}
         </a>
       </li>
-      <li>
+      <li class="max-lg:pe-8">
         <a
           href={localePath(locale, aboutLink.path)}
           aria-current={current === aboutLink.path ? 'page' : undefined}

@@ -1,0 +1,30 @@
+---
+/**
+ * One line icon (see src/lib/icons.ts). Decorative: always next to text that
+ * says the same thing, so it is hidden from screen readers.
+ * `flip` mirrors arrows on right-to-left pages.
+ */
+import { ICONS, type IconName } from '../lib/icons';
+
+interface Props {
+  name: IconName;
+  size?: number;
+  class?: string;
+  flip?: boolean;
+}
+const { name, size = 20, class: className, flip = false } = Astro.props;
+---
+<svg
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  aria-hidden="true"
+  focusable="false"
+  class:list={['shrink-0', flip && 'rtl:-scale-x-100', className]}
+  set:html={ICONS[name]}
+/>

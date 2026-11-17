@@ -1,6 +1,7 @@
 ---
 import AdSlot from '../../../components/AdSlot.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import Icon from '../../../components/Icon.astro';
 import CountryFigures from '../../../components/CountryFigures.astro';
 import StatusBadge from '../../../components/StatusBadge.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
@@ -25,15 +26,15 @@ const legend: MapStatus[] = ['active', 'monitoring', 'recent', 'none'];
 <BaseLayout locale={locale} title={m.map.title} description={m.map.description}>
   <div slot="intro" class="prose-page">
     <Breadcrumbs locale={locale} items={[{ label: m.nav.home, href: localePath(locale) }, { label: m.map.title }]} />
-    <h1 class="text-2xl font-bold text-brand-900 sm:text-3xl">{m.map.title}</h1>
-    <p class="mt-3 text-lg text-muted">{m.map.intro}</p>
+    <h1 class="page-title">{m.map.title}</h1>
+    <p class="page-lead">{m.map.intro}</p>
   </div>
 
   <div class="grid items-start gap-6 lg:grid-cols-[minmax(0,1fr)_22rem]" data-map-root>
-    <figure>
+    <figure class="card overflow-hidden">
       <svg
         viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`}
-        class="h-auto w-full rounded-lg bg-brand-50"
+        class="h-auto w-full bg-[#e9f1f8]"
         role="group"
         aria-labelledby="map-title"
         data-map
@@ -59,7 +60,7 @@ const legend: MapStatus[] = ['active', 'monitoring', 'recent', 'none'];
           }
         </g>
       </svg>
-      <figcaption class="mt-3 text-sm text-muted">
+      <figcaption class="border-t border-line p-4 text-sm text-muted sm:p-5">
         <h2 class="sr-only">{m.map.legend}</h2>
         <ul class="flex flex-wrap gap-2" data-legend>
           {legend.map((status) => <li><StatusBadge locale={locale} status={status} /></li>)}
@@ -69,9 +70,11 @@ const legend: MapStatus[] = ['active', 'monitoring', 'recent', 'none'];
       </figcaption>
     </figure>
 
-    <aside class="rounded-lg border border-line bg-white p-5 shadow-sm lg:sticky lg:top-4" data-map-panel aria-label={m.map.details}>
-      <div data-panel-body><p class="text-muted" data-panel-prompt>{m.map.selectPrompt}</p></div>
-      <button type="button" class="mt-4 min-h-11 rounded-md border border-brand-200 px-4 font-medium text-brand-800 hover:bg-brand-50" data-panel-close hidden>
+    <aside class="card p-5 sm:p-6 lg:sticky lg:top-6" data-map-panel aria-label={m.map.details}>
+      <div data-panel-body>
+        <p class="flex gap-3 text-muted" data-panel-prompt><Icon name="map-pin" size={20} class="mt-0.5 text-teal-700" />{m.map.selectPrompt}</p>
+      </div>
+      <button type="button" class="btn btn-outline mt-4" data-panel-close hidden>
         {m.map.close}
       </button>
     </aside>
@@ -80,11 +83,11 @@ const legend: MapStatus[] = ['active', 'monitoring', 'recent', 'none'];
   {
     rows.map((row) => (
       <template data-panel-for={row.iso}>
-        <h2 class="text-xl font-bold text-brand-900">{row.name}</h2>
-        <p class="mt-2"><StatusBadge locale={locale} status={row.situation.status} /></p>
-        <div class="mt-2 space-y-1"><CountryFigures locale={locale} situation={row.situation} /></div>
+        <h2 class="section-title">{row.name}</h2>
+        <p class="mt-3"><StatusBadge locale={locale} status={row.situation.status} /></p>
+        <div class="mt-3 space-y-1"><CountryFigures locale={locale} situation={row.situation} /></div>
         <p class="mt-4">
-          <a href={localePath(locale, countryPath(row.iso))} class="font-semibold">
+          <a href={localePath(locale, countryPath(row.iso))} class="btn btn-primary">
             {format(m.country.viewPage, { country: row.name })}
           </a>
         </p>
@@ -93,25 +96,25 @@ const legend: MapStatus[] = ['active', 'monitoring', 'recent', 'none'];
   }
 
   <section aria-labelledby="table-title" class="mt-10">
-    <h2 id="table-title" class="text-xl font-bold text-brand-900">{m.map.tableTitle}</h2>
-    <div class="mt-4 overflow-x-auto">
-      <table class="w-full border-collapse text-start" data-map-table>
+    <h2 id="table-title" class="section-title">{m.map.tableTitle}</h2>
+    <div class="card mt-4 overflow-x-auto">
+      <table class="w-full min-w-[36rem] border-collapse text-start" data-map-table>
         <thead>
-          <tr class="border-b-2 border-line text-sm text-muted">
-            <th scope="col" class="py-2 pe-4 text-start">{m.map.country}</th>
-            <th scope="col" class="py-2 pe-4 text-start">{m.country.status}</th>
-            <th scope="col" class="py-2 text-start">{m.map.figures}</th>
+          <tr class="border-b border-line bg-surface text-sm text-muted">
+            <th scope="col" class="px-5 py-3 text-start font-semibold">{m.map.country}</th>
+            <th scope="col" class="px-5 py-3 text-start font-semibold">{m.country.status}</th>
+            <th scope="col" class="px-5 py-3 text-start font-semibold">{m.map.figures}</th>
           </tr>
         </thead>
         <tbody>
           {
             rows.map((row) => (
-              <tr class="border-b border-line align-top" data-row={row.iso}>
-                <th scope="row" class="py-3 pe-4 text-start font-semibold">
+              <tr class="border-b border-line align-top last:border-b-0" data-row={row.iso}>
+                <th scope="row" class="px-5 py-4 text-start font-semibold">
                   <a href={localePath(locale, countryPath(row.iso))}>{row.name}</a>
                 </th>
-                <td class="py-3 pe-4"><StatusBadge locale={locale} status={row.situation.status} /></td>
-                <td class="py-3 text-sm"><CountryFigures locale={locale} situation={row.situation} /></td>
+                <td class="px-5 py-4"><StatusBadge locale={locale} status={row.situation.status} /></td>
+                <td class="px-5 py-4 text-sm"><CountryFigures locale={locale} situation={row.situation} /></td>
               </tr>
             ))
           }

@@ -6,14 +6,16 @@
  */
 interface Props {
   size?: number;
+  /** White lettering, for dark backgrounds (footer, language picker). */
+  light?: boolean;
 }
-const { size = 32 } = Astro.props;
+const { size = 32, light = false } = Astro.props;
 ---
-<span class="inline-flex items-center gap-2" dir="ltr">
+<span class="inline-flex items-center gap-2.5 max-[399px]:gap-2" dir="ltr">
   <svg width={size} height={size} viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-    <circle cx="16" cy="16" r="16" fill="#0c665f" />
+    <circle cx="16" cy="16" r="16" fill={light ? '#0f7d73' : '#0c665f'} />
     <circle cx="16" cy="9.5" r="2.6" fill="#fff" />
     <rect x="13.4" y="13.6" width="5.2" height="11.6" rx="2.6" fill="#fff" />
   </svg>
-  <span class="text-xl font-bold tracking-tight text-brand-900" style="font-family: var(--font-sans)">Ebola<span class="text-teal-700">.help</span></span>
+  <span class:list={['text-[1.375rem] font-extrabold tracking-tight max-[399px]:text-xl', light ? 'text-white' : 'text-brand-950']} style="font-family: var(--font-sans)">Ebola<span class={light ? 'text-teal-200' : 'text-teal-700'}>.help</span></span>
 </span>

@@ -1,0 +1,12 @@
+---
+/**
+ * Structured data for search engines (schema.org, JSON-LD). It is data, not a
+ * script: nothing runs in the visitor's browser.
+ */
+interface Props {
+  data: Record<string, unknown>;
+}
+// "<" is escaped so text can never close the tag early.
+const json = JSON.stringify({ '@context': 'https://schema.org', ...Astro.props.data }).replace(/</g, '\\u003c');
+---
+<script type="application/ld+json" is:inline set:html={json} />

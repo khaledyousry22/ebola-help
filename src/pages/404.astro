@@ -5,15 +5,15 @@ import { getMessages, LOCALE_LIST, localePath } from '../i18n';
 const en = getMessages('en');
 ---
 <NeutralLayout title={`${en.meta.notFoundTitle} · ${en.meta.siteName}`} description={en.notFound.text} noindex>
-  <h1 class="text-2xl font-bold text-brand-900">{en.notFound.heading}</h1>
+  <h1 class="page-title">{en.notFound.heading}</h1>
   <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
     {
       LOCALE_LIST.map((l) => {
         const m = getMessages(l.code);
         return (
-          <li lang={l.htmlLang} dir={l.dir} class="rounded-lg border border-line bg-white p-4 text-start">
+          <li lang={l.htmlLang} dir={l.dir} class="card p-5 text-start">
             <p class="font-semibold text-ink">{m.notFound.text}</p>
-            <a href={localePath(l.code)} hreflang={l.htmlLang} class="mt-2 inline-block">
+            <a href={localePath(l.code)} hreflang={l.htmlLang} class="link-arrow mt-1">
               {m.notFound.back}
             </a>
           </li>

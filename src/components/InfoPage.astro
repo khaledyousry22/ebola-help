@@ -26,12 +26,12 @@ const updated = entry.data.updated.toISOString().slice(0, 10);
         { label: entry.data.title },
       ]}
     />
-    <h1 class="text-2xl font-bold text-brand-900 sm:text-3xl">{entry.data.title}</h1>
+    <h1 class="page-title">{entry.data.title}</h1>
     <p class="mt-2 text-sm text-muted">
       <time datetime={updated}>{format(m.footer.lastUpdated, { date: formatDate(locale, updated) })}</time>
     </p>
   </div>
-  <article class="prose-page">
+  <article class="paper prose-page">
     <div class="prose-content" data-info-page={slug}>
       <Content />
     </div>

@@ -32,7 +32,10 @@
     "related": "Related cases have also been confirmed in: {countries}.",
     "source": "Source: {source}",
     "languageTag": "({language})",
-    "moreInfo": "Latest WHO update"
+    "moreInfo": "Latest WHO update",
+    "cases": "Confirmed cases",
+    "deaths": "Deaths",
+    "asOf": "Official figures as of {date}"
   },
   "picker": {
     "choose": "Choose your language",
@@ -264,5 +267,8 @@
     "tip": "Good to know: {text}",
     "readMore": "Read more: {title}, {url}",
     "mapMore": "Map and helplines: {url}"
+  },
+  "share": {
+    "title": "Share this page"
   }
 }

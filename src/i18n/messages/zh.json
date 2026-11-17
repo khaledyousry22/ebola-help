@@ -32,7 +32,10 @@
     "related": "与此相关的病例还已在以下国家得到确认：{countries}。",
     "source": "来源：{source}",
     "languageTag": "（{language}）",
-    "moreInfo": "世卫组织最新通报"
+    "moreInfo": "世卫组织最新通报",
+    "cases": "确诊病例",
+    "deaths": "死亡",
+    "asOf": "官方数据，截至{date}"
   },
   "picker": {
     "choose": "请选择语言",
@@ -264,5 +267,8 @@
     "tip": "须知：{text}",
     "readMore": "了解更多：{title}，{url}",
     "mapMore": "地图和求助热线：{url}"
+  },
+  "share": {
+    "title": "分享本页"
   }
 }

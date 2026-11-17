@@ -1,5 +1,8 @@
 ---
+import { SITE_URL } from '../config';
 import { getMessages, type Locale } from '../i18n';
+import Icon from './Icon.astro';
+import JsonLd from './JsonLd.astro';
 
 interface Props {
   locale: Locale;
@@ -7,16 +10,28 @@ interface Props {
 }
 const { locale, items } = Astro.props;
 const m = getMessages(locale);
+const absolute = (path: string) => new URL(path, SITE_URL).href;
 ---
 <nav aria-label={m.health.breadcrumb} class="mb-3 text-sm text-muted">
-  <ol class="flex flex-wrap items-center gap-x-1">
+  <ol class="flex flex-wrap items-center gap-x-1.5 gap-y-1">
     {
       items.map((item, index) => (
-        <li class="flex items-center gap-x-1">
-          {index > 0 && <span aria-hidden="true">›</span>}
-          {item.href ? <a href={item.href}>{item.label}</a> : <span aria-current="page">{item.label}</span>}
+        <li class="flex items-center gap-x-1.5">
+          {index > 0 && <Icon name="chevron-right" size={14} flip class="text-brand-200" />}
+          {item.href ? <a href={item.href}>{item.label}</a> : <span aria-current="page" class="font-medium text-ink">{item.label}</span>}
         </li>
       ))
     }
   </ol>
 </nav>
+<JsonLd
+  data={{
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.label,
+      item: absolute(item.href ?? Astro.url.pathname),
+    })),
+  }}
+/>
