@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-17T20:56:22.906Z",
+  "updatedAt": "2026-11-18T02:54:33.161Z",
   "items": [
+    {
+      "id": "2fbf4e70d83ec08d",
+      "url": "https://insp.cd/sitrep-n186-mve-bdbv-16-11-2026/",
+      "title": "SitRep N°186/MVE-BDBV/16/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-17T19:15:52.000Z",
+      "firstSeenAt": "2026-11-18T02:54:33.161Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "726d8823a3c652ad",
+      "url": "https://insp.cd/sitrep-n185-mve-bdbv-15-11-2026/",
+      "title": "SitRep N°185/MVE-BDBV/15/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-17T12:04:37.000Z",
+      "firstSeenAt": "2026-11-18T02:54:33.161Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "50ca8451bd4a224c",
       "url": "https://news.un.org/feed/view/zh/story/2026/11/1143214",
@@ -13,6 +43,22 @@
       "firstSeenAt": "2026-11-17T20:56:22.906Z",
       "countries": [
         "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "939cdc727a63c506",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168827",
+      "title": "World News in Brief: Ebola cases double in DR Congo, chemical exposure starts before birth, Türk concern over EU-Rwanda transfer plan",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "firstSeenAt": "2026-11-18T02:54:33.161Z",
+      "countries": [
+        "CD",
+        "RW"
       ],
       "alsoReportedBy": []
     },
@@ -6519,22 +6565,6 @@
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [
         "CD"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "bafb6391353865c7",
-      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603",
-      "title": "Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo (2026-DON603)",
-      "lang": "en",
-      "sourceId": "who-don",
-      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
-      "official": true,
-      "publishedAt": "2026-05-21T22:00:47.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD",
-        "UG"
       ],
       "alsoReportedBy": []
     }
