@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-18T02:54:33.161Z",
+  "updatedAt": "2026-11-18T11:43:04.409Z",
   "items": [
+    {
+      "id": "12c3265bcaa8a0c5",
+      "url": "https://actualite.cd/2026/11/18/riposte-contre-ebola-en-rdc-louis-watum-apporte-une-contribution-de-11-millions-usd-du",
+      "title": "Riposte contre Ebola en RDC: Louis Watum apporte une contribution de 1,1 millions USD du secteur minier",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-18T09:37:23.000Z",
+      "firstSeenAt": "2026-11-18T11:43:04.409Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "2fbf4e70d83ec08d",
       "url": "https://insp.cd/sitrep-n186-mve-bdbv-16-11-2026/",
