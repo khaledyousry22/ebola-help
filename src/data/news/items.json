@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-18T11:43:04.409Z",
+  "updatedAt": "2026-11-18T19:37:16.989Z",
   "items": [
+    {
+      "id": "7fb773e32686bda9",
+      "url": "https://www.afro.who.int/countries/kenya/publication/ebola-bundibugyo-virus-disease-outbreak-democratic-republic-congo-uganda-weekly-external-situation",
+      "title": "EBOLA BUNDIBUGYO VIRUS DISEASE OUTBREAK Democratic Republic of the Congo | Uganda Weekly External Situation Report 27, Data as of 15 November 2026",
+      "lang": "en",
+      "sourceId": "who-afro-en",
+      "sourceName": "WHO Regional Office for Africa",
+      "official": true,
+      "publishedAt": "2026-11-18T17:31:05.000Z",
+      "firstSeenAt": "2026-11-18T19:37:16.989Z",
+      "countries": [
+        "CD",
+        "KE",
+        "NG",
+        "UG"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3fa74a2ff8546600",
+      "url": "http://www.africanews.com/2026/11/18/ebola-burial-teams-in-drc-work-through-health-risks-and-prejudice/",
+      "title": "Ebola burial teams in DRC work through health risks and prejudice",
+      "lang": "en",
+      "sourceId": "africanews-en",
+      "sourceName": "Africanews",
+      "official": false,
+      "publishedAt": "2026-11-18T14:33:16.000Z",
+      "firstSeenAt": "2026-11-18T19:37:16.989Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "12c3265bcaa8a0c5",
       "url": "https://actualite.cd/2026/11/18/riposte-contre-ebola-en-rdc-louis-watum-apporte-une-contribution-de-11-millions-usd-du",
@@ -6547,36 +6580,6 @@
       "sourceName": "RFI",
       "official": false,
       "publishedAt": "2026-05-25T08:58:48.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "ead139308b8d6e4e",
-      "url": "https://www.rfi.fr/es/programas/mundo-ciencia/20260522-por-qu%C3%A9-es-preocupante-este-nuevo-brote-de-%C3%A9bola-en-rdc",
-      "title": "¿Por qué es preocupante este nuevo brote de ébola en RDC?",
-      "lang": "es",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-22T12:30:11.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "f71f81ac059fb125",
-      "url": "https://www.rfi.fr/ru/%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D0%B0/20260522-%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B2%D1%80%D0%B0%D1%87%D0%B0-%D0%B7%D0%B0%D1%80%D0%B0%D0%B7%D0%B8%D0%B2%D1%88%D0%B5%D0%B3%D0%BE%D1%81%D1%8F-%D1%8D%D0%B1%D0%BE%D0%BB%D0%BE%D0%B9-%D0%B2-%D0%B4%D1%80-%D0%BA%D0%BE%D0%BD%D0%B3%D0%BE-%D0%BB%D0%B5%D1%87%D0%B0%D1%82-%D0%B2-%D0%B1%D0%B5%D1%80%D0%BB%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B9-%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B5-%D1%88%D0%B0%D1%80%D0%B8%D1%82%D0%B5",
-      "title": "Американского врача, заразившегося Эболой в ДР Конго, лечат в берлинской клинике «Шарите»",
-      "lang": "ru",
-      "sourceId": "rfi-ru-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-22T12:23:32.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [
         "CD"
