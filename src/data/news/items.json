@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-19T09:30:39.540Z",
+  "updatedAt": "2026-11-19T18:41:00.269Z",
   "items": [
+    {
+      "id": "dd862b43a0dd03e0",
+      "url": "https://insp.cd/sitrep-n188-mve-bdbv-18-11-2026/",
+      "title": "SitRep N°188/MVE-BDBV/18/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-19T15:20:44.000Z",
+      "firstSeenAt": "2026-11-19T18:41:00.269Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "efac303f235223f1",
+      "url": "https://insp.cd/sitrep-n187-mve-bdbv-17-11-2026/",
+      "title": "SitRep N°187/MVE-BDBV/17/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-19T12:32:39.000Z",
+      "firstSeenAt": "2026-11-19T18:41:00.269Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "3cf76cec75028128",
       "url": "https://www.rfi.fr/fr/afrique/20261119-ebola-rdc-msf-forc%C3%A9e-d%C3%A9placer-activit%C3%A9s-h%C3%B4pital-suite-combats-sud-kivu",
