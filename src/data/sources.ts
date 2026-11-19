@@ -41,7 +41,7 @@ export const SOURCES = {
       es: { title: 'Enfermedad por el virus del Ébola (nota descriptiva)', url: whoFactSheet('es') },
     },
     published: '2025-04-24',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
   },
   whoQuestions: {
     publisher: 'who',
@@ -52,7 +52,7 @@ export const SOURCES = {
       },
     },
     published: '2025-12-11',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
   },
   whoDon619: {
     publisher: 'who',
@@ -63,7 +63,34 @@ export const SOURCES = {
       },
     },
     published: '2026-10-08',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
+  },
+  whoPheic: {
+    publisher: 'who',
+    versions: {
+      en: {
+        title: 'Epidemic of Ebola Disease caused by Bundibugyo virus in the Democratic Republic of the Congo and Uganda determined a public health emergency of international concern',
+        url: 'https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern',
+      },
+      fr: {
+        title: 'L’épidémie de maladie d’Ebola due au virus Bundibugyo en Ouganda et en République démocratique du Congo constitue une urgence de santé publique de portée internationale',
+        url: 'https://www.who.int/fr/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern',
+      },
+      es: {
+        title: 'La epidemia de la enfermedad del Ébola causada por el virus de Bundibugyo en la República Democrática del Congo y Uganda ha sido declarada emergencia de salud pública de importancia internacional',
+        url: 'https://www.who.int/es/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern',
+      },
+      ru: {
+        title: 'Эпидемия болезни, вызванной эболавирусом Бундибугио, в Демократической Республике Конго и Уганде признана чрезвычайной ситуацией в области здравоохранения, имеющей международное значение',
+        url: 'https://www.who.int/ru/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern',
+      },
+      zh: {
+        title: '刚果民主共和国和乌干达本迪布焦病毒引发的埃博拉病流行已确定为国际关注的突发公共卫生事件',
+        url: 'https://www.who.int/zh/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern',
+      },
+    },
+    published: '2026-05-17',
+    checked: '2026-11-19',
   },
   whoTreatmentTrial: {
     publisher: 'who',
@@ -72,9 +99,25 @@ export const SOURCES = {
         title: 'Patient enrolment begins in a scientific trial to identify the first effective treatments for Bundibugyo virus disease',
         url: 'https://www.who.int/news/item/02-07-2026-patient-enrolment-begins-in-a-scientific-trial-to-identify-the-first-effective-treatments-for-bundibugyo-virus-disease',
       },
+      fr: {
+        title: 'Le processus d’inclusion des patients débute dans le cadre d’un essai scientifique visant à identifier les premiers traitements efficaces contre la maladie à virus Bundibugyo',
+        url: 'https://www.who.int/fr/news/item/02-07-2026-patient-enrolment-begins-in-a-scientific-trial-to-identify-the-first-effective-treatments-for-bundibugyo-virus-disease',
+      },
+      es: {
+        title: 'Se abre la inscripción de pacientes en un ensayo científico para determinar los primeros tratamientos eficaces contra la enfermedad por el virus de Bundibugyo',
+        url: 'https://www.who.int/es/news/item/02-07-2026-patient-enrolment-begins-in-a-scientific-trial-to-identify-the-first-effective-treatments-for-bundibugyo-virus-disease',
+      },
+      ru: {
+        title: 'Открыт набор пациентов для участия в клиническом исследовании для определения первых эффективных методов лечения болезни, вызванной вирусом Бундибугио',
+        url: 'https://www.who.int/ru/news/item/02-07-2026-patient-enrolment-begins-in-a-scientific-trial-to-identify-the-first-effective-treatments-for-bundibugyo-virus-disease',
+      },
+      zh: {
+        title: '为确定本迪布焦病毒病有效疗法启动科学试验并开始招募患者',
+        url: 'https://www.who.int/zh/news/item/02-07-2026-patient-enrolment-begins-in-a-scientific-trial-to-identify-the-first-effective-treatments-for-bundibugyo-virus-disease',
+      },
     },
     published: '2026-07-02',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
   },
   whoVaccineAdvisoryGroup: {
     publisher: 'who',
@@ -85,7 +128,7 @@ export const SOURCES = {
       },
     },
     published: '2026-07-31',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
   },
   afroUgandaEnd: {
     publisher: 'whoAfro',
@@ -96,7 +139,7 @@ export const SOURCES = {
       },
     },
     published: '2026-08-27',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
   },
   afroNigeria: {
     publisher: 'whoAfro',
@@ -107,7 +150,7 @@ export const SOURCES = {
       },
     },
     published: '2026-10-20',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
   },
   whoDon622: {
     publisher: 'who',
@@ -118,7 +161,7 @@ export const SOURCES = {
       },
     },
     published: '2026-10-23',
-    checked: '2026-11-06',
+    checked: '2026-11-19',
   },
   whoVaccineTrials: {
     publisher: 'who',
@@ -149,7 +192,7 @@ export const SOURCES = {
       },
     },
     published: '2026-11-04',
-    checked: '2026-11-06',
+    checked: '2026-11-19',
   },
   africaCdcKenya: {
     publisher: 'africaCdc',
@@ -164,7 +207,7 @@ export const SOURCES = {
       },
     },
     published: '2026-11-03',
-    checked: '2026-11-06',
+    checked: '2026-11-19',
   },
   drcSitrep166: {
     publisher: 'drcMoh',
@@ -175,7 +218,7 @@ export const SOURCES = {
       },
     },
     published: '2026-10-28',
-    checked: '2026-11-06',
+    checked: '2026-11-19',
   },
   drcSitrep173: {
     publisher: 'drcMoh',
@@ -186,7 +229,7 @@ export const SOURCES = {
       },
     },
     published: '2026-11-04',
-    checked: '2026-11-06',
+    checked: '2026-11-19',
   },
   drcSitrep158: {
     publisher: 'drcMoh',
@@ -197,7 +240,7 @@ export const SOURCES = {
       },
     },
     published: '2026-10-20',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
   },
   cdcBasics: {
     publisher: 'cdc',
@@ -209,7 +252,7 @@ export const SOURCES = {
       },
     },
     published: '2026-06-02',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
   },
   cdcSpread: {
     publisher: 'cdc',
@@ -221,7 +264,7 @@ export const SOURCES = {
       },
     },
     published: '2026-06-02',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
   },
   cdcSymptoms: {
     publisher: 'cdc',
@@ -236,7 +279,7 @@ export const SOURCES = {
       },
     },
     published: '2024-04-23',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
   },
   cdcVaccine: {
     publisher: 'cdc',
@@ -247,7 +290,7 @@ export const SOURCES = {
       },
     },
     published: '2025-01-30',
-    checked: '2026-10-21',
+    checked: '2026-11-19',
   },
   cdcSituation: {
     publisher: 'cdc',

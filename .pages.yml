@@ -34,6 +34,7 @@ components:
         - { name: cdcSituation, label: "CDC: current situation" }
         - { name: whoFactSheet, label: "WHO: Ebola fact sheet" }
         - { name: whoQuestions, label: "WHO: questions and answers" }
+        - { name: whoPheic, label: "WHO: emergency of international concern (17 May 2026)" }
         - { name: whoTreatmentTrial, label: "WHO: treatment trial" }
         - { name: whoVaccineAdvisoryGroup, label: "WHO: vaccine advisory group report" }
         - { name: cdcBasics, label: "CDC: Ebola basics" }
