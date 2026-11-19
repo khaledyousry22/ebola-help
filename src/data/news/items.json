@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-11-18T19:37:16.989Z",
+  "updatedAt": "2026-11-19T09:30:39.540Z",
   "items": [
+    {
+      "id": "3cf76cec75028128",
+      "url": "https://www.rfi.fr/fr/afrique/20261119-ebola-rdc-msf-forc%C3%A9e-d%C3%A9placer-activit%C3%A9s-h%C3%B4pital-suite-combats-sud-kivu",
+      "title": "Ebola en RDC: MSF forcée de déplacer les activités d'un hôpital suite à des combats dans le Sud-Kivu",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-19T09:03:12.000Z",
+      "firstSeenAt": "2026-11-19T09:30:39.540Z",
+      "countries": [
+        "CD",
+        "RW"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "56aa90faa8926d38",
+      "url": "https://actualite.cd/2026/11/19/rdc-six-mois-apres-ebola-reste-une-urgence-de-sante-publique-internationale-loms-appelle",
+      "title": "RDC: six mois après, Ebola reste une urgence de santé publique internationale, l’OMS appelle à protéger les soignants et à renforcer la riposte",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-19T06:05:42.000Z",
+      "firstSeenAt": "2026-11-19T09:30:39.540Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "7fb773e32686bda9",
       "url": "https://www.afro.who.int/countries/kenya/publication/ebola-bundibugyo-virus-disease-outbreak-democratic-republic-congo-uganda-weekly-external-situation",
