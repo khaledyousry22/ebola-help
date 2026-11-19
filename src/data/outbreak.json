@@ -5,9 +5,9 @@
   "lastReviewed": "2026-11-06",
   "headline": {
     "country": "CD",
-    "confirmedCases": 11504,
-    "confirmedDeaths": 5630,
-    "asOf": "2026-11-16",
+    "confirmedCases": 11613,
+    "confirmedDeaths": 5678,
+    "asOf": "2026-11-17",
     "source": "cdcSituation"
   },
   "moreInformation": "whoDon622",
@@ -24,7 +24,7 @@
       "figures": {
         "confirmedCases": 9,
         "confirmedDeaths": 2,
-        "asOf": "2026-11-16",
+        "asOf": "2026-11-17",
         "source": "cdcSituation"
       }
     },
@@ -35,7 +35,7 @@
       "figures": {
         "confirmedCases": 1,
         "confirmedDeaths": 0,
-        "asOf": "2026-11-16",
+        "asOf": "2026-11-17",
         "source": "cdcSituation"
       }
     },
