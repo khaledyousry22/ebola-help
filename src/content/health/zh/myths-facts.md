@@ -1,5 +1,6 @@
 ---
 title: 误解与事实
+metaTitle: "埃博拉：误解与事实"
 description: 关于埃博拉病的常见传言，以及官方卫生机构的说法。
 order: 6
 keyPoints:

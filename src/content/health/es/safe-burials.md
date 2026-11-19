@@ -1,5 +1,6 @@
 ---
 title: "Cuando alguien muere: inhumaciones seguras y dignas"
+metaTitle: "Inhumaciones seguras y dignas durante un brote de ébola"
 description: "Por qué el cuerpo de una persona fallecida por ébola puede transmitir el virus, qué hacer si alguien muere en casa y cómo las inhumaciones seguras y dignas protegen a las familias respetando sus deseos."
 order: 9
 keyPoints:

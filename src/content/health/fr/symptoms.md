@@ -1,5 +1,6 @@
 ---
 title: Les symptômes de la maladie d'Ebola
+metaTitle: "Symptômes d'Ebola : premiers signes et quand consulter"
 description: Les premiers signes et les signes plus tardifs de la maladie d'Ebola, quand ils apparaissent et que faire si vous ou une personne proche les présentez.
 order: 2
 keyPoints:

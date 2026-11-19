@@ -1,5 +1,6 @@
 ---
 title: Myths and facts
+metaTitle: "Ebola myths and facts"
 description: Common rumours about Ebola disease and what official health agencies say.
 order: 6
 keyPoints:

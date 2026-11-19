@@ -1,5 +1,6 @@
 ---
 title: "Quand une personne meurt : enterrements dignes et sécurisés"
+metaTitle: "Enterrements dignes et sécurisés pendant une épidémie d'Ebola"
 description: "Pourquoi le corps d'une personne décédée d'Ebola peut transmettre le virus, que faire si une personne meurt à la maison, et comment les enterrements dignes et sécurisés protègent les familles tout en respectant leurs souhaits."
 order: 9
 keyPoints:

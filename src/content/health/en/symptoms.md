@@ -1,5 +1,6 @@
 ---
 title: Symptoms of Ebola disease
+metaTitle: "Ebola symptoms: early signs and when to seek care"
 description: The early and later signs of Ebola disease, when they appear, and what to do if you or someone near you has them.
 order: 2
 keyPoints:

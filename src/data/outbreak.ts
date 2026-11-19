@@ -65,6 +65,9 @@ export function parseOutbreak(data: unknown): Outbreak {
 
 export const OUTBREAK: Outbreak = parseOutbreak(raw);
 
+/** Year the current outbreak was declared, used in page titles ("Ebola outbreak 2026"). */
+export const OUTBREAK_YEAR = OUTBREAK.declared.slice(0, 4);
+
 /** The three situations shown on the map. */
 export type MapStatus = 'active' | 'monitoring' | 'recent' | 'none';
 

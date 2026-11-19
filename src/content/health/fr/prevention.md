@@ -1,5 +1,6 @@
 ---
 title: Se protéger et protéger les autres
+metaTitle: "Comment se protéger et protéger les autres d'Ebola"
 description: Des mesures pratiques pour réduire le risque d'Ebola à la maison, lors des funérailles, avec les animaux et en voyage.
 order: 4
 keyPoints:

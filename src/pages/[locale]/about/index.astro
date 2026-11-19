@@ -1,9 +1,9 @@
 ---
 import EmailLink from '../../../components/EmailLink.astro';
 import TextWithLinks from '../../../components/TextWithLinks.astro';
-import { ADS, PATREON_URL } from '../../../config';
+import { ADS, EDITOR, PATREON_URL } from '../../../config';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import { getMessages, LOCALE_CODES, localePath, type Locale } from '../../../i18n';
+import { format, getMessages, LOCALE_CODES, localePath, type Locale } from '../../../i18n';
 
 export function getStaticPaths() {
   return LOCALE_CODES.map((locale) => ({ params: { locale } }));
@@ -41,7 +41,7 @@ const privacyLinks = {
 
     <section id="who" data-who>
       <h2>{a.whoTitle}</h2>
-      <p>{a.who}</p>
+      <p data-editor>{format(a.who, { name: EDITOR.name })}</p>
       <ul>
         {policyLinks.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
       </ul>

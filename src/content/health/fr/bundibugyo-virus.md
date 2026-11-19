@@ -1,5 +1,6 @@
 ---
 title: Le virus Bundibugyo et l'épidémie actuelle
+metaTitle: "Le virus Bundibugyo et l'épidémie actuelle d'Ebola"
 description: "Ce qu'est le virus Bundibugyo, en quoi il diffère des autres virus Ebola, ce que l'on sait de l'épidémie actuelle et comment des vaccins et des médicaments sont testés."
 order: 7
 keyPoints:

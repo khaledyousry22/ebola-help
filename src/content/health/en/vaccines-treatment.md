@@ -1,5 +1,6 @@
 ---
 title: Vaccines and treatment
+metaTitle: "Ebola vaccines and treatment: what exists and what is being tested"
 description: What care improves survival, which vaccines and medicines exist, and what is being tested for Bundibugyo virus.
 order: 5
 keyPoints:

@@ -8,14 +8,15 @@
  */
 import Icon from '../components/Icon.astro';
 import NeutralLayout from '../layouts/NeutralLayout.astro';
-import { getMessages, LOCALE_COOKIE, LOCALE_LIST, localePath } from '../i18n';
+import { format, getMessages, LOCALE_COOKIE, LOCALE_LIST, localePath } from '../i18n';
+import { OUTBREAK_YEAR } from '../data/outbreak';
 
 const codes = LOCALE_LIST.map((l) => l.code);
 const matches = Object.fromEntries(LOCALE_LIST.map((l) => [l.code, l.matches]));
 const en = getMessages('en');
 ---
 <NeutralLayout
-  title={`${en.meta.siteName} · ${LOCALE_LIST.map((l) => getMessages(l.code).picker.choose).join(' · ')}`}
+  title={`${format(en.picker.title, { year: OUTBREAK_YEAR })} · ${en.meta.siteName}`}
   description={en.meta.homeDescription}
   alternates
 >

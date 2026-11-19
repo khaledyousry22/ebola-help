@@ -1,9 +1,9 @@
 /** Pieces of schema.org structured data shared by several pages. */
-import { SITE_URL, SOCIAL_LINKS } from '../config';
+import { EDITOR, SITE_URL, SOCIAL_LINKS } from '../config';
 
 export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 
-/** Who publishes the site, as on the About page: the Ebola.help Team. */
+/** Who publishes the site and who runs it, as on the About page. */
 export const organization = {
   '@type': 'Organization',
   '@id': ORGANIZATION_ID,
@@ -11,6 +11,7 @@ export const organization = {
   url: `${SITE_URL}/`,
   logo: `${SITE_URL}/icons/icon-512.png`,
   sameAs: SOCIAL_LINKS.map((link) => link.url),
+  founder: { '@type': 'Person', name: EDITOR.name, description: EDITOR.description },
 };
 
 /** A written page (health guide, situation update) published by the team. */

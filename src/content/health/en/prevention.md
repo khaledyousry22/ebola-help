@@ -1,5 +1,6 @@
 ---
 title: Protecting yourself and others
+metaTitle: "How to protect yourself and others from Ebola"
 description: Practical steps to reduce the risk of Ebola at home, at funerals, with animals and when travelling.
 order: 4
 keyPoints:

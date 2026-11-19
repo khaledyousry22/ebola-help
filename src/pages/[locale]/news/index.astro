@@ -17,7 +17,7 @@ const official = officialUpdates(locale).slice(0, 20);
 const media = mediaCoverage(locale).slice(0, 30);
 const otherCount = otherLanguageNews(locale).reduce((sum, group) => sum + group.items.length, 0);
 ---
-<BaseLayout locale={locale} title={m.news.title} description={m.news.description} noindex>
+<BaseLayout locale={locale} title={m.news.metaTitle} description={m.news.description} noindex>
   <div slot="intro" class="prose-page">
     <Breadcrumbs locale={locale} items={[{ label: m.nav.home, href: localePath(locale) }, { label: m.news.title }]} />
     <h1 class="page-title">{m.news.title}</h1>

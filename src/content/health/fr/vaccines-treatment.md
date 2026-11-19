@@ -1,5 +1,6 @@
 ---
 title: Vaccins et traitements
+metaTitle: "Vaccins et traitements contre Ebola : ce qui existe et ce qui est testé"
 description: Les soins qui améliorent la survie, les vaccins et médicaments existants, et ce qui est testé contre le virus Bundibugyo.
 order: 5
 keyPoints:

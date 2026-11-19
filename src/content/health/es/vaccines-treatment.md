@@ -1,5 +1,6 @@
 ---
 title: Vacunas y tratamiento
+metaTitle: "Vacunas y tratamiento contra el ébola: lo que existe y lo que se está probando"
 description: Qué atención mejora la supervivencia, qué vacunas y medicamentos existen y qué se está evaluando contra el virus de Bundibugyo.
 order: 5
 keyPoints:

@@ -5,6 +5,16 @@ export const SITE_URL = 'https://ebola.help';
 /** GitHub repository holding the site and its data. The editing page saves here. */
 export const REPOSITORY = 'khaledyousry22/ebola-help';
 
+/**
+ * Who runs the site, named on the About page and in the information given to
+ * search engines. Written the same way in every language.
+ */
+export const EDITOR = {
+  name: 'Khaled Yousry',
+  /** In English, for search engines. The About page has its own wording in each language. */
+  description: 'Journalist and translator based in Cairo',
+} as const;
+
 /** Where readers can support the site. Linked from every footer, the About page and the editorial policy. */
 export const PATREON_URL = 'https://www.patreon.com/c/ebolahelp/membership';
 

@@ -113,9 +113,10 @@ test.describe('localized pages', () => {
             page.locator(`link[rel="alternate"][hreflang="${LOCALES[other].htmlLang}"]`),
           ).toHaveAttribute('href', `https://ebola.help/${other}${path}`);
         }
+        // x-default: the language picker for home pages, the English version elsewhere (src/lib/alternates.ts).
         await expect(page.locator('link[rel="alternate"][hreflang="x-default"]')).toHaveAttribute(
           'href',
-          'https://ebola.help/',
+          path === '/' ? 'https://ebola.help/' : `https://ebola.help/en${path}`,
         );
       });
 

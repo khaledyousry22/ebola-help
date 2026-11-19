@@ -1,28 +1,38 @@
 ---
 title: Politique éditoriale
-description: "Qui rédige Ebola.help, d'où viennent ses informations, comment les pages sont rédigées, vérifiées et corrigées, et comment sont traitées l'actualité et la publicité."
-updated: 2026-11-09
+description: "Qui gère Ebola.help, quelles sources officielles il utilise, à quelle fréquence les chiffres sont mis à jour, comment les pages sont rédigées et vérifiées, et comment les erreurs sont corrigées."
+updated: 2026-11-19
 ---
 
 ## Qui nous sommes
 
-Ebola.help est rédigé et tenu à jour par l'équipe d'Ebola.help, une équipe indépendante. Nous ne sommes pas une autorité sanitaire. Nous ne sommes affiliés ni à l'Organisation mondiale de la Santé (OMS), ni à une autre agence des Nations Unies, ni à Africa CDC, ni à aucun gouvernement, et nous ne parlons pas en leur nom.
+Ebola.help est un site indépendant géré depuis Le Caire par Khaled Yousry, qui travaille dans le journalisme et la traduction et répond de tout ce que le site publie. Nous ne sommes pas une autorité sanitaire. Nous ne sommes affiliés ni à l'Organisation mondiale de la Santé (OMS), ni à une autre agence des Nations Unies, ni à Africa CDC, ni à aucun gouvernement, et nous ne parlons pas en leur nom.
 
 Notre objectif est simple : donner des informations claires, calmes et fiables sur la maladie d'Ebola en six langues, avec des liens vers les sources officielles pour que chacun puisse les vérifier.
 
-## D'où viennent nos informations
+## Uniquement des sources officielles
 
-Nos pages de santé reposent uniquement sur des sources officielles de santé publique : l'OMS et son Bureau régional pour l'Afrique, les Centres pour le contrôle et la prévention des maladies des États-Unis (CDC), ainsi que les ministères de la Santé et les instituts nationaux de santé publique. Chaque page de santé indique ses sources, avec leurs dates et leurs liens, ainsi que la date à laquelle elle a été vérifiée pour la dernière fois.
+Nos pages de santé, les chiffres de l'épidémie et nos points de situation reposent uniquement sur des sources officielles de santé publique :
+
+- l'Organisation mondiale de la Santé (OMS), y compris son Bureau régional pour l'Afrique ;
+- les Centres pour le contrôle et la prévention des maladies des États-Unis (CDC) ;
+- le Centre européen de prévention et de contrôle des maladies (ECDC) ;
+- les Centres africains de contrôle et de prévention des maladies (Africa CDC) ;
+- le ministère de la Santé publique, Hygiène et Prévoyance sociale de la République démocratique du Congo et son Institut national de santé publique.
+
+Nous n'utilisons ni publications sur les réseaux sociaux, ni blogs, ni chiffres non officiels. Chaque page de santé indique ses sources à la fin, avec leurs dates et leurs liens, ainsi que la date à laquelle elle a été vérifiée pour la dernière fois. Lorsque l'OMS publie des informations dans une langue, notre page dans cette langue s'appuie sur elles.
 
 ## Comment nous rédigeons
 
 Nous écrivons avec nos propres mots, dans un langage simple. Nous ne copions pas d'articles d'autres sites. Dans chaque langue, nous utilisons les termes de santé officiels employés par l'OMS dans cette langue.
 
-Nous utilisons des outils d'intelligence artificielle pour nous aider à rédiger et à traduire les pages. Chaque page repose sur les sources officielles qu'elle cite, et les six versions linguistiques sont rédigées à partir des mêmes sources.
+Nous utilisons des outils d'intelligence artificielle pour nous aider à rédiger et à traduire les pages. Chaque page repose sur les sources officielles qu'elle cite, et les six versions linguistiques sont rédigées à partir des mêmes sources. Les nouvelles pages de santé et les nouveaux points de situation sont approuvés par Khaled Yousry avant leur publication.
 
-## Chiffres de l'épidémie
+## Fréquence de mise à jour des chiffres
 
-Les chiffres du bandeau en haut de chaque page et de la carte sont des chiffres officiels des autorités sanitaires. Chacun indique la date à laquelle il se rapporte et sa source. Ils sont mis à jour à partir des rapports officiels, en partie automatiquement. Avant leur publication, des contrôles automatiques recherchent les erreurs évidentes, par exemple des totaux qui diminuent ou des hausses très importantes.
+Les chiffres de l'épidémie en haut de chaque page et sur la carte sont des chiffres officiels. Ils proviennent de la page des CDC « Ebola Outbreak: Current Situation », que notre système consulte toutes les trois heures, ou du rapport officiel indiqué à côté d'eux. Les nouveaux chiffres ne sont publiés qu'après des contrôles automatiques : les totaux ne doivent jamais diminuer, les décès ne doivent jamais dépasser les cas, une hausse de plus de 25 % d'un coup est mise en attente et les dates futures sont refusées. Si un contrôle échoue, les chiffres du site restent inchangés jusqu'à ce que nous ayons vérifié les nouveaux à la main. Chaque chiffre indique la date à laquelle il se rapporte et sa source.
+
+Nos points de situation résument les rapports officiels une fois par semaine.
 
 ## Numéros d'aide et coordonnées
 
@@ -34,7 +44,13 @@ Les actualités sont collectées automatiquement toutes les heures auprès des a
 
 ## Corrections
 
-Si vous trouvez une erreur, écrivez-nous à [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help). Nous vérifions chaque signalement auprès des sources officielles et corrigeons les erreurs aussi vite que possible. Chaque page de santé indique la date de sa dernière vérification, et chaque numéro de téléphone celle de sa dernière vérification.
+Si vous trouvez une erreur, utilisez le lien « Signaler une erreur sur cette page » à la fin de chaque page de santé et de chaque point de situation, ou écrivez-nous à [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help). Dites-nous ce qui est erroné et, si possible, donnez un lien vers une source officielle avec l'information correcte.
+
+Nous vérifions chaque signalement auprès des sources officielles et corrigeons les erreurs aussi vite que possible :
+
+- Si une correction change le sens d'une page de santé ou d'un point de situation (un chiffre, une date ou un conseil), nous ajoutons une note datée sous « Corrections » à la fin de la page, qui indique ce qui a été modifié.
+- Les fautes d'orthographe et les liens cassés sont corrigés sans note.
+- Un numéro de téléphone erroné est corrigé ou retiré dès que nous l'avons vérifié, et sa date de « Dernière vérification » est mise à jour.
 
 ## Publicité et indépendance
 

@@ -1,5 +1,6 @@
 ---
 title: El virus de Bundibugyo y el brote actual
+metaTitle: "El virus de Bundibugyo y el brote actual de ébola"
 description: "Qué es el virus de Bundibugyo, en qué se diferencia de otros virus del Ébola, qué se sabe del brote actual y cómo se están probando vacunas y medicamentos."
 order: 7
 keyPoints:

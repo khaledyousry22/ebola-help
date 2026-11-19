@@ -1,5 +1,6 @@
 ---
 title: Síntomas del ébola
+metaTitle: "Síntomas del ébola: primeros signos y cuándo buscar atención"
 description: Los signos iniciales y tardíos del ébola, cuándo aparecen y qué hacer si usted o alguien cercano los presenta.
 order: 2
 keyPoints:

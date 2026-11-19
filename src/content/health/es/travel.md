@@ -1,5 +1,6 @@
 ---
 title: Viajes y ébola
+metaTitle: "Ébola y viajes: consejos para viajeros"
 description: "Qué aconseja la OMS sobre los viajes durante el brote de ébola, qué hacer si viaja hacia o desde una zona afectada y por qué no se recomienda cerrar fronteras."
 order: 11
 keyPoints:

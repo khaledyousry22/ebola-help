@@ -1,13 +1,16 @@
 ---
 import { render } from 'astro:content';
 import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import CitedText from '../../../../components/CitedText.astro';
+import PageCorrections from '../../../../components/PageCorrections.astro';
+import TextWithLinks from '../../../../components/TextWithLinks.astro';
 import Icon from '../../../../components/Icon.astro';
 import JsonLd from '../../../../components/JsonLd.astro';
 import ShareLinks from '../../../../components/ShareLinks.astro';
 import SourceList from '../../../../components/SourceList.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import type { SourceId } from '../../../../data/sources';
-import { SITE_URL } from '../../../../config';
+import { PATREON_URL, SITE_URL } from '../../../../config';
 import { format, formatDate, getMessages, LOCALES, localePath } from '../../../../i18n';
 import { article } from '../../../../lib/structured-data';
 import { getCollection } from 'astro:content';
@@ -30,7 +33,11 @@ const m = getMessages(locale);
 const { Content } = await render(entry);
 const published = isoDay(entry.data.date);
 ---
-<BaseLayout locale={locale} title={entry.data.title} description={entry.data.description}>
+<BaseLayout
+  locale={locale}
+  title={format(m.updates.pageMetaTitle, { date: formatDate(locale, published) })}
+  description={entry.data.description}
+>
   <div slot="intro" class="prose-page">
     <Breadcrumbs
       locale={locale}
@@ -54,7 +61,7 @@ const published = isoDay(entry.data.date);
       <section aria-labelledby="in-short" class="mb-8 rounded-xl border border-teal-100 bg-teal-50 p-5" data-key-points>
         <h2 id="in-short" class="!mt-0 !mb-3 !text-lg">{m.updates.inShort}</h2>
         <ul class="check-list">
-          {entry.data.keyPoints.map((point) => <li>{point}</li>)}
+          {entry.data.keyPoints.map((point) => <li><CitedText text={point} sources={entry.data.sources} locale={locale} /></li>)}
         </ul>
       </section>
 
@@ -65,6 +72,13 @@ const published = isoDay(entry.data.date);
       <p class="note mt-8" data-update-disclaimer>{m.updates.disclaimer}</p>
 
       <SourceList locale={locale} ids={entry.data.sources as SourceId[]} />
+
+      <PageCorrections locale={locale} corrections={entry.data.corrections} />
+
+      <p class="no-print mt-6 flex gap-3 rounded-xl border border-teal-100 bg-teal-50 p-4 text-[0.9375rem]" data-update-support>
+        <Icon name="heart" size={20} class="mt-0.5 shrink-0 text-teal-700" />
+        <span><TextWithLinks text={m.updates.support} links={{ patreon: { href: PATREON_URL, label: m.about.linkPatreon } }} /></span>
+      </p>
     </article>
 
     <aside class="no-print max-lg:mt-8">

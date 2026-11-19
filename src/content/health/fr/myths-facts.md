@@ -1,5 +1,6 @@
 ---
 title: Idées reçues et faits
+metaTitle: "Ebola : idées reçues et faits"
 description: Les rumeurs courantes sur la maladie d'Ebola et ce qu'en disent les agences de santé officielles.
 order: 6
 keyPoints:

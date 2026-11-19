@@ -1,5 +1,6 @@
 ---
 title: Mitos y realidades
+metaTitle: "Ébola: mitos y realidades"
 description: Rumores frecuentes sobre el ébola y lo que dicen los organismos de salud oficiales.
 order: 6
 keyPoints:

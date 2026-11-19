@@ -1,5 +1,6 @@
 ---
 title: Travel and Ebola
+metaTitle: "Ebola and travel: advice for travellers"
 description: What WHO advises about travel during the Ebola outbreak, what to do if you travel to or from an affected area, and why closing borders is not recommended.
 order: 11
 keyPoints:

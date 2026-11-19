@@ -1,5 +1,6 @@
 ---
 title: 埃博拉病的症状
+metaTitle: "埃博拉症状：早期迹象以及何时就医"
 description: 埃博拉病的早期和晚期症状、出现时间，以及您或您身边的人出现症状时应该怎么做。
 order: 2
 keyPoints:

@@ -1,5 +1,6 @@
 ---
 title: Bundibugyo virus and the current outbreak
+metaTitle: "Bundibugyo virus and the current Ebola outbreak"
 description: What Bundibugyo virus is, how it compares with other Ebola viruses, what is known about the current outbreak, and how vaccines and medicines are being tested.
 order: 7
 keyPoints:

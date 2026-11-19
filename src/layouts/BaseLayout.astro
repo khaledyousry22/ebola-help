@@ -8,12 +8,13 @@ import SiteHeader from '../components/SiteHeader.astro';
 import AdLoader from '../components/AdLoader.astro';
 import OfflineScript from '../components/OfflineScript.astro';
 import { ADS, SITE_URL } from '../config';
+import { alternates } from '../lib/alternates';
 import { getMessages, LOCALE_LIST, LOCALES, localePath, stripLocale, type Locale } from '../i18n';
 
 interface Props {
   locale: Locale;
-  /** Page title without the site name. Omit on the home page. */
-  title?: string;
+  /** Page title. The site name is added after it unless the title already contains it. */
+  title: string;
   description: string;
   /** Show the full emergency box (home page). Other pages show a compact one. */
   fullEmergency?: boolean;
@@ -27,7 +28,7 @@ const { locale, title, description, fullEmergency = false, noindex = false, hero
 const m = getMessages(locale);
 const info = LOCALES[locale];
 const rest = stripLocale(Astro.url.pathname);
-const fullTitle = title ? `${title} · ${m.meta.siteName}` : m.meta.homeTitle;
+const fullTitle = title.includes(m.meta.siteName) ? title : `${title} · ${m.meta.siteName}`;
 const canonical = new URL(localePath(locale, rest), SITE_URL).href;
 ---
 <!doctype html>
@@ -39,12 +40,7 @@ const canonical = new URL(localePath(locale, rest), SITE_URL).href;
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="canonical" href={canonical} />
-    {
-      LOCALE_LIST.map((l) => (
-        <link rel="alternate" hreflang={l.htmlLang} href={new URL(localePath(l.code, rest), SITE_URL).href} />
-      ))
-    }
-    <link rel="alternate" hreflang="x-default" href={new URL('/', SITE_URL).href} />
+    {alternates(rest).map((link) => <link rel="alternate" hreflang={link.hreflang} href={link.href} />)}
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={m.meta.siteName} />
     <meta property="og:title" content={fullTitle} />

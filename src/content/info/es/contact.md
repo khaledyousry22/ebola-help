@@ -1,7 +1,7 @@
 ---
 title: Contacto
-description: "Cómo contactar con el equipo de Ebola.help para avisar de un número erróneo u otro error, y dónde obtener ayuda si tiene síntomas."
-updated: 2026-11-03
+description: "Cómo ponerse en contacto con Ebola.help y con su responsable, Khaled Yousry, para informar de un error o de un número equivocado, y dónde pedir ayuda si tiene síntomas."
+updated: 2026-11-19
 ---
 
 ## Si usted o alguien cercano tiene síntomas
@@ -10,20 +10,22 @@ No espere nuestra respuesta. Contacte de inmediato con la línea de ayuda sanita
 
 No podemos dar consejo médico ni responder a preguntas médicas.
 
-## Avisar de un número erróneo u otro error
+## Informar de un error
 
-Escriba a [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help). Indíquenos:
+Al final de cada página de salud y de cada informe de situación, el enlace "Informar de un error en esta página" abre un correo electrónico dirigido a nosotros con la dirección de la página ya escrita.
+
+También puede escribir a [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help). Por favor, indíquenos:
 
 - la página donde vio el error (su dirección, o el país y el idioma);
-- qué es incorrecto;
+- qué está mal;
 - si puede, un enlace a la fuente oficial con la información correcta.
 
-Comprobamos cada aviso con las fuentes oficiales y corregimos los errores lo antes posible.
+Comprobamos cada aviso con las fuentes oficiales y corregimos los errores lo antes posible. Nuestra [política editorial](../editorial-policy/) explica cómo se indican las correcciones.
 
 ## Otras preguntas sobre el sitio
 
-Escriba a la misma dirección, [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help).
+Ebola.help está a cargo de Khaled Yousry, que trabaja en periodismo y traducción desde El Cairo. Escriba a la misma dirección, [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help).
 
 ## Preguntas para la OMS o un gobierno
 
-Ebola.help es un sitio independiente gestionado por el equipo de Ebola.help. No podemos transmitir mensajes a la Organización Mundial de la Salud, a los ministerios de salud ni a ninguna otra autoridad. Contacte con ellos a través de sus sitios web oficiales.
+Ebola.help es un sitio independiente. No podemos transmitir mensajes a la Organización Mundial de la Salud, a los ministerios de salud ni a ninguna otra autoridad. Póngase en contacto con ellos a través de sus sitios web oficiales.

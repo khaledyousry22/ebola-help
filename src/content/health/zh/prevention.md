@@ -1,5 +1,6 @@
 ---
 title: 保护自己和他人
+metaTitle: "如何保护自己和他人免受埃博拉感染"
 description: 在家中、葬礼上、接触动物时和旅行时降低埃博拉风险的实用措施。
 order: 4
 keyPoints:
