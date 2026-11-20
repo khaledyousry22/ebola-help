@@ -1,12 +1,12 @@
 ---
 title: Política editorial
 description: "Quién gestiona Ebola.help, qué fuentes oficiales utiliza, con qué frecuencia se actualizan las cifras, cómo se redactan y comprueban las páginas, y cómo se corrigen los errores."
-updated: 2026-11-19
+updated: 2026-11-20
 ---
 
 ## Quiénes somos
 
-Ebola.help es un sitio independiente a cargo de Khaled Yousry, que trabaja en periodismo y traducción desde El Cairo y es responsable de todo lo que el sitio publica. No somos una autoridad sanitaria. No estamos afiliados a la Organización Mundial de la Salud (OMS), a ninguna otra agencia de las Naciones Unidas, a Africa CDC ni a ningún gobierno, y no hablamos en su nombre.
+Ebola.help es un sitio independiente a cargo de una persona que trabaja en periodismo y traducción desde El Cairo y es responsable de todo lo que el sitio publica. No somos una autoridad sanitaria. No estamos afiliados a la Organización Mundial de la Salud (OMS), a ninguna otra agencia de las Naciones Unidas, a Africa CDC ni a ningún gobierno, y no hablamos en su nombre.
 
 Nuestro objetivo es sencillo: ofrecer información clara, serena y fiable sobre la enfermedad por el virus del Ébola en seis idiomas, con enlaces a las fuentes oficiales para que cualquiera pueda comprobarla.
 
@@ -26,7 +26,7 @@ No usamos publicaciones en redes sociales, blogs ni cifras no oficiales. Cada p�
 
 Escribimos con nuestras propias palabras y en un lenguaje sencillo. No copiamos artículos de otros sitios web. En cada idioma usamos los términos de salud oficiales que utiliza la OMS en ese idioma.
 
-Usamos herramientas de inteligencia artificial para ayudarnos a redactar y traducir las páginas. Cada página se basa en las fuentes oficiales que cita, y las seis versiones lingüísticas se redactan a partir de las mismas fuentes. Las nuevas páginas de salud y los nuevos informes de situación los aprueba Khaled Yousry antes de publicarse.
+Usamos herramientas de inteligencia artificial para ayudarnos a redactar y traducir las páginas. Cada página se basa en las fuentes oficiales que cita, y las seis versiones lingüísticas se redactan a partir de las mismas fuentes. Las nuevas páginas de salud y los nuevos informes de situación los aprueba la persona responsable del sitio antes de publicarse.
 
 ## Con qué frecuencia se actualizan las cifras
 

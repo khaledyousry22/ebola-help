@@ -1,7 +1,7 @@
 ---
 title: Contacto
-description: "Cómo ponerse en contacto con Ebola.help y con su responsable, Khaled Yousry, para informar de un error o de un número equivocado, y dónde pedir ayuda si tiene síntomas."
-updated: 2026-11-19
+description: "Cómo ponerse en contacto con Ebola.help para informar de un error o de un número equivocado, y dónde pedir ayuda si tiene síntomas."
+updated: 2026-11-20
 ---
 
 ## Si usted o alguien cercano tiene síntomas
@@ -24,7 +24,7 @@ Comprobamos cada aviso con las fuentes oficiales y corregimos los errores lo ant
 
 ## Otras preguntas sobre el sitio
 
-Ebola.help está a cargo de Khaled Yousry, que trabaja en periodismo y traducción desde El Cairo. Escriba a la misma dirección, [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help).
+Ebola.help está a cargo de una persona que trabaja en periodismo y traducción desde El Cairo. Escriba a la misma dirección, [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help).
 
 ## Preguntas para la OMS o un gobierno
 

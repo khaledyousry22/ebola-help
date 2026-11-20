@@ -14,7 +14,7 @@ import { PATREON_URL, SITE_URL } from '../../../../config';
 import { format, formatDate, getMessages, LOCALES, localePath } from '../../../../i18n';
 import { article } from '../../../../lib/structured-data';
 import { getCollection } from 'astro:content';
-import { isoDay, splitUpdateId, type UpdateEntry } from '../../../../lib/updates';
+import { isoDay, lastChange, splitUpdateId, type UpdateEntry } from '../../../../lib/updates';
 
 export async function getStaticPaths() {
   const entries = await getCollection('updates');
@@ -101,7 +101,7 @@ const published = isoDay(entry.data.date);
       language: LOCALES[locale].htmlLang,
       image: new URL(`/social/${locale}.png`, SITE_URL).href,
       published,
-      modified: published,
+      modified: lastChange(entry.data.date, entry.data.corrections),
     })}
   />
 </BaseLayout>

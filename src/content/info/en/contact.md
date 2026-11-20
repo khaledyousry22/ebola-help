@@ -1,7 +1,7 @@
 ---
 title: Contact
-description: "How to contact Ebola.help and its editor, Khaled Yousry, to report an error or a wrong phone number, and where to get help if you have symptoms."
-updated: 2026-11-19
+description: "How to contact Ebola.help to report an error or a wrong phone number, and where to get help if you have symptoms."
+updated: 2026-11-20
 ---
 
 ## If you or someone near you has symptoms
@@ -24,7 +24,7 @@ We check every report against official sources and correct mistakes as quickly a
 
 ## Other questions about the site
 
-Ebola.help is run by Khaled Yousry, a journalist and translator based in Cairo. Write to the same address, [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help).
+Ebola.help is run by a journalist and translator based in Cairo. Write to the same address, [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help).
 
 ## Questions for WHO or a government
 

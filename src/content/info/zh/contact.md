@@ -1,7 +1,7 @@
 ---
 title: 联系我们
-description: "如何联系 Ebola.help 及其负责人 Khaled Yousry 报告错误或错误的电话号码，以及出现症状时到哪里寻求帮助。"
-updated: 2026-11-19
+description: "如何联系 Ebola.help 报告错误或错误的电话号码，以及出现症状时到哪里寻求帮助。"
+updated: 2026-11-20
 ---
 
 ## 如果您或您身边的人出现症状
@@ -24,7 +24,7 @@ updated: 2026-11-19
 
 ## 关于本网站的其他问题
 
-Ebola.help 由常驻开罗的记者和译者 Khaled Yousry 运营。请发送电子邮件至同一地址：[wrongnumber@ebola.help](mailto:wrongnumber@ebola.help)。
+Ebola.help 由一位常驻开罗的记者和译者运营。请发送电子邮件至同一地址：[wrongnumber@ebola.help](mailto:wrongnumber@ebola.help)。
 
 ## 向世卫组织或政府提出的问题
 

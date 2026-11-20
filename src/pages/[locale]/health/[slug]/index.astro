@@ -13,6 +13,7 @@ import { SITE_URL } from '../../../../config';
 import { format, formatDate, getMessages, LOCALES, localePath } from '../../../../i18n';
 import { healthIcon } from '../../../../lib/health-icons';
 import { article } from '../../../../lib/structured-data';
+import { lastChange } from '../../../../lib/updates';
 import { getAllHealthPages, getHealthPages, isDraft, splitHealthId, type HealthEntry } from '../../../../lib/health';
 
 export async function getStaticPaths() {
@@ -147,7 +148,8 @@ const reviewed = entry.data.reviewed.toISOString().slice(0, 10);
       description: entry.data.description,
       language: LOCALES[locale].htmlLang,
       image: new URL(`/social/${locale}.png`, SITE_URL).href,
-      modified: reviewed,
+      modified: lastChange(entry.data.reviewed, entry.data.corrections),
+      reviewed,
     })}
   />
 </BaseLayout>

@@ -1,12 +1,12 @@
 ---
 title: Editorial policy
 description: "Who runs Ebola.help, which official sources it uses, how often figures are updated, how pages are written and checked, and how errors are corrected."
-updated: 2026-11-19
+updated: 2026-11-20
 ---
 
 ## Who we are
 
-Ebola.help is an independent site run by Khaled Yousry, a journalist and translator based in Cairo, who is responsible for everything it publishes. We are not a health authority. We are not affiliated with the World Health Organization (WHO), any other United Nations agency, Africa CDC or any government, and we do not speak for them.
+Ebola.help is an independent site run by a journalist and translator based in Cairo, who is responsible for everything it publishes. We are not a health authority. We are not affiliated with the World Health Organization (WHO), any other United Nations agency, Africa CDC or any government, and we do not speak for them.
 
 Our aim is simple: to give people clear, calm and reliable information about Ebola disease in six languages, with links to the official sources so that anyone can check it.
 
@@ -26,7 +26,7 @@ We do not use social media posts, blogs or unofficial figures. Each health page 
 
 We write in our own words and in plain language. We do not copy articles from other websites. In each language we use the official health terms used by WHO in that language.
 
-We use AI writing tools to help draft and translate pages. Every page is based on the official sources it cites, and all six language versions are written from the same sources. New health pages and situation updates are approved by Khaled Yousry before they are published.
+We use AI writing tools to help draft and translate pages. Every page is based on the official sources it cites, and all six language versions are written from the same sources. New health pages and situation updates are approved by the site's editor before they are published.
 
 ## How often figures are updated
 

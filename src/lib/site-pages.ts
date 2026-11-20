@@ -2,7 +2,7 @@ import { SITE_URL } from '../config';
 import { localePath, type Locale } from '../i18n';
 import { COUNTRY_PAGES, countryPath } from './country-pages';
 import { getHealthPages, splitHealthId } from './health';
-import { getUpdates, isoDay, updatePath } from './updates';
+import { getUpdates, isoDay, lastChange, updatePath } from './updates';
 import { getInfoPage, INFO_PAGES } from './info';
 
 export { NOINDEX_PAGES } from './indexing';
@@ -25,14 +25,14 @@ export async function localePages(locale: Locale): Promise<SitePage[]> {
   return [
     { path: '/' },
     { path: '/updates/', lastmod: updates[0] && isoDay(updates[0].data.date) },
-    ...updates.map((entry) => ({ path: updatePath(entry), lastmod: isoDay(entry.data.date) })),
+    ...updates.map((entry) => ({ path: updatePath(entry), lastmod: lastChange(entry.data.date, entry.data.corrections) })),
     { path: '/map/' },
     { path: '/help/' },
     ...COUNTRY_PAGES.map((iso) => ({ path: countryPath(iso) })),
     { path: '/health/' },
     ...health.map((entry) => ({
       path: `/health/${splitHealthId(entry.id).slug}/`,
-      lastmod: isoDay(entry.data.reviewed),
+      lastmod: lastChange(entry.data.reviewed, entry.data.corrections),
     })),
     { path: '/about/' },
     ...INFO_PAGES.map((slug, i) => ({ path: `/${slug}/`, lastmod: isoDay(info[i]!.data.updated) })),

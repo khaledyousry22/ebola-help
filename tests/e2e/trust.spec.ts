@@ -5,7 +5,7 @@
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { expect, test } from '@playwright/test';
-import { CONTACT_EMAIL, EDITOR, PATREON_URL } from '../../src/config';
+import { CONTACT_EMAIL, PATREON_URL } from '../../src/config';
 import { getMessages, LOCALE_CODES } from '../../src/i18n';
 
 function htmlFiles(dir: string): string[] {
@@ -19,9 +19,9 @@ function htmlFiles(dir: string): string[] {
 for (const locale of LOCALE_CODES) {
   const m = getMessages(locale);
 
-  test(`${locale}: the About page names the editor`, async ({ page }) => {
+  test(`${locale}: the About page says who runs the site`, async ({ page }) => {
     await page.goto(`/${locale}/about/`);
-    await expect(page.locator('[data-editor]')).toContainText(EDITOR.name);
+    await expect(page.locator('[data-editor]')).toHaveText(m.about.who);
   });
 
   test(`${locale}: a situation update ends with share buttons, an error report link and a support note`, async ({ page }) => {

@@ -54,9 +54,10 @@ plain language.
   approves the English draft first. Each update ends with a Patreon note.
 - Policy pages (editorial policy, privacy, contact):
   `src/content/info/<locale>/<slug>.md`, slugs in `src/lib/info-pages.ts`,
-  linked from every footer. The site is run by Khaled Yousry (`EDITOR` in
-  `src/config.ts`, named on About, editorial policy and contact); other pages
-  are signed "the Ebola.help Team". Describe the editor without gendered pronouns or
+  linked from every footer. About, editorial policy and contact say the site
+  is run by a journalist and translator based in Cairo. At the owner's
+  request, never put the owner's name on the site. Other pages are signed
+  "the Ebola.help Team". Describe the editor without gendered pronouns or
   word forms where the language allows. The
   privacy policy must match what the site does (cookies, ad pages, hosting):
   update it when that changes.

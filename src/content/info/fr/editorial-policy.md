@@ -1,12 +1,12 @@
 ---
 title: Politique éditoriale
 description: "Qui gère Ebola.help, quelles sources officielles il utilise, à quelle fréquence les chiffres sont mis à jour, comment les pages sont rédigées et vérifiées, et comment les erreurs sont corrigées."
-updated: 2026-11-19
+updated: 2026-11-20
 ---
 
 ## Qui nous sommes
 
-Ebola.help est un site indépendant géré depuis Le Caire par Khaled Yousry, qui travaille dans le journalisme et la traduction et répond de tout ce que le site publie. Nous ne sommes pas une autorité sanitaire. Nous ne sommes affiliés ni à l'Organisation mondiale de la Santé (OMS), ni à une autre agence des Nations Unies, ni à Africa CDC, ni à aucun gouvernement, et nous ne parlons pas en leur nom.
+Ebola.help est un site indépendant géré depuis Le Caire par une personne qui travaille dans le journalisme et la traduction et répond de tout ce que le site publie. Nous ne sommes pas une autorité sanitaire. Nous ne sommes affiliés ni à l'Organisation mondiale de la Santé (OMS), ni à une autre agence des Nations Unies, ni à Africa CDC, ni à aucun gouvernement, et nous ne parlons pas en leur nom.
 
 Notre objectif est simple : donner des informations claires, calmes et fiables sur la maladie d'Ebola en six langues, avec des liens vers les sources officielles pour que chacun puisse les vérifier.
 
@@ -26,7 +26,7 @@ Nous n'utilisons ni publications sur les réseaux sociaux, ni blogs, ni chiffres
 
 Nous écrivons avec nos propres mots, dans un langage simple. Nous ne copions pas d'articles d'autres sites. Dans chaque langue, nous utilisons les termes de santé officiels employés par l'OMS dans cette langue.
 
-Nous utilisons des outils d'intelligence artificielle pour nous aider à rédiger et à traduire les pages. Chaque page repose sur les sources officielles qu'elle cite, et les six versions linguistiques sont rédigées à partir des mêmes sources. Les nouvelles pages de santé et les nouveaux points de situation sont approuvés par Khaled Yousry avant leur publication.
+Nous utilisons des outils d'intelligence artificielle pour nous aider à rédiger et à traduire les pages. Chaque page repose sur les sources officielles qu'elle cite, et les six versions linguistiques sont rédigées à partir des mêmes sources. Les nouvelles pages de santé et les nouveaux points de situation sont approuvés par la personne qui gère le site avant leur publication.
 
 ## Fréquence de mise à jour des chiffres
 

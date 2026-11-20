@@ -4,69 +4,71 @@ metaTitle: "Le virus Bundibugyo et l'épidémie actuelle d'Ebola"
 description: "Ce qu'est le virus Bundibugyo, en quoi il diffère des autres virus Ebola, ce que l'on sait de l'épidémie actuelle et comment des vaccins et des médicaments sont testés."
 order: 7
 keyPoints:
-  - "Le virus Bundibugyo est l'un des trois virus connus pour provoquer de grandes épidémies de maladie d'Ebola. La maladie qu'il cause s'appelle la maladie à virus Bundibugyo."
-  - "Il se transmet, et se prévient, comme les autres maladies d'Ebola, par contact direct avec le sang ou les liquides biologiques d'une personne malade ou décédée."
-  - "Il n'existe encore ni vaccin ni médicament approuvé contre ce virus. Des soins de soutien précoces dans un centre de traitement augmentent les chances de survie."
-  - "Les derniers chiffres officiels de l'épidémie actuelle figurent en haut de chaque page de ce site."
-sources: [whoDon619, whoDon622, whoVaccineTrials, whoFactSheet, whoTreatmentTrial, whoVaccineAdvisoryGroup, afroUgandaEnd, afroNigeria]
-reviewed: 2026-11-06
+  - "Le virus Bundibugyo est l'un des trois virus connus pour provoquer de grandes épidémies de maladie d'Ebola. La maladie qu'il cause s'appelle la maladie à virus Bundibugyo.[[whoFactSheet]]"
+  - "Il se transmet, et se prévient, comme les autres maladies d'Ebola, par contact direct avec le sang ou les liquides biologiques d'une personne malade ou décédée.[[whoDon622]][[whoFactSheet]]"
+  - "Il n'existe encore ni vaccin ni médicament approuvé contre ce virus. Des soins de soutien précoces dans un centre de traitement augmentent les chances de survie.[[whoFactSheet]][[whoQuestions]]"
+  - "Selon l'OMS, c'est la plus grande épidémie de maladie d'Ebola jamais enregistrée en République démocratique du Congo.[[whoDon622]] Les derniers chiffres officiels de l'épidémie actuelle figurent en haut de chaque page de ce site."
+sources: [whoFactSheet, whoDon622, whoQuestions, whoPheic, whoDon619, afroUgandaEnd, afroNigeria, whoVaccineAdvisoryGroup, whoVaccineTrials, whoTreatmentTrial]
+reviewed: 2026-11-19
+corrections:
+  - date: 2026-11-20
+    note: "Nous avons retiré la date et le lieu de début de l'essai TUMAINI (23 octobre, Bunia), que nous n'avons pas pu confirmer dans les sources de cette page."
 ---
 
 ## L'un des trois virus Ebola qui provoquent de grandes épidémies
 
-La maladie d'Ebola peut être causée par plusieurs virus apparentés. Trois d'entre eux sont connus pour provoquer de grandes épidémies :
+La maladie d'Ebola peut être causée par plusieurs virus apparentés. Trois d'entre eux sont connus pour provoquer de grandes épidémies :[[whoFactSheet]]
 
-- le virus Ebola, responsable de la maladie à virus Ebola ;
-- le virus Soudan, responsable de la maladie à virus Soudan ;
-- le virus Bundibugyo, responsable de la maladie à virus Bundibugyo.
+- le virus Ebola, responsable de la maladie à virus Ebola ;[[whoFactSheet]]
+- le virus Soudan, responsable de la maladie à virus Soudan ;[[whoFactSheet]]
+- le virus Bundibugyo, responsable de la maladie à virus Bundibugyo.[[whoFactSheet]]
 
-La maladie à virus Bundibugyo est une forme grave de maladie d'Ebola. On pense que les chauves-souris frugivores sont l'hôte naturel du virus.
+La maladie à virus Bundibugyo est une forme grave de maladie d'Ebola. On pense que les chauves-souris frugivores sont l'hôte naturel du virus.[[whoDon622]]
 
 ## Comment il se transmet
 
-Comme les autres maladies d'Ebola, elle se transmet d'une personne à l'autre par contact direct avec le sang ou d'autres liquides biologiques d'une personne malade, ou avec des objets et des surfaces souillés par ces liquides. Le corps d'une personne décédée de la maladie peut encore transmettre le virus. Selon l'OMS, le virus se propage davantage dans les établissements de santé où les mesures de prévention des infections ne sont pas pleinement appliquées, et lors d'enterrements où l'on touche le corps. Pour en savoir plus : [Comment Ebola se transmet](../transmission/).
+Comme les autres maladies d'Ebola, elle se transmet d'une personne à l'autre par contact direct avec le sang ou d'autres liquides biologiques d'une personne malade, ou avec des objets et des surfaces souillés par ces liquides. Le corps d'une personne décédée de la maladie peut encore transmettre le virus. Selon l'OMS, le virus se propage davantage dans les établissements de santé où les mesures de prévention des infections ne sont pas pleinement appliquées, et lors d'enterrements où l'on touche le corps. Pour en savoir plus : [Comment Ebola se transmet](../transmission/).[[whoDon622]][[whoFactSheet]]
 
-Les symptômes apparaissent 2 à 21 jours après l'infection. Une personne ne peut pas transmettre le virus avant l'apparition des symptômes.
+Les symptômes apparaissent 2 à 21 jours après l'infection. Une personne ne peut pas transmettre le virus avant l'apparition des symptômes.[[whoFactSheet]]
 
 ## Les épidémies précédentes
 
-Avant 2026, le virus Bundibugyo avait provoqué deux épidémies connues : en Ouganda en 2007, où environ 3 malades sur 10 sont décédés, et en République démocratique du Congo en 2012, où environ la moitié des malades sont décédés.
+Avant 2026, le virus Bundibugyo avait provoqué deux épidémies connues : en Ouganda en 2007, où environ 3 malades sur 10 sont décédés, et en République démocratique du Congo en 2012, où environ la moitié des malades sont décédés.[[whoDon622]]
 
 ## L'épidémie actuelle
 
-- **Début :** l'épidémie a été déclarée en République démocratique du Congo le 15 mai 2026. Le 17 mai 2026, l'OMS l'a déclarée urgence de santé publique de portée internationale.
-- **Ampleur :** selon l'OMS, c'est la plus grande épidémie de maladie d'Ebola jamais enregistrée en République démocratique du Congo. Les cas se concentrent dans l'est du pays ; l'Ituri et le Nord-Kivu étaient les provinces les plus touchées en octobre 2026.
-- **Ouganda :** le pays a notifié 20 cas confirmés, pour la plupart chez des personnes venues de République démocratique du Congo. Son épidémie a été déclarée terminée le 27 août 2026, après 42 jours sans nouveau cas, soit deux fois la durée maximale d'apparition des symptômes.
-- **Cas importés :** en octobre 2026, le Kenya a confirmé un cas chez une personne venue de République démocratique du Congo en passant par l'Ouganda, et le Nigéria un cas chez une femme qui avait récemment voyagé en Ouganda.
-- **Risque :** dans son évaluation d'août 2026, l'OMS a jugé le risque très élevé en République démocratique du Congo, élevé dans les pays voisins et faible dans le reste de l'Afrique et du monde.
-- **Voyages :** l'OMS déconseille toute restriction des voyages ou des échanges commerciaux avec les pays touchés, et ne recommande ni la fermeture des frontières ni la suspension des vols.
+- **Début :** l'épidémie a été déclarée en République démocratique du Congo le 15 mai 2026. Le 17 mai 2026, l'OMS l'a déclarée urgence de santé publique de portée internationale.[[whoDon622]][[whoPheic]]
+- **Ampleur :** selon l'OMS, c'est la plus grande épidémie de maladie d'Ebola jamais enregistrée en République démocratique du Congo. Les cas se concentrent dans l'est du pays ; l'Ituri et le Nord-Kivu étaient les provinces les plus touchées en octobre 2026.[[whoDon619]][[whoDon622]]
+- **Ouganda :** le pays a notifié 20 cas confirmés, pour la plupart chez des personnes venues de République démocratique du Congo. Son épidémie a été déclarée terminée le 27 août 2026, après 42 jours sans nouveau cas, soit deux fois la durée maximale d'apparition des symptômes.[[afroUgandaEnd]]
+- **Cas importés :** en octobre 2026, le Kenya a confirmé un cas chez une personne venue de République démocratique du Congo en passant par l'Ouganda, et le Nigéria un cas chez une femme qui avait récemment voyagé en Ouganda. Selon l'OMS, des cas ont été signalés dans cinq pays depuis la déclaration de l'épidémie : la République démocratique du Congo, l'Ouganda, la France, le Kenya et le Nigéria.[[whoDon622]][[afroNigeria]]
+- **Risque :** dans son évaluation d'août 2026, l'OMS a jugé le risque très élevé en République démocratique du Congo, élevé dans les pays voisins et faible dans le reste de l'Afrique et du monde.[[whoDon622]]
+- **Voyages :** l'OMS déconseille toute restriction des voyages ou des échanges commerciaux avec les pays touchés, et ne recommande ni la fermeture des frontières ni la suspension des vols.[[whoDon622]][[afroUgandaEnd]]
 
 ## Vaccins et médicaments
 
-Il n'existe ni vaccin ni médicament approuvé contre la maladie à virus Bundibugyo. Ceux qui existent n'agissent que contre le virus Ebola. Des recherches sont en cours pendant l'épidémie :
+Il n'existe ni vaccin ni médicament approuvé contre la maladie à virus Bundibugyo. Ceux qui existent n'agissent que contre le virus Ebola. Des recherches sont en cours pendant l'épidémie :[[whoFactSheet]]
 
-- **Vaccins :** en juillet 2026, un groupe d'experts de l'OMS a recommandé de tester Ervebo, le vaccin approuvé contre le virus Ebola, pendant cette épidémie. Le 23 octobre, l'essai TUMAINI a commencé à Bunia. Il propose la vaccination aux personnes ayant été en contact avec un cas confirmé, une approche appelée vaccination en anneau, en commençant par Ervebo. Le 4 novembre, des experts de l'OMS ont recommandé d'y ajouter les deux premiers vaccins conçus spécifiquement contre le virus Bundibugyo, ChAdOx1 et mRNA-1469, après les autorisations nationales. Les résultats sont attendus début 2027.
-- **Médicaments :** depuis le 2 juillet 2026, un essai clinique parrainé par l'OMS, appelé PARTNERS, teste si un médicament à base d'anticorps (MBP134) et un médicament antiviral (remdesivir), seuls ou associés, améliorent la survie. Un autre médicament à base d'anticorps, le maftivimab, y sera bientôt ajouté. Une autre étude teste si l'obeldesivir peut éviter la maladie chez les personnes exposées au virus.
+- **Vaccins :** en juillet 2026, un groupe d'experts de l'OMS a recommandé de tester Ervebo, le vaccin approuvé contre le virus Ebola, pendant cette épidémie. Un essai appelé TUMAINI propose désormais la vaccination aux personnes ayant été en contact avec un cas confirmé, une approche appelée vaccination en anneau, en commençant par Ervebo. Le 4 novembre, des experts de l'OMS ont recommandé d'y ajouter les deux premiers vaccins conçus spécifiquement contre le virus Bundibugyo, ChAdOx1 et mRNA-1469, après les autorisations nationales. Les résultats sont attendus début 2027.[[whoVaccineAdvisoryGroup]][[whoVaccineTrials]]
+- **Médicaments :** depuis le 2 juillet 2026, un essai clinique parrainé par l'OMS, appelé PARTNERS, teste si un médicament à base d'anticorps (MBP134) et un médicament antiviral (remdesivir), seuls ou associés, améliorent la survie. Un autre médicament à base d'anticorps, le maftivimab, y sera bientôt ajouté. Une autre étude teste si l'obeldesivir peut éviter la maladie chez les personnes exposées au virus.[[whoTreatmentTrial]][[whoVaccineTrials]]
 
 Pour en savoir plus : [Vaccins et traitements](../vaccines-treatment/).
 
 ## Chronologie
 
-- **15 mai 2026 :** la République démocratique du Congo déclare une épidémie de maladie d'Ebola due au virus Bundibugyo.
-- **17 mai 2026 :** l'OMS déclare que l'épidémie en République démocratique du Congo et en Ouganda constitue une urgence de santé publique de portée internationale.
-- **2 juillet 2026 :** l'essai PARTNERS sur les médicaments commence à inclure des patients.
-- **31 juillet 2026 :** un groupe d'experts de l'OMS recommande de tester le vaccin Ervebo contre le virus Bundibugyo.
-- **14 août 2026 :** l'OMS juge le risque très élevé en République démocratique du Congo, élevé dans les pays voisins et faible ailleurs.
-- **27 août 2026 :** l'Ouganda déclare la fin de son épidémie.
-- **6 octobre 2026 :** le Kenya confirme son premier cas, chez une personne venue de République démocratique du Congo en passant par l'Ouganda.
-- **20 octobre 2026 :** le Nigéria confirme un cas importé.
-- **23 octobre 2026 :** l'essai vaccinal TUMAINI commence à Bunia.
-- **4 novembre 2026 :** des experts de l'OMS recommandent d'ajouter à l'essai deux vaccins conçus contre le virus Bundibugyo.
+- **15 mai 2026 :** la République démocratique du Congo déclare une épidémie de maladie d'Ebola due au virus Bundibugyo.[[whoDon622]]
+- **17 mai 2026 :** l'OMS déclare que l'épidémie en République démocratique du Congo et en Ouganda constitue une urgence de santé publique de portée internationale.[[whoPheic]]
+- **2 juillet 2026 :** l'essai PARTNERS sur les médicaments commence à inclure des patients.[[whoTreatmentTrial]]
+- **31 juillet 2026 :** un groupe d'experts de l'OMS recommande de tester le vaccin Ervebo contre le virus Bundibugyo.[[whoVaccineAdvisoryGroup]]
+- **14 août 2026 :** l'OMS juge le risque très élevé en République démocratique du Congo, élevé dans les pays voisins et faible ailleurs.[[whoDon622]]
+- **27 août 2026 :** l'Ouganda déclare la fin de son épidémie.[[afroUgandaEnd]]
+- **6 octobre 2026 :** le Kenya confirme son premier cas, chez une personne venue de République démocratique du Congo en passant par l'Ouganda.[[whoDon622]]
+- **20 octobre 2026 :** le Nigéria confirme un cas importé.[[afroNigeria]]
+- **4 novembre 2026 :** des experts de l'OMS recommandent d'ajouter à l'essai deux vaccins conçus contre le virus Bundibugyo.[[whoVaccineTrials]]
 
 Pour les dernières évolutions, consultez nos [points de situation](../../updates/).
 
 ## Ce qui fait la différence
 
-Des soins précoces sauvent des vies. La réhydratation, l'alimentation et le traitement des symptômes dans un centre de traitement augmentent les chances de survie. L'OMS signale que de nombreux décès surviennent dans la communauté, hors des centres de traitement, ce qui montre des retards dans la reconnaissance de la maladie et l'accès aux soins.
+Des soins précoces sauvent des vies. La réhydratation, l'alimentation et le traitement des symptômes dans un centre de traitement augmentent les chances de survie. L'OMS signale que de nombreux décès surviennent dans la communauté, hors des centres de traitement, ce qui montre des retards dans la reconnaissance de la maladie et l'accès aux soins.[[whoQuestions]][[whoDon622]]
 
-Si vous ou une personne proche avez des symptômes, contactez immédiatement la ligne d'urgence sanitaire nationale ou les autorités sanitaires locales.
+Si vous ou une personne proche avez des symptômes, contactez immédiatement la ligne d'urgence sanitaire nationale ou les autorités sanitaires locales.[[whoQuestions]]
