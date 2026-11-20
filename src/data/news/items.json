@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-19T18:41:00.269Z",
+  "updatedAt": "2026-11-20T08:34:01.670Z",
   "items": [
+    {
+      "id": "f68cc943982a63e7",
+      "url": "https://www.rfi.fr/fr/afrique/20261120-ebola-en-rdc-l-ong-nrc-demande-une-approche-plus-globale-et-inclusive-dans-la-riposte",
+      "title": "Ebola en RDC: l'ONG NRC demande «une approche plus globale et inclusive» dans la riposte",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-20T08:21:37.000Z",
+      "firstSeenAt": "2026-11-20T08:34:01.670Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "58936d4e1c406c79",
+      "url": "https://actualite.cd/2026/11/20/ebola-en-rdc-msf-plaide-pour-lutilisation-elargie-du-vaccin-ervebo-sans-attendre-un",
+      "title": "Ebola en RDC : MSF plaide pour l'utilisation élargie du vaccin ERVEBO sans attendre un autre vaccin spécifique",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-20T05:23:00.000Z",
+      "firstSeenAt": "2026-11-20T08:34:01.670Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "dd862b43a0dd03e0",
       "url": "https://insp.cd/sitrep-n188-mve-bdbv-18-11-2026/",
