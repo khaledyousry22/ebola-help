@@ -21,6 +21,7 @@ import {
   type FeedEntry,
   type HealthGuide,
 } from '../../lib/social-feed';
+import { stripCitations } from '../../lib/citations';
 import { getUpdates, splitUpdateId } from '../../lib/updates';
 
 async function healthGuides(): Promise<HealthGuide[]> {
@@ -28,7 +29,7 @@ async function healthGuides(): Promise<HealthGuide[]> {
   for (const entry of await getCollection('health')) {
     const [locale, slug = ''] = entry.id.split('/') as [Locale, string?];
     const guide = guides.get(slug) ?? { slug, order: entry.data.order, text: {} };
-    guide.text[locale] = { title: entry.data.title, keyPoints: entry.data.keyPoints };
+    guide.text[locale] = { title: entry.data.title, keyPoints: entry.data.keyPoints.map(stripCitations) };
     guides.set(slug, guide);
   }
   return [...guides.values()];

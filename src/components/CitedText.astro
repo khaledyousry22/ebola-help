@@ -1,0 +1,20 @@
+---
+/** A sentence that may end with [[sourceId]] markers, e.g. a key point (see src/lib/citations.ts). */
+import { citationParts } from '../lib/citations';
+import type { Locale } from '../i18n';
+
+interface Props {
+  text: string;
+  sources: readonly string[];
+  locale: Locale;
+}
+const { text, sources, locale } = Astro.props;
+const parts = citationParts(text, sources, locale, text);
+---
+{
+  parts.map((part) =>
+    'text' in part ? part.text : (
+      <sup class="cite"><a href={`#source-${part.id}`} aria-label={part.label}>[{part.number}]</a></sup>
+    ),
+  )
+}

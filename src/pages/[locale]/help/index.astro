@@ -15,7 +15,7 @@ const locale = Astro.params.locale as Locale;
 const m = getMessages(locale);
 const countries = sortedCountries(locale);
 ---
-<BaseLayout locale={locale} title={m.help.title} description={m.help.description}>
+<BaseLayout locale={locale} title={m.help.metaTitle} description={m.help.description}>
   <div slot="intro" class="prose-page">
     <Breadcrumbs locale={locale} items={[{ label: m.nav.home, href: localePath(locale) }, { label: m.help.title }]} />
     <h1 class="page-title">{m.help.title}</h1>

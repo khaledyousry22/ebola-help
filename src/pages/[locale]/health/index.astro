@@ -14,7 +14,7 @@ const locale = Astro.params.locale as Locale;
 const m = getMessages(locale);
 const pages = await getHealthPages(locale);
 ---
-<BaseLayout locale={locale} title={m.health.hubTitle} description={m.health.hubDescription}>
+<BaseLayout locale={locale} title={m.health.metaTitle} description={m.health.hubDescription}>
   <div slot="intro" class="prose-page">
     <Breadcrumbs locale={locale} items={[{ label: m.nav.home, href: localePath(locale) }, { label: m.health.hubTitle }]} />
     <h1 class="page-title">{m.health.hubTitle}</h1>

@@ -2,11 +2,12 @@
   "meta": {
     "siteName": "Ebola.help",
     "tagline": "Independent information about Ebola disease",
-    "homeTitle": "Ebola.help: news, helplines and prevention information",
+    "homeTitle": "Ebola outbreak {year}: latest cases, map and helplines",
     "homeDescription": "Independent information about Ebola disease in six languages: official updates, news, helplines and prevention advice, always linked to the official sources.",
     "aboutTitle": "About Ebola.help",
     "aboutDescription": "Who runs Ebola.help, how information is checked, and why the site is independent of WHO and all governments.",
-    "notFoundTitle": "Page not found"
+    "notFoundTitle": "Page not found",
+    "homeFigures": "{country}: {cases} confirmed Ebola cases and {deaths} deaths as of {date} (official figures). Outbreak map, helplines and health advice in six languages, linked to official sources."
   },
   "a11y": {
     "skipToContent": "Skip to main content",
@@ -40,7 +41,8 @@
   "picker": {
     "choose": "Choose your language",
     "continue": "Continue in English",
-    "suggested": "Suggested for you"
+    "suggested": "Suggested for you",
+    "title": "Ebola outbreak {year}: cases, map and helplines in six languages"
   },
   "emergency": {
     "title": "If you or someone near you has symptoms",
@@ -101,7 +103,8 @@
     "policy": "We show only the headline, the source and the date. Read the full article on the publisher's website.",
     "latestOfficial": "Latest official updates",
     "latestNews": "Latest news",
-    "allNews": "All news and official updates"
+    "allNews": "All news and official updates",
+    "metaTitle": "Ebola news and official updates"
   },
   "updates": {
     "title": "Situation updates",
@@ -113,7 +116,10 @@
     "inShort": "In short",
     "readMore": "Read the full update",
     "all": "All situation updates",
-    "disclaimer": "This summary is written by the Ebola.help Team from the official reports listed below. Figures change every day: check the sources for the latest information."
+    "disclaimer": "This summary is written by the Ebola.help Team from the official reports listed below. Figures change every day: check the sources for the latest information.",
+    "metaTitle": "Ebola situation updates: weekly outbreak summaries",
+    "pageMetaTitle": "Ebola situation update, {date}",
+    "support": "Ebola.help is free, independent and receives no official funding. If these updates are useful to you, you can support the site on {patreon}."
   },
   "help": {
     "title": "Helplines and health contacts",
@@ -150,7 +156,8 @@
       "ministry": "Ministry of Health",
       "institute": "National public health institute",
       "who": "WHO country office"
-    }
+    },
+    "metaTitle": "Ebola helplines and health contacts by country"
   },
   "country": {
     "description": "Ebola situation, official figures, helplines and latest news for {country}.",
@@ -167,7 +174,8 @@
     "latestNews": "Latest news",
     "noNews": "No recent news mentions this country.",
     "allCountries": "All countries",
-    "viewPage": "Open the page for {country}"
+    "viewPage": "Open the page for {country}",
+    "metaTitle": "Ebola in {country}: figures, helplines and news"
   },
   "map": {
     "title": "Outbreak map",
@@ -182,7 +190,8 @@
     "close": "Close",
     "mapLabel": "Map of Africa showing the Ebola situation by country",
     "boundaries": "Boundaries on this map are approximate and do not imply any opinion on the legal status of any country or territory, or on its borders.",
-    "dataNote": "Map data: Natural Earth (public domain)."
+    "dataNote": "Map data: Natural Earth (public domain).",
+    "metaTitle": "Ebola outbreak map: affected countries and latest figures"
   },
   "ads": {
     "label": "Advertisement"
@@ -200,7 +209,9 @@
     "disclaimer": "This page gives general information only. It does not replace advice from a doctor, nurse or other health worker. If you feel ill, contact a health worker or your national health hotline.",
     "previous": "Previous",
     "next": "Next",
-    "breadcrumb": "You are here"
+    "breadcrumb": "You are here",
+    "metaTitle": "Ebola health information: symptoms, prevention and treatment",
+    "cite": "Source {n}"
   },
   "publishers": {
     "who": "World Health Organization (WHO)",
@@ -215,10 +226,10 @@
     "what": "Ebola.help is an independent public information service. It gathers official updates, news coverage, helplines and prevention advice about Ebola disease in Arabic, Chinese, English, French, Russian and Spanish.",
     "independenceTitle": "Independent and not official",
     "independence": "Ebola.help is not affiliated with, endorsed by or speaking for the World Health Organization (WHO), any other United Nations agency, Africa CDC or any government. It has no official status. Always follow the instructions of your national health authorities.",
-    "whoTitle": "Who we are",
-    "who": "Ebola.help is written and maintained by the Ebola.help Team, an independent team. We are not a health authority, and we do not speak for any government or international organisation.",
+    "whoTitle": "Who runs Ebola.help",
+    "who": "Ebola.help is run by a journalist and translator based in Cairo, who is responsible for everything published on the site. Ebola.help is not a health authority: every health page is based only on official public health sources, and links to them. The site does not speak for any government or international organisation.",
     "sourcesTitle": "Where the information comes from",
-    "sources": "We link to the original official sources: national health ministries, WHO, Africa CDC and other public health agencies. For news articles we show only the headline, the source and the date, with a link to the full article on the publisher's website.",
+    "sources": "Our health pages, figures and situation updates use only official sources: WHO (including its Regional Office for Africa), the US Centers for Disease Control and Prevention (CDC), the European Centre for Disease Prevention and Control (ECDC), Africa CDC and the Ministry of Public Health of the Democratic Republic of the Congo. Each helpline is checked against an official source before it is published. For news articles we show only the headline, the source and the date, with a link to the full article on the publisher's website.",
     "verificationTitle": "How contact details are checked",
     "verification": "Every phone number, address and health facility on this site is checked against an official source. Each one shows that source and the date it was last verified. If we cannot verify a detail, we do not publish it.",
     "translationTitle": "Translations",
@@ -270,5 +281,12 @@
   },
   "share": {
     "title": "Share this page"
+  },
+  "corrections": {
+    "title": "Corrections",
+    "entry": "{date}: {note}",
+    "report": "Report an error on this page",
+    "subject": "Error on Ebola.help: {url}",
+    "body": "What is wrong:\n\nLink to an official source with the correct information (if you have one):\n"
   }
 }

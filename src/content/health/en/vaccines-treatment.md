@@ -1,53 +1,57 @@
 ---
 title: Vaccines and treatment
+metaTitle: "Ebola vaccines and treatment: what exists and what is being tested"
 description: What care improves survival, which vaccines and medicines exist, and what is being tested for Bundibugyo virus.
 order: 5
 keyPoints:
-  - Early supportive care at a treatment centre, such as fluids, nutrition and treatment of symptoms, improves the chance of survival for every type of Ebola disease.
-  - Approved vaccines and medicines exist only for Ebola virus disease, caused by Ebola virus.
-  - For Bundibugyo virus, which causes the current outbreak in the Democratic Republic of the Congo, there is no approved vaccine or medicine yet. Candidates are being tested in research studies.
-  - A vaccine cannot give you Ebola. The approved vaccine contains only one gene of the virus, not the whole virus.
-sources: [whoFactSheet, whoQuestions, cdcBasics, cdcVaccine, whoTreatmentTrial, whoVaccineAdvisoryGroup, whoDon622, whoVaccineTrials, drcSitrep158]
-reviewed: 2026-11-06
+  - "Early supportive care at a treatment centre, such as fluids, nutrition and treatment of symptoms, improves the chance of survival for every type of Ebola disease.[[whoQuestions]][[whoFactSheet]]"
+  - "Approved vaccines and medicines exist only for Ebola virus disease, caused by Ebola virus.[[whoFactSheet]]"
+  - "For Bundibugyo virus, which causes the current outbreak in the Democratic Republic of the Congo, there is no approved vaccine or medicine yet. Candidates are being tested in research studies.[[whoFactSheet]][[whoTreatmentTrial]][[whoVaccineTrials]]"
+  - "A vaccine cannot give you Ebola. The approved vaccine contains only one gene of the virus, not the whole virus.[[cdcVaccine]]"
+sources: [whoQuestions, whoFactSheet, whoTreatmentTrial, whoVaccineTrials, cdcVaccine, whoVaccineAdvisoryGroup, drcSitrep158, cdcBasics]
+reviewed: 2026-11-19
+corrections:
+  - date: 2026-11-20
+    note: "We removed the start date and place of the TUMAINI trial (23 October, Bunia), which we could not confirm in the sources of this page."
 ---
 
 ## Care that improves survival
 
-The best chance of survival comes from early care at a designated treatment centre. This is called supportive care. It includes:
+The best chance of survival comes from early care at a designated treatment centre. This is called supportive care. It includes:[[whoQuestions]][[whoFactSheet]]
 
-- fluids and body salts, by mouth or through a drip;
-- nutrition;
-- medicines to manage fever, pain, vomiting and diarrhoea;
-- treatment of other infections, such as malaria.
+- fluids and body salts, by mouth or through a drip;[[whoTreatmentTrial]]
+- nutrition;[[whoQuestions]]
+- medicines to manage fever, pain, vomiting and diarrhoea;[[whoFactSheet]]
+- treatment of other infections, such as malaria.[[whoFactSheet]]
 
-Seeking care early can save lives.
+Seeking care early can save lives.[[whoFactSheet]]
 
 ## Vaccines
 
 ### For Ebola virus disease
 
-Two vaccines are approved: Ervebo, and Zabdeno with Mvabea. Ervebo is used to protect people at risk during outbreaks of Ebola virus disease.
+Two vaccines are approved: Ervebo, and Zabdeno with Mvabea. Ervebo is used to protect people at risk during outbreaks of Ebola virus disease.[[whoFactSheet]]
 
 ### For Bundibugyo virus disease
 
-There is no approved vaccine. In July 2026, a WHO expert group recommended that Ervebo be tested in a research study during the current outbreak, to find out whether it also protects against Bundibugyo virus. In the Democratic Republic of the Congo, front-line workers in several provinces have since received Ervebo, according to the Ministry of Health (October 2026).
+There is no approved vaccine. In July 2026, a WHO expert group recommended that Ervebo be tested in a research study during the current outbreak, to find out whether it also protects against Bundibugyo virus. In the Democratic Republic of the Congo, front-line workers in several provinces have since received Ervebo, according to the Ministry of Health (October 2026).[[whoFactSheet]][[whoVaccineAdvisoryGroup]][[drcSitrep158]]
 
-Since 23 October 2026, a trial called TUMAINI has been offering Ervebo to people who have been in contact with a confirmed case, an approach called ring vaccination. On 4 November, WHO experts recommended adding the first two vaccines designed specifically against Bundibugyo virus, ChAdOx1 and mRNA-1469, once national approvals are given. Results are expected in early 2027. Until then, it is not known whether any of these vaccines protects against Bundibugyo virus.
+A trial called TUMAINI is now offering Ervebo to people who have been in contact with a confirmed case, an approach called ring vaccination. Four vaccination rings were in place by early November. On 4 November, WHO experts recommended adding the first two vaccines designed specifically against Bundibugyo virus, ChAdOx1 and mRNA-1469, once national approvals are given. Results are expected in early 2027. Until then, it is not known whether any of these vaccines protects against Bundibugyo virus.[[whoVaccineTrials]]
 
 ### Can a vaccine give you Ebola?
 
-No. Ervebo contains only one gene from Ebola virus, not the whole virus, so it cannot cause Ebola disease.
+No. Ervebo contains only one gene from Ebola virus, not the whole virus, so it cannot cause Ebola disease.[[cdcVaccine]]
 
 ## Medicines
 
 ### For Ebola virus disease
 
-WHO recommends two antibody medicines: ansuvimab (Ebanga) and REGN-EB3 (Inmazeb). They work only against Ebola virus.
+WHO recommends two antibody medicines: ansuvimab (Ebanga) and REGN-EB3 (Inmazeb). They work only against Ebola virus.[[whoFactSheet]][[cdcBasics]]
 
 ### For Bundibugyo virus disease
 
-No medicine is approved yet. Since 2 July 2026, a clinical trial sponsored by WHO, called PARTNERS, has been running in the Democratic Republic of the Congo. It is testing whether an antibody medicine (MBP134) and an antiviral medicine (remdesivir), alone or together, improve survival, and another antibody medicine, maftivimab, will soon be added. People taking part also receive full supportive care. A separate study is testing whether obeldesivir can prevent illness in people who have been exposed to the virus. WHO expects first results in the coming months.
+No medicine is approved yet. Since 2 July 2026, a clinical trial sponsored by WHO, called PARTNERS, has been running in the Democratic Republic of the Congo. It is testing whether an antibody medicine (MBP134) and an antiviral medicine (remdesivir), alone or together, improve survival, and another antibody medicine, maftivimab, will soon be added. People taking part also receive full supportive care. A separate study is testing whether obeldesivir can prevent illness in people who have been exposed to the virus. WHO expects first results in the coming months.[[whoTreatmentTrial]][[whoVaccineTrials]]
 
 ## Be careful with "cures"
 
-Only take treatments given by health workers. Apart from the medicines above for Ebola virus disease, no treatment, including herbal or home remedies, is approved for Ebola disease. See [Myths and facts](../myths-facts/).
+Only take treatments given by health workers. Apart from the medicines above for Ebola virus disease, no treatment, including herbal or home remedies, is approved for Ebola disease. See [Myths and facts](../myths-facts/).[[whoFactSheet]]

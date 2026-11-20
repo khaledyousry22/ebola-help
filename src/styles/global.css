@@ -662,3 +662,29 @@
     word-break: break-all;
   }
 }
+
+@layer components {
+  /* Numbered link to a source after a claim (src/lib/citations.ts). */
+  .cite {
+    font-size: 0.75em;
+    line-height: 0;
+    white-space: nowrap;
+  }
+
+  .cite a {
+    padding-inline: 0.1em;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  /* The source a reader jumped to from a citation. */
+  .source-item {
+    scroll-margin-top: 1.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .source-item:target {
+    background: var(--color-teal-50);
+    outline: 0.5rem solid var(--color-teal-50);
+  }
+}

@@ -17,3 +17,7 @@ export async function getUpdates(locale: Locale): Promise<UpdateEntry[]> {
 
 export const updatePath = (entry: UpdateEntry) => `/updates/${splitUpdateId(entry.id).slug}/`;
 export const isoDay = (date: Date) => date.toISOString().slice(0, 10);
+
+/** Date a page last changed (YYYY-MM-DD): its own date, or its latest correction if later. */
+export const lastChange = (date: Date, corrections: readonly { date: Date }[] = []) =>
+  isoDay(new Date(Math.max(date.getTime(), ...corrections.map((c) => c.date.getTime()))));

@@ -23,7 +23,7 @@ const name = countryName(locale, iso);
 const situation = countrySituation(iso);
 const news = newsForCountry(iso, locale).slice(0, 5);
 ---
-<BaseLayout locale={locale} title={name} description={format(m.country.description, { country: name })}>
+<BaseLayout locale={locale} title={format(m.country.metaTitle, { country: name })} description={format(m.country.description, { country: name })}>
   <div slot="intro" class="grid items-center gap-6 lg:grid-cols-[minmax(0,1fr)_24rem] lg:gap-12" data-country-situation>
     <div>
       <Breadcrumbs

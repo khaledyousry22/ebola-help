@@ -161,7 +161,8 @@ must go into Cloudflare, not GoDaddy, and it replaces this forwarding.
    In Cloudflare: **ebola.help** → **DNS** → **Records** → **Add record** →
    Type **TXT**, Name `@`, Content: paste the line → **Save**. Back in Search
    Console, click **Verify** (it can take a few minutes).
-3. **Sitemaps** → enter `sitemap-index.xml` → **Submit**.
+3. **Sitemaps** → enter `sitemap.xml` → **Submit**. (If you submitted
+   `sitemap-index.xml` before, leave it: it now points to `sitemap.xml`.)
 
 ## Step 9: Check that everything works
 

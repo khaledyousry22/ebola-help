@@ -1,28 +1,38 @@
 ---
 title: Editorial policy
-description: Who writes Ebola.help, where its information comes from, how pages are written, checked and corrected, and how news and advertising are handled.
-updated: 2026-11-09
+description: "Who runs Ebola.help, which official sources it uses, how often figures are updated, how pages are written and checked, and how errors are corrected."
+updated: 2026-11-20
 ---
 
 ## Who we are
 
-Ebola.help is written and maintained by the Ebola.help Team, an independent team. We are not a health authority. We are not affiliated with the World Health Organization (WHO), any other United Nations agency, Africa CDC or any government, and we do not speak for them.
+Ebola.help is an independent site run by a journalist and translator based in Cairo, who is responsible for everything it publishes. We are not a health authority. We are not affiliated with the World Health Organization (WHO), any other United Nations agency, Africa CDC or any government, and we do not speak for them.
 
 Our aim is simple: to give people clear, calm and reliable information about Ebola disease in six languages, with links to the official sources so that anyone can check it.
 
-## Where our information comes from
+## Official sources only
 
-Our health pages are based only on official public health sources: WHO and its Regional Office for Africa, the United States Centers for Disease Control and Prevention (CDC), and national health ministries and public health institutes. Every health page lists its sources, with their dates and links, and shows the date it was last checked against them.
+Our health pages, the outbreak figures and our situation updates are based only on official public health sources:
+
+- the World Health Organization (WHO), including its Regional Office for Africa;
+- the United States Centers for Disease Control and Prevention (CDC);
+- the European Centre for Disease Prevention and Control (ECDC);
+- the Africa Centres for Disease Control and Prevention (Africa CDC);
+- the Ministry of Public Health, Hygiene and Social Welfare of the Democratic Republic of the Congo and its National Institute of Public Health.
+
+We do not use social media posts, blogs or unofficial figures. Each health page lists its sources at the end, with their dates and links, and shows the date it was last checked against them. Where WHO publishes information in a language, our page in that language is based on it.
 
 ## How we write
 
 We write in our own words and in plain language. We do not copy articles from other websites. In each language we use the official health terms used by WHO in that language.
 
-We use AI writing tools to help draft and translate pages. Every page is based on the official sources it cites, and all six language versions are written from the same sources.
+We use AI writing tools to help draft and translate pages. Every page is based on the official sources it cites, and all six language versions are written from the same sources. New health pages and situation updates are approved by the site's editor before they are published.
 
-## Outbreak figures
+## How often figures are updated
 
-The figures in the banner at the top of each page and on the map are official figures from health authorities. Each one shows the date it refers to and its source. They are updated from official reports, partly automatically. Before new figures are published, automatic checks look for obvious errors, such as totals that go down or very large jumps.
+The outbreak figures at the top of each page and on the map are official figures. They come from the CDC page "Ebola Outbreak: Current Situation", which our system checks every three hours, or from the official report named next to them. New figures are published only after automatic checks: totals must never go down, deaths must never be more than cases, a rise of more than 25% at once is held back, and dates in the future are refused. If a check fails, the figures on the site stay as they are until we have checked the new ones by hand. Each figure shows the date it refers to and its source.
+
+Our situation updates summarise the official reports once a week.
 
 ## Helplines and contact details
 
@@ -34,7 +44,13 @@ News items are collected automatically every hour from health authorities and es
 
 ## Corrections
 
-If you find an error, please write to [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help). We check every report against official sources and correct mistakes as quickly as we can. Each health page shows when it was last checked, and each phone number shows when it was last verified.
+If you find an error, use the "Report an error on this page" link at the end of each health page and situation update, or write to [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help). Please tell us what is wrong and, if you can, give a link to an official source with the correct information.
+
+We check every report against official sources and correct mistakes as quickly as we can:
+
+- If a correction changes the meaning of a health page or a situation update (a figure, a date or a piece of advice), we add a dated note under "Corrections" at the end of the page, saying what was changed.
+- Spelling mistakes and broken links are fixed without a note.
+- A wrong phone number is corrected or removed as soon as we have checked it, and its "Last verified" date is updated.
 
 ## Advertising and independence
 

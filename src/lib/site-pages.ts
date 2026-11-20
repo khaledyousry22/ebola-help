@@ -2,30 +2,40 @@ import { SITE_URL } from '../config';
 import { localePath, type Locale } from '../i18n';
 import { COUNTRY_PAGES, countryPath } from './country-pages';
 import { getHealthPages, splitHealthId } from './health';
-import { getUpdates, updatePath } from './updates';
-import { INFO_PAGES } from './info-pages';
+import { getUpdates, isoDay, lastChange, updatePath } from './updates';
+import { getInfoPage, INFO_PAGES } from './info';
 
 export { NOINDEX_PAGES } from './indexing';
 
+export interface SitePage {
+  /** The part after /<locale>, e.g. '/health/symptoms/'. */
+  path: string;
+  /** Date the page's text last changed (YYYY-MM-DD), where we know it. */
+  lastmod?: string | undefined;
+}
+
 /**
- * Every page in each language that search engines should index, as the part
- * after /<locale>. Used by the sitemaps. A browser test checks it against
- * the built site.
+ * Every page in one language that search engines should index. Used by the
+ * sitemap. A browser test checks it against the built site.
  */
-export async function localePages(): Promise<string[]> {
-  const health = await getHealthPages('en');
-  const updates = await getUpdates('en');
+export async function localePages(locale: Locale): Promise<SitePage[]> {
+  const health = await getHealthPages(locale);
+  const updates = await getUpdates(locale);
+  const info = await Promise.all(INFO_PAGES.map((slug) => getInfoPage(locale, slug)));
   return [
-    '/',
-    '/updates/',
-    ...updates.map(updatePath),
-    '/map/',
-    '/help/',
-    ...COUNTRY_PAGES.map(countryPath),
-    '/health/',
-    ...health.map((entry) => `/health/${splitHealthId(entry.id).slug}/`),
-    '/about/',
-    ...INFO_PAGES.map((slug) => `/${slug}/`),
+    { path: '/' },
+    { path: '/updates/', lastmod: updates[0] && isoDay(updates[0].data.date) },
+    ...updates.map((entry) => ({ path: updatePath(entry), lastmod: lastChange(entry.data.date, entry.data.corrections) })),
+    { path: '/map/' },
+    { path: '/help/' },
+    ...COUNTRY_PAGES.map((iso) => ({ path: countryPath(iso) })),
+    { path: '/health/' },
+    ...health.map((entry) => ({
+      path: `/health/${splitHealthId(entry.id).slug}/`,
+      lastmod: lastChange(entry.data.reviewed, entry.data.corrections),
+    })),
+    { path: '/about/' },
+    ...INFO_PAGES.map((slug, i) => ({ path: `/${slug}/`, lastmod: isoDay(info[i]!.data.updated) })),
   ];
 }
 

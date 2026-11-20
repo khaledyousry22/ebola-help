@@ -30,16 +30,35 @@ plain language.
 - Health pages: `src/content/health/<locale>/<slug>.md`. Every language has the
   same slugs and cites the same source ids (unit tests enforce this). Text is
   written by us from the sources (WHO website terms allow short extracts only,
-  not copying), using WHO's official terminology in each language.
+  not copying), using WHO's official terminology in each language; where WHO
+  publishes a source in a language, add that version to `sources.ts`.
+  `metaTitle` is the search title when the page title lacks "Ebola".
+- Source links: `[[sourceId]]` after a claim (body or key point) becomes a
+  numbered link to the page's source list (`src/lib/citations.ts`, a Sätteri
+  plugin in `astro.config.mjs`); numbers follow the `sources` order. Pages
+  that use them must cite every listed source, in the same paragraphs in every
+  language (unit tests). Check each claim against its source first.
+- Drafts awaiting approval: `src/content/drafts/health/<locale>/<slug>.md`,
+  never on the live site; `npm run build:drafts` (SHOW_DRAFTS=1) builds
+  `dist-drafts/` with drafts in place of the live pages. Every draft
+  paragraph, list item and key point must cite a source. To publish after the
+  owner approves, move the files into `src/content/health/`.
+- Corrections: optional `corrections` (date, note) on health pages and
+  updates, shown at the end with a "Report an error" e-mail link; the
+  editorial policy promises a note for any change of meaning.
 - Situation updates (weekly): `src/content/updates/<locale>/<YYYY-MM-DD>.md`
   (title, description, date, figuresAsOf, keyPoints, sources), listed at
   `/<locale>/updates/`, newest on the home page (`LatestUpdate`). Every
   language has the same dates, sources, links and number of key points
   (unit tests). Write only what the cited official reports say; the owner
-  approves the English draft first.
+  approves the English draft first. Each update ends with a Patreon note.
 - Policy pages (editorial policy, privacy, contact):
   `src/content/info/<locale>/<slug>.md`, slugs in `src/lib/info-pages.ts`,
-  linked from every footer; the site is signed "the Ebola.help Team". The
+  linked from every footer. About, editorial policy and contact say the site
+  is run by a journalist and translator based in Cairo. At the owner's
+  request, never put the owner's name on the site. Other pages are signed
+  "the Ebola.help Team". Describe the editor without gendered pronouns or
+  word forms where the language allows. The
   privacy policy must match what the site does (cookies, ad pages, hosting):
   update it when that changes.
 - Search indexing: `NOINDEX_PAGES` (`src/lib/indexing.ts`) are noindex and
@@ -98,9 +117,16 @@ plain language.
   country, About or picker pages (browser tests enforce this). `AdLoader`
   loads Google's script after page load, near the slot, and never on
   Save-Data or 2G. About page carries Google's required privacy disclosures.
-- Search engines: `/sitemap-index.xml` and `/<locale>/sitemap.xml`, built from
-  `localePages()` in `src/lib/site-pages.ts` (a browser test checks it matches
-  the built pages). Share images and app icons in `public/social/` and
+- Search engines: one `/sitemap.xml` (every page in every language plus the
+  root, with last-changed dates), built from `localePages()` in
+  `src/lib/site-pages.ts` (a browser test checks it matches the built pages);
+  `/sitemap-index.xml` points to it for Search Console. hreflang links come
+  from `src/lib/alternates.ts` for both pages and sitemap: x-default is the
+  root picker for home pages and English elsewhere (the picker only links
+  back to home pages). Titles: home pages show the outbreak year and
+  description the latest figures, from `outbreak.json`; other pages use
+  `metaTitle` messages so each title says "Ebola" (unique per language,
+  browser test). Share images and app icons in `public/social/` and
   `public/icons/` are drawn by `npm run images`.
 - Offline: hand-written service worker `src/pages/sw.js.ts` (network first,
   saved copy or `/<locale>/offline/` without a connection; saves

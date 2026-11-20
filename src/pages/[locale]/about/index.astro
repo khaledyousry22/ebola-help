@@ -41,7 +41,7 @@ const privacyLinks = {
 
     <section id="who" data-who>
       <h2>{a.whoTitle}</h2>
-      <p>{a.who}</p>
+      <p data-editor>{a.who}</p>
       <ul>
         {policyLinks.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
       </ul>

@@ -1,5 +1,6 @@
 ---
 title: "When someone dies: safe and dignified burials"
+metaTitle: "Safe and dignified burials during Ebola outbreaks"
 description: Why the body of a person who has died of Ebola can pass on the virus, what to do if someone dies at home, and how safe and dignified burials protect families while respecting their wishes.
 order: 9
 keyPoints:

@@ -7,7 +7,9 @@
 import '../styles/global.css';
 import Logo from '../components/Logo.astro';
 import LocaleScript from '../components/LocaleScript.astro';
-import { ADS, SITE_URL } from '../config';
+import { ADS, PATREON_URL, SITE_URL } from '../config';
+import Icon from '../components/Icon.astro';
+import { alternates as languageLinks } from '../lib/alternates';
 import { getMessages, LOCALE_LIST, localePath } from '../i18n';
 
 interface Props {
@@ -31,10 +33,7 @@ const { title, description, alternates = false, noindex = false } = Astro.props;
       alternates && (
         <>
           <link rel="canonical" href={new URL('/', SITE_URL).href} />
-          {LOCALE_LIST.map((l) => (
-            <link rel="alternate" hreflang={l.htmlLang} href={new URL(localePath(l.code), SITE_URL).href} />
-          ))}
-          <link rel="alternate" hreflang="x-default" href={new URL('/', SITE_URL).href} />
+          {languageLinks('/').map((link) => <link rel="alternate" hreflang={link.hreflang} href={link.href} />)}
         </>
       )
     }
@@ -83,6 +82,18 @@ const { title, description, alternates = false, noindex = false } = Astro.props;
           ))
         }
       </ul>
+      <div class="container-page mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-white/15 pt-4" data-support>
+        <Icon name="heart" size={18} class="text-white" />
+        <ul class="flex flex-wrap gap-x-5 gap-y-1">
+          {
+            LOCALE_LIST.map((l) => (
+              <li lang={l.htmlLang} dir={l.dir}>
+                <a href={PATREON_URL} class="footer-link" data-support-link>{getMessages(l.code).about.supportTitle}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
     </footer>
     <LocaleScript />
   </body>

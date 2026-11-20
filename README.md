@@ -146,9 +146,11 @@ Europe, blocking "cure" and medicine ads): [DEPLOY.md, Step 7](DEPLOY.md#step-7-
   and ads are never saved.
 - **Add to home screen:** readers can install the site like an app; it then
   opens in their language.
-- **Search engines:** each language has its own list of pages (sitemap),
-  linked from `robots.txt`, and every page tells search engines about its
-  five translations. Shared links show a preview image in the reader's
+- **Search engines:** one list of every page in every language
+  (`/sitemap.xml`), linked from `robots.txt`, and every page tells search
+  engines about its five translations. Page titles say "Ebola" in each
+  language, and the home page's title and description show the year and the
+  latest official figures from `src/data/outbreak.json`. Shared links show a preview image in the reader's
   language.
 
 ### Speed and accessibility

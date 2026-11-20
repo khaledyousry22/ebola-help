@@ -1,7 +1,7 @@
 ---
 title: Contact
-description: How to contact the Ebola.help Team to report a wrong phone number or another error, and where to get help if you have symptoms.
-updated: 2026-11-03
+description: "How to contact Ebola.help to report an error or a wrong phone number, and where to get help if you have symptoms."
+updated: 2026-11-20
 ---
 
 ## If you or someone near you has symptoms
@@ -10,20 +10,22 @@ Do not wait for an answer from us. Contact your national health hotline or the l
 
 We cannot give medical advice or answer medical questions.
 
-## Report a wrong number or another error
+## Report an error
 
-Write to [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help). Please tell us:
+At the end of each health page and situation update, the link "Report an error on this page" opens an e-mail to us with the address of the page already filled in.
+
+You can also write to [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help). Please tell us:
 
 - the page where you saw the error (its address, or the country and the language);
 - what is wrong;
 - if you can, a link to the official source with the correct information.
 
-We check every report against official sources and correct mistakes as quickly as we can.
+We check every report against official sources and correct mistakes as quickly as we can. Our [editorial policy](../editorial-policy/) explains how corrections are shown.
 
 ## Other questions about the site
 
-Write to the same address, [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help).
+Ebola.help is run by a journalist and translator based in Cairo. Write to the same address, [wrongnumber@ebola.help](mailto:wrongnumber@ebola.help).
 
 ## Questions for WHO or a government
 
-Ebola.help is an independent site run by the Ebola.help Team. We cannot pass messages to the World Health Organization, to ministries of health or to any other authority. Please contact them through their official websites.
+Ebola.help is an independent site. We cannot pass messages to the World Health Organization, to ministries of health or to any other authority. Please contact them through their official websites.

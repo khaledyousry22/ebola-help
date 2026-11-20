@@ -23,7 +23,7 @@ const background = shapes.filter((s) => !s.iso || !byIso.has(s.iso));
 const highlighted = shapes.filter((s) => s.iso && byIso.has(s.iso));
 const legend: MapStatus[] = ['active', 'monitoring', 'recent', 'none'];
 ---
-<BaseLayout locale={locale} title={m.map.title} description={m.map.description}>
+<BaseLayout locale={locale} title={m.map.metaTitle} description={m.map.description}>
   <div slot="intro" class="prose-page">
     <Breadcrumbs locale={locale} items={[{ label: m.nav.home, href: localePath(locale) }, { label: m.map.title }]} />
     <h1 class="page-title">{m.map.title}</h1>

@@ -2,11 +2,12 @@
   "meta": {
     "siteName": "Ebola.help",
     "tagline": "关于埃博拉病的独立信息",
-    "homeTitle": "Ebola.help：新闻、求助热线和预防信息",
+    "homeTitle": "{year}年埃博拉疫情：最新病例、地图和求助热线",
     "homeDescription": "以六种语言提供关于埃博拉病的独立信息：官方通报、新闻、求助热线和预防建议，并始终附有官方来源链接。",
     "aboutTitle": "关于 Ebola.help",
     "aboutDescription": "Ebola.help 由谁运营、信息如何核实，以及本网站为何独立于世卫组织和任何政府。",
-    "notFoundTitle": "未找到页面"
+    "notFoundTitle": "未找到页面",
+    "homeFigures": "{country}：埃博拉确诊病例 {cases} 例，死亡 {deaths} 例（截至{date}的官方数据）。以六种语言提供疫情地图、求助热线和健康信息，并附官方来源链接。"
   },
   "a11y": {
     "skipToContent": "跳至主要内容",
@@ -40,7 +41,8 @@
   "picker": {
     "choose": "请选择语言",
     "continue": "继续使用中文",
-    "suggested": "为您推荐"
+    "suggested": "为您推荐",
+    "title": "{year}年埃博拉疫情：六种语言的病例、地图和求助热线"
   },
   "emergency": {
     "title": "如果您或您身边的人出现症状",
@@ -101,7 +103,8 @@
     "policy": "我们只显示标题、来源和日期。请在出版方网站上阅读全文。",
     "latestOfficial": "最新官方通报",
     "latestNews": "最新新闻",
-    "allNews": "全部新闻和官方通报"
+    "allNews": "全部新闻和官方通报",
+    "metaTitle": "埃博拉新闻和官方通报"
   },
   "updates": {
     "title": "疫情形势更新",
@@ -113,7 +116,10 @@
     "inShort": "要点",
     "readMore": "阅读完整更新",
     "all": "全部疫情形势更新",
-    "disclaimer": "本摘要由 Ebola.help 团队根据下列官方报告编写。数据每天都在变化，请查看来源以获取最新信息。"
+    "disclaimer": "本摘要由 Ebola.help 团队根据下列官方报告编写。数据每天都在变化，请查看来源以获取最新信息。",
+    "metaTitle": "埃博拉疫情形势更新：每周疫情摘要",
+    "pageMetaTitle": "埃博拉疫情形势更新：{date}",
+    "support": "Ebola.help 免费、独立，不接受任何官方资助。如果这些更新对您有帮助，您可以通过{patreon}支持本网站。"
   },
   "help": {
     "title": "求助热线和卫生部门联系方式",
@@ -150,7 +156,8 @@
       "ministry": "卫生部",
       "institute": "国家公共卫生研究所",
       "who": "世卫组织国家办事处"
-    }
+    },
+    "metaTitle": "各国埃博拉求助热线和卫生部门联系方式"
   },
   "country": {
     "description": "{country}的埃博拉疫情、官方数据、求助热线和最新新闻。",
@@ -167,7 +174,8 @@
     "latestNews": "最新新闻",
     "noNews": "近期没有提及该国的新闻。",
     "allCountries": "所有国家",
-    "viewPage": "打开{country}页面"
+    "viewPage": "打开{country}页面",
+    "metaTitle": "{country}埃博拉疫情：数据、求助热线和新闻"
   },
   "map": {
     "title": "疫情地图",
@@ -182,7 +190,8 @@
     "close": "关闭",
     "mapLabel": "显示各国埃博拉疫情状况的非洲地图",
     "boundaries": "本地图所示边界均为近似，并不意味着对任何国家或地区的法律地位或其边界持有任何意见。",
-    "dataNote": "地图数据：Natural Earth（公有领域）。"
+    "dataNote": "地图数据：Natural Earth（公有领域）。",
+    "metaTitle": "埃博拉疫情地图：受影响国家和最新数据"
   },
   "ads": {
     "label": "广告"
@@ -200,7 +209,9 @@
     "disclaimer": "本页面仅提供一般性信息，不能取代医生、护士或其他卫生工作者的建议。如果您感到不适，请联系卫生工作者或国家卫生热线。",
     "previous": "上一页",
     "next": "下一页",
-    "breadcrumb": "当前位置"
+    "breadcrumb": "当前位置",
+    "metaTitle": "埃博拉：症状、预防和治疗",
+    "cite": "来源 {n}"
   },
   "publishers": {
     "who": "世界卫生组织（世卫组织）",
@@ -215,10 +226,10 @@
     "what": "Ebola.help 是一个独立的公共信息服务网站，以阿拉伯文、中文、英文、法文、俄文和西班牙文汇集有关埃博拉病的官方通报、新闻报道、求助热线和预防建议。",
     "independenceTitle": "独立的非官方网站",
     "independence": "Ebola.help 与世界卫生组织（世卫组织）、任何其他联合国机构、非洲疾病控制和预防中心（Africa CDC）或任何政府均无隶属关系，未获其认可，也不代表其发言。本网站不具有任何官方地位。请始终遵从本国卫生部门的指示。",
-    "whoTitle": "关于我们",
-    "who": "Ebola.help 由 Ebola.help 团队撰写和维护，这是一个独立团队。我们不是卫生部门，也不代表任何政府或国际组织发言。",
+    "whoTitle": "Ebola.help 由谁运营",
+    "who": "Ebola.help 由一位常驻开罗的记者和译者运营，并由其对网站发布的所有内容负责。Ebola.help 不是卫生部门：每个健康信息页面都仅以官方公共卫生来源为依据，并附有来源链接。本网站不代表任何政府或国际组织发言。",
     "sourcesTitle": "信息来源",
-    "sources": "我们链接到原始官方来源：各国卫生部、世卫组织、非洲疾病控制和预防中心以及其他公共卫生机构。对于新闻文章，我们只显示标题、来源和日期，并附上指向出版方网站上完整文章的链接。",
+    "sources": "健康信息页面、疫情数据和形势更新仅使用官方来源：世卫组织（包括世卫组织非洲区域办事处）、美国疾病控制与预防中心（CDC）、欧洲疾病预防控制中心（ECDC）、非洲疾病控制和预防中心（Africa CDC）以及刚果民主共和国公共卫生部。每条求助热线在发布前都会根据官方来源进行核实。对于新闻文章，我们只显示标题、来源和日期，并附上指向出版方网站上完整文章的链接。",
     "verificationTitle": "联系信息如何核实",
     "verification": "本网站上的每个电话号码、地址和卫生机构都经过官方来源核实，并注明来源和最近一次核实的日期。无法核实的信息，我们不予发布。",
     "translationTitle": "翻译",
@@ -270,5 +281,12 @@
   },
   "share": {
     "title": "分享本页"
+  },
+  "corrections": {
+    "title": "更正",
+    "entry": "{date}：{note}",
+    "report": "报告本页的错误",
+    "subject": "Ebola.help 页面错误：{url}",
+    "body": "错误内容：\n\n包含正确信息的官方来源链接（如有）：\n"
   }
 }

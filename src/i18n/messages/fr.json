@@ -2,11 +2,12 @@
   "meta": {
     "siteName": "Ebola.help",
     "tagline": "Informations indépendantes sur la maladie d'Ebola",
-    "homeTitle": "Ebola.help : actualités, numéros d'aide et prévention",
+    "homeTitle": "Épidémie d'Ebola {year} : derniers cas, carte et numéros d'aide",
     "homeDescription": "Informations indépendantes sur la maladie d'Ebola en six langues : communiqués officiels, actualités, numéros d'aide et conseils de prévention, toujours avec un lien vers les sources officielles.",
     "aboutTitle": "À propos d'Ebola.help",
     "aboutDescription": "Qui gère Ebola.help, comment les informations sont vérifiées et pourquoi le site est indépendant de l'OMS et de tout gouvernement.",
-    "notFoundTitle": "Page introuvable"
+    "notFoundTitle": "Page introuvable",
+    "homeFigures": "{country} : {cases} cas confirmés d'Ebola et {deaths} décès au {date} (chiffres officiels). Carte de l'épidémie, numéros d'aide et conseils de santé en six langues, avec les sources officielles."
   },
   "a11y": {
     "skipToContent": "Aller au contenu principal",
@@ -40,7 +41,8 @@
   "picker": {
     "choose": "Choisissez votre langue",
     "continue": "Continuer en français",
-    "suggested": "Suggestion pour vous"
+    "suggested": "Suggestion pour vous",
+    "title": "Épidémie d'Ebola {year} : cas, carte et numéros d'aide en six langues"
   },
   "emergency": {
     "title": "Si vous ou une personne proche avez des symptômes",
@@ -101,7 +103,8 @@
     "policy": "Nous affichons uniquement le titre, la source et la date. Lisez l'article complet sur le site de l'éditeur.",
     "latestOfficial": "Derniers communiqués officiels",
     "latestNews": "Dernières actualités",
-    "allNews": "Toutes les actualités et communiqués officiels"
+    "allNews": "Toutes les actualités et communiqués officiels",
+    "metaTitle": "Actualités et communiqués officiels sur Ebola"
   },
   "updates": {
     "title": "Points de situation",
@@ -113,7 +116,10 @@
     "inShort": "En bref",
     "readMore": "Lire le point de situation complet",
     "all": "Tous les points de situation",
-    "disclaimer": "Ce résumé est rédigé par l'équipe d'Ebola.help à partir des rapports officiels cités ci-dessous. Les chiffres évoluent chaque jour : consultez les sources pour les informations les plus récentes."
+    "disclaimer": "Ce résumé est rédigé par l'équipe d'Ebola.help à partir des rapports officiels cités ci-dessous. Les chiffres évoluent chaque jour : consultez les sources pour les informations les plus récentes.",
+    "metaTitle": "Points de situation sur Ebola : résumés hebdomadaires de l'épidémie",
+    "pageMetaTitle": "Ebola : point de situation du {date}",
+    "support": "Ebola.help est gratuit, indépendant et ne reçoit aucun financement officiel. Si ces points de situation vous sont utiles, vous pouvez soutenir le site sur {patreon}."
   },
   "help": {
     "title": "Numéros d'aide et contacts sanitaires",
@@ -150,7 +156,8 @@
       "ministry": "Ministère de la Santé",
       "institute": "Institut national de santé publique",
       "who": "Bureau de pays de l'OMS"
-    }
+    },
+    "metaTitle": "Numéros d'aide Ebola et contacts sanitaires par pays"
   },
   "country": {
     "description": "Situation d'Ebola, chiffres officiels, numéros d'aide et dernières actualités : {country}.",
@@ -167,7 +174,8 @@
     "latestNews": "Dernières actualités",
     "noNews": "Aucune actualité récente ne mentionne ce pays.",
     "allCountries": "Tous les pays",
-    "viewPage": "Ouvrir la page : {country}"
+    "viewPage": "Ouvrir la page : {country}",
+    "metaTitle": "Ebola – {country} : chiffres, numéros d'aide et actualités"
   },
   "map": {
     "title": "Carte des épidémies",
@@ -182,7 +190,8 @@
     "close": "Fermer",
     "mapLabel": "Carte de l'Afrique montrant la situation d'Ebola par pays",
     "boundaries": "Les frontières figurant sur cette carte sont approximatives et n'impliquent aucune prise de position quant au statut juridique d'un pays ou d'un territoire, ni quant à ses frontières.",
-    "dataNote": "Données cartographiques : Natural Earth (domaine public)."
+    "dataNote": "Données cartographiques : Natural Earth (domaine public).",
+    "metaTitle": "Carte de l'épidémie d'Ebola : pays touchés et derniers chiffres"
   },
   "ads": {
     "label": "Publicité"
@@ -200,7 +209,9 @@
     "disclaimer": "Cette page fournit uniquement des informations générales. Elle ne remplace pas l'avis d'un médecin, d'un infirmier ou d'un autre agent de santé. Si vous vous sentez malade, contactez un agent de santé ou la ligne d'urgence sanitaire nationale.",
     "previous": "Précédent",
     "next": "Suivant",
-    "breadcrumb": "Vous êtes ici"
+    "breadcrumb": "Vous êtes ici",
+    "metaTitle": "Ebola : symptômes, prévention et traitement",
+    "cite": "Source {n}"
   },
   "publishers": {
     "who": "Organisation mondiale de la Santé (OMS)",
@@ -215,10 +226,10 @@
     "what": "Ebola.help est un service d'information publique indépendant. Il rassemble les communiqués officiels, les actualités, les numéros d'aide et les conseils de prévention sur la maladie d'Ebola en anglais, arabe, chinois, espagnol, français et russe.",
     "independenceTitle": "Indépendant et non officiel",
     "independence": "Ebola.help n'est ni affilié à l'Organisation mondiale de la Santé (OMS), à une autre agence des Nations Unies, à Africa CDC ou à un gouvernement, ni approuvé par eux, et ne parle pas en leur nom. Le site n'a aucun statut officiel. Suivez toujours les consignes des autorités sanitaires de votre pays.",
-    "whoTitle": "Qui nous sommes",
-    "who": "Ebola.help est rédigé et tenu à jour par l'équipe d'Ebola.help, une équipe indépendante. Nous ne sommes pas une autorité sanitaire et nous ne parlons au nom d'aucun gouvernement ni d'aucune organisation internationale.",
+    "whoTitle": "Qui gère Ebola.help",
+    "who": "Ebola.help est géré depuis Le Caire par une personne qui travaille dans le journalisme et la traduction et répond de tout ce qui est publié sur le site. Ebola.help n'est pas une autorité sanitaire : chaque page d'information sanitaire repose uniquement sur des sources officielles de santé publique, vers lesquelles elle renvoie. Le site ne parle au nom d'aucun gouvernement ni d'aucune organisation internationale.",
     "sourcesTitle": "D'où viennent les informations",
-    "sources": "Nous renvoyons vers les sources officielles d'origine : ministères de la Santé, OMS, Africa CDC et autres agences de santé publique. Pour les articles de presse, nous affichons uniquement le titre, la source et la date, avec un lien vers l'article complet sur le site de l'éditeur.",
+    "sources": "Nos pages d'information sanitaire, nos chiffres et nos points de situation s'appuient uniquement sur des sources officielles : l'OMS (y compris son Bureau régional pour l'Afrique), les Centres pour le contrôle et la prévention des maladies des États-Unis (CDC), le Centre européen de prévention et de contrôle des maladies (ECDC), Africa CDC et le ministère de la Santé publique de la République démocratique du Congo. Chaque numéro d'aide est vérifié auprès d'une source officielle avant d'être publié. Pour les articles de presse, nous affichons uniquement le titre, la source et la date, avec un lien vers l'article complet sur le site de l'éditeur.",
     "verificationTitle": "Comment les coordonnées sont vérifiées",
     "verification": "Chaque numéro de téléphone, adresse et structure de santé publié sur ce site est vérifié auprès d'une source officielle. Pour chacun, nous indiquons cette source et la date de la dernière vérification. Si une information ne peut pas être vérifiée, nous ne la publions pas.",
     "translationTitle": "Traductions",
@@ -270,5 +281,12 @@
   },
   "share": {
     "title": "Partager cette page"
+  },
+  "corrections": {
+    "title": "Corrections",
+    "entry": "{date} : {note}",
+    "report": "Signaler une erreur sur cette page",
+    "subject": "Erreur sur Ebola.help : {url}",
+    "body": "Ce qui est erroné :\n\nLien vers une source officielle avec l'information correcte (si vous en avez une) :\n"
   }
 }

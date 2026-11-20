@@ -3,7 +3,7 @@ import { SITE_URL, SOCIAL_LINKS } from '../config';
 
 export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 
-/** Who publishes the site, as on the About page: the Ebola.help Team. */
+/** Who publishes the site, as on the About page. */
 export const organization = {
   '@type': 'Organization',
   '@id': ORGANIZATION_ID,
@@ -23,6 +23,8 @@ export function article(options: {
   image: string;
   published?: string;
   modified: string;
+  /** Health guides: date the text was last checked against its sources. */
+  reviewed?: string;
 }): Record<string, unknown> {
   return {
     '@type': options.type,
@@ -36,7 +38,7 @@ export function article(options: {
     image: options.image,
     ...(options.published ? { datePublished: options.published } : {}),
     dateModified: options.modified,
-    ...(options.type === 'MedicalWebPage' ? { lastReviewed: options.modified } : {}),
+    ...(options.type === 'MedicalWebPage' ? { lastReviewed: options.reviewed ?? options.modified } : {}),
     author: { '@id': ORGANIZATION_ID },
     publisher: organization,
   };

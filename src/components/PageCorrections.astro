@@ -1,0 +1,40 @@
+---
+/**
+ * End of a health page or situation update: dated corrections (as the
+ * editorial policy promises) and a link to report an error by e-mail, with
+ * the page address already filled in.
+ */
+import { CONTACT_EMAIL, SITE_URL } from '../config';
+import { format, formatDate, getMessages, type Locale } from '../i18n';
+import Icon from './Icon.astro';
+
+interface Props {
+  locale: Locale;
+  corrections: readonly { date: Date; note: string }[];
+}
+const { locale, corrections } = Astro.props;
+const m = getMessages(locale);
+const url = new URL(Astro.url.pathname, SITE_URL).href;
+const mailto = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(format(m.corrections.subject, { url }))}&body=${encodeURIComponent(m.corrections.body)}`;
+---
+{
+  corrections.length > 0 && (
+    <section aria-labelledby="corrections-title" class="note mt-8" data-corrections>
+      <h2 id="corrections-title" class="!mt-0 !mb-2 !text-base !text-ink">{m.corrections.title}</h2>
+      <ul class="space-y-1">
+        {corrections.map((c) => {
+          const date = c.date.toISOString().slice(0, 10);
+          const [before, after] = m.corrections.entry.split('{date}');
+          return (
+            <li>
+              {before}<time datetime={date}>{formatDate(locale, date)}</time>{(after ?? '').replace('{note}', c.note)}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  )
+}
+<p class="no-print mt-6 text-sm">
+  <a href={mailto} class="inline-flex items-center gap-2" data-report-error><Icon name="mail" size={16} />{m.corrections.report}</a>
+</p>

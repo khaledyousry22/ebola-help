@@ -1,5 +1,6 @@
 ---
 /** The latest situation update, in short, for the home page. */
+import { stripCitations } from '../lib/citations';
 import { format, formatDate, getMessages, localePath, type Locale } from '../i18n';
 import { getUpdates, isoDay, updatePath } from '../lib/updates';
 import Icon from './Icon.astro';
@@ -31,7 +32,7 @@ const [latest] = await getUpdates(locale);
         </p>
       </div>
       <ul class="check-list p-5 sm:p-7">
-        {latest.data.keyPoints.map((point) => <li>{point}</li>)}
+        {latest.data.keyPoints.map((point) => <li>{stripCitations(point)}</li>)}
       </ul>
     </section>
   )

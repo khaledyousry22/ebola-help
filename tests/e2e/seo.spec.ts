@@ -1,7 +1,8 @@
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { expect, test } from '@playwright/test';
-import { LOCALE_CODES } from '../../src/i18n';
+import raw from '../../src/data/outbreak.json' with { type: 'json' };
+import { formatDate, formatNumber, LOCALE_CODES } from '../../src/i18n';
 import { NOINDEX_PAGES } from '../../src/lib/indexing';
 
 const SITE = 'https://ebola.help';
@@ -18,23 +19,70 @@ function htmlFiles(dir: string): string[] {
 const urlOf = (file: string) => `${SITE}/${file.replace(/^dist\//, '').replace(/index\.html$/, '')}`;
 const locs = (xml: string) => [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]!);
 
-test('robots.txt points to the sitemap index, which lists one sitemap per language', () => {
-  expect(readFileSync('dist/robots.txt', 'utf8')).toContain(`Sitemap: ${SITE}/sitemap-index.xml`);
-  const index = readFileSync('dist/sitemap-index.xml', 'utf8');
-  expect(locs(index)).toEqual(LOCALE_CODES.map((l) => `${SITE}/${l}/sitemap.xml`));
+test('robots.txt points to /sitemap.xml, and the older sitemap index points there too', () => {
+  expect(readFileSync('dist/robots.txt', 'utf8')).toContain(`Sitemap: ${SITE}/sitemap.xml`);
+  expect(locs(readFileSync('dist/sitemap-index.xml', 'utf8'))).toEqual([`${SITE}/sitemap.xml`]);
+});
+
+test('/sitemap.xml lists the root and every indexable page in every language', () => {
+  const xml = readFileSync('dist/sitemap.xml', 'utf8');
+  // The offline page and the news headline lists are kept out of search engines.
+  const hidden = LOCALE_CODES.flatMap((l) => NOINDEX_PAGES.map((path) => `${SITE}/${l}${path}`));
+  const built = [`${SITE}/`, ...LOCALE_CODES.flatMap((l) => htmlFiles(`dist/${l}`).map(urlOf))]
+    .filter((url) => !hidden.includes(url))
+    .sort();
+  expect(locs(xml).sort()).toEqual(built);
+});
+
+test('the sitemap gives each page the same language links (hreflang) as the page itself', () => {
+  const xml = readFileSync('dist/sitemap.xml', 'utf8');
+  const pairs = (text: string) =>
+    [...text.matchAll(/rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)].map((m) => `${m[1]} ${m[2]}`).sort();
+  for (const block of xml.split('<url>').slice(1)) {
+    const loc = block.match(/<loc>([^<]+)<\/loc>/)![1]!;
+    const html = readFileSync(`${loc.replace(SITE, 'dist')}index.html`, 'utf8');
+    const fromPage = pairs(html);
+    expect(fromPage, loc).toHaveLength(LOCALE_CODES.length + 1);
+    expect(pairs(block), loc).toEqual(fromPage);
+    // x-default: the language picker for home pages, the English version elsewhere.
+    const xDefault = fromPage.find((p) => p.startsWith('x-default '))!.split(' ')[1];
+    const isHome = loc === `${SITE}/` || /^https:\/\/ebola\.help\/[a-z]{2}\/$/.test(loc);
+    expect(xDefault, loc).toBe(isHome ? `${SITE}/` : loc.replace(/^(https:\/\/ebola\.help\/)[a-z]{2}\//, '$1en/'));
+    for (const pair of fromPage) {
+      const href = pair.split(' ')[1]!;
+      expect(existsSync(join(href.replace(SITE, 'dist'), 'index.html')), href).toBe(true);
+    }
+  }
+});
+
+test('every indexable page has its own title and description in its language', () => {
+  const seen = new Map<string, string>();
+  for (const file of htmlFiles('dist')) {
+    const html = readFileSync(file, 'utf8');
+    if (/<meta name="robots" content="noindex"/.test(html)) continue;
+    // Translations may share a word ("Contact" in English and French): compare within one language.
+    const lang = html.match(/<html lang="([^"]+)"/)?.[1];
+    const title = html.match(/<title>([^<]+)<\/title>/)?.[1];
+    const description = html.match(/<meta name="description" content="([^"]+)"/)?.[1];
+    expect(title, file).toBeTruthy();
+    expect(description, file).toBeTruthy();
+    for (const key of [`${lang} title ${title}`, `${lang} description ${description}`]) {
+      expect(seen.get(key), `${file}: ${key}`).toBeUndefined();
+      seen.set(key, file);
+    }
+  }
+  expect(readFileSync('dist/index.html', 'utf8')).not.toMatch(/<title>[^<]*Choose your language/);
 });
 
 for (const locale of LOCALE_CODES) {
-  test(`/${locale}/sitemap.xml lists every page in that language, with its translations`, () => {
-    const xml = readFileSync(`dist/${locale}/sitemap.xml`, 'utf8');
-    // The offline page and the news headline lists are kept out of search engines.
-    const hidden = NOINDEX_PAGES.map((path) => `${SITE}/${locale}${path}`);
-    const built = htmlFiles(`dist/${locale}`).map(urlOf).filter((url) => !hidden.includes(url)).sort();
-    expect(locs(xml).sort()).toEqual(built);
-    for (const href of xml.matchAll(/hreflang="[^"]+" href="([^"]+)"/g)) {
-      const path = href[1]!.replace(SITE, 'dist');
-      expect(existsSync(join(path, 'index.html')), href[1]).toBe(true);
+  test(`/${locale}/ has the official figures and their date in the HTML itself, not added by JavaScript`, () => {
+    const html = readFileSync(`dist/${locale}/index.html`, 'utf8').replace(/<script[\s\S]*?<\/script>/g, '');
+    const { confirmedCases, confirmedDeaths, asOf } = raw.headline;
+    for (const text of [formatNumber(locale, confirmedCases), formatNumber(locale, confirmedDeaths), formatDate(locale, asOf)]) {
+      expect(html, text).toContain(text);
     }
+    expect(html).toMatch(new RegExp(`<title>[^<]*${raw.declared.slice(0, 4)}`));
+    expect(html.match(/<meta name="description" content="([^"]+)"/)?.[1]).toContain(formatNumber(locale, confirmedCases));
   });
 }
 

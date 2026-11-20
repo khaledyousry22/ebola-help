@@ -13,7 +13,7 @@ const locale = Astro.params.locale as Locale;
 const m = getMessages(locale);
 const updates = await getUpdates(locale);
 ---
-<BaseLayout locale={locale} title={m.updates.title} description={m.updates.description}>
+<BaseLayout locale={locale} title={m.updates.metaTitle} description={m.updates.description}>
   <div slot="intro" class="prose-page">
     <Breadcrumbs locale={locale} items={[{ label: m.nav.home, href: localePath(locale) }, { label: m.updates.title }]} />
     <h1 class="page-title">{m.updates.title}</h1>

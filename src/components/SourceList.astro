@@ -3,6 +3,7 @@ import { SOURCES, sourceVersionFor, type SourceId } from '../data/sources';
 import { format, formatDate, getMessages, LOCALES, type Locale } from '../i18n';
 import { languageName } from '../i18n/countries';
 import Icon from './Icon.astro';
+import { sourceAnchor } from '../lib/citations';
 
 interface Props {
   locale: Locale;
@@ -20,7 +21,7 @@ const m = getMessages(locale);
         const source = SOURCES[id];
         const version = sourceVersionFor(id, locale);
         return (
-          <li>
+          <li id={sourceAnchor(id)} class="source-item">
             <span class="block font-semibold">{m.publishers[source.publisher]}</span>
             <a href={version.url} hreflang={version.lang} lang={LOCALES[version.lang].htmlLang} dir={LOCALES[version.lang].dir}>
               {version.title}
