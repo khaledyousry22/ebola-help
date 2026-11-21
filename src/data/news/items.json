@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T13:02:24.472Z",
+  "updatedAt": "2026-11-21T20:06:26.094Z",
   "items": [
     {
       "id": "7a5f8f9d19bfada4",
@@ -6692,21 +6692,6 @@
       "publishedAt": "2026-05-29T10:52:06.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "9abf96ee7815abc1",
-      "url": "https://www.rfi.fr/es/africa/20260525-la-oms-advierte-que-hay-m%C3%A1s-de-900-casos-sospechosos-de-%C3%A9bola-en-rdc",
-      "title": "La OMS advierte que hay más de 900 casos sospechosos de ébola en RDC",
-      "lang": "es",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-25T13:59:11.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD"
-      ],
       "alsoReportedBy": []
     }
   ]
