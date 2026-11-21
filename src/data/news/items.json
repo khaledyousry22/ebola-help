@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-20T23:21:53.862Z",
+  "updatedAt": "2026-11-21T04:18:13.225Z",
   "items": [
+    {
+      "id": "d5e67a38e4db8a33",
+      "url": "https://www.rfi.fr/fr/afrique/20261121-ebola-en-rdc-msf-appelle-%C3%A0-%C3%A9largir-l-acc%C3%A8s-au-vaccin-ervebo-dans-l-est-du-pays",
+      "title": "Ebola en RDC: MSF appelle à élargir l’accès au vaccin Ervebo dans l’est du pays",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-21T04:09:17.000Z",
+      "firstSeenAt": "2026-11-21T04:18:13.225Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "f7f75e0a626a4c93",
       "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
