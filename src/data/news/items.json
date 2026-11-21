@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-21T04:18:13.225Z",
+  "updatedAt": "2026-11-21T13:02:24.472Z",
   "items": [
+    {
+      "id": "7a5f8f9d19bfada4",
+      "url": "https://insp.cd/sitrep-n189-mve-bdbv-19-11-2026/",
+      "title": "SitRep N°189/MVE-BDBV/19/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-21T09:14:19.000Z",
+      "firstSeenAt": "2026-11-21T13:02:24.472Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "d5e67a38e4db8a33",
       "url": "https://www.rfi.fr/fr/afrique/20261121-ebola-en-rdc-msf-appelle-%C3%A0-%C3%A9largir-l-acc%C3%A8s-au-vaccin-ervebo-dans-l-est-du-pays",
@@ -6688,21 +6703,6 @@
       "sourceName": "RFI",
       "official": false,
       "publishedAt": "2026-05-25T13:59:11.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "3e4c3bba7450ca70",
-      "url": "https://www.rfi.fr/ru/%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5/20260525-%D0%B3%D0%BB%D0%B0%D0%B2%D0%B0-%D0%B2%D0%BE%D0%B7-%D1%87%D0%B8%D1%81%D0%BB%D0%BE-%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D0%BE%D0%BB%D0%B0%D0%B3%D0%B0%D0%B5%D0%BC%D1%8B%D1%85-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B5%D0%B2-%D0%B7%D0%B0%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D1%8D%D0%B1%D0%BE%D0%BB%D0%BE%D0%B9-%D0%B2-%D0%B4%D1%80-%D0%BA%D0%BE%D0%BD%D0%B3%D0%BE-%D0%BF%D1%80%D0%B5%D0%B2%D1%8B%D1%81%D0%B8%D0%BB%D0%BE-900",
-      "title": "Глава ВОЗ: число предполагаемых случаев заражения Эболой в ДР Конго превысило 900",
-      "lang": "ru",
-      "sourceId": "rfi-ru-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-25T08:58:48.000Z",
       "firstSeenAt": "2026-10-21T21:42:25.955Z",
       "countries": [
         "CD"
