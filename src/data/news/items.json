@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-22T15:42:00.307Z",
+  "updatedAt": "2026-11-22T21:17:40.019Z",
   "items": [
+    {
+      "id": "0b72b6d2b36705c6",
+      "url": "https://actualite.cd/2026/11/22/ebola-en-ituri-loms-appelle-levacuation-immediate-et-securisee-de-lequipe-de-riposte",
+      "title": "Ebola en Ituri: l’OMS appelle à l’évacuation immédiate et sécurisée de l'équipe de riposte suite aux combats autour d'un hôpital",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-22T19:45:48.000Z",
+      "firstSeenAt": "2026-11-22T21:17:40.019Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "95f305c33ca61cae",
       "url": "https://insp.cd/sitrep-n190-mve-bdbv-20-11-2026/",
