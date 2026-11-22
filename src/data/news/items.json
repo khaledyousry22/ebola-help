@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-21T20:06:26.094Z",
+  "updatedAt": "2026-11-22T15:42:00.307Z",
   "items": [
+    {
+      "id": "95f305c33ca61cae",
+      "url": "https://insp.cd/sitrep-n190-mve-bdbv-20-11-2026/",
+      "title": "SitRep N°190/MVE-BDBV/20/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-22T09:34:06.000Z",
+      "firstSeenAt": "2026-11-22T15:42:00.307Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "7a5f8f9d19bfada4",
       "url": "https://insp.cd/sitrep-n189-mve-bdbv-19-11-2026/",
