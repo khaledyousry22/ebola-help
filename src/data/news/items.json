@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-11-23T10:47:14.763Z",
+  "updatedAt": "2026-11-23T22:16:34.208Z",
   "items": [
+    {
+      "id": "704e1918af55dda2",
+      "url": "https://www.rfi.fr/fr/afrique/20261123-rdc-une-%C3%A9quipe-de-riposte-%C3%A0-ebola-%C3%A9vacu%C3%A9e-en-raison-de-l-ins%C3%A9curit%C3%A9-au-nord-de-bunia",
+      "title": "RDC: une équipe de riposte à Ebola évacuée en raison de l’insécurité au nord de Bunia",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-23T21:23:41.000Z",
+      "firstSeenAt": "2026-11-23T22:16:34.208Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "17bc0c8a7583b162",
+      "url": "https://news.un.org/feed/view/fr/story/2026/11/1159889",
+      "title": "RDC : des combats près d’un hôpital de l’Ituri perturbent la riposte contre Ebola",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-11-23T12:00:00.000Z",
+      "firstSeenAt": "2026-11-23T22:16:34.208Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "2a4af59102c02fa2",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168858",
+      "title": "Heavy fighting in Ituri traps DR Congo Ebola responders: WHO",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-11-23T12:00:00.000Z",
+      "firstSeenAt": "2026-11-23T22:16:34.208Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "0b74e0f3ce0db57c",
       "url": "https://actualite.cd/2026/11/23/ebolarutshuru-un-premier-cas-confirme-kanyabayonga-dans-la-zone-de-sante-de-kibirizi",
