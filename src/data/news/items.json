@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-22T21:17:40.019Z",
+  "updatedAt": "2026-11-23T10:47:14.763Z",
   "items": [
+    {
+      "id": "0b74e0f3ce0db57c",
+      "url": "https://actualite.cd/2026/11/23/ebolarutshuru-un-premier-cas-confirme-kanyabayonga-dans-la-zone-de-sante-de-kibirizi",
+      "title": "Ebola/Rutshuru : un premier cas confirmé à Kanyabayonga, dans la zone de santé de Kibirizi",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-23T10:03:33.000Z",
+      "firstSeenAt": "2026-11-23T10:47:14.763Z",
+      "countries": [],
+      "alsoReportedBy": []
+    },
     {
       "id": "0b72b6d2b36705c6",
       "url": "https://actualite.cd/2026/11/22/ebola-en-ituri-loms-appelle-levacuation-immediate-et-securisee-de-lequipe-de-riposte",
