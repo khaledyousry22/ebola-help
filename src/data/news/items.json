@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-11-23T22:16:34.208Z",
+  "updatedAt": "2026-11-24T17:46:26.277Z",
   "items": [
+    {
+      "id": "cc36ee4992e444ac",
+      "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20261124-ebola-en-rdc-le-nombre-de-d%C3%A9c%C3%A8s-exc%C3%A9dentaires-%C3%A9tait-sept-fois-plus-%C3%A9lev%C3%A9-que-le-nombre-de-d%C3%A9c%C3%A8s-officiels-mi-2026-%C3%A0-bunia",
+      "title": "Ebola en RDC: «Le nombre de décès excédentaires était sept fois plus élevé que le nombre de décès officiels» mi-2026 à Bunia",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-24T15:12:52.000Z",
+      "firstSeenAt": "2026-11-24T17:46:26.277Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "8ebab8d5c60f644b",
+      "url": "https://actualite.cd/2026/11/24/ituri-ebola-le-personnel-de-loms-et-du-ministere-de-la-sante-evacue-sain-et-sauf-dakwe",
+      "title": "Ituri-Ebola : le personnel de l’OMS et du ministère de la Santé évacué sain et sauf d’Akwe, les équipes temporairement relocalisées suite au regain des combats entre armée et CRP",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-24T14:55:41.000Z",
+      "firstSeenAt": "2026-11-24T17:46:26.277Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "9002f0f632e16e02",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168865",
+      "title": "DR Congo: Concern for trapped Ebola workers as violence against women and girls deepens",
+      "lang": "en",
+      "sourceId": "un-news-en",
+      "sourceName": "UN News",
+      "official": false,
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "firstSeenAt": "2026-11-24T17:46:26.277Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "704e1918af55dda2",
       "url": "https://www.rfi.fr/fr/afrique/20261123-rdc-une-%C3%A9quipe-de-riposte-%C3%A0-ebola-%C3%A9vacu%C3%A9e-en-raison-de-l-ins%C3%A9curit%C3%A9-au-nord-de-bunia",
@@ -41,6 +86,21 @@
       "official": false,
       "publishedAt": "2026-11-23T12:00:00.000Z",
       "firstSeenAt": "2026-11-23T22:16:34.208Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "52ed04db5578664d",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143252",
+      "title": "世卫组织：伊图里省激烈交火致使刚果（金）埃博拉防疫人员受困",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-11-23T12:00:00.000Z",
+      "firstSeenAt": "2026-11-24T17:46:26.277Z",
       "countries": [
         "CD"
       ],
