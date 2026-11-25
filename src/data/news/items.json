@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-11-24T17:46:26.277Z",
+  "updatedAt": "2026-11-25T01:38:22.994Z",
   "items": [
+    {
+      "id": "91b0c4ed00b87917",
+      "url": "https://insp.cd/sitrep-n193-mve-bdbv-23-11-2026/",
+      "title": "SitRep N°193/MVE-BDBV/23/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-24T23:13:59.000Z",
+      "firstSeenAt": "2026-11-25T01:38:22.994Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "3b4d8e3f28125961",
+      "url": "https://insp.cd/sitrep-n192-mve-bdbv-22-11-2026/",
+      "title": "SitRep N°192/MVE-BDBV/22/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-24T23:08:06.000Z",
+      "firstSeenAt": "2026-11-25T01:38:22.994Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "96cba20dcf18cc1f",
+      "url": "https://insp.cd/sitrep-n191-mve-bdbv-21-11-2026/",
+      "title": "SitRep N°191/MVE-BDBV/21/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-24T23:04:15.000Z",
+      "firstSeenAt": "2026-11-25T01:38:22.994Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "de1e1f102228fcda",
+      "url": "https://actualite.cd/2026/11/24/haut-uele-durba-la-societe-civile-exige-la-publication-des-rapports-financier-et",
+      "title": "Haut-Uélé: à Durba, la société civile exige la publication des rapports financier et épidémiologique de la riposte contre Ebola",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-24T18:07:14.000Z",
+      "firstSeenAt": "2026-11-25T01:38:22.994Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "cc36ee4992e444ac",
       "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20261124-ebola-en-rdc-le-nombre-de-d%C3%A9c%C3%A8s-exc%C3%A9dentaires-%C3%A9tait-sept-fois-plus-%C3%A9lev%C3%A9-que-le-nombre-de-d%C3%A9c%C3%A8s-officiels-mi-2026-%C3%A0-bunia",
