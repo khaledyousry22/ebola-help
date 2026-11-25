@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-25T01:38:22.994Z",
+  "updatedAt": "2026-11-25T10:31:36.142Z",
   "items": [
+    {
+      "id": "9be9a58d6769c051",
+      "url": "https://www.rfi.fr/fr/afrique/20261125-rdc-la-reprise-des-combats-en-ituri-fait-craindre-une-nouvelle-propagation-d-ebola",
+      "title": "RDC: la reprise des combats en Ituri fait craindre une nouvelle propagation d'Ebola",
+      "lang": "fr",
+      "sourceId": "rfi-fr-ebola",
+      "sourceName": "RFI",
+      "official": false,
+      "publishedAt": "2026-11-25T03:05:32.000Z",
+      "firstSeenAt": "2026-11-25T10:31:36.142Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "91b0c4ed00b87917",
       "url": "https://insp.cd/sitrep-n193-mve-bdbv-23-11-2026/",
@@ -92,6 +107,21 @@
       "alsoReportedBy": []
     },
     {
+      "id": "5a0c09710f704d5c",
+      "url": "https://news.un.org/feed/view/fr/story/2026/11/1159897",
+      "title": "RDC : la peur d’Ebola enferme les victimes de violences dans le silence",
+      "lang": "fr",
+      "sourceId": "un-news-fr",
+      "sourceName": "ONU Info",
+      "official": false,
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "firstSeenAt": "2026-11-25T10:31:36.142Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
       "id": "9002f0f632e16e02",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168865",
       "title": "DR Congo: Concern for trapped Ebola workers as violence against women and girls deepens",
@@ -101,6 +131,21 @@
       "official": false,
       "publishedAt": "2026-11-24T12:00:00.000Z",
       "firstSeenAt": "2026-11-24T17:46:26.277Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "9966b32fd7d8cec9",
+      "url": "https://news.un.org/feed/view/ar/story/2026/11/1145762",
+      "title": "الكونغو الديمقراطية - القتال يعيق الاستجابة لتفشي الإيبولا، والعنف ضد النساء والفتيات يتفاقم",
+      "lang": "ar",
+      "sourceId": "un-news-ar",
+      "sourceName": "أخبار الأمم المتحدة",
+      "official": false,
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "firstSeenAt": "2026-11-25T10:31:36.142Z",
       "countries": [
         "CD"
       ],
