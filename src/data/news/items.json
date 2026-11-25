@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-25T10:31:36.142Z",
+  "updatedAt": "2026-11-25T20:12:59.293Z",
   "items": [
+    {
+      "id": "5bb5e4e0ab270eac",
+      "url": "https://www.france24.com/fr/%C3%A9missions/le-rendez-vous-afrique/20261125-ebola-soigner-en-zone-de-guerre",
+      "title": "Ebola : soigner en zone de guerre",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-11-25T16:37:32.000Z",
+      "firstSeenAt": "2026-11-25T20:12:59.293Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "9be9a58d6769c051",
       "url": "https://www.rfi.fr/fr/afrique/20261125-rdc-la-reprise-des-combats-en-ituri-fait-craindre-une-nouvelle-propagation-d-ebola",
@@ -6916,35 +6931,6 @@
         "CD",
         "UG"
       ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "680ab85651456bbc",
-      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON605",
-      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda (2026-DON605)",
-      "lang": "en",
-      "sourceId": "who-don",
-      "sourceName": "World Health Organization (WHO): Disease Outbreak News",
-      "official": true,
-      "publishedAt": "2026-05-29T15:58:00.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [
-        "CD",
-        "UG"
-      ],
-      "alsoReportedBy": []
-    },
-    {
-      "id": "c65740543b75507c",
-      "url": "https://www.rfi.fr/es/programas/en-primera-plana/20260529-hantavirus-%C3%A9bola-covid-las-zoonosis-amenaza-planetaria-en-auge",
-      "title": "Hantavirus, ébola, covid...Las zoonosis, amenaza planetaria en auge",
-      "lang": "es",
-      "sourceId": "rfi-es-ebola",
-      "sourceName": "RFI",
-      "official": false,
-      "publishedAt": "2026-05-29T10:52:06.000Z",
-      "firstSeenAt": "2026-10-21T21:42:25.955Z",
-      "countries": [],
       "alsoReportedBy": []
     }
   ]
