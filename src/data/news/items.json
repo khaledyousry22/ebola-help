@@ -1,6 +1,53 @@
 {
-  "updatedAt": "2026-11-25T20:12:59.293Z",
+  "updatedAt": "2026-11-26T02:52:00.944Z",
   "items": [
+    {
+      "id": "1d44298d9076a464",
+      "url": "https://insp.cd/sitrep-n194-mve-bdbv-24-11-2026/",
+      "title": "SitRep N°194/MVE-BDBV/24/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-26T00:29:38.000Z",
+      "firstSeenAt": "2026-11-26T02:52:00.944Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "9b372a7f19cc2ae9",
+      "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261126-mali-le-jnim-lance-un-ultimatum-aux-habitants-de-tonka",
+      "title": "Mali : le JNIM lance un ultimatum aux habitants de Tonka",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-11-26T00:03:50.000Z",
+      "firstSeenAt": "2026-11-26T02:52:00.944Z",
+      "countries": [
+        "CD",
+        "MG",
+        "ML"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "121872e3b7760dcd",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261125-ebola-en-rdc-la-m%C3%A9fiance-des-populations-entrave-la-riposte-dans-l-est-du-pays",
+      "title": "Ebola en RDC : la méfiance des populations entrave la riposte dans l'Est du pays",
+      "lang": "fr",
+      "sourceId": "france24-fr-afrique",
+      "sourceName": "France 24",
+      "official": false,
+      "publishedAt": "2026-11-25T21:21:01.000Z",
+      "firstSeenAt": "2026-11-26T02:52:00.944Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "5bb5e4e0ab270eac",
       "url": "https://www.france24.com/fr/%C3%A9missions/le-rendez-vous-afrique/20261125-ebola-soigner-en-zone-de-guerre",
