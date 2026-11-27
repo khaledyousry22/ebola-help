@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-27T13:58:18.268Z",
+  "updatedAt": "2026-11-27T20:13:48.934Z",
   "items": [
+    {
+      "id": "bbafafd7fda44a51",
+      "url": "https://insp.cd/sitrep-n196-mve-bdbv-26-11-2026/",
+      "title": "SitRep N°196/MVE-BDBV/26/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-27T19:29:11.000Z",
+      "firstSeenAt": "2026-11-27T20:13:48.934Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "a40d1f89551236bf",
       "url": "https://actualite.cd/2026/11/27/ebola-en-rdc-29-membres-des-equipes-de-msf-infectes-trois-deces-depuis-le-debut-de",
