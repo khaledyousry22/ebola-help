@@ -23,6 +23,11 @@ plain language.
   code), built by Workers Builds on every push to main (`npm run build`,
   then `npx wrangler deploy`). Headers in `public/_headers`. Owner setup
   steps: `DEPLOY.md`. CI runs `wrangler deploy --dry-run`.
+  To check a deploy, a read-only Cloudflare key is saved on the owner's
+  cloud environment (proxy-injected for api.cloudflare.com): builds are at
+  `/client/v4/accounts/7122297e56d646482eda75f4031e8a47/builds/workers/d12371c201a54baf9e5aa5a23a2e8b4e/builds`,
+  logs at `/client/v4/accounts/<same>/builds/builds/<build_uuid>/logs`. If a
+  build failed, run the news workflow by hand: its next push rebuilds the site.
 - Languages: `src/i18n/locales.ts` (list) and `src/i18n/messages/*.json`
   (UI text). English is the reference; unit tests fail if a language is
   missing a key or a `{placeholder}`.
