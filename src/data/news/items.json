@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-27T04:16:01.698Z",
+  "updatedAt": "2026-11-27T13:58:18.268Z",
   "items": [
+    {
+      "id": "a40d1f89551236bf",
+      "url": "https://actualite.cd/2026/11/27/ebola-en-rdc-29-membres-des-equipes-de-msf-infectes-trois-deces-depuis-le-debut-de",
+      "title": "Ebola en RDC : 29 membres des équipes de MSF infectés, trois décès depuis le début de l'épidémie",
+      "lang": "fr",
+      "sourceId": "actualite-cd",
+      "sourceName": "Actualite.cd",
+      "official": false,
+      "publishedAt": "2026-11-27T07:06:22.000Z",
+      "firstSeenAt": "2026-11-27T13:58:18.268Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "f775024fc85c0ef4",
+      "url": "https://insp.cd/sitrep-n195-mve-bdbv-25-11-2026/",
+      "title": "SitRep N°195/MVE-BDBV/25/11/2026",
+      "lang": "fr",
+      "sourceId": "drc-insp",
+      "sourceName": "Institut National de Santé Publique (RDC)",
+      "official": true,
+      "publishedAt": "2026-11-27T06:07:07.000Z",
+      "firstSeenAt": "2026-11-27T13:58:18.268Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
     {
       "id": "40b4db707a91f08a",
       "url": "https://insp.cd/cphia-2026-linsp-rdc-au-coeur-de-la-mobilisation-africaine-pour-une-riposte-unifiee-contre-ebola/",
