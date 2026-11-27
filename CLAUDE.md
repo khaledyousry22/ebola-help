@@ -46,12 +46,17 @@ plain language.
 - Corrections: optional `corrections` (date, note) on health pages and
   updates, shown at the end with a "Report an error" e-mail link; the
   editorial policy promises a note for any change of meaning.
-- Situation updates (weekly): `src/content/updates/<locale>/<YYYY-MM-DD>.md`
-  (title, description, date, figuresAsOf, keyPoints, sources), listed at
-  `/<locale>/updates/`, newest on the home page (`LatestUpdate`). Every
-  language has the same dates, sources, links and number of key points
-  (unit tests). Write only what the cited official reports say; the owner
-  approves the English draft first. Each update ends with a Patreon note.
+- Situation updates (twice a week): `src/content/updates/<locale>/<YYYY-MM-DD>.md`
+  (title, description, date, figuresAsOf, keyPoints, sources, optional
+  corrections), listed at `/<locale>/updates/`, newest on the home page
+  (`LatestUpdate`). Every language has the same dates, sources, links and
+  number of key points (unit tests). Write only what the cited official
+  reports say, with a `[[sourceId]]` link after every key point and
+  paragraph. On Mondays and Thursdays a scheduled task wakes the owner's
+  Claude chat: read the latest official reports, draft the update in six
+  languages on the working branch, run the tests, show the owner the English
+  text in the chat, and merge to main only after the owner approves there.
+  Each update ends with a Patreon note.
 - Policy pages (editorial policy, privacy, contact):
   `src/content/info/<locale>/<slug>.md`, slugs in `src/lib/info-pages.ts`,
   linked from every footer. About, editorial policy and contact say the site
@@ -87,7 +92,7 @@ plain language.
   `NODE_USE_ENV_PROXY=1` so Node's fetch uses the proxy.
 - Social media: RSS feeds in `src/pages/feeds/`, built by
   `src/lib/social-feed.ts`, in the languages of `SOCIAL_FEED_LOCALES`
-  (`src/config.ts`). `/feeds/social.xml`: official non-hidden news and weekly
+  (`src/config.ts`). `/feeds/social.xml`: official non-hidden news and situation
   updates (one post per language), a daily health tip from the guides'
   `keyPoints` (changes at 06:00 UTC, appears with the next build) and the
   banner figures when they change (all languages in one post).

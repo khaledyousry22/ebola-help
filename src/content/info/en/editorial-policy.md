@@ -1,7 +1,7 @@
 ---
 title: Editorial policy
 description: "Who runs Ebola.help, which official sources it uses, how often figures are updated, how pages are written and checked, and how errors are corrected."
-updated: 2026-11-20
+updated: 2026-11-27
 ---
 
 ## Who we are
@@ -32,7 +32,7 @@ We use AI writing tools to help draft and translate pages. Every page is based o
 
 The outbreak figures at the top of each page and on the map are official figures. They come from the CDC page "Ebola Outbreak: Current Situation", which our system checks every three hours, or from the official report named next to them. New figures are published only after automatic checks: totals must never go down, deaths must never be more than cases, a rise of more than 25% at once is held back, and dates in the future are refused. If a check fails, the figures on the site stay as they are until we have checked the new ones by hand. Each figure shows the date it refers to and its source.
 
-Our situation updates summarise the official reports once a week.
+Our situation updates summarise the official reports twice a week.
 
 ## Helplines and contact details
 

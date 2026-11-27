@@ -2,7 +2,7 @@
   "$comment": "Current outbreak situation shown in the banner on every page. Every figure needs an official source (see src/data/sources.ts) and the date the figure refers to. Update the numbers, asOf and source together.",
   "virus": "bundibugyo",
   "declared": "2026-05-15",
-  "lastReviewed": "2026-11-06",
+  "lastReviewed": "2026-11-27",
   "headline": {
     "country": "CD",
     "confirmedCases": 11955,
@@ -10,12 +10,12 @@
     "asOf": "2026-11-23",
     "source": "cdcSituation"
   },
-  "moreInformation": "whoDon622",
+  "moreInformation": "whoDon630",
   "countries": [
     {
       "iso": "CD",
       "status": "outbreak",
-      "source": "drcSitrep158"
+      "source": "drcSitrep194"
     },
     {
       "iso": "KE",

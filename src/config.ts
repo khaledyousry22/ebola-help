@@ -16,7 +16,7 @@ export const SOCIAL_LINKS = [
 
 /**
  * Languages shared on social media. /feeds/social.xml lists official news and
- * the weekly updates in these languages, and a posting service turns each new
+ * the situation updates in these languages, and a posting service turns each new
  * entry into a Facebook post (see SOCIAL.md).
  */
 export const SOCIAL_FEED_LOCALES = ['en', 'fr'] as const;

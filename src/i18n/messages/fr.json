@@ -80,7 +80,7 @@
       },
       "updates": {
         "title": "Points de situation",
-        "text": "Un résumé hebdomadaire de l'épidémie, rédigé à partir des rapports officiels."
+        "text": "Un résumé de l'épidémie deux fois par semaine, rédigé à partir des rapports officiels."
       }
     }
   },
@@ -108,8 +108,8 @@
   },
   "updates": {
     "title": "Points de situation",
-    "description": "Résumés hebdomadaires de l'épidémie d'Ebola due au virus Bundibugyo, rédigés à partir des rapports officiels, avec leurs sources.",
-    "intro": "Chaque semaine, nous résumons ce que disent les rapports officiels sur l'épidémie : nouveaux cas, pays touchés, recherche et conseils. Chaque point de situation indique les sources officielles sur lesquelles il repose.",
+    "description": "Résumés de l'épidémie d'Ebola due au virus Bundibugyo, deux fois par semaine, rédigés à partir des rapports officiels, avec leurs sources.",
+    "intro": "Deux fois par semaine, nous résumons ce que disent les rapports officiels sur l'épidémie : nouveaux cas, pays touchés, recherche et conseils. Chaque point de situation indique les sources officielles sur lesquelles il repose.",
     "latest": "Dernier point de situation",
     "figuresAsOf": "Chiffres arrêtés au {date}",
     "published": "Publié le {date}",
@@ -117,7 +117,7 @@
     "readMore": "Lire le point de situation complet",
     "all": "Tous les points de situation",
     "disclaimer": "Ce résumé est rédigé par l'équipe d'Ebola.help à partir des rapports officiels cités ci-dessous. Les chiffres évoluent chaque jour : consultez les sources pour les informations les plus récentes.",
-    "metaTitle": "Points de situation sur Ebola : résumés hebdomadaires de l'épidémie",
+    "metaTitle": "Points de situation sur Ebola : résumés de l'épidémie deux fois par semaine",
     "pageMetaTitle": "Ebola : point de situation du {date}",
     "support": "Ebola.help est gratuit, indépendant et ne reçoit aucun financement officiel. Si ces points de situation vous sont utiles, vous pouvez soutenir le site sur {patreon}."
   },

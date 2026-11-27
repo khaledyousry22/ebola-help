@@ -63,7 +63,7 @@ const info = defineCollection({
 });
 
 /**
- * Weekly situation updates: src/content/updates/<locale>/<YYYY-MM-DD>.md,
+ * Situation updates (twice a week): src/content/updates/<locale>/<YYYY-MM-DD>.md,
  * the same dates in every language, each citing the same sources.
  */
 const updates = defineCollection({

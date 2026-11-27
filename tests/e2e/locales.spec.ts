@@ -1,3 +1,4 @@
+import { readdirSync, readFileSync } from 'node:fs';
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 import { getMessages, LOCALE_CODES, LOCALES } from '../../src/i18n';
@@ -196,6 +197,10 @@ test.describe('neutral pages', () => {
 });
 
 test.describe('situation updates', () => {
+  // The newest update (they are named after their date) and how many sources it lists.
+  const latest = readdirSync('src/content/updates/en').filter((f) => f.endsWith('.md')).sort().at(-1)!.replace(/\.md$/, '');
+  const sourceCount = (readFileSync(`src/content/updates/en/${latest}.md`, 'utf8').match(/^sources: \[(.*)\]$/m)?.[1] ?? '').split(',').length;
+
   for (const code of LOCALE_CODES) {
     test(`/${code}/ shows the latest update in short and links to it`, async ({ page }) => {
       const m = getMessages(code);
@@ -203,10 +208,10 @@ test.describe('situation updates', () => {
       const card = page.locator('[data-latest-update]');
       await expect(card).toContainText(m.updates.latest);
       await expect(card.locator('li').first()).toBeVisible();
-      await card.locator(`a[href="/${code}/updates/2026-11-06/"]`).first().click();
+      await card.locator(`a[href="/${code}/updates/${latest}/"]`).first().click();
       await expect(page.locator('h1')).toBeVisible();
       await expect(page.locator('[data-update-disclaimer]')).toHaveText(m.updates.disclaimer);
-      await expect(page.locator('[data-sources] li')).toHaveCount(6);
+      await expect(page.locator('[data-sources] li')).toHaveCount(sourceCount);
       await expect(page.locator(`header a[href="/${code}/updates/"]`)).toBeVisible();
     });
   }

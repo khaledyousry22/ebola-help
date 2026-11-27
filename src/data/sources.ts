@@ -209,6 +209,39 @@ export const SOURCES = {
     published: '2026-11-03',
     checked: '2026-11-19',
   },
+  whoDon630: {
+    publisher: 'who',
+    versions: {
+      en: {
+        title: 'Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria (2026-DON630)',
+        url: 'https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630',
+      },
+    },
+    published: '2026-11-20',
+    checked: '2026-11-27',
+  },
+  drcSitrep194: {
+    publisher: 'drcMoh',
+    versions: {
+      fr: {
+        title: 'Rapport de situation de la 17e épidémie de la maladie à virus Ebola, SitRep N°194 (24 novembre 2026)',
+        url: 'https://insp.cd/sitrep-n194-mve-bdbv-24-11-2026/',
+      },
+    },
+    published: '2026-11-25',
+    checked: '2026-11-27',
+  },
+  drcSitrep187: {
+    publisher: 'drcMoh',
+    versions: {
+      fr: {
+        title: 'Rapport de situation de la 17e épidémie de la maladie à virus Ebola, SitRep N°187 (17 novembre 2026)',
+        url: 'https://insp.cd/sitrep-n187-mve-bdbv-17-11-2026/',
+      },
+    },
+    published: '2026-11-18',
+    checked: '2026-11-27',
+  },
   drcSitrep166: {
     publisher: 'drcMoh',
     versions: {

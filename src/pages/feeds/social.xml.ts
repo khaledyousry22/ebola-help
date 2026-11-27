@@ -1,5 +1,5 @@
 /**
- * /feeds/social.xml: official news, weekly updates, the daily health tip and
+ * /feeds/social.xml: official news, situation updates, the daily health tip and
  * the case figures, for posting on Facebook (see src/lib/social-feed.ts and
  * SOCIAL.md).
  */

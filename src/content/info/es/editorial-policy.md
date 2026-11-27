@@ -1,7 +1,7 @@
 ---
 title: Política editorial
 description: "Quién gestiona Ebola.help, qué fuentes oficiales utiliza, con qué frecuencia se actualizan las cifras, cómo se redactan y comprueban las páginas, y cómo se corrigen los errores."
-updated: 2026-11-20
+updated: 2026-11-27
 ---
 
 ## Quiénes somos
@@ -32,7 +32,7 @@ Usamos herramientas de inteligencia artificial para ayudarnos a redactar y tradu
 
 Las cifras del brote que aparecen en la parte superior de cada página y en el mapa son cifras oficiales. Proceden de la página de los CDC "Ebola Outbreak: Current Situation", que nuestro sistema consulta cada tres horas, o del informe oficial que se indica junto a ellas. Las nuevas cifras solo se publican después de unos controles automáticos: los totales nunca deben bajar, las muertes nunca deben superar los casos, un aumento de más del 25 % de una vez queda en espera y se rechazan las fechas futuras. Si un control falla, las cifras del sitio no cambian hasta que hayamos comprobado las nuevas a mano. Cada cifra indica la fecha a la que se refiere y su fuente.
 
-Nuestros informes de situación resumen los informes oficiales una vez por semana.
+Nuestros informes de situación resumen los informes oficiales dos veces por semana.
 
 ## Líneas de ayuda y datos de contacto
 

@@ -1,7 +1,7 @@
 ---
 title: Politique éditoriale
 description: "Qui gère Ebola.help, quelles sources officielles il utilise, à quelle fréquence les chiffres sont mis à jour, comment les pages sont rédigées et vérifiées, et comment les erreurs sont corrigées."
-updated: 2026-11-20
+updated: 2026-11-27
 ---
 
 ## Qui nous sommes
@@ -32,7 +32,7 @@ Nous utilisons des outils d'intelligence artificielle pour nous aider à rédige
 
 Les chiffres de l'épidémie en haut de chaque page et sur la carte sont des chiffres officiels. Ils proviennent de la page des CDC « Ebola Outbreak: Current Situation », que notre système consulte toutes les trois heures, ou du rapport officiel indiqué à côté d'eux. Les nouveaux chiffres ne sont publiés qu'après des contrôles automatiques : les totaux ne doivent jamais diminuer, les décès ne doivent jamais dépasser les cas, une hausse de plus de 25 % d'un coup est mise en attente et les dates futures sont refusées. Si un contrôle échoue, les chiffres du site restent inchangés jusqu'à ce que nous ayons vérifié les nouveaux à la main. Chaque chiffre indique la date à laquelle il se rapporte et sa source.
 
-Nos points de situation résument les rapports officiels une fois par semaine.
+Nos points de situation résument les rapports officiels deux fois par semaine.
 
 ## Numéros d'aide et coordonnées
 

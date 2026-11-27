@@ -80,7 +80,7 @@
       },
       "updates": {
         "title": "Informes de situación",
-        "text": "Un resumen semanal del brote, redactado a partir de informes oficiales."
+        "text": "Un resumen del brote dos veces por semana, redactado a partir de informes oficiales."
       }
     }
   },
@@ -108,8 +108,8 @@
   },
   "updates": {
     "title": "Informes de situación",
-    "description": "Resúmenes semanales del brote de ébola causado por el virus de Bundibugyo, redactados a partir de informes oficiales, con sus fuentes.",
-    "intro": "Cada semana resumimos lo que dicen los informes oficiales sobre el brote: casos nuevos, países afectados, investigación y recomendaciones. Cada informe indica las fuentes oficiales en las que se basa.",
+    "description": "Resúmenes del brote de ébola causado por el virus de Bundibugyo, dos veces por semana, redactados a partir de informes oficiales, con sus fuentes.",
+    "intro": "Dos veces por semana resumimos lo que dicen los informes oficiales sobre el brote: casos nuevos, países afectados, investigación y recomendaciones. Cada informe indica las fuentes oficiales en las que se basa.",
     "latest": "Último informe de situación",
     "figuresAsOf": "Cifras hasta el {date}",
     "published": "Publicado el {date}",
@@ -117,7 +117,7 @@
     "readMore": "Leer el informe completo",
     "all": "Todos los informes de situación",
     "disclaimer": "Este resumen lo redacta el equipo de Ebola.help a partir de los informes oficiales citados abajo. Las cifras cambian cada día: consulte las fuentes para obtener la información más reciente.",
-    "metaTitle": "Informes de situación del ébola: resúmenes semanales del brote",
+    "metaTitle": "Informes de situación del ébola: resúmenes del brote dos veces por semana",
     "pageMetaTitle": "Informe de situación del ébola, {date}",
     "support": "Ebola.help es gratuito, independiente y no recibe financiación oficial. Si estos informes le resultan útiles, puede apoyar el sitio en {patreon}."
   },

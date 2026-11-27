@@ -22,6 +22,9 @@ components:
     required: true
     options:
       values:
+        - { name: drcSitrep194, label: "DR Congo Ministry of Health: situation report 194 (24 Nov 2026)" }
+        - { name: drcSitrep187, label: "DR Congo Ministry of Health: situation report 187 (17 Nov 2026)" }
+        - { name: whoDon630, label: "WHO: Disease Outbreak News, 20 Nov 2026 (DR Congo, Kenya, Nigeria)" }
         - { name: drcSitrep173, label: "DR Congo Ministry of Health: situation report 173 (3 Nov 2026)" }
         - { name: drcSitrep166, label: "DR Congo Ministry of Health: situation report 166 (27 Oct 2026)" }
         - { name: drcSitrep158, label: "DR Congo Ministry of Health: situation report 158" }

@@ -3,7 +3,7 @@
  * each new entry into a Facebook post: the description is the text of the post
  * and the link is shown as a preview under it.
  *
- * - /feeds/social.xml: official news and weekly updates (one post per
+ * - /feeds/social.xml: official news and situation updates (one post per
  *   language), a daily health tip and the case figures whenever they change
  *   (all languages of SOCIAL_FEED_LOCALES in one post).
  * - /feeds/media.xml: news coverage by media outlets, without alarming
@@ -39,9 +39,9 @@ export interface FeedChannel {
 
 export const SOCIAL_FEED: FeedChannel = {
   path: '/feeds/social.xml',
-  title: 'Ebola.help: official news, weekly updates, health tips and figures',
+  title: 'Ebola.help: official news, situation updates, health tips and figures',
   description:
-    'Official Ebola news (WHO, Africa CDC, national health institutes), the Ebola.help weekly situation updates, a daily health tip and the official case figures, for sharing on social media.',
+    'Official Ebola news (WHO, Africa CDC, national health institutes), the Ebola.help situation updates (twice a week), a daily health tip and the official case figures, for sharing on social media.',
 };
 
 export const MEDIA_FEED: FeedChannel = {
@@ -87,7 +87,7 @@ export interface UpdateSummary {
   date: Date;
 }
 
-/** A weekly situation update: title and summary. The preview is the update on Ebola.help. */
+/** A situation update: title and summary. The preview is the update on Ebola.help. */
 export function updateEntry(update: UpdateSummary): FeedEntry {
   return {
     id: `update-${update.locale}-${update.slug}`,

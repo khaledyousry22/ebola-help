@@ -80,7 +80,7 @@
       },
       "updates": {
         "title": "Situation updates",
-        "text": "A weekly summary of the outbreak, written from official reports."
+        "text": "A summary of the outbreak twice a week, written from official reports."
       }
     }
   },
@@ -108,8 +108,8 @@
   },
   "updates": {
     "title": "Situation updates",
-    "description": "Weekly summaries of the Ebola outbreak caused by Bundibugyo virus, written from official reports, with their sources.",
-    "intro": "Every week, we summarise what official reports say about the outbreak: new cases, the countries affected, research and advice. Each update lists the official sources it is based on.",
+    "description": "Summaries of the Ebola outbreak caused by Bundibugyo virus, twice a week, written from official reports, with their sources.",
+    "intro": "Twice a week, we summarise what official reports say about the outbreak: new cases, the countries affected, research and advice. Each update lists the official sources it is based on.",
     "latest": "Latest situation update",
     "figuresAsOf": "Figures up to {date}",
     "published": "Published {date}",
@@ -117,7 +117,7 @@
     "readMore": "Read the full update",
     "all": "All situation updates",
     "disclaimer": "This summary is written by the Ebola.help Team from the official reports listed below. Figures change every day: check the sources for the latest information.",
-    "metaTitle": "Ebola situation updates: weekly outbreak summaries",
+    "metaTitle": "Ebola situation updates: outbreak summaries twice a week",
     "pageMetaTitle": "Ebola situation update, {date}",
     "support": "Ebola.help is free, independent and receives no official funding. If these updates are useful to you, you can support the site on {patreon}."
   },
