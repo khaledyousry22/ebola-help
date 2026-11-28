@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T20:13:48.934Z",
+  "updatedAt": "2026-11-28T04:16:59.290Z",
   "items": [
     {
       "id": "bbafafd7fda44a51",
@@ -11,6 +11,21 @@
       "official": true,
       "publishedAt": "2026-11-27T19:29:11.000Z",
       "firstSeenAt": "2026-11-27T20:13:48.934Z",
+      "countries": [
+        "CD"
+      ],
+      "alsoReportedBy": []
+    },
+    {
+      "id": "a9ccc3f56368ebc5",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143273",
+      "title": "世卫组织更新埃博拉疫情应对建议 呼吁加强安全措施并加快疫苗和治疗研究",
+      "lang": "zh",
+      "sourceId": "un-news-zh",
+      "sourceName": "联合国新闻",
+      "official": false,
+      "publishedAt": "2026-11-27T12:00:00.000Z",
+      "firstSeenAt": "2026-11-28T04:16:59.290Z",
       "countries": [
         "CD"
       ],
